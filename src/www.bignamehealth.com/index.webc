@@ -1,7 +1,7 @@
 ---
 layout: splash.webc
 eleventyNavigation:
-  key: EXAMPLE
+  key: BNH
   parent: _index
   title: '[1337] www.BigNameHealth.com (Splash)'
   excerpt: 'A user-facing index page'

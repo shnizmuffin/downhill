@@ -1,0 +1,37 @@
+---
+layout: base.webc
+eleventyNavigation:
+  key: BNH-PRES
+  parent: BNH
+  title: '2024 Review'
+  excerpt: 'A review of projects accomplished in 2024'
+  image: 'test.png'
+title: BNH25
+description: 'A review of projects accomplished in 2024'
+---
+
+<main class="p-8">
+  <header class="h-[90vh] max-h-[1080px]">
+    <h1>2024</h1>
+  </header>
+  <section class="p-8 rounded-xl bg-red-900 prose prose-white">
+    <h2>Department</h2>
+    <p>Vitae molestiae in. Aliquam sapiente enim hic. Quam consequatur fugit aut itaque occaecati fuga illum eaque. Tenetur beatae sint et earum non laboriosam ea occaecati sunt. Est et temporibus tenetur. Impedit eveniet illo officiis non.</p>
+  </section>
+  <section>
+    <h2>quo laboriosam quas</h2>
+    <p>Eum non quis nesciunt qui similique. Soluta harum eum delectus et sed rem.</p>
+  </section>
+  <section>
+    <h2>ut quos est</h2>
+    <p>Saepe laudantium dolore accusamus exercitationem sit voluptatem occaecati veritatis harum. Nulla quas cupiditate omnis est explicabo similique dignissimos. Modi eligendi illo vel qui consequatur tempora. Et voluptas sint dolor officia. Qui illo facere fugit autem qui. Et quas et necessitatibus quasi quidem quaerat eaque.</p>
+  </section>
+  <section>
+    <h2>quia ratione et</h2>
+    <p>Doloremque est voluptatem adipisci. Omnis non repudiandae sunt delectus saepe non aut cupiditate. Laboriosam dolorem quibusdam beatae vel natus. Omnis suscipit recusandae voluptates eligendi dolorem. Aliquam aut rem voluptatum sit voluptatem neque quis.</p>
+  </section>
+  <section>
+    <h2>ipsa voluptatum qui</h2>
+    <p>Optio autem a. Commodi ad omnis voluptas minima. Qui aut qui repudiandae et. Enim doloribus et quidem doloremque necessitatibus. Blanditiis impedit illum. Omnis suscipit cumque sunt enim et excepturi. </p>
+  </section>
+</main>
