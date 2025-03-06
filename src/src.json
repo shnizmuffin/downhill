@@ -1,0 +1,18 @@
+{
+  "title" : "Landing Pages",
+  "layout": "index.webc",
+  "date": "Last Modified",
+  "assets_dir": "/assets",
+  "dmw": {
+    "client" : "DMW Direct"
+  },
+  "meta": {
+    "title": "Neat Landing Pages",
+    "description": "Static Landing Pages"
+  },
+  "gtm_id": "GTM-XXXXXXX",
+  "hcaptcha" : {
+    "key": "7acad619-a8a6-42c3-828f-fca91b3ece5d",
+    "theme": "dark"
+  }
+}
