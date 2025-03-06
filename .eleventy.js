@@ -3,6 +3,7 @@ import path from 'node:path';
 // register dotenv for process.env.* variables to pickup
 import dotenv from 'dotenv';
 dotenv.config();
+import tailwindcss from '@tailwindcss/vite'
 
 //  config import
 // import {getAllPosts, showInSitemap, tagList} from './.11ty/collections.js';
@@ -32,6 +33,9 @@ export default async function (eleventyConfig) {
       base: '',
       clearScreen: false,
       appType: 'mpa',
+      plugins: [
+        tailwindcss(),
+      ],
 
       server: {
         mode: 'development',
