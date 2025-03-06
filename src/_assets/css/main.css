@@ -1,1 +1,19 @@
 @import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@layer components {
+  .ux-department {
+    @apply p-8;
+  }
+}
+
+@layer utilities {
+  .ux-text-clamp-title {
+    container-type: inline-size;
+    
+    & > * {
+      font-size: clamp(1rem, 35cqmin, 50cqmin);
+      line-height: 1;
+    }
+  }
+}

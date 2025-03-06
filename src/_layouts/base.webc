@@ -13,7 +13,7 @@
 	<gtm webc:nokeep></gtm>
 </head>
 
-<body class="flex flex-col min-h-screen bg-gray-100">
+<body class="flex flex-col min-h-screen bg-gray-100 min-w-[360px]">
 	<noscript webc:keep></noscript>
 	<template @raw="content" webc:nokeep></template>
 	<style @raw="getBundle('css', 'defer')" webc:keep></style>
