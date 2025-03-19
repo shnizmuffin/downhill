@@ -9,13 +9,13 @@ eleventyNavigation:
 title: BNH25
 description: 'A review of projects accomplished in 2024'
 ---
-<header class="sticky top-0 z-50 items-stretch bg-red-200">
-  <div class="size-24 bg-yellow-400 block">Butts</div>
+<header class="sticky top-0 z-50">
+  <div class="size-24 bg-black text-white block ">MAP</div>
 </header>
-<main class="p-8 relative bg-white shadow-2xl shadow-black/25 z-10">
-  <header class="h-[80vh] max-h-[1080px] content-end text-right ux-text-clamp-title">
+<main class="p-8 relative shadow-2xl shadow-black/25 z-10">
+  <article class="h-[80vh] max-h-[1080px] content-end text-right">
     <h1 class="font-extralight text-amber-300"><text-fit @fit="2025"></text-fit></h1>
-  </header>
+  </article>
   <article class="ux-department bg-red-900">
     <header class="ux-sideways-header">
       <h2><text-fit @fit="World Jewelery"></text-fit></h2>
@@ -75,6 +75,6 @@ description: 'A review of projects accomplished in 2024'
     </footer>
   </article>
 </main>
-<footer class="h-[100vh] bg-purple-300 content-end text-right sticky bottom-0 z-0">
+<footer class="h-[90vh] bg-purple-300 content-end text-right sticky bottom-0 z-0">
   <h2 class="font-extralight text-amber-300"><text-fit @fit="footer"></text-fit></h1>
 </footer>
