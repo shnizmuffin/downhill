@@ -1,6 +1,10 @@
 @import "tailwindcss";
 @plugin "@tailwindcss/typography";
 
+@theme {
+  --animate-lay-in: lay-in linear 
+}
+
 @layer components {
   .ux-department {
     @apply
