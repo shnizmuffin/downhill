@@ -3,17 +3,21 @@
 
 @layer components {
   .ux-department {
-    @apply @container/department p-8 flex justify-between gap-4 flex-col md:flex-row md:content-end md:place-items-end;
+    @apply
+      @container/department 
+      p-8 flex justify-between gap-4 flex-col sticky top-28
+      md:flex-row md:content-end md:place-items-end
+    ;
   }
 
   .ux-sideways-header {
-    @apply prose prose-invert
+    @apply prose prose-invert max-w-none
       prose-headings:uppercase prose-headings:m-0 prose-headings:leading-none prose-headings:text-center
       md:min-h-[66cqmin]
     ;
 
     @media (width >= 48rem) { 
-      writing-mode: sideways-lr;
+      writing-mode: sideways-rl;
     }
   }
 }

@@ -59,12 +59,12 @@
   <span>
 
     <span class="text-fit">
-      <span><span @text="fit"></span></span>
-      <span aria-hidden="true" @text="fit"></span>
+      <span><span @html="fit"></span></span>
+      <span aria-hidden="true" @html="fit"></span>
     </span>
 
   </span>
-  <span aria-hidden="true" @text="fit"></span>
+  <span aria-hidden="true" @html="fit"></span>
 </span>
 
 
