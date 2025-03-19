@@ -3,17 +3,21 @@
 
 @layer components {
   .ux-department {
-    @apply p-8;
+    @apply @container/department p-8 flex justify-between gap-4 flex-col md:flex-row md:content-end md:place-items-end;
+  }
+
+  .ux-sideways-header {
+    @apply prose prose-invert
+      prose-headings:uppercase prose-headings:m-0 prose-headings:leading-none prose-headings:text-center
+      md:min-h-[66cqmin]
+    ;
+
+    @media (width >= 48rem) { 
+      writing-mode: sideways-lr;
+    }
   }
 }
 
 @layer utilities {
-  .ux-text-clamp-title {
-    container-type: inline-size;
-    
-    & > * {
-      font-size: clamp(1rem, 35cqmin, 50cqmin);
-      line-height: 1;
-    }
-  }
+
 }
