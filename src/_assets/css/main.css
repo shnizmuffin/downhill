@@ -1,12 +1,6 @@
 @import "tailwindcss";
 @plugin "@tailwindcss/typography";
 
-@layer components {
-  .ux-department {
-    @apply p-8;
-  }
-}
-
 @layer utilities {
   .ux-text-clamp-title {
     container-type: inline-size;
@@ -16,4 +10,38 @@
       line-height: 1;
     }
   }
+}
+
+@view-transition {
+  navigation: auto;
+}
+
+@keyframes old-out {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes new-in {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+&::view-transition-old(root) {
+  animation-name: old-out;
+  animation-duration: 0.25s;
+}
+
+&::view-transition-new(root) {
+  animation-name: new-in;
+  animation-duration: 0.25s;
 }

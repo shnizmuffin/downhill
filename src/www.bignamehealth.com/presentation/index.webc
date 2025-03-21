@@ -6,52 +6,40 @@ eleventyNavigation:
   title: '2024 Review'
   excerpt: 'A review of projects accomplished in 2024'
   image: 'test.png'
-title: BNH25
-description: 'A review of projects accomplished in 2024'
 ---
-
-<main class="flex flex-col gap-8 p-8 bg-green-500">
-  <header class="h-[80vh] max-h-[1080px] content-end text-right ux-text-clamp-title">
-    <h1 class="font-extrabold text-amber-300"><text-fit @fit="2004"></text-fit></h1>
+<main class="flex flex-col items-center p-8">
+  <header
+    class="mb-8 h-[90vh] max-h-[1080px] content-end justify-end self-stretch pl-[20vw] text-right"
+  >
+    <h1 class="leading-none font-extralight text-amber-300 drop-shadow-md">
+      <text-fit @fit="2024"></text-fit>
+    </h1>
   </header>
-  <article class="ux-department bg-red-900">
-    <header class="ux-text-clamp-full">
-      <h2><text-fit @fit="Solution-Oriented World Jewelery"></text-fit></h2>
+  <article class="ux-department max-w-[1440px] bg-red-900">
+    <header class="bg-red-700 px-8 py-4">
+      <h2 class="font-bold text-white uppercase leading-none">
+        <text-fit @fit="Art Education"></text-fit>
+      </h2>
+      <h2 class="font-bold text-white uppercase leading-none">
+        <text-fit @fit="Community Murals"></text-fit>
+      </h2>
     </header>
-    <section class="prose prose-invert prose-headings:uppercase">
-      <p>Vitae molestiae in. Aliquam sapiente enim hic. Quam consequatur fugit aut itaque occaecati fuga illum eaque. Tenetur beatae sint et earum non laboriosam ea occaecati sunt. Est et temporibus tenetur. Impedit eveniet illo officiis non.</p>
-    </section>
-  </article>
-  <article class="ux-department bg-red-900">
-    <header class="ux-text-clamp-full">
-      <h2>System-Worthy Reggae Sports</h2>
-    </header>
-    <section class="prose prose-invert prose-headings:uppercase">
-      <p>Eum non quis nesciunt qui similique. Soluta harum eum delectus et sed rem.</p>
-    </section>
-  </article>
-  <article class="ux-department bg-red-900">
-    <header class="ux-text-clamp-full prose prose-invert prose-headings:uppercase max-w-none">
-      <h2>Optimizing Stage And Screen Automotive</h2>
-    </header>
-    <section class="prose prose-invert prose-headings:uppercase">
-      <p>Saepe laudantium dolore accusamus exercitationem sit voluptatem occaecati veritatis harum. Nulla quas cupiditate omnis est explicabo similique dignissimos. Modi eligendi illo vel qui consequatur tempora. Et voluptas sint dolor officia. Qui illo facere fugit autem qui. Et quas et necessitatibus quasi quidem quaerat eaque.</p>
-    </section>
-  </article>
-  <article class="ux-department bg-red-900">
-    <header class="ux-text-clamp-full">
-      <h2>Analyzing Blues Shoes</h2>
-    </header>
-    <section class="prose prose-invert prose-headings:uppercase">
-      <p>Doloremque est voluptatem adipisci. Omnis non repudiandae sunt delectus saepe non aut cupiditate. Laboriosam dolorem quibusdam beatae vel natus. Omnis suscipit recusandae voluptates eligendi dolorem. Aliquam aut rem voluptatum sit voluptatem neque quis.</p>
-    </section>
-  </article>
-  <article class="ux-department bg-red-900">
-    <header class="ux-text-clamp-full">
-      <h2>Dynamic Folk Electronics</h2>
-    </header>
-    <section class="prose prose-invert prose-headings:uppercase">
-      <p>Optio autem a. Commodi ad omnis voluptas minima. Qui aut qui repudiandae et. Enim doloribus et quidem doloremque necessitatibus. Blanditiis impedit illum. Omnis suscipit cumque sunt enim et excepturi. </p>
+    <section class="grid-8 grid grid-cols-2 p-8">
+      <div class="prose prose-invert">
+        <p>
+          Vitae molestiae in. Aliquam sapiente enim hic. Quam consequatur fugit
+          aut itaque occaecati fuga illum eaque. Tenetur beatae sint et earum
+          non laboriosam ea occaecati sunt. Est et temporibus tenetur. Impedit
+          eveniet illo officiis non.
+        </p>
+      </div>
+      <div class="flex flex-col items-end justify-end">
+        <a
+          class="bg-red-500 px-8 py-4 font-semibold text-white no-underline underline-offset-2 hover:bg-red-400 hover:underline"
+          href="./department/"
+          >MOAR</a
+        >
+      </div>
     </section>
   </article>
 </main>
