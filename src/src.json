@@ -3,7 +3,7 @@
   "layout": "index.webc",
   "date": "Last Modified",
   "assets_dir": "/assets",
-  "dmw": {
+  "agency": {
     "client" : "DMW Direct"
   },
   "meta": {
