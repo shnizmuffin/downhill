@@ -8,7 +8,7 @@
     <meta name="description" :content="meta.description">
     <style @raw="getBundle('css')" webc:keep></style>
     <script @raw="getBundle('js')" webc:keep></script>
-    <title @text="meta.title ? (meta.title +' | ' + dmw.client) : (title +' | ' + dmw.client)" webc:keep></title>
+    <title @text="meta.title ? (meta.title +' | ' + agency.client) : (title +' | ' + agency.client)" webc:keep></title>
     <gtm webc:nokeep></gtm>
   </head>
   <body class="min-h-vh">
