@@ -5,7 +5,7 @@
 
     --captured-length: initial;
     --support-sentinel: var(--captured-length, 9999px);
-    --max-font-size: 4em;
+    
 
     & > [aria-hidden] {
       visibility: hidden;

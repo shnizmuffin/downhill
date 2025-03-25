@@ -8,8 +8,7 @@ eleventyNavigation:
   image: 'test.png'
 ---
 
-<main class="flex flex-col items-center justify-center bg-green-500 p-8 min-h-[100vh]">
-  <div class="prose prose-invert">
-    <h1>HELLO, WORLD</h1>
-  </div>
+<main class="flex flex-col items-center justify-center bg-white p-8 min-h-[100vh]">
+  <a href="#" class="bg-green-600 text-yellow-400 rounded-lg text-2xl font-bold px-8 py-4 border-[1px] border-b-4 border-green-800">Learn More [>]</a>
+  
 </main>

@@ -2,21 +2,56 @@
 @plugin "@tailwindcss/typography";
 
 @theme {
-  --animate-lay-in: lay-in linear 
+  --animate-lay-in: lay-in linear;
+  --landing-grid-cols: minmax(140px, 25vw) minmax(50vw, 1440px) minmax(140px, 25vw);
+}
+
+@view-transition {
+  navigation: auto;
+}
+
+@keyframes old-out {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes new-in {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+&::view-transition-old(root) {
+  animation-name: old-out;
+  animation-duration: 0.25s;
+}
+
+&::view-transition-new(root) {
+  animation-name: new-in;
+  animation-duration: 0.25s;
 }
 
 @layer components {
   .ux-department {
     @apply
       @container/department 
-      p-8 flex justify-between gap-4 flex-col sticky top-28
+      p-8 flex justify-between gap-4 flex-col
       md:flex-row md:content-end md:place-items-end
     ;
   }
 
   .ux-sideways-header {
-    @apply prose prose-invert max-w-none
-      prose-headings:uppercase prose-headings:m-0 prose-headings:leading-none prose-headings:text-center
+    @apply prose max-w-none
+      prose-headings:uppercase prose-headings:m-0 prose-headings:leading-none prose-headings:text-center prose-headings:text-blue-900
       md:min-h-[66cqmin]
     ;
 
@@ -27,7 +62,9 @@
 }
 
 @layer utilities {
-
+  .ux-text-sideways {
+    writing-mode: sideways-rl;
+  }
 }
 
 /* Stacky cards: https://scroll-driven-animations.style/demos/stacking-cards/css/ */
