@@ -1,0 +1,31 @@
+---
+layout: base.webc
+eleventyNavigation:
+  key: BNH-PRES
+  parent: BNH
+  title: '2024 Review'
+  excerpt: 'A review of projects accomplished in 2024'
+  image: 'test.png'
+title: BNH25
+description: 'A review of projects accomplished in 2024'
+---
+
+<div class="relative z-40 grid grid-cols-(--landing-grid-cols) bg-white">
+  <header class="sticky top-0 z-50 col-start-1 col-end-2">
+    <div class="block size-24 bg-black text-center leading-24 text-white"
+      >MAP LOGO</div
+    >
+    <h1
+      >Mural Arts <br />
+      Philadelphia</h1
+    >
+    <nav></nav>
+  </header>
+  <aside class="sticky top-0 z-50 col-start-3 col-end-4">
+    <p class="text-xl">Beautify<br />Inspire<br />Empower<br /> </p>
+  </aside>
+  <main class="col-start-1 col-end-4">
+    <h2>2025</h2>
+    <img src="/_assets/images/bg-splash.png" alt="Splash Image" eleventy:widths="1920,1440,1080">
+  </main>
+</div>

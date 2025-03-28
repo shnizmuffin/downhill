@@ -1,0 +1,338 @@
+---
+layout: base.webc
+eleventyNavigation:
+  key: BNH-PRES
+  parent: BNH
+  title: '2024 Review'
+  excerpt: 'A review of projects accomplished in 2024'
+  image: 'test.png'
+title: BNH25
+description: 'A review of projects accomplished in 2024'
+---
+
+<div class="relative z-40 grid grid-cols-(--landing-grid-cols) bg-white">
+  <header class="sticky top-0 z-50 col-start-1 col-end-2">
+    <div class="block size-24 bg-black text-center leading-24 text-white"
+      >MAP LOGO</div
+    >
+    <h1
+      >Mural Arts <br />
+      Philadelphia</h1
+    >
+    <nav></nav>
+  </header>
+  <aside class="sticky top-0 z-50 col-start-3 col-end-4">
+    <p class="text-xl">Beautify<br />Inspire<br />Empower<br /> </p>
+  </aside>
+  <main class="col-start-1 col-end-4 min-h-[100vh]">
+    <section class="grid grid-cols-(--landing-grid-cols)">
+      <article class="col-start-2 mt-[75vh] bg-cyan-200 p-8">
+        <h2 class="my-8 font-serif font-bold text-cyan-900"
+          ><text-fit @fit="The Place Where Art Meets Hope"></text-fit
+        ></h2>
+        <img
+        class="mb-8"
+          src="https://placehold.co/1440x1080"
+          alt="A mural at Philadelphia High School"
+        />
+        <div class="prose prose-lg prose-cyan font-serif mx-auto">
+          <p class="text-2xl"
+            >I am thrilled to share that our theme for 2025 is<br/>
+            <strong>“Mural Arts: The Place Where Art Meets Hope.”</strong></p
+          >
+          <p
+            >Hope is powerful. It sustains us through challenges, fuels change,
+            and unites communities. <em>“Where Art Meets Hope”</em> captures the
+            essence of Mural Arts— connection, resilience, and
+            transformation—using art to spark positive social change.</p
+          >
+          <p
+            >Mural Arts is a community of artists, advocates, and neighbors who
+            come together through art to inspire change. Our individual stories,
+            struggles, and aspirations combine into a collective narrative of
+            strength and possibility. With every mural we paint and every
+            conversation we convene, we build hope—connecting our iconic past to
+            a dynamic present and a vibrant future.</p
+          >
+          <p
+            >2025 will contain a number of fascinating projects from a tribute
+            to Sun Ra to more work in Norris Square, to large scale works of art
+            in Southhwest Philadelphia. Others will serve as a bridge to 2026,
+            an incredibly momentous year in our city and in our county. Here are
+            a few of the exciting partnerships and collaborations that will
+            bring this theme to life:</p
+          >
+          <ul>
+            <li>
+              <p
+                ><strong>Athletics and Art</strong> - A groundbreaking project
+                with <strong>Coach Dawn Staley</strong> that celebrates the
+                intersection of sports and empowerment.</p
+              >
+            </li>
+            <li>
+              <p
+                ><strong>History and Art</strong> - The mural we are doing about
+                <strong>William Still</strong> extends the important work we did
+                with <strong>Little Giant</strong> about the
+                <strong>7th Ward</strong>.</p
+              >
+            </li>
+            <li>
+              <p
+                ><strong>Art Icons</strong> - While a large percentage of
+                artists hired are from Philadelphia, we continue to bring
+                wonderful artists to our city, such as
+                <strong>Jesse Krimes</strong>, <strong>Shepard Fairey</strong>,
+                and <strong>Mickalene Thomas</strong>.</p
+              >
+            </li>
+            <li>
+              <p
+                ><strong>Music Legends</strong> - Celebrations featuring
+                <strong>Questlove</strong>, <strong>Sun Ra</strong> and
+                <strong>Boyz II Men</strong>, Philadelphia icons who exemplify
+                the power of storytelling through music.</p
+              >
+            </li>
+            <li>
+              <p
+                ><strong>Significant Collaborations</strong> - Projects with the
+                <strong>Holocaust Remembrance Foundation</strong>,
+                <strong>Temple College of Public Health</strong>, and the
+                <strong>Philadelphia Eagles</strong> show us the power of
+                collaboration and how much we can accomplish working
+                together.</p
+              >
+            </li>
+          </ul>
+          <p
+            >While incredibly diverse, these projects amplify voices fostering a
+            shared sense of humanity, aspiration, and optimism.</p
+          >
+          <p
+            ><em>“Where Art Meets Hope”</em> is more than a theme — it’ s a call
+            to action. It reminds us that, despite the challenges we face, we
+            can unite as a creative community to spark hope and drive meaningful
+            change. Together, we are stronger, more resilient, and capable of
+            transforming lives, strengthening communities, and shaping the
+            future of our city.</p
+          >
+          <p>
+            Warmly,</p>
+          <img src="https://placehold.co/300x150?text=Signature" alt="Jane Golden">
+            <p>
+            JANE GOLDEN<br />
+            EXECUTIVE DIRECTOR<br />
+            MURAL ARTS PHILADELPHIA
+          </p>
+        </div>
+      </article>
+    </section>
+    <section-slide
+      heading="Art Education"
+      href="./department/"
+      class="bg-yellow-200 text-yellow-900"
+    ></section-slide>
+    <section-slide
+      heading="Community Murals"
+      href="./department/"
+      class="bg-green-200 text-green-900"
+    ></section-slide>
+    <section-slide
+      heading="Learning + Practice"
+      href="./department/"
+      class="bg-purple-200 text-purple-900"
+    ></section-slide>
+    <section-slide
+      heading="Porch Light"
+      href="./department/"
+      class="bg-cyan-200 text-cyan-900"
+    ></section-slide>
+    <section-slide
+      heading="Restorative Justice"
+      href="./department/"
+      class="bg-rose-200 text-rose-900"
+    ></section-slide>
+    <section-slide
+      heading="Special Projects"
+      href="./department/"
+      class="bg-indigo-200 text-indigo-900"
+    ></section-slide>
+  </main>
+</div>
+
+<!--
+<div class="flex flex-row p-8 gap-8 bg-indigo-800 z-40">
+  <nav class="relative">
+    <header class="sticky top-8 z-50">
+      
+    </header>
+  </nav>
+  <main class="flex-grow p-8 relative z-10 max-w-[1440px]">
+    <article class="h-[80vh] max-h-[1080px] content-end text-right">
+      <h1 class="font-extralight text-amber-300"><text-fit @fit="2025"></text-fit></h1>
+    </article>
+    <article class="ux-department bg-red-900">
+      <header class="ux-sideways-header">
+        <h2><text-fit @fit="World Jewelery"></text-fit></h2>
+      </header>
+      <section class="prose prose-invert">
+        <h1>Prose (Default) (36px)</h1>
+        <p class="text-xl">1.25rem (20px). Lede sentence. Quas voluptatem aut qui deserunt dicta et.</p>
+        <p>1rem (16px).<strong> Vitae molestiae in.</strong> Aliquam sapiente enim hic. <em>Quam consequatur</em> fugit aut itaque occaecati fuga illum eaque. Tenetur beatae sint et earum non laboriosam ea occaecati sunt. Est et temporibus tenetur. <strong><em>Impedit eveniet illo officiis non.</em></strong></p>
+        <h2>Heading 2</h2>
+        <p>Facilis aperiam dolore nulla fuga eum explicabo expedita in. Exercitationem beatae maxime nihil dolor. Natus voluptatem laborum. Debitis consequatur rerum corporis praesentium debitis ab consequatur.</p>
+        <ul>
+          <li><p><strong>Deserunt Qui Nihil:</strong> Itaque occaecati velit tenetur non hic inventore dolor.</p></li>
+          <li><p><strong>Impedit Autem Quo:</strong> Vel numquam reiciendis pariatur asperiores eligendi accusamus et mollitia.</p></li>
+          <li><p><strong>Doloremque Quod Impedit:</strong> Culpa ut eaque soluta beatae suscipit in aperiam commodi.</p></li>
+          <li><p><strong>Nam Delectus Culpa:</strong> Reprehenderit numquam et velit et quas nemo et est.</p></li>
+        </ul>
+        <h3>Heading 3</h3>
+        <p>Repellendus libero laborum dicta nobis tempore id. Eum consequatur aut. Dicta explicabo exercitationem ipsum qui nesciunt veniam minus ea cumque. Perferendis similique quos laboriosam qui optio velit. Ea deserunt repellat excepturi libero.</p>
+        <ol>
+          <li>Braque d'Auvergne</li>
+          <li>Giant Schnauzer</li>
+          <li>Cursinu</li>
+        </ol>
+      </section>
+      <footer>
+        <a href="./department/" class="ux-button block p-8 border-white bg-blue-700 text-white">Department</a>
+      </footer>
+    </article>
+    <article class="ux-department bg-blue-900">
+      <header class="ux-sideways-header">
+        <h2><text-fit @fit="System-Worthy Sports"></text-fit></h2>
+      </header>
+      <section class="prose prose-invert prose-lg">
+        <h1>Prose (Large)</h1>
+        <p class="text-2xl">Lede sentence. Quas voluptatem aut qui deserunt dicta et.</p>
+        <p>Vitae molestiae in. Aliquam sapiente enim hic. Quam consequatur fugit aut itaque occaecati fuga illum eaque. Tenetur beatae sint et earum non laboriosam ea occaecati sunt. Est et temporibus tenetur. Impedit eveniet illo officiis non.</p>
+        <h2>Heading 2</h2>
+        <p>Facilis aperiam dolore nulla fuga eum explicabo expedita in. Exercitationem beatae maxime nihil dolor. Natus voluptatem laborum. Debitis consequatur rerum corporis praesentium debitis ab consequatur.</p>
+        <ul>
+          <li><p><strong>Deserunt Qui Nihil:</strong> Itaque occaecati velit tenetur non hic inventore dolor.</p></li>
+          <li><p><strong>Impedit Autem Quo:</strong> Vel numquam reiciendis pariatur asperiores eligendi accusamus et mollitia.</p></li>
+          <li><p><strong>Doloremque Quod Impedit:</strong> Culpa ut eaque soluta beatae suscipit in aperiam commodi.</p></li>
+          <li><p><strong>Nam Delectus Culpa:</strong> Reprehenderit numquam et velit et quas nemo et est.</p></li>
+        </ul>
+        <h3>Heading 3</h3>
+        <p>Repellendus libero laborum dicta nobis tempore id. Eum consequatur aut. Dicta explicabo exercitationem ipsum qui nesciunt veniam minus ea cumque. Perferendis similique quos laboriosam qui optio velit. Ea deserunt repellat excepturi libero.</p>
+        <ol>
+          <li>Braque d'Auvergne</li>
+          <li>Giant Schnauzer</li>
+          <li>Cursinu</li>
+        </ol>
+      </section>
+      <footer>
+        <a href="./department/" class="ux-button block p-8 border-white bg-blue-700 text-white">Department</a>
+      </footer>
+    </article>
+    <article class="ux-department bg-green-900">
+      <header class="ux-sideways-header">
+        <h2>
+          <text-fit @fit="Optimizing Automations"></text-fit>
+          <text-fit @fit="with <strong>Human Beings</strong>"></text-fit>
+          <text-fit @fit="and not <em>dumb as shit</em> robots"></text-fit>
+      </header>
+      <section class="prose prose-invert prose-xl">
+        <h1>Prose (Extra Large)</h1>
+        <p class="text-3xl">Lede sentence. Quas voluptatem aut qui deserunt dicta et.</p>
+        <p>Vitae molestiae in. Aliquam sapiente enim hic. Quam consequatur fugit aut itaque occaecati fuga illum eaque. Tenetur beatae sint et earum non laboriosam ea occaecati sunt. Est et temporibus tenetur. Impedit eveniet illo officiis non.</p>
+        <h2>Heading 2</h2>
+        <p>Facilis aperiam dolore nulla fuga eum explicabo expedita in. Exercitationem beatae maxime nihil dolor. Natus voluptatem laborum. Debitis consequatur rerum corporis praesentium debitis ab consequatur.</p>
+        <ul>
+          <li><p><strong>Deserunt Qui Nihil:</strong> Itaque occaecati velit tenetur non hic inventore dolor.</p></li>
+          <li><p><strong>Impedit Autem Quo:</strong> Vel numquam reiciendis pariatur asperiores eligendi accusamus et mollitia.</p></li>
+          <li><p><strong>Doloremque Quod Impedit:</strong> Culpa ut eaque soluta beatae suscipit in aperiam commodi.</p></li>
+          <li><p><strong>Nam Delectus Culpa:</strong> Reprehenderit numquam et velit et quas nemo et est.</p></li>
+        </ul>
+        <h3>Heading 3</h3>
+        <p>Repellendus libero laborum dicta nobis tempore id. Eum consequatur aut. Dicta explicabo exercitationem ipsum qui nesciunt veniam minus ea cumque. Perferendis similique quos laboriosam qui optio velit. Ea deserunt repellat excepturi libero.</p>
+        <ol>
+          <li>Braque d'Auvergne</li>
+          <li>Giant Schnauzer</li>
+          <li>Cursinu</li>
+        </ol>
+      </section>
+      <footer>
+        <a href="./department/" class="ux-button block p-8 border-white bg-blue-700 text-white">Department</a>
+      </footer>
+    </article>
+    <article class="ux-department bg-amber-900">
+      <header class="ux-sideways-header">
+        <h2><text-fit @fit="Blues Shoes"></text-fit></h2>
+      </header>
+      <section class="prose prose-invert prose-2xl">
+        <h1>Prose (Huge)</h1>
+        <p class="text-4xl">Lede sentence. Quas voluptatem aut qui deserunt dicta et.</p>
+        <p>Vitae molestiae in. Aliquam sapiente enim hic. Quam consequatur fugit aut itaque occaecati fuga illum eaque. Tenetur beatae sint et earum non laboriosam ea occaecati sunt. Est et temporibus tenetur. Impedit eveniet illo officiis non.</p>
+        <h2>Heading 2</h2>
+        <p>Facilis aperiam dolore nulla fuga eum explicabo expedita in. Exercitationem beatae maxime nihil dolor. Natus voluptatem laborum. Debitis consequatur rerum corporis praesentium debitis ab consequatur.</p>
+        <ul>
+          <li><p><strong>Deserunt Qui Nihil:</strong> Itaque occaecati velit tenetur non hic inventore dolor.</p></li>
+          <li><p><strong>Impedit Autem Quo:</strong> Vel numquam reiciendis pariatur asperiores eligendi accusamus et mollitia.</p></li>
+          <li><p><strong>Doloremque Quod Impedit:</strong> Culpa ut eaque soluta beatae suscipit in aperiam commodi.</p></li>
+          <li><p><strong>Nam Delectus Culpa:</strong> Reprehenderit numquam et velit et quas nemo et est.</p></li>
+        </ul>
+        <h3>Heading 3</h3>
+        <p>Repellendus libero laborum dicta nobis tempore id. Eum consequatur aut. Dicta explicabo exercitationem ipsum qui nesciunt veniam minus ea cumque. Perferendis similique quos laboriosam qui optio velit. Ea deserunt repellat excepturi libero.</p>
+        <ol>
+          <li>Braque d'Auvergne</li>
+          <li>Giant Schnauzer</li>
+          <li>Cursinu</li>
+        </ol>
+      </section>
+      <footer>
+        <a href="./department/" class="ux-button block p-8 border-white bg-blue-700 text-white">Department</a>
+      </footer>
+    </article>
+    <article class="ux-department bg-emerald-900">
+      <header class="ux-sideways-header">
+        <h2><text-fit @fit="Art"></text-fit></h2>
+      </header>
+      <section class="prose prose-invert prose-sm">
+        <h1>Prose (Small)</h1>
+        <p class="text-lg">Lede sentence. Quas voluptatem aut qui deserunt dicta et.</p>
+        <p>Vitae molestiae in. Aliquam sapiente enim hic. Quam consequatur fugit aut itaque occaecati fuga illum eaque. Tenetur beatae sint et earum non laboriosam ea occaecati sunt. Est et temporibus tenetur. Impedit eveniet illo officiis non.</p>
+        <h2>Heading 2</h2>
+        <p>Facilis aperiam dolore nulla fuga eum explicabo expedita in. Exercitationem beatae maxime nihil dolor. Natus voluptatem laborum. Debitis consequatur rerum corporis praesentium debitis ab consequatur.</p>
+        <ul>
+          <li><p><strong>Deserunt Qui Nihil:</strong> Itaque occaecati velit tenetur non hic inventore dolor.</p></li>
+          <li><p><strong>Impedit Autem Quo:</strong> Vel numquam reiciendis pariatur asperiores eligendi accusamus et mollitia.</p></li>
+          <li><p><strong>Doloremque Quod Impedit:</strong> Culpa ut eaque soluta beatae suscipit in aperiam commodi.</p></li>
+          <li><p><strong>Nam Delectus Culpa:</strong> Reprehenderit numquam et velit et quas nemo et est.</p></li>
+        </ul>
+        <h3>Heading 3</h3>
+        <p>Repellendus libero laborum dicta nobis tempore id. Eum consequatur aut. Dicta explicabo exercitationem ipsum qui nesciunt veniam minus ea cumque. Perferendis similique quos laboriosam qui optio velit. Ea deserunt repellat excepturi libero.</p>
+        <ol>
+          <li>Braque d'Auvergne</li>
+          <li>Giant Schnauzer</li>
+          <li>Cursinu</li>
+        </ol>
+      </section>
+      <footer>
+        <a href="./department/" class="ux-button block p-8 border-white bg-blue-700 text-white">Department</a>
+      </footer>
+    </article>
+  </main>
+  <aside class="relative">
+    <header class="sticky top-8 z-50">
+      <h2>
+        Live<br/>
+        Laugh</br>
+        Love
+      </h2>
+    </header>
+
+  </aside>
+</div>
+-->
+<footer
+  class="sticky bottom-0 z-0 h-[90vh] content-end bg-purple-300 text-right"
+>
+  <h2 class="font-extralight text-amber-300"
+    ><text-fit @fit="footer"></text-fit
+  ></h2>
+</footer>
