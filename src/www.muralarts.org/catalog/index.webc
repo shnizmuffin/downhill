@@ -26,6 +26,6 @@ description: 'A review of projects accomplished in 2024'
   </aside>
   <main class="col-start-1 col-end-4">
     <h2>2025</h2>
-    <img src="/_assets/images/bg-splash.png" alt="Splash Image" eleventy:widths="1920,1440,1080">
+    <img src="/_assets/images/bg/bg-splash.png" alt="Splash Image" eleventy:widths="1920,1440,1080">
   </main>
 </div>

@@ -70,6 +70,15 @@ export default async function (eleventyConfig) {
       },
       pictureAttributes: {},
     },
+    transform: (sharp) => {
+      sharp.resize({width: 1920, height: 1920, fit: 'inside', withoutEnlargement: true});
+    },
+    filenameFormat: function (id, src, width, format, options) {
+      const extension = path.extname(src);
+      const name = path.basename(src, extension);
+  
+      return `${name}-${width}w.${format}`;
+    },
   });
   // eleventyConfig.addPlugin(plugins.htmlConfig);
   // eleventyConfig.addPlugin(plugins.cssConfig);
@@ -81,7 +90,6 @@ export default async function (eleventyConfig) {
   // Copy static assets
   eleventyConfig.addPassthroughCopy('src/**/.htaccess');
   eleventyConfig.addPassthroughCopy('src/**/*.pdf');
-  eleventyConfig.addPassthroughCopy({ 'src/_assets/images': 'assets/images' });
   eleventyConfig.addPassthroughCopy({ 'src/_assets/css/*.css': 'assets/css' });
   eleventyConfig.addPassthroughCopy({ 'src/_assets/js/*.js': 'assets/js' });
 
