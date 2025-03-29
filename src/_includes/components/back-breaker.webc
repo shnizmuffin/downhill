@@ -1,0 +1,32 @@
+<!--
+
+<script webc:setup>
+  /*
+  We're going to take an image as a prop,
+  and optionally an array of interger breakpoints, as a prop.
+  We're going to cram that image through the Eleventy Image plugin, with widths set to breakpoints or left to default.
+  We're going to get the result of the plugin, and write media queries for background image if there's breakpoints.
+  background-image will use image sets based on file type, which will be provided by the image plugin
+
+  https://www.11ty.dev/docs/languages/webc/#using-java-script-to-setup-your-component
+  https://www.11ty.dev/docs/languages/webc/#using-java-script-to-generate-content
+  https://developer.mozilla.org/en-US/docs/Web/CSS/image/image-set 
+  */
+
+</script>
+
+<template webc:root class="border-8 border-red-500">
+  <pre @raw="stats"></pre>
+</template>
+
+-->
+
+<script webc:type="js" webc:root>
+	const Image = require("@11ty/eleventy-img"); 
+  let src = background;
+  let stats = new Image(src, {
+    widths: [375],
+  });
+  console.log(stats);
+	`<pre>${stats}</pre>`
+</script>
