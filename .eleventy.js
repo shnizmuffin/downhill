@@ -3,7 +3,7 @@ import path from 'node:path';
 // register dotenv for process.env.* variables to pickup
 import dotenv from 'dotenv';
 dotenv.config();
-import tailwindcss from '@tailwindcss/vite'
+import tailwindcss from '@tailwindcss/vite';
 
 //  config import
 // import {getAllPosts, showInSitemap, tagList} from './.11ty/collections.js';
@@ -20,7 +20,7 @@ export default async function (eleventyConfig) {
 
   eleventyConfig.addFilter('relativeDir', filters.relativeDir);
   eleventyConfig.addFilter('relativeUrl', filters.relativeUrl);
-  
+
   // ---------------------  Plugins
   eleventyConfig.addPlugin(plugins.EleventyRenderPlugin);
   eleventyConfig.addPlugin(plugins.EleventyVitePlugin, {
@@ -33,9 +33,7 @@ export default async function (eleventyConfig) {
       base: '',
       clearScreen: false,
       appType: 'mpa',
-      plugins: [
-        tailwindcss(),
-      ],
+      plugins: [tailwindcss()],
 
       server: {
         mode: 'development',
@@ -56,19 +54,16 @@ export default async function (eleventyConfig) {
     },
   });
   eleventyConfig.addPlugin(plugins.webc, {
-    components: ['./src/_includes/**/*.webc', 'npm:@11ty/eleventy-img/*.webc'],
-    useTransform: true,
+    components: ['./src/_includes/**/*.webc', 'npm:@11ty/eleventy-img/*.webc']
   });
-  eleventyConfig.addPlugin(plugins.eleventyImageTransformPlugin, {
+  eleventyConfig.addPlugin(plugins.eleventyImagePlugin, {
+    outputDir: './_site/img/',
     formats: ['avif', 'webp', 'jpeg'],
     widths: ['auto'],
-    htmlOptions: {
-      imgAttributes: {
-        loading: 'lazy',
-        decoding: 'async',
-        sizes: 'auto',
-      },
-      pictureAttributes: {},
+    defaultAttributes: {
+      loading: 'lazy',
+      decoding: 'async',
+      sizes: 'auto',
     },
     // transform: (sharp) => {
     //   sharp.resize({width: 1920, height: 1920, fit: 'inside', withoutEnlargement: true});
@@ -76,7 +71,7 @@ export default async function (eleventyConfig) {
     // filenameFormat: function (id, src, width, format, options) {
     //   const extension = path.extname(src);
     //   const name = path.basename(src, extension);
-  
+
     //   return `${name}-${width}w.${format}`;
     // },
   });
@@ -86,7 +81,7 @@ export default async function (eleventyConfig) {
   // eleventyConfig.addPlugin(plugins.rss);
   // eleventyConfig.addPlugin(plugins.drafts);
   // eleventyConfig.addPlugin(plugins.syntaxHighlight);
-  
+
   // Copy static assets
   eleventyConfig.addPassthroughCopy('src/**/.htaccess');
   eleventyConfig.addPassthroughCopy('src/**/*.pdf');

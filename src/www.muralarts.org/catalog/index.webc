@@ -26,11 +26,12 @@ description: 'A review of projects accomplished in 2024'
   </aside>
   <main
     webc:is="back-breaker"
-    @background="src/_assets/images/bg/bg-splash.png"
-    @breakpoints="[375,1024]"
+    
+    src="./src/_assets/images/bg/bg-splash.png"
+    alt="A splash image"
+    :widths="[375,666,1024]"
     class="col-start-1 col-end-4 bg-teal-200"
   >
     <h2>2025</h2>
-    <img src="/_assets/images/bg/bg-splash.png" alt="Splash Image" eleventy:widths="1920,1440,1080">
   </main>
 </div>

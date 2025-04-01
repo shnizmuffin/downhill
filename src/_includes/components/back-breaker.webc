@@ -1,32 +1,174 @@
 <!--
-
-<script webc:setup>
-  /*
   We're going to take an image as a prop,
-  and optionally an array of interger breakpoints, as a prop.
+  and optionally a string or an array of interger breakpoints, as a prop.
   We're going to cram that image through the Eleventy Image plugin, with widths set to breakpoints or left to default.
-  We're going to get the result of the plugin, and write media queries for background image if there's breakpoints.
-  background-image will use image sets based on file type, which will be provided by the image plugin
+  We're going to get the result of the plugin, and write media queries for the background image if there's breakpoints.
+  background-image will use image sets based on file type, which will be provided by the image plugin.
 
+  Required reading:
   https://www.11ty.dev/docs/languages/webc/#using-java-script-to-setup-your-component
   https://www.11ty.dev/docs/languages/webc/#using-java-script-to-generate-content
   https://developer.mozilla.org/en-US/docs/Web/CSS/image/image-set 
-  */
 
-</script>
+  We're going to start by ripping wholecloth from the eleventy-image webc component.
+  https://github.com/11ty/eleventy-img/blob/main/eleventy-image.webc
 
-<template webc:root class="border-8 border-red-500">
-  <pre @raw="stats"></pre>
-</template>
 
+
+  	<element
+      webc:is="back-breaker"
+      src="./src/img/possum-geri.png"
+      
+      Optional attributes and their alternative formats:
+      widths="640, 1080, 1440, 1920"
+      :widths="[640, 1080, 1440, 1920]"
+      formats="avif,webp,jpeg"
+      :formats="['avif', 'webp', 'jpeg']"
+    ></element>
 -->
 
+<!--
 <script webc:type="js" webc:root>
-	const Image = require("@11ty/eleventy-img"); 
-  let src = background;
-  let stats = new Image(src, {
-    widths: [375],
+  let src = this.background;
+  let stats = imagePlugin(src, {
+    widths: [69, 420]
   });
   console.log(stats);
-	`<pre>${stats}</pre>`
+  `${stats}`;
 </script>
+-->
+
+<script webc:type="js">
+  const path = require('path');
+
+  // zachleat should expose this for re-use in a provided shortcode.
+  async function imagePlugin(attributes, globalPluginOptions) {
+    if (!attributes.src) {
+      throw new Error('Missing `src` attribute on <back-breaker>');
+    }
+
+    // zachleat should allow remote optimization automatically on full urls
+
+    let imagePackage;
+    let defaultGlobalAttributes;
+
+    if (globalPluginOptions) {
+      defaultGlobalAttributes = globalPluginOptions.defaultAttributes;
+      delete globalPluginOptions.defaultAttributes;
+
+      imagePackage = globalPluginOptions.packages?.image;
+      delete globalPluginOptions.packages;
+    }
+
+    if (!imagePackage) {
+      imagePackage = require('@11ty/eleventy-img');
+    }
+
+    let instanceOptions = {};
+
+    // Note that multiple widths require a `sizes`
+
+    if (attributes.widths) {
+      if (typeof attributes.widths === 'string') {
+        instanceOptions.widths = attributes.widths
+          .split(',')
+          .map((entry) => parseInt(entry, 10));
+        delete attributes.widths;
+      } else if (Array.isArray(attributes.widths)) {
+        instanceOptions.widths = attributes.widths;
+        delete attributes.widths;
+      }
+    }
+
+    if (attributes.formats) {
+      if (typeof attributes.formats === 'string') {
+        instanceOptions.formats = attributes.formats
+          .split(',')
+          .map((entry) => entry.trim());
+        delete attributes.formats;
+      } else if (Array.isArray(attributes.formats)) {
+        instanceOptions.formats = attributes.formats;
+        delete attributes.formats;
+      }
+    }
+
+    // These defaults are set only if  was **not** called:
+    if (!globalPluginOptions) {
+      console.log('no GlobalPluginOptions!');
+      // Using eleventy.directories global data (Eleventy 2.0.2+)
+      if (eleventy.directories) {
+        instanceOptions.urlPath = '/img/';
+
+        // write to output folder by default
+        instanceOptions.outputDir = path.join(
+          eleventy.directories.output,
+          instanceOptions.urlPath,
+        );
+      }
+    }
+
+    // Overrides via attributes (hopefully you don’t need these)
+    if (attributes.urlPath) {
+      instanceOptions.urlPath = attributes.urlPath;
+      delete attributes.urlPath;
+
+      if (eleventy.directories && !attributes.outputDir) {
+        // use output folder if available (Eleventy v2.0.2+)
+        instanceOptions.outputDir = path.join(
+          eleventy.directories.output,
+          instanceOptions.urlPath,
+        );
+      }
+    }
+
+    if (attributes.outputDir) {
+      instanceOptions.outputDir = attributes.outputDir;
+      delete attributes.outputDir;
+    }
+
+    let options = Object.assign({}, globalPluginOptions, instanceOptions);
+
+    // see Util.addConfig
+    if (globalPluginOptions.eleventyConfig) {
+      Object.defineProperty(options, 'eleventyConfig', {
+        value: globalPluginOptions.eleventyConfig,
+        enumerable: false,
+      });
+    }
+
+    let metadata = await imagePackage(src, options);
+
+    let imageAttributes = Object.assign(
+      {},
+      defaultGlobalAttributes,
+      attributes,
+    );
+
+    // You bet we throw an error on missing alt in `imageAttributes` (alt="" works okay)
+    return imagePackage.generateHTML(metadata, imageAttributes);
+  }
+
+  (async () => {
+    let globalPluginOptions;
+    // fetch global options from from addPlugin call
+    if (typeof __private_eleventyImageConfigurationOptions === 'function') {
+      globalPluginOptions = __private_eleventyImageConfigurationOptions();
+    }
+    
+    if (!('filterPublicAttributes' in webc)) {
+      throw new Error(
+        'The <back-breaker> WebC component requires WebC v0.10.1+',
+        );
+      }
+      
+    let attributes = webc.filterPublicAttributes(webc.attributes);
+    console.log(globalPluginOptions);
+    globalPluginOptions.returnType = 'object';
+    console.log(attributes);
+    image = imagePlugin(attributes, globalPluginOptions);
+    console.log(image);
+    return image;
+    // return `imagePlugin(attributes, globalPluginOptions)`;
+  })();
+</script>
+
