@@ -65,16 +65,31 @@ export default async function (eleventyConfig) {
       decoding: 'async',
       sizes: 'auto',
     },
+  });
+  eleventyConfig.addPlugin(plugins.eleventyImageTransformPlugin, {
+    // which file extensions to process
+    extensions: 'html',
+    // optional, output image formats
+    formats: ['avif', 'webp', 'jpeg'],
+    // optional, output image widths
+    widths: ['auto'],
+    // optional, attributes assigned on <img> override these values.
+    defaultAttributes: {
+      loading: 'lazy',
+      sizes: 'auto',
+      decoding: 'async',
+    },
     // transform: (sharp) => {
     //   sharp.resize({width: 1920, height: 1920, fit: 'inside', withoutEnlargement: true});
     // },
     // filenameFormat: function (id, src, width, format, options) {
     //   const extension = path.extname(src);
     //   const name = path.basename(src, extension);
-
+  
     //   return `${name}-${width}w.${format}`;
     // },
-  });
+});
+
   // eleventyConfig.addPlugin(plugins.htmlConfig);
   // eleventyConfig.addPlugin(plugins.cssConfig);
   // eleventyConfig.addPlugin(plugins.jsConfig);
