@@ -28,7 +28,7 @@ description: 'A review of projects accomplished in 2024'
     webc:is="back-breaker"
     src="./src/_assets/images/bg/bg-splash.png"
     alt="A splash image"
-    :widths="[375,666,1024]"
+    :widths="[666,375,1024]"
     class="col-start-1 col-end-4 bg-teal-200"
   >
     <h2>2025</h2>
