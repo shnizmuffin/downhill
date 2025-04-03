@@ -6,7 +6,7 @@ dotenv.config();
 import tailwindcss from '@tailwindcss/vite';
 
 //  config import
-// import {getAllPosts, showInSitemap, tagList} from './.11ty/collections.js';
+import collections from './.11ty/collections.js';
 // import events from './.11ty/events.js';
 import filters from './.11ty/filters.js';
 import plugins from './.11ty/plugins.js';
@@ -16,13 +16,20 @@ export default async function (eleventyConfig) {
   eleventyConfig.addWatchTarget('./src/_assets/**/*.{css,js,svg,png,jpeg}');
   eleventyConfig.addWatchTarget('./src/_includes/**/*.{webc}');
 
+  // --------------------- Collections
+
+  eleventyConfig.addCollection('pages', collections.pages);
+
   // ---------------------  Filters
 
   eleventyConfig.addFilter('relativeDir', filters.relativeDir);
   eleventyConfig.addFilter('relativeUrl', filters.relativeUrl);
+  eleventyConfig.addFilter('flatMap', filters.flatMap);
+  eleventyConfig.addFilter('unique', filters.unique);
 
   // ---------------------  Plugins
   eleventyConfig.addPlugin(plugins.EleventyRenderPlugin);
+  eleventyConfig.addPlugin(plugins.eleventyNavigationPlugin);
   eleventyConfig.addPlugin(plugins.EleventyVitePlugin, {
     tempFolderName: '.11ty-vite',
     serverOptions: {
@@ -58,7 +65,8 @@ export default async function (eleventyConfig) {
   });
   eleventyConfig.addPlugin(plugins.eleventyImagePlugin, {
     useCache: true,
-    formats: ['avif','webp', 'jpeg'],
+    outputDir: './_site/img/',
+    formats: ['avif','webp'],
     widths: ['auto'],
     defaultAttributes: {
       loading: 'lazy',
@@ -71,7 +79,7 @@ export default async function (eleventyConfig) {
     extensions: 'html',
     useCache: true,
     // optional, output image formats
-    formats: ['avif','webp', 'jpeg'],
+    formats: ['avif','webp'],
     // optional, output image widths
     widths: ['auto'],
     // optional, attributes assigned on <img> override these values.
