@@ -7,7 +7,7 @@ eleventyNavigation:
 ---
 
 <div class="relative z-40 grid grid-cols-(--landing-grid-cols) bg-white">
-  <header class="sticky top-0 z-50 col-start-1 col-end-2">
+  <sticky-header class="col-start-1 col-end-2">
     <div class="block size-24 bg-black text-center leading-24 text-white"
       >MAP LOGO</div
     >
@@ -16,7 +16,7 @@ eleventyNavigation:
       Philadelphia</h1
     >
     <nav></nav>
-  </header>
+  </sticky-header>
   <aside class="sticky top-0 z-50 col-start-3 col-end-4">
     <p class="text-xl">Beautify<br />Inspire<br />Empower<br /> </p>
   </aside>
