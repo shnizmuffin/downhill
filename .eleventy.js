@@ -22,7 +22,7 @@ export default async function (eleventyConfig) {
 
   // ---------------------  Filters
 
-  eleventyConfig.addFilter('relativeDir', filters.relativeDir);
+  eleventyConfig.addFilter('dir', filters.relativeDir);
   eleventyConfig.addFilter('relativeUrl', filters.relativeUrl);
   eleventyConfig.addFilter('flatMap', filters.flatMap);
   eleventyConfig.addFilter('unique', filters.unique);
@@ -61,12 +61,12 @@ export default async function (eleventyConfig) {
     },
   });
   eleventyConfig.addPlugin(plugins.webc, {
-    components: ['./src/_includes/**/*.webc', 'npm:@11ty/eleventy-img/*.webc']
+    components: ['./src/_includes/**/*.webc', 'npm:@11ty/eleventy-img/*.webc'],
   });
   eleventyConfig.addPlugin(plugins.eleventyImagePlugin, {
     useCache: true,
     outputDir: './_site/img/',
-    formats: ['avif','webp'],
+    formats: ['avif', 'webp'],
     widths: ['auto'],
     defaultAttributes: {
       loading: 'lazy',
@@ -79,7 +79,7 @@ export default async function (eleventyConfig) {
     extensions: 'html',
     useCache: true,
     // optional, output image formats
-    formats: ['avif','webp'],
+    formats: ['avif', 'webp'],
     // optional, output image widths
     widths: ['auto'],
     // optional, attributes assigned on <img> override these values.
@@ -94,10 +94,9 @@ export default async function (eleventyConfig) {
     // filenameFormat: function (id, src, width, format, options) {
     //   const extension = path.extname(src);
     //   const name = path.basename(src, extension);
-  
     //   return `${name}-${width}w.${format}`;
     // },
-});
+  });
 
   // eleventyConfig.addPlugin(plugins.htmlConfig);
   // eleventyConfig.addPlugin(plugins.cssConfig);

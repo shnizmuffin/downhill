@@ -1,13 +1,9 @@
 ---
 layout: base.webc
 eleventyNavigation:
-  key: BNH-PRES
-  parent: BNH
-  title: '2024 Review'
-  excerpt: 'A review of projects accomplished in 2024'
-  image: 'test.png'
-title: BNH25
-description: 'A review of projects accomplished in 2024'
+  key: MAP-SPRING-2025
+  parent: MAP-SPLASH
+  image: 'https://placehold.co/144x144'
 ---
 
 <div class="relative z-40 grid grid-cols-(--landing-grid-cols) bg-white">
@@ -31,13 +27,13 @@ description: 'A review of projects accomplished in 2024'
           ><text-fit @fit="The Place Where Art Meets Hope"></text-fit
         ></h2>
         <img
-        class="mb-8"
+          class="mb-8"
           src="https://placehold.co/1440x1080"
           alt="A mural at Philadelphia High School"
         />
-        <div class="prose prose-lg prose-cyan font-serif mx-auto">
+        <div class="prose prose-lg prose-cyan mx-auto font-serif">
           <p class="text-2xl"
-            >I am thrilled to share that our theme for 2025 is<br/>
+            >I am thrilled to share that our theme for 2025 is<br />
             <strong>“Mural Arts: The Place Where Art Meets Hope.”</strong></p
           >
           <p
@@ -118,10 +114,12 @@ description: 'A review of projects accomplished in 2024'
             transforming lives, strengthening communities, and shaping the
             future of our city.</p
           >
+          <p> Warmly,</p>
+          <img
+            src="https://placehold.co/300x150?text=Signature"
+            alt="Jane Golden"
+          />
           <p>
-            Warmly,</p>
-          <img src="https://placehold.co/300x150?text=Signature" alt="Jane Golden">
-            <p>
             JANE GOLDEN<br />
             EXECUTIVE DIRECTOR<br />
             MURAL ARTS PHILADELPHIA

@@ -1,6 +1,11 @@
 <section class="grid grid-cols-(--landing-grid-cols)">
-  <article class="col-start-2 col-end-3 flex flex-col items-end min-h-[80vh] max-h-[1080px]">
-    <a :href="href" :class="`h-full justify-between flex flex-col uppercase font-bold ` + this.class">
+  <article
+    class="col-start-2 col-end-3 flex max-h-[1080px] min-h-[80vh] flex-col items-end"
+  >
+    <a
+      :href="href"
+      :class="`h-full justify-between flex flex-col uppercase font-bold ` + this.class"
+    >
       <header class="ux-text-sideways px-8 py-12">
         <h2 class="text-6xl" @text="heading"></h2>
       </header>

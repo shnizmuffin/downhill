@@ -216,7 +216,11 @@
     }
     // for images in data.metadata.avif write some css and slap it in a style tag
     //console.log(media_query);
-    return `<style>`+media_query+`</style><${webc.attributes.container ?? 'section'} class="${data.hash}" webc:root="override"><slot></slot></${webc.attributes.container}>`;
+    return (
+      `<style>` +
+      media_query +
+      `</style><${webc.attributes.container ?? 'section'} class="${data.hash}" webc:root="override"><slot></slot></${webc.attributes.container}>`
+    );
     // return `imagePlugin(attributes, globalPluginOptions)`;
   })();
 </script>

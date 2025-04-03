@@ -10,7 +10,6 @@
     >
       <dmw-splash-li
         webc:for="item of Object.values(list)"
-        
         :@item="item"
         :@logo="item.eleventyNavigation.image"
       >

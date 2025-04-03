@@ -1,10 +1,10 @@
 {
-	"folders": [
-		{
-			"path": ".."
-		}
-	],
-	"settings": {
-		"workbench.colorTheme": "Monokai Pro (Filter Octagon)"
-	}
+  "folders": [
+    {
+      "path": "..",
+    },
+  ],
+  "settings": {
+    "workbench.colorTheme": "Monokai Pro (Filter Octagon)",
+  },
 }

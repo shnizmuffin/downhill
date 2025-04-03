@@ -1,3 +1,3 @@
 # Downhill
 
-*It's all downhill from here.*
+_It's all downhill from here._

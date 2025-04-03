@@ -5,13 +5,18 @@ eleventyNavigation:
   parent: EXAMPLE
   title: '[1338] www.Example.com/CPlus (Splash)'
   excerpt: 'A user-facing index page'
-  image: 'test.png'
+  image: 'https://placehold.co/144x144'
 title: Splash
 description: 'A user-facing index page'
 ---
-<main class="p-8 min-h-screen flex flex-col justify-center from-blue-700 to-green-700 bg-gradient-to-br">
-  <dmw-splash-index
-    :@collection="$data.collections.pages" :@from="$data.eleventyNavigation.key" class="bg-white"
+
+<main
+  class="flex min-h-screen flex-col justify-center bg-gradient-to-br from-blue-700 to-green-700 p-8"
+>
+  <splash-index
+    :@collection="$data.collections.pages"
+    :@from="$data.eleventyNavigation.key"
+    class="bg-white"
   >
-  </dmw-splash-index>
+  </splash-index>
 </main>

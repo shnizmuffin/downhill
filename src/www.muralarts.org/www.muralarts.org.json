@@ -1,5 +1,9 @@
 {
   "agency": {
-    "client" : "Mural Arts Project"
+    "client": "Mural Arts Project"
+  },
+  "meta": {
+    "title": "Catalog",
+    "description": "Static Landing Pages"
   }
 }

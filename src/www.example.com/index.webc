@@ -3,12 +3,13 @@ layout: splash.webc
 eleventyNavigation:
   key: EXAMPLE
   parent: _index
-  title: '[1337] www.Example.com (Splash)'
-  excerpt: 'A user-facing index page'
-  image: 'test.png'
-title: Splash
-description: 'A user-facing index page'
+  image: 'https://placehold.co/144x144'
 ---
-<main class="p-8 min-h-screen flex flex-col justify-center bg-gray-700">
-  <dmw-splash-index :@collection="$data.collections.pages" :@from="$data.eleventyNavigation.key" class="bg-white"></dmw-splash-index>
+
+<main class="flex min-h-screen flex-col justify-center bg-gray-700 p-8">
+  <splash-index
+    :@collection="$data.collections.pages"
+    :@from="$data.eleventyNavigation.key"
+    class="bg-white"
+  ></splash-index>
 </main>

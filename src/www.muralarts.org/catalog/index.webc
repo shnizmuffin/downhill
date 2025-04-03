@@ -1,13 +1,9 @@
 ---
 layout: base.webc
 eleventyNavigation:
-  key: BNH-PRES
-  parent: BNH
-  title: '2024 Review'
-  excerpt: 'A review of projects accomplished in 2024'
-  image: 'test.png'
-title: BNH25
-description: 'A review of projects accomplished in 2024'
+  key: MAP-SPLASH
+  parent: MAP
+  image: 'https://placehold.co/144x144'
 ---
 
 <div class="relative z-40 grid grid-cols-(--landing-grid-cols) bg-white">
@@ -29,8 +25,9 @@ description: 'A review of projects accomplished in 2024'
     src="./src/_assets/images/bg/bg-splash.png"
     alt="A splash image"
     :widths="[768,1024,1440,1920]"
-    class="col-start-1 col-end-4 bg-cover bg-no-repeat bg-red-300 min-h-[100vh]"
+    class="col-start-1 col-end-4 min-h-[100vh] bg-red-300 bg-cover bg-center bg-no-repeat"
   >
     <h2>2025</h2>
+    <a href="./2025/">2025</a>
   </back-breaker>
 </div>
