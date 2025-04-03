@@ -1,4 +1,4 @@
-<!--
+<!---
   We're going to take an image as a prop,
   and optionally a string or an array of interger breakpoints, as a prop.
   We're going to cram that image through the Eleventy Image plugin, with widths set to breakpoints or left to default.
@@ -25,9 +25,9 @@
       formats="avif,webp,jpeg"
       :formats="['avif', 'webp', 'jpeg']"
     ></element>
--->
+--->
 
-<script webc:type="js" webc:is="style">
+<script webc:type="js">
   const path = require('path');
 
   // zachleat should expose this for re-use in a provided shortcode.
@@ -42,7 +42,7 @@
     let defaultGlobalAttributes;
 
     if (globalPluginOptions) {
-      console.log('globalPluginOptions found.');
+      //console.log('globalPluginOptions found.');
       defaultGlobalAttributes = globalPluginOptions.defaultAttributes;
       delete globalPluginOptions.defaultAttributes;
 
@@ -51,7 +51,7 @@
     }
 
     if (!imagePackage) {
-      console.log('imagePackage missing, requiring eleventy-img.');
+      //console.log('imagePackage missing, requiring eleventy-img.');
       imagePackage = require('@11ty/eleventy-img');
     }
 
@@ -60,30 +60,30 @@
     // Note that multiple widths require a `sizes`
 
     if (attributes.widths) {
-      console.log('there are widths provided.');
+      //console.log('there are widths provided.');
       if (typeof attributes.widths === 'string') {
-        console.log('there are widths as a string.');
+        //console.log('there are widths as a string.');
         instanceOptions.widths = attributes.widths
           .split(',')
           .map((entry) => parseInt(entry, 10));
         delete attributes.widths;
       } else if (Array.isArray(attributes.widths)) {
-        console.log('there are widths as an array.');
+        //console.log('there are widths as an array.');
         instanceOptions.widths = attributes.widths;
         delete attributes.widths;
       }
     }
 
     if (attributes.formats) {
-      console.log('there are formats provided.');
+      //console.log('there are formats provided.');
       if (typeof attributes.formats === 'string') {
-        console.log('there are formats as a string.');
+        //console.log('there are formats as a string.');
         instanceOptions.formats = attributes.formats
           .split(',')
           .map((entry) => entry.trim());
         delete attributes.formats;
       } else if (Array.isArray(attributes.formats)) {
-        console.log('there are formats as an array.');
+        //console.log('there are formats as an array.');
         instanceOptions.formats = attributes.formats;
         delete attributes.formats;
       }
@@ -91,12 +91,10 @@
 
     // These defaults are set only if  was **not** called:
     if (!globalPluginOptions) {
-      console.log('GlobalPluginOptions missing.');
+      //console.log('GlobalPluginOptions missing.');
       // Using eleventy.directories global data (Eleventy 2.0.2+)
       if (eleventy.directories) {
-        console.log(
-          'setting url path to /img/, and setting the output directory to eleventy.directories.output',
-        );
+        //console.log('setting url path to /img/, and setting the output directory to eleventy.directories.output');
         instanceOptions.urlPath = '/img/';
 
         // write to output folder by default
@@ -109,14 +107,12 @@
 
     // Overrides via attributes (hopefully you don’t need these)
     if (attributes.urlPath) {
-      console.log('There is a urlPath provided');
+      //console.log('There is a urlPath provided');
       instanceOptions.urlPath = attributes.urlPath;
       delete attributes.urlPath;
 
       if (eleventy.directories && !attributes.outputDir) {
-        console.log(
-          'There is no outputDir defined but there are eleventy.directories, so we will use that',
-        );
+        //console.log('There is no outputDir defined but there are eleventy.directories');
         // use output folder if available (Eleventy v2.0.2+)
         instanceOptions.outputDir = path.join(
           eleventy.directories.output,
@@ -126,7 +122,7 @@
     }
 
     if (attributes.outputDir) {
-      console.log('There is an outputDir provided.');
+      //console.log('There is an outputDir provided.');
       instanceOptions.outputDir = attributes.outputDir;
       delete attributes.outputDir;
     }
@@ -135,7 +131,7 @@
 
     // see Util.addConfig
     if (globalPluginOptions.eleventyConfig) {
-      console.log('eleventyConfig has been found in the globalPluginOptions.');
+      //console.log('eleventyConfig has been found in the globalPluginOptions.');
       Object.defineProperty(options, 'eleventyConfig', {
         value: globalPluginOptions.eleventyConfig,
         enumerable: false,
@@ -151,10 +147,10 @@
     );
 
     // You bet we throw an error on missing alt in `imageAttributes` (alt="" works okay)
-    let html = imagePackage.generateHTML(metadata, imageAttributes);
+    // let html = imagePackage.generateHTML(metadata, imageAttributes);
     let hash = imagePackage.getHash(src, options);
 
-    let data = { hash, options, metadata, html };
+    let data = { hash, options, metadata };
     return data;
   }
 
@@ -176,21 +172,21 @@
 
     data = await imagePlugin(attributes, globalPluginOptions);
 
-    console.log(data.metadata);
-    console.log(data.hash);
-    console.log(data.options);
+    //console.log(data.metadata);
+    //console.log(data.hash);
+    //console.log(data.options);
 
     function compareNumbers(a, b) {
       return a - b;
     }
 
     function printImageSet(metadata, breakpoint, hash) {
-
-      media_query += `.${hash} { background-image: image-set(`;
+      // we're using [class~=hash] because the hashes sometimes start with digits, which pisses off my linter.
+      media_query += `[class~="${hash}"] { background-image: image-set( `;
       for (format in metadata) {
         for (image of metadata[format]) {
           if (image.width === breakpoint) {
-            media_query += `url("${image.url}") type("image/${format}"),`;
+            media_query += `url("${image.url}") type("image/${format}"), `;
           }
         }
       }
@@ -203,15 +199,15 @@
 
     for (let i = 0; i <= breakpoints.length; i++) {
       if (i === 0) {
-        media_query += `@media (max-width: ${breakpoints[i]}px) {`;
+        media_query += `@media (max-width: ${breakpoints[i]}px) { `;
         printImageSet(data.metadata, breakpoints[i], data.hash);
         media_query += `}`;
       } else if (i < data.options.widths.length) {
-        media_query += `@media (min-width: ${breakpoints[i - 1]}px) and (max-width: ${breakpoints[i]}px) {`;
+        media_query += `@media (min-width: ${breakpoints[i - 1]}px) and (max-width: ${breakpoints[i]}px) { `;
         printImageSet(data.metadata, breakpoints[i], data.hash);
         media_query += `}`;
       } else {
-        media_query += `@media (min-width: ${breakpoints[i - 1]}px) {`;
+        media_query += `@media (min-width: ${breakpoints[i - 1]}px) {  `;
         printImageSet(data.metadata, breakpoints[i - 1], data.hash);
         media_query += `}`;
       }
@@ -219,9 +215,8 @@
       media_query += `}`;
     }
     // for images in data.metadata.avif write some css and slap it in a style tag
-    console.log(media_query);
-    return media_query;
+    //console.log(media_query);
+    return `<style>`+media_query+`</style><${webc.attributes.container ?? 'section'} class="${data.hash}" webc:root="override"><slot></slot></${webc.attributes.container}>`;
     // return `imagePlugin(attributes, globalPluginOptions)`;
   })();
 </script>
-<slot></slot>

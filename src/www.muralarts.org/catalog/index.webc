@@ -24,13 +24,13 @@ description: 'A review of projects accomplished in 2024'
   <aside class="sticky top-0 z-50 col-start-3 col-end-4">
     <p class="text-xl">Beautify<br />Inspire<br />Empower<br /> </p>
   </aside>
-  <main
-    webc:is="back-breaker"
+  <back-breaker
+    @container="main"
     src="./src/_assets/images/bg/bg-splash.png"
     alt="A splash image"
-    :widths="[666,375,1024]"
-    class="col-start-1 col-end-4 bg-teal-200"
+    :widths="[768,1024,1440,1920]"
+    class="col-start-1 col-end-4 bg-cover bg-no-repeat bg-red-300 min-h-[100vh]"
   >
     <h2>2025</h2>
-  </main>
+  </back-breaker>
 </div>

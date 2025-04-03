@@ -57,8 +57,8 @@ export default async function (eleventyConfig) {
     components: ['./src/_includes/**/*.webc', 'npm:@11ty/eleventy-img/*.webc']
   });
   eleventyConfig.addPlugin(plugins.eleventyImagePlugin, {
-    outputDir: './_site/img/',
-    formats: ['avif', 'webp', 'jpeg'],
+    useCache: true,
+    formats: ['avif','webp', 'jpeg'],
     widths: ['auto'],
     defaultAttributes: {
       loading: 'lazy',
@@ -69,8 +69,9 @@ export default async function (eleventyConfig) {
   eleventyConfig.addPlugin(plugins.eleventyImageTransformPlugin, {
     // which file extensions to process
     extensions: 'html',
+    useCache: true,
     // optional, output image formats
-    formats: ['avif', 'webp', 'jpeg'],
+    formats: ['avif','webp', 'jpeg'],
     // optional, output image widths
     widths: ['auto'],
     // optional, attributes assigned on <img> override these values.
