@@ -3,7 +3,7 @@
 	url = https://github.com/shnizmuffin/downhill-11ty.git
 [submodule "src/_includes/remote/dmw-components"]
 	path = src/_includes/remote/dmw-components
-	url = git@bitbucket.org:dmwdigital/dmw-web-components.git
+	url = https://dmwdigital@bitbucket.org/dmwdigital/dmw-web-components.git
 [submodule "src/_includes/remote/downhill-components"]
 	path = src/_includes/remote/downhill-components
 	url = https://github.com/shnizmuffin/downhill-components.git
