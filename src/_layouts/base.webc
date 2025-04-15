@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="snap-y snap-proximity scroll-smooth">
   <head>
     <link rel="stylesheet" href="/assets/css/main.css" webc:keep />
     <script src="/assets/js/main.js" webc:keep type="module"></script>
@@ -15,7 +15,7 @@
     <gtm webc:nokeep></gtm>
   </head>
 
-  <body class="relative flex min-h-screen min-w-[360px] flex-col bg-gray-100">
+  <body class="relative flex min-h-screen min-w-[360px] flex-col bg-gray-100 items-stretch">
     <noscript webc:keep></noscript>
     <template @raw="content" webc:nokeep></template>
     <style @raw="getBundle('css', 'defer')" webc:keep></style>
