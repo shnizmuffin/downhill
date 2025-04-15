@@ -26,7 +26,7 @@ layout: base.webc
       </div>
       <nav class="z-50 text-white border-8 border-red-500 hidden md:block">
         <ul>
-          <dmw-json webc:for="page of this.collections.pages[2].children" :@json="page"></dmw-json>
+          
         </ul>
       </nav>
     </header>
