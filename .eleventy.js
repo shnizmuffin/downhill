@@ -66,6 +66,7 @@ export default async function (eleventyConfig) {
   });
   eleventyConfig.addPlugin(plugins.eleventyImagePlugin, {
     useCache: true,
+    svgShortCircuit: true,
     outputDir: './_site/img/',
     formats: ['avif', 'webp'],
     widths: ['auto'],
@@ -79,6 +80,7 @@ export default async function (eleventyConfig) {
     // which file extensions to process
     extensions: 'html',
     useCache: true,
+    svgShortCircuit: true,
     // optional, output image formats
     formats: ['avif', 'webp'],
     // optional, output image widths
