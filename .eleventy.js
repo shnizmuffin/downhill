@@ -4,6 +4,7 @@ import path from 'node:path';
 import dotenv from 'dotenv';
 dotenv.config();
 import tailwindcss from '@tailwindcss/vite';
+import markdownIt from "markdown-it";
 
 //  config import
 import collections from './.11ty/collections.js';
@@ -105,6 +106,10 @@ export default async function (eleventyConfig) {
   // eleventyConfig.addPlugin(plugins.drafts);
   // eleventyConfig.addPlugin(plugins.syntaxHighlight);
 
+  eleventyConfig.setLibrary("md", markdownIt({
+    html: true,
+    typographer: true
+  }));
   // Copy static assets
   eleventyConfig.addPassthroughCopy('src/**/.htaccess');
   eleventyConfig.addPassthroughCopy('src/**/*.pdf');
