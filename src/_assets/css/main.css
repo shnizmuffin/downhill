@@ -1,7 +1,11 @@
 @import "tailwindcss";
+@import "./fonts";
 @plugin "@tailwindcss/typography";
 
 @theme {
+  --font-sans: "Circular", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-serif: "Tiempos", ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --animate-lay-in: lay-in linear;
   --landing-grid-cols: minmax(140px, 25vw) minmax(50vw, 1440px) minmax(140px, 25vw);
 }

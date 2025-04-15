@@ -110,6 +110,7 @@ export default async function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy('src/**/*.pdf');
   eleventyConfig.addPassthroughCopy({ 'src/_assets/css/*.css': 'assets/css/' });
   eleventyConfig.addPassthroughCopy({ 'src/_assets/js/*.js': 'assets/js/' });
+  eleventyConfig.addPassthroughCopy({ 'src/_assets/fonts/*.*': 'assets/fonts/' });
 
   return {
     dir: {
