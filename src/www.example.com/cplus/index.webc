@@ -14,7 +14,7 @@ description: 'A user-facing index page'
   class="flex min-h-screen flex-col justify-center bg-gradient-to-br from-blue-700 to-green-700 p-8"
 >
   <splash-index
-    :@collection="$data.collections.pages"
+    :@collection="$data.collections.sites"
     :@from="$data.eleventyNavigation.key"
     class="bg-white"
   >

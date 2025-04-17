@@ -19,7 +19,7 @@ export default async function (eleventyConfig) {
 
   // --------------------- Collections
 
-  eleventyConfig.addCollection('pages', collections.pages);
+  eleventyConfig.addCollection('sites', collections.sites);
 
   // ---------------------  Filters
 

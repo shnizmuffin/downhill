@@ -8,7 +8,9 @@ eleventyNavigation:
 
 <main class="relative min-h-[100vh] md:col-start-1 md:col-end-4">
   <section class="z-40 md:grid md:grid-cols-(--landing-grid-cols)">
-    <json-stringify class="z-30 md:col-start-2" webc:for="page of this.collections.pages[2].children" :@json="page"></json-stringify>
+    <json-stringify class="z-30 md:col-start-2" :@json="this.collections.sites"></json-stringify>
+    <json-stringify class="z-30 md:col-start-2" webc:for="site of this.collections.sites.filter((entry) => entry.id === 'MAP' )" :@json="site"></json-stringify>
+    <!-- <json-stringify class="z-30 md:col-start-2" webc:for="site of this.collections.sites" :@json="site"></json-stringify> -->
     <article
       class="z-30 mt-[50vh] bg-cyan-200 p-8 md:col-start-2 md:mt-[75vh]"
     >
