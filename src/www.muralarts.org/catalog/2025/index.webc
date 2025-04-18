@@ -12,6 +12,10 @@ eleventyNavigation:
     <json-stringify class="z-30 md:col-start-2" webc:for="site of this.collections.sites.filter((entry) => entry.id === 'MAP' )" :@json="site"></json-stringify>
     <!-- <json-stringify class="z-30 md:col-start-2" webc:for="site of this.collections.sites" :@json="site"></json-stringify> -->
     <article
+      x-data
+      x-init="$store.reveal.introduction = false"
+      x-intersect="$store.reveal.introduction = true"
+      id="introduction"
       class="z-30 mt-[50vh] bg-cyan-200 p-8 md:col-start-2 md:mt-[75vh]"
     >
       <h2 class="my-8 font-serif font-bold text-cyan-900"
@@ -117,85 +121,39 @@ eleventyNavigation:
       </div>
     </article>
   </section>
-  
-    <back-breaker
-      @container="div"
-      src="./src/_assets/images/bg/bg-splash.png"
-      alt="A splash image"
-      :widths="[768,1024,1440,1920]"
-      class="bg-cover bg-center"
+  <back-breaker
+    webc:for="slide of $data.slides"
+    @container="div"
+    :src="slide.image"
+    alt="A splash image"
+    :widths="[768,1024,1440,1920]"
+    class="bg-cover bg-center"
+  >
+    <section-slide-department
+      webc:if="slide.type == 'department'"
+      :id="slide.id"
+      :@heading="slide.heading"
+      :@href="slide.url"
+      :@branding="slide.branding"
     >
-      <section-slide
-        @heading="Art Education"
-        @href="./department/"
-        class="bg-yellow-200 text-yellow-900"
-      >
-      </section-slide>
-    </back-breaker>
-    <back-breaker
-      @container="div"
-      src="./src/_assets/images/bg/bg-splash.png"
-      alt="A splash image"
-      :widths="[768,1024,1440,1920]"
-      class="bg-cover bg-center"
+    </section-slide-department>
+    <section-slide-featured
+      webc:if="slide.type == 'featured'"
+      :id="slide.id"
+      :@heading="slide.heading"
+      :@href="slide.url"
+      :@branding="slide.branding"
     >
-      <section-slide
-        heading="Community Murals"
-        href="./department/"
-        class="bg-green-200 text-green-900"
-      ></section-slide>
-    </back-breaker>
-    <back-breaker
-      @container="div"
-      src="./src/_assets/images/bg/bg-splash.png"
-      alt="A splash image"
-      :widths="[768,1024,1440,1920]"
-      class="bg-cover bg-center"
+    </section-slide-featured>
+    <section-slide-ad
+      webc:if="slide.type == 'ad'"
+      :id="slide.id"
+      :@heading="slide.heading"
+      :@href="slide.url"
+      :@branding="slide.branding"
     >
-      <section-slide
-        heading="Learning + Practice"
-        href="./department/"
-        class="bg-purple-200 text-purple-900"
-      ></section-slide>
-    </back-breaker>
-    <back-breaker
-      @container="div"
-      src="./src/_assets/images/bg/bg-splash.png"
-      alt="A splash image"
-      :widths="[768,1024,1440,1920]"
-      class="bg-cover bg-center"
-    >
-      <section-slide
-        heading="Porch Light"
-        href="./department/"
-        class="bg-cyan-200 text-cyan-900"
-      ></section-slide>
-    </back-breaker>
-    <back-breaker
-      @container="div"
-      src="./src/_assets/images/bg/bg-splash.png"
-      alt="A splash image"
-      :widths="[768,1024,1440,1920]"
-      class="bg-cover bg-center"
-    >
-      <section-slide
-        heading="Restorative Justice"
-        href="./department/"
-        class="bg-rose-200 text-rose-900"
-      ></section-slide>
-    </back-breaker>
-    <back-breaker
-      @container="div"
-      src="./src/_assets/images/bg/bg-splash.png"
-      alt="A splash image"
-      :widths="[768,1024,1440,1920]"
-      class="bg-cover bg-center"
-    >
-      <section-slide
-        heading="Special Projects"
-        href="./department/"
-        class="bg-indigo-200 text-indigo-900"
-      ></section-slide>
-    </back-breaker>
+    </section-slide-ad>
+  </back-breaker>
+    
   
 </main>
