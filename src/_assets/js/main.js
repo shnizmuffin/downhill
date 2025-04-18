@@ -1,3 +1,8 @@
 // main.js
+import Alpine from 'alpinejs';
+import intersect from '@alpinejs/intersect';
 
-console.log('Hello, world.');
+Alpine.plugin(intersect);
+
+window.Alpine = Alpine;
+Alpine.start();
