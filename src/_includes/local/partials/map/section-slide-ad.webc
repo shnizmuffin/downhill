@@ -1,0 +1,8 @@
+<section webc:root="override"
+  x-data
+  :x-init="`$store.reveal.${this.id} = false`"
+  :x-intersect="`$store.reveal.${this.id} = true`"
+  class="border-[1rem] border-amber-300 text-amber-300 grid snap-start grid-cols-1 md:grid-cols-(--landing-grid-cols)"
+>
+  ADVERT
+</section>

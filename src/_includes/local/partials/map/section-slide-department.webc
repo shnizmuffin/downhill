@@ -1,4 +1,9 @@
-<section class="grid snap-start grid-cols-1 md:grid-cols-(--landing-grid-cols)">
+<section webc:root="override"
+  x-data
+  :x-init="`$store.reveal.${this.id} = false`"
+  :x-intersect="`$store.reveal.${this.id} = true`"
+  class="grid snap-start grid-cols-1 md:grid-cols-(--landing-grid-cols)"
+>
   <article
     class="md:col-start-2 md:col-end-3 flex flex-col min-h-[95vh] md:flex-row relative"
   >
@@ -7,7 +12,7 @@
     >
       <a
         :href="href"
-        :class="`md:h-full justify-between flex flex-row md:flex-col gap-8 uppercase font-bold` + ` ` + this.class"
+        :class="`md:h-full justify-between flex flex-row md:flex-col gap-8 uppercase font-bold` + ` ` + this.branding"
       >
         <header
           class="md:ux-text-sideways self-stretch px-8 py-12 md:sticky md:top-0 md:mb-16"
