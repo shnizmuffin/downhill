@@ -205,6 +205,12 @@
     }
   }
 
+  .ux-button {
+    @apply px-8 py-4 scale-100 transition-colors shadow-lg
+      hover:saturate-150
+      active:scale-95 active:shadow-xs
+  }
+
   /* .vt-section-label {
     view-transition-name: section-label;
   }
@@ -216,14 +222,13 @@
 
 
   @utility ux-hyperlink {
-    @apply underline underline-offset-4 decoration-2 hover:decoration-white focus:decoration-white
+    @apply underline underline-offset-4 decoration-2 hover:decoration-white focus:decoration-white;
   }
   @utility ux-text-sideways {
     writing-mode: sideways-rl;
   }
   @utility ux-vignette {
-    @apply from-black/50 via-transparent to-black/50 bg-gradient-to-l;
-    pointer-events: none;
+    background-image: linear-gradient(90deg, rgba(0,0,0,0.5) 0%, transparent 25%, transparent 77%, rgba(0,0,0,0.5));
   }
 
 

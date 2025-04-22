@@ -5,20 +5,18 @@ eleventyNavigation:
   parent: MAP-SPLASH
   image: 'https://placehold.co/144x144'
 ---
-
 <main class="relative min-h-[100vh] md:col-start-1 md:col-end-4">
-  <section class="z-40 md:grid md:grid-cols-(--landing-grid-cols)">
-    <json-stringify class="z-30 md:col-start-2" :@json="this.collections.sites"></json-stringify>
-    <json-stringify class="z-30 md:col-start-2" webc:for="site of this.collections.sites.filter((entry) => entry.id === 'MAP' )" :@json="site"></json-stringify>
-    <!-- <json-stringify class="z-30 md:col-start-2" webc:for="site of this.collections.sites" :@json="site"></json-stringify> -->
+  <section
+    class="z-40 mt-[50vh] md:mt-[75vh] md:grid md:grid-cols-(--landing-grid-cols)"
+  >
     <article
       x-data
       x-init="$store.reveal.introduction = false"
-      x-intersect="$store.reveal.introduction = true"
+      x-intersect.once.threshold.25="$store.reveal.introduction = true"
       id="introduction"
-      class="z-30 mt-[50vh] bg-cyan-200 p-8 md:col-start-2 md:mt-[75vh]"
+      class="bg-sky z-30 p-8 md:col-start-2"
     >
-      <h2 class="my-8 font-serif font-bold text-cyan-900"
+      <h2 class="my-8 font-serif font-bold text-sky-900"
         ><text-fit @fit="The Place Where Art Meets Hope"></text-fit
       ></h2>
       <img
@@ -26,9 +24,12 @@ eleventyNavigation:
         src="https://placehold.co/1440x1080"
         alt="A mural at Philadelphia High School"
       />
-      <div class="prose prose-lg prose-cyan mx-auto font-serif">
+      <div
+        class="prose prose-lg prose-p:text-sky-900 prose-headings:text-sky-950 prose-strong:text-sky-950 mx-auto font-serif"
+      >
         <p class="text-2xl"
-          >I am thrilled to share that our theme for 2025 is<br />
+          >I am <a href="#butts">thrilled</a> to share that our theme for 2025
+          is<br />
           <strong>“Mural Arts: The Place Where Art Meets Hope.”</strong></p
         >
         <p
@@ -133,27 +134,37 @@ eleventyNavigation:
       webc:if="slide.type == 'department'"
       :id="slide.id"
       :@heading="slide.heading"
+      :@subheading="slide.subheading"
+      :@label="slide.label"
       :@href="slide.url"
       :@branding="slide.branding"
+      :@typography="slide.typography"
+      :@decoration="slide.decoration"
     >
     </section-slide-department>
     <section-slide-featured
       webc:if="slide.type == 'featured'"
       :id="slide.id"
       :@heading="slide.heading"
+      :@subheading="slide.subheading"
+      :@label="slide.label"
       :@href="slide.url"
       :@branding="slide.branding"
+      :@typography="slide.typography"
+      :@decoration="slide.decoration"
     >
     </section-slide-featured>
     <section-slide-ad
       webc:if="slide.type == 'ad'"
       :id="slide.id"
       :@heading="slide.heading"
+      :@subheading="slide.subheading"
+      :@label="slide.label"
       :@href="slide.url"
       :@branding="slide.branding"
+      :@typography="slide.typography"
+      :@decoration="slide.decoration"
     >
     </section-slide-ad>
   </back-breaker>
-    
-  
 </main>
