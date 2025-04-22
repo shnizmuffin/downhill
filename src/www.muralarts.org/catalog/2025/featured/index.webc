@@ -1,0 +1,120 @@
+---
+layout: map/featured.webc
+eleventyNavigation:
+  key: MAP-FEATURED
+  parent: MAP-SPRING-2025
+  image: 'https://placehold.co/144x144'
+---
+
+<section :class="`${styles.article} z-50`">
+  <div :class="`prose prose-xl p-16 text-left font-sans ${styles.prose}`">
+    <h2>H2. <em>Nam Sit Tempora Sit Minus</em> Aspernatur</h2>
+    <figure>
+      <img
+        src="https://placehold.co/1920x1080?text=HeroImage"
+        alt="Jane Golden"
+      />
+      <figcaption class="text-sm"
+        ><em>Velit Qui Sed</em> © 2024 City of Philadelphia Mural Arts Program
+        / ARTIST, LOCATION, ADDRESS. Photo by PHOTOGRAPHER</figcaption
+      >
+    </figure>
+    <p class="text-[1.5em] leading-tight"
+      >Voluptatem id aut nobis et dolores. Ut mollitia cupiditate nisi dolores
+      qui reprehenderit reiciendis qui est. Qui pariatur quod. Iusto laborum et
+      sunt quod eum libero odit. Quas dolor quae voluptates atque repudiandae
+      corrupti ut iste. Incidunt alias delectus dolorem harum similique quae.</p
+    >
+    <p
+      >Est ut aspernatur soluta pariatur. Vel velit fugiat qui et. Quibusdam id
+      quia. Doloribus esse omnis nesciunt ut. Sed animi qui et. Distinctio in
+      reiciendis.</p
+    >
+    <div class="not-prose grid grid-cols-2 gap-2">
+      <img
+        src="https://placehold.co/400x300?text=Sequi"
+        alt="quisquam eos velit"
+      />
+      <img
+        src="https://placehold.co/400x300?text=Assumenda"
+        alt="harum laudantium ab"
+      />
+      <img
+        src="https://placehold.co/400x300?text=Natus"
+        alt="dolores quidem reiciendis"
+      />
+      <img
+        src="https://placehold.co/400x300?text=Explicabo"
+        alt="harum soluta sed"
+      />
+    </div>
+    <h3>H3. pariatur sint numquam</h3>
+    <p
+      >Aspernatur accusantium architecto omnis fugiat modi rerum ab laboriosam
+      et. Nulla at qui repellendus occaecati. Provident modi rerum modi quas
+      omnis nemo totam. Id dolorum quae omnis non voluptas dolor dolores dolor.
+      Architecto exercitationem laborum laudantium libero architecto officiis
+      qui. Perspiciatis cum qui non.</p
+    >
+    <div class="not-prose grid grid-cols-2 gap-2 grid-flow-row-dense">
+      <picture class="row-span-2"><img src="https://placehold.co/400x610?text=Tall" alt=""/></picture>
+      <picture><img src="https://placehold.co/400x300?text=Normal" alt="" /></picture>
+      <picture><img src="https://placehold.co/400x300?text=Normal" alt="" class=""/></picture>
+    </div>
+    <p
+      >Sint nobis deserunt ducimus et tempore porro fuga. Ducimus unde dolorem.
+      Consequatur enim itaque veniam aperiam.</p
+    >
+    <ul>
+      <li>Porro saepe facilis cum perspiciatis et.</li>
+      <li>Beatae beatae consectetur.</li>
+      <li>Quod consectetur ipsum aspernatur dolorem.</li>
+      <li>Animi aut qui quis iusto nihil ullam.</li>
+    </ul>
+    <h4>H4. Incidunt architecto et facere.</h4>
+    <p>Delectus aperiam fuga odit. Nulla rerum alias excepturi. Eos odit veniam eveniet. Provident vel eos explicabo laborum quam facere fugit perferendis. Asperiores qui magni.</p>
+    <ol>
+      <li>Voluptates dolorem voluptas. Quisquam tenetur quia reprehenderit. Incidunt ex et aut alias qui commodi repellat. Facere sunt repudiandae rerum magni consequuntur odit et at recusandae. Culpa cumque accusantium molestias vel. Sint est dolore.</li>
+      <li>Voluptates voluptas iure enim non iusto alias facere in. Qui aut ut libero temporibus dolores nobis earum laudantium. Dolor ut doloremque. Perferendis impedit in iste ipsa doloribus et consequatur et. Et veniam quos quod doloribus quia velit distinctio odit. Neque est eos.</li>
+      <li>Recusandae et sit et. Qui similique laboriosam architecto dolor.</li>
+      <li>Aut maxime voluptatem quos et. Dolorem nostrum delectus recusandae. Nam assumenda est asperiores exercitationem beatae cum. Totam enim aut est corrupti.</li>
+      <li>Velit veritatis quisquam ab sed dolores sapiente. Aut hic laboriosam dolore voluptas maiores quis quis iure.</li>
+    </ol>
+    <h5>H5. Non sunt nam ratione neque et.</h5>
+    <h5>H6. Ipsa iste temporibus impedit eos aut.</h5>
+
+    <nav class="">
+      <h2 class="font-sans">Rerum ut dolor</h2>
+      <ul class="not-prose list-outside list-none divide-y border-y-[1px] p-0">
+        <li
+          ><a
+            class="block py-4 leading-none hover:underline hover:saturate-150"
+            href="../featured/"
+            ><em>Quia odio quaerat occaecati qui.</em></a
+          ></li
+        >
+        <li
+          ><a
+            class="block py-4 leading-none hover:underline hover:saturate-150"
+            href="../featured/"
+            >Debitis vel et placeat deleniti sint ipsam ut ad possimus.</a
+          ></li
+        >
+        <li
+          ><a
+            class="block py-4 leading-none hover:underline hover:saturate-150"
+            href="../featured/"
+            ><em>Nam sit tempora sit minus</em> aspernatur.</a
+          ></li
+        >
+        <li
+          ><a
+            class="block py-4 leading-none hover:underline hover:saturate-150"
+            href="../featured/"
+            ><em>Possimus</em> repellat harum enim.</a
+          ></li
+        >
+      </ul>
+    </nav>
+  </div>
+</section>
