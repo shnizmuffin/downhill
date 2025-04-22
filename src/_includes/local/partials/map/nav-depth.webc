@@ -1,0 +1,62 @@
+<nav
+  webc:if="depth"
+  class="pointer-events-auto z-50 hidden flex-col items-end px-8 text-white md:flex"
+>
+  <ul class="flex flex-col gap-2 text-lg">
+    <li
+      ><a
+        class="decoration-sky decoration-[3px] underline-offset-[3px] text-shadow-lg/30 text-shadow-sky-800 hover:underline"
+        href="/www.muralarts.org/catalog/2025/#introduction"
+        >INTRODUCTION</a
+      ></li
+    >
+    <li webc:for="item of $data.slides">
+      <a
+        webc:if="item.type == 'ad'"
+        :class="`${item.decoration} text-shadow-lg/30 decoration-[3px] underline-offset-[3px] hover:underline`"
+        :href="`/www.muralarts.org/catalog/2025/#${item.id}`"
+        @text="item.title"
+        >DEPARTMENT</a
+      >
+      <a
+        webc:else
+        :class="`${item.decoration} uppercase text-shadow-lg/30 decoration-[3px] underline-offset-[3px] hover:underline`"
+        :href="`/www.muralarts.org/catalog/2025/${item.id}`"
+        @text="item.title"
+        >DEPARTMENT</a
+      >
+    </li>
+  </ul>
+</nav>
+<nav
+  webc:else
+  class="pointer-events-auto z-50 hidden flex-col items-end px-8 text-white md:flex"
+>
+  <ul class="flex flex-col gap-2 text-lg">
+    <li x-data x-show="$store.reveal.introduction"
+      ><a
+        class="decoration-sky decoration-[3px] underline-offset-[3px] text-shadow-lg/30 text-shadow-sky-800 hover:underline"
+        href="./#introduction"
+        >INTRODUCTION</a
+      ></li
+    >
+    <li
+      webc:for="item of $data.slides"
+      x-data
+      :x-show="`$store.reveal.${item.id}`"
+      ><a
+        webc:if="item.type == 'department'"
+        :class="`${item.decoration} uppercase text-shadow-lg/30 decoration-[3px] underline-offset-[3px] hover:underline`"
+        :href="`./#${item.id}`"
+        @text="item.title"
+        >DEPARTMENT</a
+      ><a
+        webc:else
+        :class="`${item.decoration} text-shadow-lg/30 decoration-[3px] underline-offset-[3px] hover:underline`"
+        :href="`./#${item.id}`"
+        @text="item.title"
+        >DEPARTMENT</a
+      >
+    </li>
+  </ul>
+</nav>

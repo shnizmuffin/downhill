@@ -1,0 +1,22 @@
+---
+layout: splash.webc
+eleventyNavigation:
+  key: EXAMPLE-CPLUS
+  parent: EXAMPLE
+  title: '[1338] www.Example.com/CPlus (Splash)'
+  excerpt: 'A user-facing index page'
+  image: 'https://placehold.co/144x144'
+title: Splash
+description: 'A user-facing index page'
+---
+
+<main
+  class="flex min-h-screen flex-col justify-center bg-gradient-to-br from-blue-700 to-green-700 p-8"
+>
+  <splash-index
+    :@collection="$data.collections.sites"
+    :@from="$data.eleventyNavigation.key"
+    class="bg-white"
+  >
+  </splash-index>
+</main>

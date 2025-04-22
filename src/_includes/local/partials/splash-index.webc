@@ -1,0 +1,20 @@
+<section
+  :class="`${this.class ?? ''} min-h-3 container max-w-screen-md p-4 rounded-2xl shadow-lg`"
+>
+  <nav :@collection="collection" :@from="from ??= $data.eleventyNavigation.key">
+    <dmw-splash-ul
+      webc:for="list of Object.values(collection).flatMap((entry) => (entry.id === from ? entry : entry.children))"
+      webc:if="list.id == $data.eleventyNavigation.key"
+      class="divide-y-2"
+      :@list="list.children"
+    >
+      <dmw-splash-li
+        webc:for="item of Object.values(list)"
+        :@item="item"
+        :@logo="item.eleventyNavigation.image"
+      >
+      </dmw-splash-li>
+    </dmw-splash-ul>
+  </nav>
+</section>
+<slot></slot>

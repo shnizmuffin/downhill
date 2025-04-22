@@ -1,0 +1,17 @@
+{
+  "agency": {
+    "client": "Mural Arts Project"
+  },
+  "meta": {
+    "title": "Catalog",
+    "description": "Static Landing Pages"
+  },
+  "nav" : {
+    "depth": false
+  },
+  "styles" : {
+    "branding": "",
+    "article": "bg-white text-victoria",
+    "prose": "text-victoria prose-headings:text-victoria prose-a:text-victoria prose-figcaption:text-victoria-400"
+  }
+}

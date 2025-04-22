@@ -1,0 +1,163 @@
+---
+tags: LP
+eleventyNavigation:
+  key: EXAMPLE-CPLUS-KIT-LP
+  parent: EXAMPLE-CPLUS
+  title: 'Example C Plus Information Kit Landing Page'
+  excerpt: 'A user-facing landing page'
+  image: 'https://placehold.co/144x144'
+title: 'Get a passing grade'
+description: 'Get our helpful information kit.'
+---
+
+<header class="z-30 bg-blue-600 shadow shadow-blue-900">
+  <div class="prose prose-blue prose-invert max-w-screen-lg p-4">
+    <h1 @text="$data.agency.client"></h1>
+  </div>
+</header>
+<main class="z-20 flex flex-col shadow shadow-blue-900">
+  <section
+    class="flex flex-row justify-center gap-24 bg-cover px-4 py-24"
+    style="background-image: url(https://placehold.co/1400?nature+blue)"
+  >
+    <div
+      class="prose prose-blue rounded-t-md rounded-b-lg border-b-8 border-blue-600 bg-white p-12 shadow"
+    >
+      <h2 @text="$data.description"></h2>
+      <p>
+        Totam autem modi aut et ad deserunt quidem voluptas. Incidunt
+        exercitationem a quibusdam quasi. Tempora nam rerum molestiae maiores.
+      </p>
+      <ul>
+        <li>Et porro libero.</li>
+        <li>Omnis voluptas quia.</li>
+        <li>Corrupti quae voluptatem.</li>
+        <li>Qui libero aspernatur.</li>
+        <li>... and more!</li>
+      </ul>
+      <p>
+        Eveniet alias et recusandae. Ut mollitia id. Ex id dicta est et corporis
+        sapiente et itaque. Dolores qui ullam voluptatibus provident. Quia sit
+        officia et qui natus ab. Ipsam eius exercitationem dolores molestias et
+        autem soluta.
+      </p>
+      <hr />
+      <h3>Id quidem cum?</h3>
+      <p>
+        Amet vitae et magnam excepturi omnis maiores. Et quia totam delectus
+        dolores totam dolor omnis harum minus. Libero voluptas doloremque et in
+        non reiciendis quia harum earum.
+      </p>
+      <a
+        href="#"
+        class="ux-button inline-block bg-blue-600 text-white no-underline"
+        >Enroll Now</a
+      >
+    </div>
+    <div
+      class="prose prose-blue rounded-t-md rounded-b-lg border-b-8 border-blue-600 bg-white p-12 shadow"
+    >
+      <h2>Big hic optio alias</h2>
+      <p
+        >Accusantium consectetur nostrum. Eligendi iure est sed earum blanditiis
+        consequatur iusto. Quasi enim exercitationem quia odio optio voluptas et
+        sed recusandae. Quia reiciendis sint illo.</p
+      >
+      <form action="thank-you/" method="get">
+        <div class="flex flex-col">
+          <label for="first_name">First Name</label>
+          <input
+            class="form-input"
+            type="text"
+            name="first_name"
+            id=""
+            placeholder="Bob"
+          />
+        </div>
+
+        <div class="flex flex-col">
+          <label for="last_name">Last Name</label>
+          <input
+            class="form-input"
+            type="text"
+            name="last_name"
+            id=""
+            placeholder="Iger"
+          />
+        </div>
+
+        <div class="flex flex-col">
+          <label for="email">Email</label>
+          <input
+            class="form-input"
+            type="email"
+            name="email"
+            id=""
+            placeholder="themouse@example.com"
+          />
+        </div>
+
+        <button class="ux-button bg-blue-600 text-white" type="submit"
+          >Get It</button
+        >
+      </form>
+    </div>
+  </section>
+  <section class="container grid grid-cols-3 gap-8 p-4 py-24">
+    <aside class="prose">
+      <div class="flex flex-row items-center gap-4">
+        <img
+          class="rounded-e-full"
+          src="https://placehold.co/120x120?money"
+          alt="ut sint incidunt"
+        />
+        <h3>Big enim rerum Impedit</h3>
+      </div>
+      <p>
+        Delectus ea et eos eum neque et vel rerum tenetur. Sed dolores quo fugit
+        quo quia. Commodi reprehenderit error. Itaque deserunt reiciendis ullam
+        consectetur expedita sed odio. Eos assumenda ut ea recusandae at
+        voluptatem ipsa nulla.
+      </p>
+    </aside>
+    <aside class="prose">
+      <div class="flex flex-row items-center gap-4">
+        <img
+          class="rounded-e-full"
+          src="https://placehold.co/120x120?health"
+          alt="necessitatibus iure eos"
+        />
+        <h3>Big voluptatem totam Accusantium</h3>
+      </div>
+      <p>
+        Ratione labore voluptatum aut rem ea. Magnam alias omnis dignissimos. Ut
+        qui et. Autem asperiores similique ipsam qui similique provident
+        provident soluta incidunt.
+      </p>
+    </aside>
+    <aside class="prose">
+      <div class="flex flex-row items-center gap-4">
+        <img
+          class="rounded-e-full"
+          src="https://placehold.co/120x120?medicare"
+          alt="sint aliquid quis"
+        />
+        <h3>Big ut corporis Illo</h3>
+      </div>
+      <p>
+        Unde cupiditate minima nemo culpa dolor optio aut. Quis reprehenderit
+        veniam eligendi sed velit nostrum. Sapiente exercitationem sunt vel.
+      </p>
+    </aside>
+  </section>
+</main>
+<footer class="z-10 grow bg-blue-900">
+  <div class="prose prose-blue prose-invert max-w-screen-lg p-4">
+    <p>
+      <small
+        >Copyright © <span @text="page.date.getFullYear()" webc:nokeep></span>
+        <span @text="$data.agency.client" webc:nokeep></span>
+      </small>
+    </p>
+  </div>
+</footer>

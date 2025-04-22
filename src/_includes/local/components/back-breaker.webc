@@ -1,0 +1,226 @@
+<!---
+  We're going to take an image as a prop,
+  and optionally a string or an array of interger breakpoints, as a prop.
+  We're going to cram that image through the Eleventy Image plugin, with widths set to breakpoints or left to default.
+  We're going to get the result of the plugin, and write media queries for the background image if there's breakpoints.
+  background-image will use image sets based on file type, which will be provided by the image plugin.
+
+  Required reading:
+  https://www.11ty.dev/docs/languages/webc/#using-java-script-to-setup-your-component
+  https://www.11ty.dev/docs/languages/webc/#using-java-script-to-generate-content
+  https://developer.mozilla.org/en-US/docs/Web/CSS/image/image-set 
+
+  We're going to start by ripping wholecloth from the eleventy-image webc component.
+  https://github.com/11ty/eleventy-img/blob/main/eleventy-image.webc
+
+
+
+  	<element
+      webc:is="back-breaker"
+      src="./src/img/possum-geri.png"
+      
+      Optional attributes and their alternative formats:
+      widths="640, 1080, 1440, 1920"
+      :widths="[640, 1080, 1440, 1920]"
+      formats="avif,webp,jpeg"
+      :formats="['avif', 'webp', 'jpeg']"
+    ></element>
+--->
+
+<script webc:type="js">
+  const path = require('path');
+
+  // zachleat should expose this for re-use in a provided shortcode.
+  async function imagePlugin(attributes, globalPluginOptions) {
+    if (!attributes.src) {
+      throw new Error('Missing `src` attribute on <back-breaker>');
+    }
+
+    // zachleat should allow remote optimization automatically on full urls
+
+    let imagePackage;
+    let defaultGlobalAttributes;
+
+    if (globalPluginOptions) {
+      //console.log('globalPluginOptions found.');
+      defaultGlobalAttributes = globalPluginOptions.defaultAttributes;
+      delete globalPluginOptions.defaultAttributes;
+
+      imagePackage = globalPluginOptions.packages?.image;
+      delete globalPluginOptions.packages;
+    }
+
+    if (!imagePackage) {
+      //console.log('imagePackage missing, requiring eleventy-img.');
+      imagePackage = require('@11ty/eleventy-img');
+    }
+
+    let instanceOptions = {};
+
+    // Note that multiple widths require a `sizes`
+
+    if (attributes.widths) {
+      //console.log('there are widths provided.');
+      if (typeof attributes.widths === 'string') {
+        //console.log('there are widths as a string.');
+        instanceOptions.widths = attributes.widths
+          .split(',')
+          .map((entry) => parseInt(entry, 10));
+        delete attributes.widths;
+      } else if (Array.isArray(attributes.widths)) {
+        //console.log('there are widths as an array.');
+        instanceOptions.widths = attributes.widths;
+        delete attributes.widths;
+      }
+    }
+
+    if (attributes.formats) {
+      //console.log('there are formats provided.');
+      if (typeof attributes.formats === 'string') {
+        //console.log('there are formats as a string.');
+        instanceOptions.formats = attributes.formats
+          .split(',')
+          .map((entry) => entry.trim());
+        delete attributes.formats;
+      } else if (Array.isArray(attributes.formats)) {
+        //console.log('there are formats as an array.');
+        instanceOptions.formats = attributes.formats;
+        delete attributes.formats;
+      }
+    }
+
+    // These defaults are set only if  was **not** called:
+    if (!globalPluginOptions) {
+      //console.log('GlobalPluginOptions missing.');
+      // Using eleventy.directories global data (Eleventy 2.0.2+)
+      if (eleventy.directories) {
+        //console.log('setting url path to /img/, and setting the output directory to eleventy.directories.output');
+        instanceOptions.urlPath = '/img/';
+
+        // write to output folder by default
+        instanceOptions.outputDir = path.join(
+          eleventy.directories.output,
+          instanceOptions.urlPath,
+        );
+      }
+    }
+
+    // Overrides via attributes (hopefully you don’t need these)
+    if (attributes.urlPath) {
+      //console.log('There is a urlPath provided');
+      instanceOptions.urlPath = attributes.urlPath;
+      delete attributes.urlPath;
+
+      if (eleventy.directories && !attributes.outputDir) {
+        //console.log('There is no outputDir defined but there are eleventy.directories');
+        // use output folder if available (Eleventy v2.0.2+)
+        instanceOptions.outputDir = path.join(
+          eleventy.directories.output,
+          instanceOptions.urlPath,
+        );
+      }
+    }
+
+    if (attributes.outputDir) {
+      //console.log('There is an outputDir provided.');
+      instanceOptions.outputDir = attributes.outputDir;
+      delete attributes.outputDir;
+    }
+
+    let options = Object.assign({}, globalPluginOptions, instanceOptions);
+
+    // see Util.addConfig
+    if (globalPluginOptions.eleventyConfig) {
+      //console.log('eleventyConfig has been found in the globalPluginOptions.');
+      Object.defineProperty(options, 'eleventyConfig', {
+        value: globalPluginOptions.eleventyConfig,
+        enumerable: false,
+      });
+    }
+
+    let metadata = await imagePackage(src, options);
+
+    let imageAttributes = Object.assign(
+      {},
+      defaultGlobalAttributes,
+      attributes,
+    );
+
+    // You bet we throw an error on missing alt in `imageAttributes` (alt="" works okay)
+    // let html = imagePackage.generateHTML(metadata, imageAttributes);
+    let hash = imagePackage.getHash(src, options);
+
+    let data = { hash, options, metadata };
+    return data;
+  }
+
+  (async () => {
+    let globalPluginOptions;
+    // fetch global options from from addPlugin call
+    if (typeof __private_eleventyImageConfigurationOptions === 'function') {
+      globalPluginOptions = __private_eleventyImageConfigurationOptions();
+    }
+
+    if (!('filterPublicAttributes' in webc)) {
+      throw new Error(
+        'The <back-breaker> WebC component requires WebC v0.10.1+',
+      );
+    }
+
+    let attributes = webc.filterPublicAttributes(webc.attributes);
+    globalPluginOptions.returnType = 'object';
+
+    data = await imagePlugin(attributes, globalPluginOptions);
+
+    //console.log(data.metadata);
+    //console.log(data.hash);
+    //console.log(data.options);
+
+    function compareNumbers(a, b) {
+      return a - b;
+    }
+
+    function printImageSet(metadata, breakpoint, hash) {
+      // we're using [class~=hash] because the hashes sometimes start with digits, which pisses off my linter.
+      media_query += `[class~="${hash}"] { background-image: image-set( `;
+      for (format in metadata) {
+        for (image of metadata[format]) {
+          if (image.width === breakpoint) {
+            media_query += `url("${image.url}") type("image/${format}"), `;
+          }
+        }
+      }
+      media_query += `);`;
+    }
+
+    let breakpoints = data.options.widths.sort(compareNumbers);
+
+    var media_query = ``;
+
+    for (let i = 0; i <= breakpoints.length; i++) {
+      if (i === 0) {
+        media_query += `@media (max-width: ${breakpoints[i]}px) { `;
+        printImageSet(data.metadata, breakpoints[i], data.hash);
+        media_query += `}`;
+      } else if (i < data.options.widths.length) {
+        media_query += `@media (min-width: ${breakpoints[i - 1]}px) and (max-width: ${breakpoints[i]}px) { `;
+        printImageSet(data.metadata, breakpoints[i], data.hash);
+        media_query += `}`;
+      } else {
+        media_query += `@media (min-width: ${breakpoints[i - 1]}px) {  `;
+        printImageSet(data.metadata, breakpoints[i - 1], data.hash);
+        media_query += `}`;
+      }
+
+      media_query += `}`;
+    }
+    // for images in data.metadata.avif write some css and slap it in a style tag
+    //console.log(media_query);
+    return (
+      `<style>` +
+      media_query +
+      `</style><${webc.attributes.container ?? 'section'} class="${data.hash}" webc:root="override"><slot></slot></${webc.attributes.container}>`
+    );
+    // return `imagePlugin(attributes, globalPluginOptions)`;
+  })();
+</script>

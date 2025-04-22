@@ -1,0 +1,14 @@
+{
+  "meta": {
+    "title": "Generic Department",
+    "description": "Static Landing Pages"
+  },
+  "nav": {
+    "depth": true
+  },
+  "styles": {
+    "branding": "bg-corn text-corn-900 divide-corn-500 border-corn-500",
+    "article": "bg-corn-100 text-corn-900 divide-corn-300 border-corn-300",
+    "prose": "text-corn-900 prose-headings:text-corn-900 prose-a:text-corn-900 prose-figcaption:text-corn-400"
+  }
+}

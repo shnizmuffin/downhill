@@ -1,0 +1,15 @@
+---
+layout: map/catalog.webc
+---
+
+<main
+  class="relative col-start-1 col-end-4 row-start-1 row-end-3 min-h-[100vh]"
+>
+  <section class="grid snap-start grid-cols-(--landing-grid-cols)">
+    <article
+      :class="`row-start-1 col-start-2 col-end-3 flex flex-row relative `"
+    >
+      <template @raw="content" webc:nokeep></template>
+    </article>
+  </section>
+</main>

@@ -1,0 +1,170 @@
+---
+layout: map/catalog.webc
+eleventyNavigation:
+  key: MAP-SPRING-2025
+  parent: MAP-SPLASH
+  image: 'https://placehold.co/144x144'
+---
+<main class="relative min-h-[100vh] md:col-start-1 md:col-end-4">
+  <section
+    class="z-40 mt-[50vh] md:mt-[75vh] md:grid md:grid-cols-(--landing-grid-cols)"
+  >
+    <article
+      x-data
+      x-init="$store.reveal.introduction = false"
+      x-intersect.once.threshold.25="$store.reveal.introduction = true"
+      id="introduction"
+      class="bg-sky z-30 p-8 md:col-start-2"
+    >
+      <h2 class="my-8 font-serif font-bold text-sky-900"
+        ><text-fit @fit="The Place Where Art Meets Hope"></text-fit
+      ></h2>
+      <img
+        class="mb-8"
+        src="https://placehold.co/1440x1080"
+        alt="A mural at Philadelphia High School"
+      />
+      <div
+        class="prose prose-lg prose-p:text-sky-900 prose-headings:text-sky-950 prose-strong:text-sky-950 mx-auto font-serif"
+      >
+        <p class="text-2xl"
+          >I am <a href="#butts">thrilled</a> to share that our theme for 2025
+          is<br />
+          <strong>“Mural Arts: The Place Where Art Meets Hope.”</strong></p
+        >
+        <p
+          >Hope is powerful. It sustains us through challenges, fuels change,
+          and unites communities. <em>“Where Art Meets Hope”</em> captures the
+          essence of Mural Arts— connection, resilience, and
+          transformation—using art to spark positive social change.</p
+        >
+        <p
+          >Mural Arts is a community of artists, advocates, and neighbors who
+          come together through art to inspire change. Our individual stories,
+          struggles, and aspirations combine into a collective narrative of
+          strength and possibility. With every mural we paint and every
+          conversation we convene, we build hope—connecting our iconic past to a
+          dynamic present and a vibrant future.</p
+        >
+        <p
+          >2025 will contain a number of fascinating projects from a tribute to
+          Sun Ra to more work in Norris Square, to large scale works of art in
+          Southhwest Philadelphia. Others will serve as a bridge to 2026, an
+          incredibly momentous year in our city and in our county. Here are a
+          few of the exciting partnerships and collaborations that will bring
+          this theme to life:</p
+        >
+        <ul>
+          <li>
+            <p
+              ><strong>Athletics and Art</strong> - A groundbreaking project
+              with <strong>Coach Dawn Staley</strong> that celebrates the
+              intersection of sports and empowerment.</p
+            >
+          </li>
+          <li>
+            <p
+              ><strong>History and Art</strong> - The mural we are doing about
+              <strong>William Still</strong> extends the important work we did
+              with <strong>Little Giant</strong> about the
+              <strong>7th Ward</strong>.</p
+            >
+          </li>
+          <li>
+            <p
+              ><strong>Art Icons</strong> - While a large percentage of artists
+              hired are from Philadelphia, we continue to bring wonderful
+              artists to our city, such as <strong>Jesse Krimes</strong>,
+              <strong>Shepard Fairey</strong>, and
+              <strong>Mickalene Thomas</strong>.</p
+            >
+          </li>
+          <li>
+            <p
+              ><strong>Music Legends</strong> - Celebrations featuring
+              <strong>Questlove</strong>, <strong>Sun Ra</strong> and
+              <strong>Boyz II Men</strong>, Philadelphia icons who exemplify the
+              power of storytelling through music.</p
+            >
+          </li>
+          <li>
+            <p
+              ><strong>Significant Collaborations</strong> - Projects with the
+              <strong>Holocaust Remembrance Foundation</strong>,
+              <strong>Temple College of Public Health</strong>, and the
+              <strong>Philadelphia Eagles</strong> show us the power of
+              collaboration and how much we can accomplish working together.</p
+            >
+          </li>
+        </ul>
+        <p
+          >While incredibly diverse, these projects amplify voices fostering a
+          shared sense of humanity, aspiration, and optimism.</p
+        >
+        <p
+          ><em>“Where Art Meets Hope”</em> is more than a theme — it' s a call
+          to action. It reminds us that, despite the challenges we face, we can
+          unite as a creative community to spark hope and drive meaningful
+          change. Together, we are stronger, more resilient, and capable of
+          transforming lives, strengthening communities, and shaping the future
+          of our city.</p
+        >
+        <p> Warmly,</p>
+        <img
+          src="https://placehold.co/300x150?text=Signature"
+          alt="Jane Golden"
+        />
+        <p>
+          JANE GOLDEN<br />
+          EXECUTIVE DIRECTOR<br />
+          MURAL ARTS PHILADELPHIA
+        </p>
+      </div>
+    </article>
+  </section>
+  <back-breaker
+    webc:for="slide of $data.slides"
+    @container="div"
+    :src="slide.image"
+    alt="A splash image"
+    :widths="[768,1024,1440,1920]"
+    class="bg-cover bg-center"
+  >
+    <section-slide-department
+      webc:if="slide.type == 'department'"
+      :id="slide.id"
+      :@heading="slide.heading"
+      :@subheading="slide.subheading"
+      :@label="slide.label"
+      :@href="slide.url"
+      :@branding="slide.branding"
+      :@typography="slide.typography"
+      :@decoration="slide.decoration"
+    >
+    </section-slide-department>
+    <section-slide-featured
+      webc:if="slide.type == 'featured'"
+      :id="slide.id"
+      :@heading="slide.heading"
+      :@subheading="slide.subheading"
+      :@label="slide.label"
+      :@href="slide.url"
+      :@branding="slide.branding"
+      :@typography="slide.typography"
+      :@decoration="slide.decoration"
+    >
+    </section-slide-featured>
+    <section-slide-ad
+      webc:if="slide.type == 'ad'"
+      :id="slide.id"
+      :@heading="slide.heading"
+      :@subheading="slide.subheading"
+      :@label="slide.label"
+      :@href="slide.url"
+      :@branding="slide.branding"
+      :@typography="slide.typography"
+      :@decoration="slide.decoration"
+    >
+    </section-slide-ad>
+  </back-breaker>
+</main>

@@ -1,0 +1,16 @@
+<section webc:root="override"
+  x-data
+  :x-init="`$store.reveal.${this.id} = false`"
+  :x-intersect.once.half="`$store.reveal.${this.id} = true`"
+  class="bg-black/50 border-[1.5rem] border-highlighter-300 text-highlighter-300 grid snap-start grid-cols-1 md:grid-cols-(--landing-grid-cols)"
+>
+<article
+    class="md:col-start-2 md:col-end-3 flex flex-col min-h-[95vh] md:flex-row relative"
+  >
+  <div class="grow z-50 p-12 flex flex-col gap-8 justify-center items-center text-center content-center">
+    <p :class="`${typography} text-shadow-lg/50 text-3xl`" @text="subheading"></p>
+    <h2 :class="`${typography} text-shadow-lg/50 font-serif text-6xl text-balance`" @text="heading"></h2>
+    <a :class="`${branding} ux-button text-lg`" :href="href" @text="label" target="_blank">Learn more</a>
+  </div>
+  </article>
+</section>

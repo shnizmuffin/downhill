@@ -1,0 +1,16 @@
+---
+layout: splash.webc
+eleventyNavigation:
+  key: BNH
+  parent: _index
+  image: 'https://placehold.co/144x144'
+---
+
+<main class="flex min-h-screen flex-col justify-center bg-gray-700 p-8">
+  <splash-index
+    :@collection="$data.collections.sites"
+    :@from="$data.eleventyNavigation.key"
+    class="bg-white"
+  >
+  </splash-index>
+</main>

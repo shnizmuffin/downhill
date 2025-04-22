@@ -1,0 +1,16 @@
+<section webc:root="override"
+  x-data
+  :x-init="`$store.reveal.${id} = false`"
+  :x-intersect.once.half="`$store.reveal.${id} = true`"
+  class="bg-black/50 grid snap-start grid-cols-1 md:grid-cols-(--landing-grid-cols)"
+>
+<article
+    class="md:col-start-2 md:col-end-3 flex flex-col min-h-[95vh] md:flex-row relative place-items-center text-center"
+  >
+  <div :class="`${typography} grow content-center text-shadow-lg/50 z-50 p-12`">
+    <h2><a :href="href" class="font-serif text-4xl underline decoration-[4px] underline-offset-[4px]"><text-fit :@fit="heading"></text-fit
+      ></a></h2>
+    <p class="text-2xl" @text="subheading"></p>
+  </div>
+  </article>
+</section>
