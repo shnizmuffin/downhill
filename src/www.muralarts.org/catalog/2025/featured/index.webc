@@ -7,8 +7,8 @@ eleventyNavigation:
 ---
 
 <section :class="`${styles.article} z-50`">
-  <div :class="`prose prose-xl p-16 text-left font-sans ${styles.prose}`">
-    <h2>H2. <em>Nam Sit Tempora Sit Minus</em> Aspernatur</h2>
+  <div :class="`prose prose-xl leading-normal font-light text-pretty prose-headings:font-medium p-16 text-left ${styles.prose}`">
+    <h2 class="font-serif text-[3em]">H2. <em>Nam Sit Tempora Sit Minus</em> Aspernatur</h2>
     <figure>
       <img
         src="https://placehold.co/1920x1080?text=HeroImage"
@@ -84,8 +84,8 @@ eleventyNavigation:
     <h5>H6. Ipsa iste temporibus impedit eos aut.</h5>
 
     <nav class="">
-      <h2 class="font-sans">Rerum ut dolor</h2>
-      <ul class="not-prose list-outside list-none divide-y border-y-[1px] p-0">
+      <h2>Rerum ut dolor</h2>
+      <ul class="not-prose font-serif list-outside list-none divide-y border-y-[1px] p-0">
         <li
           ><a
             class="block py-4 leading-none hover:underline hover:saturate-150"

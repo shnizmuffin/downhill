@@ -7,14 +7,18 @@ eleventyNavigation:
 ---
 
 <section :class="`${styles.article}`">
-  <div :class="`prose prose-xl p-16 text-left font-serif ${styles.prose}`">
-    <h2>H2. <em>Nam Sit Tempora Sit Minus</em> Aspernatur</h2>
+  <div
+    :class="`prose prose-xl leading-normal font-light text-pretty p-16 text-left prose-headings:font-medium ${styles.prose}`"
+  >
+    <h2 class="font-serif text-[3em]"
+      >H2. <em>Nam Sit Tempora Sit Minus</em> Aspernatur</h2
+    >
     <figure>
       <img
         src="https://placehold.co/1920x1080?text=HeroImage"
         alt="Jane Golden"
       />
-      <figcaption class="font-sans text-sm"
+      <figcaption class="text-sm"
         ><em>Velit Qui Sed</em> © 2024 City of Philadelphia Mural Arts Program
         / ARTIST, LOCATION, ADDRESS. Photo by PHOTOGRAPHER</figcaption
       >
@@ -56,10 +60,23 @@ eleventyNavigation:
       Architecto exercitationem laborum laudantium libero architecto officiis
       qui. Perspiciatis cum qui non.</p
     >
-    <div class="not-prose grid grid-cols-2 gap-2 grid-flow-row-dense">
-      <picture class="row-span-2"><img src="https://placehold.co/400x610?text=Tall" alt=""/></picture>
-      <picture><img src="https://placehold.co/400x300?text=Normal" alt="" /></picture>
-      <picture><img src="https://placehold.co/400x300?text=Normal" alt="" class=""/></picture>
+    <p
+      ><strong>FUNDERS</strong>:
+      <span class="font-serif">
+        William Penn Foundation, The Fund for the School District of
+        Philadelphia, City of Philadelphia
+      </span></p
+    >
+    <div class="not-prose grid grid-flow-row-dense grid-cols-2 gap-2">
+      <picture class="row-span-2"
+        ><img src="https://placehold.co/400x610?text=Tall" alt=""
+      /></picture>
+      <picture
+        ><img src="https://placehold.co/400x300?text=Normal" alt=""
+      /></picture>
+      <picture
+        ><img src="https://placehold.co/400x300?text=Normal" alt="" class=""
+      /></picture>
     </div>
     <p
       >Sint nobis deserunt ducimus et tempore porro fuga. Ducimus unde dolorem.
@@ -72,20 +89,41 @@ eleventyNavigation:
       <li>Animi aut qui quis iusto nihil ullam.</li>
     </ul>
     <h4>H4. Incidunt architecto et facere.</h4>
-    <p>Delectus aperiam fuga odit. Nulla rerum alias excepturi. Eos odit veniam eveniet. Provident vel eos explicabo laborum quam facere fugit perferendis. Asperiores qui magni.</p>
+    <p
+      >Delectus aperiam fuga odit. Nulla rerum alias excepturi. Eos odit veniam
+      eveniet. Provident vel eos explicabo laborum quam facere fugit
+      perferendis. Asperiores qui magni.</p
+    >
     <ol>
-      <li>Voluptates dolorem voluptas. Quisquam tenetur quia reprehenderit. Incidunt ex et aut alias qui commodi repellat. Facere sunt repudiandae rerum magni consequuntur odit et at recusandae. Culpa cumque accusantium molestias vel. Sint est dolore.</li>
-      <li>Voluptates voluptas iure enim non iusto alias facere in. Qui aut ut libero temporibus dolores nobis earum laudantium. Dolor ut doloremque. Perferendis impedit in iste ipsa doloribus et consequatur et. Et veniam quos quod doloribus quia velit distinctio odit. Neque est eos.</li>
+      <li
+        >Voluptates dolorem voluptas. Quisquam tenetur quia reprehenderit.
+        Incidunt ex et aut alias qui commodi repellat. Facere sunt repudiandae
+        rerum magni consequuntur odit et at recusandae. Culpa cumque accusantium
+        molestias vel. Sint est dolore.</li
+      >
+      <li
+        >Voluptates voluptas iure enim non iusto alias facere in. Qui aut ut
+        libero temporibus dolores nobis earum laudantium. Dolor ut doloremque.
+        Perferendis impedit in iste ipsa doloribus et consequatur et. Et veniam
+        quos quod doloribus quia velit distinctio odit. Neque est eos.</li
+      >
       <li>Recusandae et sit et. Qui similique laboriosam architecto dolor.</li>
-      <li>Aut maxime voluptatem quos et. Dolorem nostrum delectus recusandae. Nam assumenda est asperiores exercitationem beatae cum. Totam enim aut est corrupti.</li>
-      <li>Velit veritatis quisquam ab sed dolores sapiente. Aut hic laboriosam dolore voluptas maiores quis quis iure.</li>
+      <li
+        >Aut maxime voluptatem quos et. Dolorem nostrum delectus recusandae. Nam
+        assumenda est asperiores exercitationem beatae cum. Totam enim aut est
+        corrupti.</li
+      >
+      <li
+        >Velit veritatis quisquam ab sed dolores sapiente. Aut hic laboriosam
+        dolore voluptas maiores quis quis iure.</li
+      >
     </ol>
     <h5>H5. Non sunt nam ratione neque et.</h5>
     <h5>H6. Ipsa iste temporibus impedit eos aut.</h5>
-
+    
     <nav class="">
-      <h2 class="font-sans">Rerum ut dolor</h2>
-      <ul class="not-prose list-outside list-none divide-y border-y-[1px] p-0">
+      <h2>Rerum ut dolor</h2>
+      <ul class="not-prose font-serif list-outside list-none divide-y border-y-[1px] p-0">
         <li
           ><a
             class="block py-4 leading-none hover:underline hover:saturate-150"
