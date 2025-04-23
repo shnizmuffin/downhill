@@ -128,7 +128,7 @@
       "heading": "Explore the World's Largest Outdoor Art Gallery",
       "subheading": "Take a Mural Tour",
       "label": "Schedule a Tour",
-      "url": "https://muralarts.org/tours/",
+      "url": "./featured/",
       "image": "./src/_assets/images/bg/bg-mural-tour.png",
       "branding": "text-sky-950 bg-sky",
       "typography": "text-sky text-shadow-sky-950",
