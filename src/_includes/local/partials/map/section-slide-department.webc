@@ -1,25 +1,26 @@
-<section webc:root="override"
+<section
+  webc:root="override"
   x-data
   :x-init="`$store.reveal.${this.id} = false`"
   :x-intersect.once.half="`$store.reveal.${this.id} = true`"
   class="grid snap-start grid-cols-1 md:grid-cols-(--landing-grid-cols)"
 >
   <article
-    class="md:col-start-2 md:col-end-3 flex flex-col min-h-[95vh] md:flex-row relative"
+    class="relative flex min-h-[95vh] flex-col md:col-start-2 md:col-end-3 md:flex-row"
   >
     <div
-      class="vt-section-label max-md:sticky max-md:top-[80vh] z-30 md:order-2 md:flex-shrink"
+      class="vt-section-label z-30 max-md:sticky max-md:top-[80vh] md:order-2 md:flex-shrink"
     >
       <a
         :href="href"
-        :class="`md:h-full justify-between flex flex-row md:flex-col gap-8 uppercase font-bold` + ` ` + this.branding"
+        :class="`md:h-full justify-between flex flex-row md:flex-col md:gap-8 uppercase font-bold` + ` ` + this.branding"
       >
         <header
-          class="md:ux-text-sideways self-stretch px-8 py-12 md:sticky md:top-0 md:mb-16"
+          class="self-stretch p-8 md:py-12 md:sticky md:top-0 md:mb-16 md:ux-text-sideways"
         >
           <h2 class="md:mb-8 md:text-6xl" @text="heading"></h2>
         </header>
-        <p class="mx-8 my-12 block md:text-center md:leading-24" @text="label"
+        <p class="m-8 md:my-12 block md:text-center md:leading-24" @text="label"
           >MORE</p
         >
       </a>

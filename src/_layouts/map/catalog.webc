@@ -5,7 +5,7 @@ layout: base.webc
 <back-breaker
   :src="page_background ?? './src/_assets/images/bg/bg-landing.png'"
   alt="A splash image"
-  :widths="[768,1024,1440,1920]"
+  :widths="[1024,1440,1920]"
   class="relative z-10 min-h-screen overflow-x-clip bg-white bg-cover bg-fixed bg-top bg-no-repeat md:grid md:grid-cols-(--landing-grid-cols)"
 >
   <div
@@ -13,7 +13,7 @@ layout: base.webc
   >
   </div>
   <sticky-header
-    class="group pointer-events-none z-50 col-start-1 col-end-4 row-start-1 grid grid-cols-2 bg-transparent transition-all md:grid-cols-subgrid max-md:[.is-stuck]:bg-indigo-400 max-md:[.is-stuck]:shadow max-md:[.is-stuck]:shadow-indigo-900"
+    class="group pointer-events-none z-50 col-start-1 col-end-4 row-start-1 grid grid-cols-2 bg-transparent transition-all md:grid-cols-subgrid max-md:[.is-stuck]:bg-victoria max-md:[.is-stuck]:shadow max-md:[.is-stuck]:shadow-victoria-900"
   >
     <header class="z-50 row-start-1 md:col-start-1 md:col-end-2">
       <div class="block p-4 md:p-8 md:pt-12">
@@ -21,7 +21,7 @@ layout: base.webc
           src="/_assets/images/svg/mural-arts-logo.svg"
           formats="svg"
           alt="Mural Arts Phliadelphia"
-          class="shadow-indigo-900 drop-shadow-md"
+          class="drop-shadow-lg/50 drop-shadow-victoria-950"
         />
       </div>
       <nav-depth :@depth="nav.depth"></nav-depth>

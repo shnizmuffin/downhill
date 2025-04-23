@@ -10,14 +10,14 @@ eleventyNavigation:
   @container="div"
   src="./src/_assets/images/bg/bg-splash.png"
   alt="A splash image"
-  :widths="[768,1024,1440,1920]"
+  :widths="[1024,1440,1920]"
   class="relative flex flex-col md:grid min-h-screen grid-cols-(--landing-grid-cols) bg-white bg-cover bg-center bg-no-repeat"
 >
 <main class="col-start-1 col-end-4 row-start-1">
   <a href="./2025/" class="min-h-screen flex flex-col relative pt-8 flex-grow col-start-1 col-end-4 row-start-1 overflow-x-hidden max-w-none text-right">
       <h2 class="order-2 md:order-1 inline-block right-0 text-right md:mt-30">
         <span
-          class="relative z-50 bg-indigo-800 px-8 py-4 text-yellow-300 uppercase ux-hyperlink text-lg md:text-xl stroke-yellow-300 hover:stroke-white focus:stroke-white"
+          class="relative z-50 drop-shadow-md/50 drop-shadow-victoria-950 bg-victoria px-8 py-4 text-yellow-300 uppercase ux-hyperlink text-lg md:text-xl stroke-yellow-300 hover:stroke-white focus:stroke-white"
           >Spring Catalog | Issue #16 <svg class="inline-block " width="33" height="24" viewBox="0 0 33 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M30.791 8.83496H0.0410156" stroke-width="2"></path>
             <path d="M23.626 1.66992L30.791 8.83497L23.626 16" stroke-width="2"></path>
@@ -25,11 +25,11 @@ eleventyNavigation:
         >
       </h2>
       <h3
-        class="md:order-2 block relative z-10 max-w-[100vw] scale-110 leading-[0.85] font-bold text-yellow-300 md:-mt-50 md:mb-30"
+        class="md:order-2 block drop-shadow-md/50 drop-shadow-victoria-950 relative z-10 max-w-[100vw] scale-110 leading-[0.85] font-bold text-yellow-300 md:-mt-50 md:mb-30"
       >
         <text-fit @fit="2025"></text-fit>
       </h3>
-      <div class="order-last px-8 grow content-center"><img src="/_assets/images/svg/mural-arts-logo.svg" formats="svg" alt="Mural Arts Phliadelphia"></div>
+      <div class="order-last px-8 grow content-center drop-shadow-lg/100 drop-shadow-victoria-950"><img src="/_assets/images/svg/mural-arts-logo.svg" formats="svg" alt="Mural Arts Phliadelphia"></div>
     </a>
   </main>
 </back-breaker>

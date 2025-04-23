@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" class="snap-y snap-proximity scroll-smooth">
+<html lang="en" class="snap-y scroll-p-[68px] md:scroll-p-0 snap-proximity scroll-smooth">
   <head>
     <link rel="stylesheet" href="/assets/css/main.css" webc:keep />
     <script src="/assets/js/main.js" webc:keep type="module"></script>

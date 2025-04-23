@@ -5,19 +5,24 @@ eleventyNavigation:
   parent: MAP-SPLASH
   image: 'https://placehold.co/144x144'
 ---
+
 <main class="relative min-h-[100vh] md:col-start-1 md:col-end-4">
   <section
-    class="z-40 mt-[50vh] md:mt-[60vh] md:grid md:grid-cols-(--landing-grid-cols)"
+    class="z-40 mt-[50vh] px-4 md:mt-[60vh] md:grid md:grid-cols-(--landing-grid-cols) md:px-0"
   >
     <article
       x-data
       x-init="$store.reveal.introduction = false"
       x-intersect.once.threshold.25="$store.reveal.introduction = true"
       id="introduction"
-      class="bg-sky z-30 p-8 md:col-start-2"
+      class="bg-sky z-30 mb-4 p-4 shadow-xl/20 shadow-sky-900 md:col-start-2 md:mb-0 md:p-8"
     >
-      <h2 class="my-8 font-serif font-bold text-sky-900"
+      <h2 class="my-8 hidden font-serif font-bold text-sky-900 md:inline"
         ><text-fit @fit="The Place Where Art Meets Hope"></text-fit
+      ></h2>
+      <h2 class="my-8 font-serif leading-[1] font-bold text-sky-900 md:hidden"
+        ><text-fit @fit="The Place Where"></text-fit
+        ><text-fit @fit="Art Meets Hope"></text-fit
       ></h2>
       <img
         class="mb-8"
@@ -25,9 +30,9 @@ eleventyNavigation:
         alt="A mural at Philadelphia High School"
       />
       <div
-        class="prose prose-lg prose-p:text-sky-900 prose-headings:text-sky-950 prose-strong:text-sky-950 mx-auto font-serif"
+        class="prose md:prose-lg prose-p:text-sky-900 prose-headings:text-sky-950 prose-strong:text-sky-950 mx-auto font-serif leading-normal"
       >
-        <p class="text-2xl"
+        <p class="text-[1.5em]"
           >I am <a href="#butts">thrilled</a> to share that our theme for 2025
           is<br />
           <strong>“Mural Arts: The Place Where Art Meets Hope.”</strong></p
@@ -127,7 +132,7 @@ eleventyNavigation:
     @container="div"
     :src="slide.image"
     alt="A splash image"
-    :widths="[768,1024,1440,1920]"
+    :widths="[1024,1440,1920]"
     class="bg-cover bg-center"
   >
     <section-slide-department

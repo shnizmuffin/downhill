@@ -7,9 +7,9 @@ eleventyNavigation:
 ---
 <section :class="`${styles.branding}`">
 <div
-  :class="`prose prose-xl p-16 text-left font-serif ${styles.prose}`"
+  :class="`prose md:prose-xl pt-12 p-4 ps-2 md:p-16 text-left font-serif ${styles.prose}`"
 >
-  <p class="text-[1.5em] leading-tight"
+  <p class="md:text-[1.5em] leading-tight"
     >Voluptatem id aut nobis et dolores. Ut mollitia cupiditate nisi dolores qui
     reprehenderit reiciendis qui est. Qui pariatur quod. Iusto laborum et sunt
     quod eum libero odit. Quas dolor quae voluptates atque repudiandae corrupti
