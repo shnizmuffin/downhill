@@ -2,7 +2,7 @@
   webc:if="depth"
   class="pointer-events-auto z-50 hidden flex-col items-end px-8 text-white md:flex"
 >
-  <ul class="flex flex-col gap-2 text-lg">
+  <ul class="flex flex-col gap-2">
     <li
       ><a
         class="decoration-sky decoration-[3px] underline-offset-[3px] text-shadow-lg/30 text-shadow-sky-800 hover:underline"
@@ -32,7 +32,7 @@
   webc:else
   class="pointer-events-auto z-50 hidden flex-col items-end px-8 text-white md:flex"
 >
-  <ul class="flex flex-col gap-2 text-lg">
+  <ul class="flex flex-col gap-2">
     <li x-data x-show="$store.reveal.introduction"
       ><a
         class="decoration-sky decoration-[3px] underline-offset-[3px] text-shadow-lg/30 text-shadow-sky-800 hover:underline"
