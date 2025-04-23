@@ -7,8 +7,6 @@
   --font-sans: "Circular", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --font-serif: "Tiempos", ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
   --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-  --animate-lay-in: lay-in linear;
-  --landing-grid-cols: minmax(140px, 25vw) minmax(50vw, 1440px) minmax(140px, 25vw);
 
   --color-victoria-50: oklch(97% 0.014 268.73);
   --color-victoria-100: oklch(93.635% 0.02381 269.71);
@@ -113,6 +111,11 @@
 --color-blurple-900: oklch(20.83% 0.04682 293.46);
 --color-blurple-950: oklch(12.9% 0.042 292.4);
 --color-blurple: var(--color-blurple-400);
+
+
+
+--animate-lay-in: lay-in linear;
+--landing-grid-cols: minmax(140px, 25vw) minmax(50vw, 1440px) minmax(140px, 25vw);
 }
 
 @view-transition {
@@ -220,16 +223,24 @@
   } */
 }
 
+@utility ux-hyperlink {
+  @apply underline underline-offset-4 decoration-2 hover:decoration-white focus:decoration-white;
+}
+@utility ux-text-sideways {
+  writing-mode: sideways-rl;
+}
+@utility ux-vignette {
+  background-image: linear-gradient(90deg, rgba(0,0,0,0.5) 0%, transparent 25%, transparent 77%, rgba(0,0,0,0.5));
+}
 
-  @utility ux-hyperlink {
-    @apply underline underline-offset-4 decoration-2 hover:decoration-white focus:decoration-white;
+@layer utilities {
+  .prose {
+    --tw-prose-bullets: inherit;
   }
-  @utility ux-text-sideways {
-    writing-mode: sideways-rl;
-  }
-  @utility ux-vignette {
-    background-image: linear-gradient(90deg, rgba(0,0,0,0.5) 0%, transparent 25%, transparent 77%, rgba(0,0,0,0.5));
-  }
+}
+
+
+
 
 
 /* Stacky cards: https://scroll-driven-animations.style/demos/stacking-cards/css/ */
