@@ -1,6 +1,7 @@
 <style>
   .text-fit {
     display: flex;
+    writing-mode: inherit;
     container-type: inline-size;
     --captured-length: initial;
     --support-sentinel: var(--captured-length, 9999px);
