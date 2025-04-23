@@ -13,7 +13,7 @@
       "label": "",
       "url": "./department/",
       "image": "./src/_assets/images/bg/bg-art-education.png",
-      "branding": "bg-corn text-corn-900",
+      "branding": "bg-corn text-victoria",
       "typography": "",
       "decoration": "decoration-corn text-shadow-corn-800"
     },
@@ -26,7 +26,7 @@
       "label": "",
       "url": "./department/",
       "image": "./src/_assets/images/bg/bg-community-murals.png",
-      "branding": "bg-mantis text-mantis-900",
+      "branding": "bg-mantis text-victoria",
       "typography": "",
       "decoration": "decoration-mantis text-shadow-mantis-800"
     },
@@ -65,7 +65,7 @@
       "label": "",
       "url": "./department/",
       "image": "./src/_assets/images/bg/bg-learning-practice.png",
-      "branding": "bg-lavender text-lavender-900",
+      "branding": "bg-lavender text-victoria",
       "typography": "",
       "decoration": "decoration-lavender text-shadow-lavender-800"
     },
@@ -78,7 +78,7 @@
       "label": "",
       "url": "./department/",
       "image": "./src/_assets/images/bg/bg-porch-light.png",
-      "branding": "bg-sky text-sky-900",
+      "branding": "bg-sky text-victoria",
       "typography": "",
       "decoration": "decoration-sky text-shadow-sky-800"
     },
@@ -91,7 +91,7 @@
       "label": "",
       "url": "./department/",
       "image": "./src/_assets/images/bg/bg-restorative-justice.png",
-      "branding": "bg-salmon text-salmon-900",
+      "branding": "bg-salmon text-victoria",
       "typography": "",
       "decoration": "decoration-salmon text-shadow-salmon-800"
     },
@@ -104,7 +104,7 @@
       "label": "",
       "url": "./department/",
       "image": "./src/_assets/images/bg/bg-special-projects.png",
-      "branding": "bg-blurple text-blurple-900",
+      "branding": "bg-blurple text-victoria",
       "typography": "",
       "decoration": "decoration-blurple text-shadow-blurple-800"
     },
