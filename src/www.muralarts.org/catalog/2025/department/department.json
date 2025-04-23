@@ -7,8 +7,8 @@
     "depth": true
   },
   "styles": {
-    "branding": "bg-corn text-corn-900 divide-corn-500 border-corn-500",
-    "article": "bg-corn-100 text-corn-900 divide-corn-300 border-corn-300",
-    "prose": "text-corn-900 prose-headings:text-corn-900 prose-a:text-corn-900 prose-figcaption:text-corn-400"
+    "branding": "bg-corn text-victoria divide-victoria-500 border-victoria-500",
+    "article": "bg-white text-victoria divide-victoria-300 border-victoria-300",
+    "prose": "text-victoria font-regular prose-headings:text-victoria prose-a:text-victoria prose-strong:text-victoria prose-figcaption:text-victoria"
   }
 }

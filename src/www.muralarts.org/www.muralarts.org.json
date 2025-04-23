@@ -9,9 +9,9 @@
   "nav" : {
     "depth": false
   },
-  "styles" : {
-    "branding": "",
-    "article": "bg-white text-victoria",
-    "prose": "text-victoria prose-headings:text-victoria prose-a:text-victoria prose-figcaption:text-victoria-400"
+  "styles": {
+    "branding": "bg-white text-victoria divide-victoria-300 border-victoria-300",
+    "article": "bg-white text-victoria divide-victoria-300 border-victoria-300",
+    "prose": "text-victoria font-regular prose-headings:text-victoria prose-a:text-victoria prose-strong:text-victoria prose-figcaption:text-victoria"
   }
 }
