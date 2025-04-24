@@ -13,7 +13,7 @@
     >
       <a
         :href="href"
-        :class="`md:h-full justify-between flex flex-row md:flex-col md:gap-8 uppercase font-bold` + ` ` + this.branding"
+        :class="`justify-between flex flex-row uppercase font-bold md:flex-col md:gap-8 md:h-full ${branding}`"
       >
         <header
           class="self-stretch p-8 md:py-12 md:sticky md:top-0 md:mb-16 md:ux-text-sideways"

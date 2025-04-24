@@ -133,7 +133,7 @@ eleventyNavigation:
     :src="slide.image"
     alt="A splash image"
     :widths="[1024,1440,1920]"
-    class="bg-cover bg-center"
+    class="bg-cover bg-center relative z-20"
   >
     <section-slide-department
       webc:if="slide.type == 'department'"
