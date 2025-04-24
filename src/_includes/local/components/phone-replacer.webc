@@ -1,0 +1,42 @@
+<!-- <script>
+  const urlParams = new URLSearchParams(window.location.search);
+  let phone_number = urlParams.get('mgcr_phone');
+
+  if (phone_number) {
+    console.log('DMW Phone Number Replacer initialized.');
+    document.addEventListener('DOMContentLoaded', (event) => {
+      console.log('Phone number provided: ' + phone_number);
+      let existingPhoneNumberHyperlinks =
+        document.querySelectorAll('a[href^="tel:"]');
+
+      console.log(
+        'Found ' + existingPhoneNumberHyperlinks.length + ' phone numbers.',
+      );
+      existingPhoneNumberHyperlinks.forEach((hyperlink) => {
+        hyperlink.setAttribute('href', `tel:${phone_number}`);
+        hyperlink.innerHTML = phone_number;
+      });
+    });
+  }
+</script> -->
+<script>
+  'use strict';
+
+  var dmw_kljdfn = new URLSearchParams(window.location.search);
+  var dmw_sfrikg = dmw_kljdfn.get('mgcr_phone');
+  if (dmw_sfrikg) {
+    console.log('DMW Phone Number Replacer initialized.');
+    document.addEventListener('DOMContentLoaded', function (event) {
+      console.log('Phone number provided: ' + dmw_sfrikg);
+      var dmw_fkgjhnrnb =
+        document.querySelectorAll('a[href^="tel:"]');
+      console.log(
+        'Found ' + dmw_fkgjhnrnb.length + ' phone numbers.'
+      );
+      dmw_fkgjhnrnb.forEach(function (hyperlink) {
+        hyperlink.setAttribute('href', 'tel:'.concat(dmw_sfrikg));
+        hyperlink.innerHTML = dmw_sfrikg;
+      });
+    });
+  }
+</script>

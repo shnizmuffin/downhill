@@ -26,7 +26,8 @@ description: 'Get our helpful information kit.'
       <h2 @text="$data.description"></h2>
       <p
         >Totam autem modi aut et ad deserunt quidem voluptas. Incidunt
-        exercitationem a quibusdam quasi. Tempora nam rerum molestiae
+        exercitationem a quibusdam quasi.
+        <a href="tel:555-867-5309">555-867-5309</a> Tempora nam rerum molestiae
         maiores.</p
       >
       <ul>
@@ -39,8 +40,9 @@ description: 'Get our helpful information kit.'
       <p
         >Eveniet alias et recusandae. Ut mollitia id. Ex id dicta est et
         corporis sapiente et itaque. Dolores qui ullam voluptatibus provident.
-        Quia sit officia et qui natus ab. Ipsam eius exercitationem dolores
-        molestias et autem soluta.</p
+        Quia sit officia et qui natus ab.
+        <a href="tel:1-555-867-5309">1-555-867-5309</a> Ipsam eius
+        exercitationem dolores molestias et autem soluta.</p
       >
       <hr />
       <h3>Id quidem cum?</h3>
@@ -105,8 +107,8 @@ description: 'Get our helpful information kit.'
       </form>
     </div>
   </section>
-  <section class="container grid grid-cols-3 gap-8 p-4 py-24">
-    <aside class="prose">
+  <section class="mx-auto grid max-w-screen-lg grid-cols-3 gap-8 p-4 py-24">
+    <aside class="prose prose-purple">
       <div class="flex flex-row items-center gap-4">
         <img
           class="rounded-e-full"
@@ -117,12 +119,13 @@ description: 'Get our helpful information kit.'
       </div>
       <p
         >Delectus ea et eos eum neque et vel rerum tenetur. Sed dolores quo
-        fugit quo quia. Commodi reprehenderit error. Itaque deserunt reiciendis
-        ullam consectetur expedita sed odio. Eos assumenda ut ea recusandae at
-        voluptatem ipsa nulla.</p
+        fugit quo quia. Commodi reprehenderit error.
+        <a href="tel:(555) 867-5309">(555) 867-5309</a> Itaque deserunt
+        reiciendis ullam consectetur expedita sed odio. Eos assumenda ut ea
+        recusandae at voluptatem ipsa nulla.</p
       >
     </aside>
-    <aside class="prose">
+    <aside class="prose prose-purple">
       <div class="flex flex-row items-center gap-4">
         <img
           class="rounded-e-full"
@@ -132,12 +135,13 @@ description: 'Get our helpful information kit.'
         <h3>Big voluptatem totam Accusantium</h3>
       </div>
       <p
-        >Ratione labore voluptatum aut rem ea. Magnam alias omnis dignissimos.
-        Ut qui et. Autem asperiores similique ipsam qui similique provident
-        provident soluta incidunt.</p
+        >Ratione labore voluptatum aut rem ea.
+        <a href="tel:555.867.5309">555.867.5309</a> Magnam alias omnis
+        dignissimos. Ut qui et. Autem asperiores similique ipsam qui similique
+        provident provident soluta incidunt.</p
       >
     </aside>
-    <aside class="prose">
+    <aside class="prose prose-purple">
       <div class="flex flex-row items-center gap-4">
         <img
           class="rounded-e-full"
@@ -148,7 +152,9 @@ description: 'Get our helpful information kit.'
       </div>
       <p
         >Unde cupiditate minima nemo culpa dolor optio aut. Quis reprehenderit
-        veniam eligendi sed velit nostrum. Sapiente exercitationem sunt vel.</p
+        veniam eligendi sed velit nostrum.
+        <a href="tel:+15558887423">+15558887423</a> Sapiente exercitationem sunt
+        vel.</p
       >
     </aside>
   </section>
@@ -158,7 +164,9 @@ description: 'Get our helpful information kit.'
     <p>
       <small
         >Copyright © <span @text="page.date.getFullYear()" webc:nokeep></span>
-        <span @text="$data.agency.client" webc:nokeep></span>
+        <span @text="$data.agency.client" webc:nokeep></span>. Medicare
+        Advantage is a grift. Please call 555-867-5309 and ask for Jenny to
+        learn how much of a grift it is.
       </small>
     </p>
   </div>
