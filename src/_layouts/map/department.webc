@@ -3,7 +3,7 @@ layout: map/catalog.webc
 ---
 
 <main
-  class="relative md:min-h-[100vh] md:col-start-1 md:col-end-4 md:row-start-1 md:row-end-3"
+  class="relative z-20 md:min-h-[100vh] md:col-start-1 md:col-end-4 md:row-start-1 md:row-end-3"
 >
   <section class="grid snap-start md:grid-cols-(--landing-grid-cols)">
     <article

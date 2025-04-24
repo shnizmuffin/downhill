@@ -6,7 +6,7 @@ layout: base.webc
   class="relative z-0 overflow-x-clip md:grid md:grid-cols-(--landing-grid-cols)"
 >
   <back-breaker
-    :src="page_background ?? './src/_assets/images/bg/bg-landing.png'"
+    :src="$data.styles.background ?? './src/_assets/images/bg/bg-landing.png'"
     alt="A splash image"
     :widths="[1024,1440,1920]"
     class="fixed top-0 z-10 h-screen w-screen bg-white bg-cover bg-[center_top] bg-no-repeat"

@@ -6,7 +6,7 @@ eleventyNavigation:
   image: 'https://placehold.co/144x144'
 ---
 
-<main class="relative min-h-[100vh] md:col-start-1 md:col-end-4">
+<main class="relative z-20 min-h-[100vh] md:col-start-1 md:col-end-4">
   <section
     class="z-40 mt-[50vh] px-4 md:mt-[60vh] md:grid md:grid-cols-(--landing-grid-cols) md:px-0"
   >
@@ -133,7 +133,7 @@ eleventyNavigation:
     :src="slide.image"
     alt="A splash image"
     :widths="[1024,1440,1920]"
-    class="bg-cover bg-center relative z-20"
+    class="bg-cover bg-center"
   >
     <section-slide-department
       webc:if="slide.type == 'department'"
