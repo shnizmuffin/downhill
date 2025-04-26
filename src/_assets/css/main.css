@@ -227,7 +227,7 @@
   @apply underline underline-offset-4 decoration-2 hover:decoration-white focus:decoration-white;
 }
 @utility ux-text-sideways {
-  writing-mode: sideways-rl;
+  writing-mode: vertical-lr;
   text-orientation: mixed;
 }
 @utility ux-vignette {
