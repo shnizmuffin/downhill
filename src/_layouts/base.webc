@@ -38,5 +38,6 @@
     <template @raw="content" webc:nokeep></template>
     <style @raw="getBundle('css', 'defer')" webc:keep></style>
     <script @raw="getBundle('js', 'defer')" webc:keep></script>
+    <div id="modals"></div>
   </body>
 </html>

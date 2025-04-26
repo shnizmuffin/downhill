@@ -16,7 +16,7 @@ layout: map/catalog.webc
           class="sticky top-[70px] flex flex-col place-content-center place-items-center px-2 pt-12 md:hidden"
         >
           <h1
-            class="ux-text-sideways text-3xl leading-0 [@media(max-height:800px)]:text-3xl"
+            class="ux-text-sideways text-3xl leading-0 [@media(601px<=height<=800px)]:text-5xl [@media(height<=600px)]:text-3xl"
             @text="meta.heading ? meta.heading : meta.title"
           ></h1>
           <a

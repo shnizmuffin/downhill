@@ -12,7 +12,7 @@ layout: base.webc
     class="fixed top-0 z-10 h-screen w-screen bg-white bg-cover bg-[center_top] bg-no-repeat"
   ></back-breaker>
   <div
-    class="ux-vignette pointer-events-none absolute z-20 col-start-1 col-end-4 row-start-1 row-end-4 hidden h-full min-w-screen md:block"
+    class="ux-vignette pointer-events-none absolute z-30 col-start-1 col-end-4 row-start-1 row-end-4 hidden h-full min-w-screen md:block"
   >
   </div>
   <sticky-header
@@ -34,7 +34,7 @@ layout: base.webc
     >
       <div class="hidden p-4 md:block md:px-16 md:pt-12">
         <p class="text-3xl shadow-indigo-900 text-shadow-md"
-          >Beautify<br />Inspire<br />Empower<br />
+          >Beautify.<br />Inspire.<br />Empower.<br />
         </p>
       </div>
     </aside>

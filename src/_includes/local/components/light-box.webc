@@ -1,0 +1,38 @@
+<div x-data="{show: false}" x-on:click="show = true" webc:root="override">
+  <slot
+    ><figure
+      ><img
+        :src="thumbnail ? thumbnail : picture"
+        :alt="alt"
+        :eleventy:widths="widths" />
+      <figcaption
+        class="text-sm py-2 leading-normal font-light text-pretty md:hidden"
+        @raw="caption"
+      ></figcaption></figure
+  ></slot>
+  <template x-teleport="#modals">
+    <aside
+      x-show="show"
+      x-transition.opacity
+      class="max-w-none fixed top-0 right-0 bottom-0 left-0 z-40 flex place-content-center place-items-center bg-black/60"
+    >
+    <figure
+    x-on:click="show = false"
+    x-on:click.outside="show = false"
+    class="max-h-[95vh] max-w-[95vw] border-16 border-white bg-white text-black"
+    >
+      
+        <img
+          :src="picture"
+          :alt="alt"
+          eleventy:widths="1920"
+          class="h-fit max-h-[85vh] w-fit max-w-[85vw]"
+        />
+        <figcaption
+          class=" py-4 flex flex-row justify-between place-items-center-safe"
+        ><span class="max-w-[50ch] leading-normal font-light text-victoria text-sm text-balance" @raw="caption"></span><button class="hover:cursor-pointer bg-white text-black" type="button">&times;&nbsp;Close</button></figcaption>
+        <slot name="modal"></slot>
+      </figure>
+    </aside>
+  </template>
+</div>

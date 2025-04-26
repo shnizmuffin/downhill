@@ -10,7 +10,7 @@ eleventyNavigation:
   <div
     :class="`prose md:prose-xl leading-normal font-light text-pretty pt-8 p-4 md:p-16 text-left prose-headings:font-medium ${styles.prose}`"
   >
-    <h2 class="font-serif text-[2.25em] md:text-[3em] mt-0"
+    <h2 class="mt-0 font-serif text-[2.5em]"
       >H2. <em>Nam Sit Tempora Sit Minus</em> Aspernatur</h2
     >
     <figure>
@@ -23,7 +23,7 @@ eleventyNavigation:
         / ARTIST, LOCATION, ADDRESS. Photo by PHOTOGRAPHER</figcaption
       >
     </figure>
-    <p class="text-[1.25em] md:text-[1.5em] leading-tight"
+    <p class="text-[1.25em] leading-tight md:text-[1.5em]"
       >Voluptatem id aut nobis et dolores. Ut mollitia cupiditate nisi dolores
       qui reprehenderit reiciendis qui est. Qui pariatur quod. Iusto laborum et
       sunt quod eum libero odit. Quas dolor quae voluptates atque repudiandae
@@ -35,22 +35,30 @@ eleventyNavigation:
       reiciendis.</p
     >
     <div class="not-prose grid grid-cols-2 gap-2">
-      <img
-        src="https://placehold.co/400x300?text=Sequi"
-        alt="quisquam eos velit"
-      />
-      <img
-        src="https://placehold.co/400x300?text=Assumenda"
-        alt="harum laudantium ab"
-      />
-      <img
-        src="https://placehold.co/400x300?text=Natus"
-        alt="dolores quidem reiciendis"
-      />
-      <img
-        src="https://placehold.co/400x300?text=Explicabo"
-        alt="harum soluta sed"
-      />
+      <light-box
+        @picture="https://placehold.co/400x300?text=Quisquam+eos+velit"
+        @alt="quisquam eos velit"
+        :@caption="`<em>Quisquam Eos Velit</em><br/> © 2024 City of Philadelphia Mural Arts Program / ARTIST, LOCATION, ADDRESS. Photo by PHOTOGRAPHER`"
+        @widths="400"
+      ></light-box>
+      <light-box
+        @picture="https://placehold.co/400x300?text=Harum+laudantium+ab"
+        @alt="harum laudantium ab"
+        :@caption="`<em>Harum Laudantium Ab</em><br/> © 2024 City of Philadelphia Mural Arts Program / ARTIST, LOCATION, ADDRESS. Photo by PHOTOGRAPHER`"
+        @widths="400"
+      ></light-box>
+      <light-box
+        @picture="https://placehold.co/400x300?text=Dolores+quidem+reiciendis"
+        @alt="dolores quidem reiciendis"
+        :@caption="`<em>Dolores Quidem Reiciendis</em><br/> © 2024 City of Philadelphia Mural Arts Program / ARTIST, LOCATION, ADDRESS. Photo by PHOTOGRAPHER`"
+        @widths="400"
+      ></light-box>
+      <light-box
+        @picture="https://placehold.co/400x300?text=Harum+soluta+sed"
+        @alt="harum soluta sed"
+        :@caption="`<em>Harum Soluta Sed</em><br/> © 2024 City of Philadelphia Mural Arts Program / ARTIST, LOCATION, ADDRESS. Photo by PHOTOGRAPHER`"
+        @widths="400"
+      ></light-box>
     </div>
     <h3>H3. pariatur sint numquam</h3>
     <p
@@ -67,16 +75,28 @@ eleventyNavigation:
         Philadelphia, City of Philadelphia
       </span></p
     >
-    <div class="not-prose grid grid-flow-row-dense grid-cols-2 gap-2">
-      <picture class="row-span-2"
-        ><img src="https://placehold.co/400x610?text=Tall" alt=""
-      /></picture>
-      <picture
-        ><img src="https://placehold.co/400x300?text=Normal" alt=""
-      /></picture>
-      <picture
-        ><img src="https://placehold.co/400x300?text=Normal" alt="" class=""
-      /></picture>
+    <div
+      class="not-prose grid grid-flow-row-dense grid-cols-1 gap-2 md:grid-cols-2"
+    >
+      <light-box
+        class="md:row-span-2"
+        @picture="/_assets/images/pics/vertical-test.jpg"
+        @alt="A vertical selfie of the web developer and his dog, Reggie, the long-haired cream dachshund. Reggie is being carried in a backpack, because he is a lazy boy."
+        :@caption="`<em>A man and his lazy dog in portrait.</em><br/> © 2025 Dom Bonnni. All rights reserved`"
+        @widths="400,800,1920"
+      ></light-box>
+      <light-box
+        @picture="/_assets/images/pics/horizontal-test.jpg"
+        @alt="A horizontal selfie of the web developer and his dog, Reggie, the long-haired cream dachshund. Reggie is being carried in a backpack, because he is a lazy boy."
+        :@caption="`<em>A man and his lazy dog in landscape.</em><br/> © 2025 Dom Bonnni. All rights reserved`"
+        @widths="400,800,1920"
+      ></light-box>
+      <light-box
+        @picture="https://placehold.co/400x225?text=Normal"
+        @alt="A Normal placeholder image"
+        @caption="A placeholder image generated at time of request from placehold.co"
+        @widths=""
+      ></light-box>
     </div>
     <p
       >Sint nobis deserunt ducimus et tempore porro fuga. Ducimus unde dolorem.
@@ -120,35 +140,36 @@ eleventyNavigation:
     </ol>
     <h5>H5. Non sunt nam ratione neque et.</h5>
     <h5>H6. Ipsa iste temporibus impedit eos aut.</h5>
-    
-    <nav class="">
-      <h2>Rerum ut dolor</h2>
-      <ul class="not-prose text-xl md:text-3xl font-serif list-outside list-none divide-y border-y-[1px] p-0">
+
+    <nav class="my-12">
+      <ul
+        class="not-prose list-outside list-none divide-y border-y-[1px] p-0 font-serif text-xl md:text-3xl"
+      >
         <li
           ><a
             class="block py-4 leading-none hover:underline hover:saturate-150"
-            href="../article/"
+            href="../featured/"
             ><em>Quia odio quaerat occaecati qui.</em></a
           ></li
         >
         <li
           ><a
             class="block py-4 leading-none hover:underline hover:saturate-150"
-            href="../article/"
+            href="../featured/"
             >Debitis vel et placeat deleniti sint ipsam ut ad possimus.</a
           ></li
         >
         <li
           ><a
             class="block py-4 leading-none hover:underline hover:saturate-150"
-            href="../article/"
+            href="../featured/"
             ><em>Nam sit tempora sit minus</em> aspernatur.</a
           ></li
         >
         <li
           ><a
             class="block py-4 leading-none hover:underline hover:saturate-150"
-            href="../article/"
+            href="../featured/"
             ><em>Possimus</em> repellat harum enim.</a
           ></li
         >
@@ -156,3 +177,4 @@ eleventyNavigation:
     </nav>
   </div>
 </section>
+
