@@ -6,7 +6,7 @@
   "slides": [
     {
       "type": "department",
-      "id": "art_education",
+      "id": "art-education",
       "title": "Art Education",
       "heading": "Art Education",
       "subheading": "",
@@ -19,7 +19,7 @@
     },
     {
       "type": "department",
-      "id": "community_murals",
+      "id": "community-murals",
       "title": "Community Murals",
       "heading": "Community Murals",
       "subheading": "",
@@ -32,7 +32,7 @@
     },
     {
       "type": "featured",
-      "id": "in_support_of_philly_artists",
+      "id": "in-support-of-philly-artists",
       "title": "In Support of Philly Artists",
       "heading": "In Support of Philly Artists",
       "subheading": "Learn more about how we work with our local artists.",
@@ -45,11 +45,11 @@
     },
     {
       "type": "ad",
-      "id": "wall_ball",
+      "id": "wall-ball",
       "title": "Wall Ball",
       "heading": "Wall Ball",
-      "subheading": "(Open bar!)",
-      "label": "Come to our party",
+      "subheading": "Friday, May 9th, 2025",
+      "label": "Learn more",
       "url": "https://give.muralarts.org/event/wall-ball-2025/e669644",
       "image": "./src/_assets/images/bg/bg-wall-ball.png",
       "branding": "bg-green-600 text-highlighter text-shadow-xs text-shadow-green-950",
@@ -58,7 +58,7 @@
     },
     {
       "type": "department",
-      "id": "mural_arts_institute",
+      "id": "mural-arts-institute",
       "title": "Mural Arts Institute",
       "heading": "Mural Arts Institute",
       "subheading": "",
@@ -71,7 +71,7 @@
     },
     {
       "type": "department",
-      "id": "porch_light",
+      "id": "porch-light",
       "title": "Porch Light",
       "heading": "Porch Light",
       "subheading": "",
@@ -84,7 +84,7 @@
     },
     {
       "type": "department",
-      "id": "restorative_justice",
+      "id": "restorative-justice",
       "title": "Restorative Justice",
       "heading": "Restorative Justice",
       "subheading": "",
@@ -97,7 +97,7 @@
     },
     {
       "type": "department",
-      "id": "special_projects",
+      "id": "special-projects",
       "title": "Special Projects",
       "heading": "Special Projects",
       "subheading": "",
@@ -110,7 +110,7 @@
     },
     {
       "type": "featured",
-      "id": "tacony_lab",
+      "id": "tacony-lab",
       "title": "Tacony Lab",
       "heading": "Tacony Lab",
       "subheading": "See what's happening at the Lab!",
@@ -123,7 +123,7 @@
     },
     {
       "type": "ad",
-      "id": "mural_tour",
+      "id": "mural-tour",
       "title": "Mural Tour",
       "heading": "Explore the World's Largest Outdoor Art Gallery",
       "subheading": "Take a Mural Tour",

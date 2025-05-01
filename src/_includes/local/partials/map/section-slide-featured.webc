@@ -1,7 +1,7 @@
 <section webc:root="override"
   x-data
-  :x-init="`$store.reveal.${id} = false`"
-  :x-intersect.once.half="`$store.reveal.${id} = true`"
+  :x-init="`$store.reveal['${id}'] = false`"
+  :x-intersect.once.half="`$store.reveal['${id}'] = true`"
   class="bg-black/50 grid snap-start grid-cols-1 md:grid-cols-(--landing-grid-cols)"
 >
 <article

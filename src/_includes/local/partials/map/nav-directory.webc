@@ -1,0 +1,7 @@
+<nav class="my-12">
+  <ul
+    class="not-prose list-outside list-none divide-y border-y-[1px] p-0 font-serif text-xl md:text-3xl"
+  >
+    <slot></slot>
+  </ul>
+</nav>

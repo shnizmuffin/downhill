@@ -43,7 +43,7 @@
     <li
       webc:for="item of $data.slides"
       x-data
-      :x-show="`$store.reveal.${item.id}`"
+      :x-show="`$store.reveal['${item.id}']`"
       ><a
         webc:if="item.type == 'department'"
         :class="`${item.decoration} uppercase text-shadow-lg/30 decoration-[3px] underline-offset-[3px] hover:underline`"
