@@ -23,11 +23,11 @@ eleventyNavigation:
         / ARTIST, LOCATION, ADDRESS. Photo by PHOTOGRAPHER</figcaption
       >
     </figure>
-    <p class="text-[1.25em] leading-tight md:text-[1.5em]"
+    <p-lede
       >Voluptatem id aut nobis et dolores. Ut mollitia cupiditate nisi dolores
       qui reprehenderit reiciendis qui est. Qui pariatur quod. Iusto laborum et
       sunt quod eum libero odit. Quas dolor quae voluptates atque repudiandae
-      corrupti ut iste. Incidunt alias delectus dolorem harum similique quae.</p
+      corrupti ut iste. Incidunt alias delectus dolorem harum similique quae.</p-lede
     >
     <p
       >Est ut aspernatur soluta pariatur. Vel velit fugiat qui et. Quibusdam id

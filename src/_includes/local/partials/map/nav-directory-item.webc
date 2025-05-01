@@ -1,9 +1,9 @@
 <li
   ><a
-    :class="`flex flex-row justify-between py-4 leading-none hover:underline hover:saturate-150 ${this.class}`"
+    :class="`flex flex-row justify-between align-bottom items-end py-4 leading-none hover:underline hover:saturate-150 ${this.class}`"
     :href="href"
     :target="target"
-  ><span>
+  ><span class="text-pretty leading-tight">
     <slot></slot>
   </span><span webc:if="target == '_blank'">up_and_out_arrow</span><span webc:else>right_arrow</span></a
   ></li

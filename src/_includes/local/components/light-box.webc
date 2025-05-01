@@ -30,7 +30,7 @@
         />
         <figcaption
           class=" py-4 flex flex-row justify-between place-items-center-safe"
-        ><span class="max-w-[50ch] leading-normal font-light text-victoria text-sm text-balance" @raw="caption"></span><button class="hover:cursor-pointer bg-white text-black" type="button">&times;&nbsp;Close</button></figcaption>
+        ><span class="max-w-[65ch] leading-normal font-light text-victoria text-sm text-pretty" @raw="caption"></span><button class="hover:cursor-pointer bg-white text-black" type="button">&times;&nbsp;Close</button></figcaption>
         <slot name="modal"></slot>
       </figure>
     </aside>
