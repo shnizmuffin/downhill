@@ -5,3 +5,101 @@ eleventyNavigation:
   parent: MAP-ART-EDUCATION
   image: 'https://placehold.co/144x144'
 ---
+
+<section :class="`${styles.article}`">
+  <div
+    :class="`prose md:prose-xl leading-normal font-light text-pretty pt-8 p-4 md:p-16 text-left prose-headings:font-medium ${styles.prose}`"
+  >
+    <h2 class="mt-0 font-serif text-[2.5em]"
+      ><em>Blooming Futures</em> Mural</h2
+    >
+    <figure>
+      <light-box
+        class="md:**:prose-figcaption:block"
+        @picture="https://placehold.co/1440x1080"
+        @alt="A work in progress mural at the Andrew Hamilton School"
+        :@caption="`Athena Scott offers a sneak peek into her studio sharing a work in progress.`"
+        @widths="800"
+      ></light-box>
+    </figure>
+    <p-lede
+      >Inspired and spearheaded by
+      <a
+        href="https://www.imdb.com/name/nm6708435/"
+        target="_blank"
+        rel="noopener noreferrer"
+        >Quinta Brunson</a
+      >, creator of the hit show
+      <a
+        href="https://abc.com/show/e4f28254-2fc4-4cc1-b9bb-eee0564c178e/about-the-show"
+        target="_blank"
+        rel="noopener noreferrer"
+        >Abbott Elementary</a
+      >, Mural Arts has partnered with ABC & Disney Television Studios to create
+      a mural at the Andrew Hamilton School, where Brunson attended elementary
+      school.</p-lede
+    >
+    <p
+      >Designed by local artist
+      <a
+        href="https://www.athena-astraea.com/about"
+        target="_blank"
+        rel="noopener noreferrer"
+        >Athena Scott</a
+      >, with input from Hamilton school students and staff, the mural
+      highlights the allegory of the school as a garden, with the tenacious
+      educators and staff serving as stewards of a fertile and growing student
+      population. This mural is set to be dedicated on May 28th.</p
+    >
+    <p
+      ><strong>FUNDERS</strong>:
+      <span class="font-serif"> American Broadcasting Company </span></p
+    >
+    <p
+      ><strong>PARTNERS</strong>:
+      <span class="font-serif">
+        Andrew Hamilton School, The City of Philadelphia, Philadelphia
+        Department of Human Services
+      </span></p
+    >
+    <div class="not-prose grid grid-cols-1 gap-2 py-2 grid-flow-row-dense md:grid-cols-3">
+      <light-box
+        class="md:col-span-3"
+        @picture="https://placehold.co/700x300"
+        @alt="quisquam eos velit"
+        :@caption="`<em>Quisquam Eos Velit</em><br/> © 2024 City of Philadelphia Mural Arts Program / ARTIST, LOCATION, ADDRESS. Photo by PHOTOGRAPHER`"
+        @widths="800"
+      ></light-box>
+      <light-box
+        class="md:col-span-2"
+        @picture="https://placehold.co/400x300"
+        @alt="harum laudantium ab"
+        :@caption="`<em>Harum Laudantium Ab</em><br/> © 2024 City of Philadelphia Mural Arts Program / ARTIST, LOCATION, ADDRESS. Photo by PHOTOGRAPHER`"
+        @widths="500"
+      ></light-box>
+      <light-box
+        @picture="https://placehold.co/300x460"
+        @alt="dolores quidem reiciendis"
+        :@caption="`<em>Dolores Quidem Reiciendis</em><br/> © 2024 City of Philadelphia Mural Arts Program / ARTIST, LOCATION, ADDRESS. Photo by PHOTOGRAPHER`"
+        @widths="300"
+      ></light-box>
+    </div>
+  
+    <nav-directory>
+      <nav-directory-item @href="../seasons-of-imagination/"
+        ><em>Seasons of Imagination</em></nav-directory-item
+      >
+      <nav-directory-item
+        @href="../continued-partnership-with-philadelphia-parks-and-recreation/"
+        >Continued Partnership with Philadelphia Parks and
+        Recreation</nav-directory-item
+      >
+      <!-- <nav-directory-item @href="../blooming-futures-mural/"
+        ><em>Blooming Futures</em> Mural</nav-directory-item
+      > -->
+      <nav-directory-item @href="../safer-mural/"
+        ><em>SAFER</em> Mural</nav-directory-item
+      >
+    </nav-directory>
+  </div>
+</section>
