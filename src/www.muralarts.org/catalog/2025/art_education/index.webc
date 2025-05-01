@@ -1,7 +1,7 @@
 ---
 layout: map/department.webc
 eleventyNavigation:
-  key: MAP-DEPT
+  key: MAP-ART-EDUCATION
   parent: MAP-SPRING-2025
   image: 'https://placehold.co/144x144'
 ---

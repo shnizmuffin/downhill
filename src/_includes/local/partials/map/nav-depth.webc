@@ -12,16 +12,16 @@
     >
     <li webc:for="item of $data.slides">
       <a
-        webc:if="item.type == 'ad'"
-        :class="`${item.decoration} text-shadow-lg/30 decoration-[3px] underline-offset-[3px] hover:underline`"
-        :href="`/www.muralarts.org/catalog/2025/#${item.id}`"
+        webc:if="item.type == 'department'"
+        :class="`${item.decoration} uppercase text-shadow-lg/30 decoration-[3px] underline-offset-[3px] hover:underline`"
+        :href="`/www.muralarts.org/catalog/2025/${item.id}/`"
         @text="item.title"
         >DEPARTMENT</a
       >
       <a
         webc:else
-        :class="`${item.decoration} uppercase text-shadow-lg/30 decoration-[3px] underline-offset-[3px] hover:underline`"
-        :href="`/www.muralarts.org/catalog/2025/${item.id}`"
+        :class="`${item.decoration} text-shadow-lg/30 decoration-[3px] underline-offset-[3px] hover:underline`"
+        :href="`/www.muralarts.org/catalog/2025/${item.id}/`"
         @text="item.title"
         >DEPARTMENT</a
       >

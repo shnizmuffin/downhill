@@ -15,33 +15,33 @@ eleventyNavigation:
       x-init="$store.reveal.introduction = false"
       x-intersect.once.threshold.25="$store.reveal.introduction = true"
       id="introduction"
-      class="bg-sky z-30 mb-4 p-4 shadow-xl/20 shadow-sky-900 md:col-start-2 md:mb-0 md:p-8"
+      class="bg-sky z-30 mb-4 p-4 shadow-xl/20 shadow-sky-900 md:col-start-2 md:mb-0 md:p-12"
     >
-      <h2 class="my-8 hidden font-serif font-bold text-sky-900 md:inline"
+      <h2 class="text-victoria mt-16 mb-12 hidden font-serif md:inline"
         ><text-fit @fit="The Place Where Art Meets Hope"></text-fit
       ></h2>
-      <h2 class="my-8 font-serif leading-[1] font-bold text-sky-900 md:hidden"
+      <h2 class="text-victoria mt-16 mb-12 font-serif leading-[1] md:hidden"
         ><text-fit @fit="The Place Where"></text-fit
         ><text-fit @fit="Art Meets Hope"></text-fit
       ></h2>
       <img
-        class="mb-8"
-        src="https://placehold.co/1440x1080"
+        class="mb-8 md:mb-16"
+        src="/_assets/images/pics/the-place-where-art-meets-hope.png"
         alt="A mural at Philadelphia High School"
+        :width="720,1440"
       />
       <div
-        class="prose md:prose-lg prose-p:text-sky-900 prose-headings:text-sky-950 prose-strong:text-sky-950 mx-auto font-serif leading-normal"
+        class="prose text-victoria md:prose-lg prose-p:text-victoria prose-headings:text-victoria prose-strong:text-victoria mx-auto font-serif leading-normal"
       >
-        <p class="text-[1.5em]"
-          >I am <a href="#butts">thrilled</a> to share that our theme for 2025
-          is<br />
+        <p class="leading=tight text-[1.5em] text-pretty md:text-4xl"
+          >I am thrilled to share that our theme for 2025 is
           <strong>“Mural Arts: The Place Where Art Meets Hope.”</strong></p
         >
         <p
           >Hope is powerful. It sustains us through challenges, fuels change,
-          and unites communities. <em>“Where Art Meets Hope”</em> captures the
-          essence of Mural Arts— connection, resilience, and
-          transformation—using art to spark positive social change.</p
+          and unites communities. “Where Art Meets Hope” captures the essence of
+          Mural Arts— connection, resilience, and transformation—using art to
+          spark positive social change.</p
         >
         <p
           >Mural Arts is a community of artists, advocates, and neighbors who
@@ -54,61 +54,52 @@ eleventyNavigation:
         <p
           >2025 will contain a number of fascinating projects from a tribute to
           Sun Ra to more work in Norris Square, to large scale works of art in
-          Southhwest Philadelphia. Others will serve as a bridge to 2026, an
+          Southwest Philadelphia. Others will serve as a bridge to 2026, an
           incredibly momentous year in our city and in our county. Here are a
           few of the exciting partnerships and collaborations that will bring
           this theme to life:</p
         >
+
         <ul>
-          <li>
-            <p
-              ><strong>Athletics and Art</strong> - A groundbreaking project
-              with <strong>Coach Dawn Staley</strong> that celebrates the
-              intersection of sports and empowerment.</p
-            >
-          </li>
-          <li>
-            <p
-              ><strong>History and Art</strong> - The mural we are doing about
-              <strong>William Still</strong> extends the important work we did
-              with <strong>Little Giant</strong> about the
-              <strong>7th Ward</strong>.</p
-            >
-          </li>
-          <li>
-            <p
-              ><strong>Art Icons</strong> - While a large percentage of artists
-              hired are from Philadelphia, we continue to bring wonderful
-              artists to our city, such as <strong>Jesse Krimes</strong>,
-              <strong>Shepard Fairey</strong>, and
-              <strong>Mickalene Thomas</strong>.</p
-            >
-          </li>
-          <li>
-            <p
-              ><strong>Music Legends</strong> - Celebrations featuring
-              <strong>Questlove</strong>, <strong>Sun Ra</strong> and
-              <strong>Boyz II Men</strong>, Philadelphia icons who exemplify the
-              power of storytelling through music.</p
-            >
-          </li>
-          <li>
-            <p
-              ><strong>Significant Collaborations</strong> - Projects with the
-              <strong>Holocaust Remembrance Foundation</strong>,
-              <strong>Temple College of Public Health</strong>, and the
-              <strong>Philadelphia Eagles</strong> show us the power of
-              collaboration and how much we can accomplish working together.</p
-            >
-          </li>
+          <li
+            ><strong>Athletics and Art:</strong> A groundbreaking project with
+            <strong>Coach Dawn Staley</strong> that celebrates the intersection of
+            sports and empowerment.</li
+          >
+          <li
+            ><strong>History and Art</strong> - The mural we are doing about
+            <strong>William Still</strong> extends the important work we did with
+            <strong>Little Giant</strong> about the <strong>7th Ward</strong>.</li
+          >
+          <li
+            ><strong>Art Icons:</strong> While a large percentage of artists hired
+            are from Philadelphia, we continue to bring wonderful artists to our
+            city, such as <strong>Jesse Krimes</strong>,
+            <strong>Shepard Fairey</strong>, and
+            <strong>Mickalene Thomas</strong>.</li
+          >
+          <li
+            ><strong>Music Legends:</strong> Celebrations featuring
+            <strong>Questlove</strong>, <strong>Sun Ra</strong> and
+            <strong>Boyz II Men</strong>, Philadelphia icons who exemplify the
+            power of storytelling through music.</li
+          >
+          <li
+            ><strong>Significant Collaborations:</strong> Projects with the
+            <strong>Holocaust Remembrance Foundation</strong>,
+            <strong>Temple College of Public Health</strong>, and the
+            <strong>Philadelphia Eagles</strong> show us the power of
+            collaboration and how much we can accomplish working together.</li
+          >
         </ul>
+
         <p
           >While incredibly diverse, these projects amplify voices fostering a
           shared sense of humanity, aspiration, and optimism.</p
         >
         <p
-          ><em>“Where Art Meets Hope”</em> is more than a theme — it' s a call
-          to action. It reminds us that, despite the challenges we face, we can
+          ><em>“Where Art Meets Hope”</em> is more than a theme — it’s a call to
+          action. It reminds us that, despite the challenges we face, we can
           unite as a creative community to spark hope and drive meaningful
           change. Together, we are stronger, more resilient, and capable of
           transforming lives, strengthening communities, and shaping the future
@@ -116,10 +107,11 @@ eleventyNavigation:
         >
         <p> Warmly,</p>
         <img
-          src="https://placehold.co/300x150?text=Signature"
+          class="-ms-4"
+          src="/_assets/images/pics/jane-golden.png"
           alt="Jane Golden"
         />
-        <p>
+        <p class="font-sans font-light">
           JANE GOLDEN<br />
           EXECUTIVE DIRECTOR<br />
           MURAL ARTS PHILADELPHIA

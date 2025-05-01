@@ -1,0 +1,53 @@
+---
+layout: map/department.webc
+eleventyNavigation:
+  key: MAP-ART-EDUCATION
+  parent: MAP-SPRING-2025
+  image: 'https://placehold.co/144x144'
+---
+
+<section :class="`${styles.branding}`">
+  <div
+    :class="`prose md:prose-xl pt-12 p-4 ps-2 md:p-16 text-left font-serif ${styles.prose}`"
+  >
+    <p class="leading-tight md:text-2xl"
+      ><strong>Community Murals</strong> create pathways for Philadelphia
+      communities and artists to access and sustain the transformative power of
+      the arts.</p
+    >
+    <nav class="my-12">
+      <ul
+        class="not-prose list-outside list-none divide-y border-y-[1px] p-0 font-serif text-xl md:text-3xl"
+      >
+        <li
+          ><a
+            class="block py-4 leading-none hover:underline hover:saturate-150"
+            href="./article/"
+            ><em>Quia odio quaerat occaecati qui.</em></a
+          ></li
+        >
+        <li
+          ><a
+            class="block py-4 leading-none hover:underline hover:saturate-150"
+            href="./article/"
+            >Debitis vel et placeat deleniti sint ipsam ut ad possimus.</a
+          ></li
+        >
+        <li
+          ><a
+            class="block py-4 leading-none hover:underline hover:saturate-150"
+            href="./article/"
+            ><em>Nam sit tempora sit minus</em> aspernatur.</a
+          ></li
+        >
+        <li
+          ><a
+            class="block py-4 leading-none hover:underline hover:saturate-150"
+            href="./article/"
+            ><em>Possimus</em> repellat harum enim.</a
+          ></li
+        >
+      </ul>
+    </nav>
+  </div>
+</section>
