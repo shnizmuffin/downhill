@@ -1,0 +1,7 @@
+---
+layout: map/department.webc
+eleventyNavigation:
+  key: MAP-SANCTUARY-FARM
+  parent: MAP-COMMUNITY-MURALS
+  image: 'https://placehold.co/144x144'
+---

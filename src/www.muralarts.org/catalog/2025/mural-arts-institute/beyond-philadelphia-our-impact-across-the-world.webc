@@ -1,0 +1,7 @@
+---
+layout: map/department.webc
+eleventyNavigation:
+  key: MAP-BEYOND-PHILADELPHIA-OUR-IMPACT-ACROSS-THE-WORLD
+  parent: MAP-MA-INSTITUTE
+  image: 'https://placehold.co/144x144'
+---

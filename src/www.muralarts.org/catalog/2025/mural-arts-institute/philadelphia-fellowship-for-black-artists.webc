@@ -1,0 +1,7 @@
+---
+layout: map/department.webc
+eleventyNavigation:
+  key: MAP-PHILADELPHIA-FELLOWSHIP-FOR-BLACK-ARTISTS
+  parent: MAP-MA-INSTITUTE
+  image: 'https://placehold.co/144x144'
+---

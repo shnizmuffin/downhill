@@ -1,0 +1,7 @@
+---
+layout: map/department.webc
+eleventyNavigation:
+  key: MAP-SAFER-MURAL
+  parent: MAP-ART-EDUCATION
+  image: 'https://placehold.co/144x144'
+---

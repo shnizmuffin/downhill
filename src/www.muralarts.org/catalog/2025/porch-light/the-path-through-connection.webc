@@ -1,0 +1,7 @@
+---
+layout: map/department.webc
+eleventyNavigation:
+  key: MAP-THE-PATH-THROUGH-CONNECTION
+  parent: MAP-PORCH-LIGHT
+  image: 'https://placehold.co/144x144'
+---

@@ -1,7 +1,7 @@
 ---
 layout: map/department.webc
 eleventyNavigation:
-  key: MAP-ART-EDUCATION
+  key: MAP-PORCH-LIGHT
   parent: MAP-SPRING-2025
   image: 'https://placehold.co/144x144'
 ---
@@ -20,39 +20,11 @@ eleventyNavigation:
       >, focuses on achieving holistic health and wellness among Philadelphians
       by offering opportunities to contribute to meaningful public artworks.</p
     >
-    <nav class="my-12">
-      <ul
-        class="not-prose list-outside list-none divide-y border-y-[1px] p-0 font-serif text-xl md:text-3xl"
-      >
-        <li
-          ><a
-            class="block py-4 leading-none hover:underline hover:saturate-150"
-            href="./article/"
-            ><em>Quia odio quaerat occaecati qui.</em></a
-          ></li
-        >
-        <li
-          ><a
-            class="block py-4 leading-none hover:underline hover:saturate-150"
-            href="./article/"
-            >Debitis vel et placeat deleniti sint ipsam ut ad possimus.</a
-          ></li
-        >
-        <li
-          ><a
-            class="block py-4 leading-none hover:underline hover:saturate-150"
-            href="./article/"
-            ><em>Nam sit tempora sit minus</em> aspernatur.</a
-          ></li
-        >
-        <li
-          ><a
-            class="block py-4 leading-none hover:underline hover:saturate-150"
-            href="./article/"
-            ><em>Possimus</em> repellat harum enim.</a
-          ></li
-        >
-      </ul>
-    </nav>
+    <nav-directory>
+      <nav-directory-item @href="./the-path-through-connection/"><em>The Path Through Connection</em></nav-directory-item>
+      <nav-directory-item @href="./embracing-the-light/"><em>Embracing the Light</em></nav-directory-item>
+      <nav-directory-item @href="./continuum/"><em>Continuum</em></nav-directory-item>
+      <nav-directory-item @href="./petrykivka-garden-and-cities-of-war/"><em>Petrykivka Garden</em> and <em>Cities of War</em></nav-directory-item>
+    </nav-directory>
   </div>
 </section>

@@ -1,0 +1,7 @@
+---
+layout: map/department.webc
+eleventyNavigation:
+  key: MAP-PETRYKIVKA-GARDEN-AND-CITIES-OF-WAR
+  parent: MAP-PORCH-LIGHT
+  image: 'https://placehold.co/144x144'
+---

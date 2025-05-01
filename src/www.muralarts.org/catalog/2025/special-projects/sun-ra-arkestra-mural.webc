@@ -1,0 +1,7 @@
+---
+layout: map/department.webc
+eleventyNavigation:
+  key: MAP-SUN-RA-ARKESTRA-MURAL
+  parent: MAP-SPECIAL-PROJECTS
+  image: 'https://placehold.co/144x144'
+---

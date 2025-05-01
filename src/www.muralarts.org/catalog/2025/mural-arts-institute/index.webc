@@ -1,7 +1,7 @@
 ---
 layout: map/department.webc
 eleventyNavigation:
-  key: MAP-ART-EDUCATION
+  key: MAP-MA-INSTITUTE
   parent: MAP-SPRING-2025
   image: 'https://placehold.co/144x144'
 ---
@@ -18,39 +18,27 @@ eleventyNavigation:
       our model and developing innovative learning tools, we help communities
       and cultural leaders ignite change through participatory public art.</p
     >
-    <nav class="my-12">
-      <ul
-        class="not-prose list-outside list-none divide-y border-y-[1px] p-0 font-serif text-xl md:text-3xl"
+    <nav-directory>
+      <nav-directory-item
+        @href="./explore-learn-and-connect/"
       >
-        <li
-          ><a
-            class="block py-4 leading-none hover:underline hover:saturate-150"
-            href="./article/"
-            ><em>Quia odio quaerat occaecati qui.</em></a
-          ></li
-        >
-        <li
-          ><a
-            class="block py-4 leading-none hover:underline hover:saturate-150"
-            href="./article/"
-            >Debitis vel et placeat deleniti sint ipsam ut ad possimus.</a
-          ></li
-        >
-        <li
-          ><a
-            class="block py-4 leading-none hover:underline hover:saturate-150"
-            href="./article/"
-            ><em>Nam sit tempora sit minus</em> aspernatur.</a
-          ></li
-        >
-        <li
-          ><a
-            class="block py-4 leading-none hover:underline hover:saturate-150"
-            href="./article/"
-            ><em>Possimus</em> repellat harum enim.</a
-          ></li
-        >
-      </ul>
-    </nav>
+        Explore, Learn, and Connect
+      </nav-directory-item>
+      <nav-directory-item
+        @href="./philadelphia-fellowship-for-black-artists/"
+      >
+        Philadelphia Fellowship for Black Artists
+      </nav-directory-item>
+      <nav-directory-item
+        @href="./appreciation-for-artists/"
+      >
+        Appreciation for Artists
+      </nav-directory-item>
+      <nav-directory-item
+        @href="./beyond-philadelphia-our-impact-across-the-world/"
+      >
+        Beyond Philadelphia: Our Impact Across the World
+      </nav-directory-item>
+    </nav-directory>
   </div>
 </section>

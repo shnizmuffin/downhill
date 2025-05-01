@@ -1,0 +1,7 @@
+---
+layout: map/department.webc
+eleventyNavigation:
+  key: MAP-LEGACIES-OUR-NEIGHBORS-LEAD-AND-INSPIRE
+  parent: MAP-RESTORATIVE-JUSTICE
+  image: 'https://placehold.co/144x144'
+---

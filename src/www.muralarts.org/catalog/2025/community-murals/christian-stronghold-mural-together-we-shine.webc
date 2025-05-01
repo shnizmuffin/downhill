@@ -1,0 +1,7 @@
+---
+layout: map/department.webc
+eleventyNavigation:
+  key: MAP-CHRISTIAN-STRONGHOLD-MURAL-TOGETHER-WE-SHINE
+  parent: MAP-COMMUNITY-MURALS
+  image: 'https://placehold.co/144x144'
+---

@@ -16,44 +16,20 @@ eleventyNavigation:
       share their experiences, and illustrate the world as they see it.</p
     >
     <nav-directory>
-      <nav-directory-item @href="./article/"><em>Seasons of Imagination</em></nav-directory-item>
-      <nav-directory-item @href="./article/">Continued Partnership with Philadelphia Parks and Recreation</nav-directory-item>
-      <nav-directory-item @href="./article/"><em>Blooming Futures</em> Mural</nav-directory-item>
-      <nav-directory-item @href="./article/"><em>SAFER</em> Mural</nav-directory-item>
-    </nav-directory>
-    <nav class="my-12">
-      <ul
-        class="not-prose list-outside list-none divide-y border-y-[1px] p-0 font-serif text-xl md:text-3xl"
+      <nav-directory-item @href="./seasons-of-imagination/"
+        ><em>Seasons of Imagination</em></nav-directory-item
       >
-        <li
-          ><a
-            class="block py-4 leading-none hover:underline hover:saturate-150"
-            href="./article/"
-            ><em>Quia odio quaerat occaecati qui.</em></a
-          ></li
-        >
-        <li
-          ><a
-            class="block py-4 leading-none hover:underline hover:saturate-150"
-            href="./article/"
-            >Debitis vel et placeat deleniti sint ipsam ut ad possimus.</a
-          ></li
-        >
-        <li
-          ><a
-            class="block py-4 leading-none hover:underline hover:saturate-150"
-            href="./article/"
-            ><em>Nam sit tempora sit minus</em> aspernatur.</a
-          ></li
-        >
-        <li
-          ><a
-            class="block py-4 leading-none hover:underline hover:saturate-150"
-            href="./article/"
-            ><em>Possimus</em> repellat harum enim.</a
-          ></li
-        >
-      </ul>
-    </nav>
+      <nav-directory-item
+        @href="./continued-partnership-with-philadelphia-parks-and-recreation/"
+        >Continued Partnership with Philadelphia Parks and
+        Recreation</nav-directory-item
+      >
+      <nav-directory-item @href="./blooming-futures-mural/"
+        ><em>Blooming Futures</em> Mural</nav-directory-item
+      >
+      <nav-directory-item @href="./safer-mural/"
+        ><em>SAFER</em> Mural</nav-directory-item
+      >
+    </nav-directory>
   </div>
 </section>
