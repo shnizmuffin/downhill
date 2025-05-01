@@ -20,7 +20,7 @@ layout: map/catalog.webc
             @text="meta.heading ? meta.heading : meta.title"
           ></h1>
           <a
-            href="../"
+            :href="`../#${page.fileSlug}`"
             class="block size-16 content-center text-center align-middle lg:size-20"
             >Back</a
           >
