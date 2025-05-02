@@ -1,5 +1,9 @@
 ---
 layout: map/department.webc
+meta:
+  heading: Art Education
+  title: Youth Design Mural Series at Recreation Centers
+  description: Mural Arts’ Education Department has continued its six-part collaboration with Philadelphia Parks & Recreation to work with rec center youth and create new murals across the city.
 eleventyNavigation:
   key: MAP-CONTINUED-PARTNERSHIP-WITH-PHILADELPHIA-PARKS-AND-RECREATION
   parent: MAP-ART-EDUCATION

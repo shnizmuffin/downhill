@@ -1,5 +1,9 @@
 ---
 layout: map/department.webc
+meta:
+  heading: Art Education
+  title: Blooming Futures Mural
+  description: Inspired and spearheaded by Quinta Brunson, creator of the hit show Abbott Elementary, Mural Arts has partnered with ABC & Disney Television Studios to create a mural at the Andrew Hamilton School, where Brunson attended elementary school.
 eleventyNavigation:
   key: MAP-BLOOMING-FUTURES-MURAL
   parent: MAP-ART-EDUCATION

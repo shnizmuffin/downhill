@@ -1,5 +1,9 @@
 ---
 layout: map/department.webc
+meta:
+  heading: Art Education
+  title: Seasons of Imagination Mural
+  description: The Seasons of Imagination mural series by Marian Bailey is a collaboration between Mural Arts and the youth, families, teachers, and staff of Joseph Pennell School, designed to increase literacy skills through playful learning, highlight school pride, create a sense of community, and showcase the expansiveness of imagination.
 eleventyNavigation:
   key: MAP-SEASONS-OF-IMAGINATION
   parent: MAP-ART-EDUCATION
