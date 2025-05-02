@@ -21,8 +21,9 @@ layout: map/catalog.webc
           ></h1>
           <a
             :href="`../#${page.fileSlug}`"
-            class="block size-16 content-center text-center align-middle lg:size-20"
-            >Back</a
+            class="block m-8 md:my-12 size-14 md:text-center md:leading-[1]"
+            title="Go Back"
+            ><text-fit @fit="🡠"></text-fit></a
           >
           <!-- <h1 class="px-8 py-12 text-4xl md:text-6xl ux-text-sideways"><text-fit :@fit="meta.heading ? meta.heading : meta.title"></text-fit></h1> -->
         </header>

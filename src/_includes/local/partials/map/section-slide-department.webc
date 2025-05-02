@@ -20,8 +20,8 @@
         >
           <h2 class="md:mb-8 md:text-6xl" @text="heading"></h2>
         </header>
-        <p class="m-8 md:my-12 block md:text-center md:leading-24" @text="label"
-          >MORE</p
+        <p class="m-8 md:my-12 p-6 block md:text-center md:leading-[1]" @text="label"
+          ><text-fit @fit="🡢"></text-fit></p
         >
       </a>
     </div>
