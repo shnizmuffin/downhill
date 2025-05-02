@@ -1,27 +1,30 @@
 <div x-data="{show: false}" x-on:click="show = true" webc:root="override">
   <slot
-    ><figure
+    ><figure class="h-full"
       ><img
         :src="thumbnail ? thumbnail : picture"
         :alt="alt"
+        class="h-full cursor-pointer transition-all hover:scale-[102.5%] hover:shadow"
         :eleventy:widths="widths" />
-      <figcaption
-        class="text-sm py-2 leading-normal font-light text-pretty md:hidden"
+      <figcaption webc:if="caption"
+        class="py-2 text-sm leading-normal font-light text-pretty md:hidden"
         @raw="caption"
-      ></figcaption></figure
+      ></figcaption>
+      <figcaption webc:else
+        class="py-2 text-sm leading-normal font-light text-pretty md:hidden"
+      >© 2024 City of Philadelphia Mural Arts Program</figcaption></figure
   ></slot>
   <template x-teleport="#modals">
     <aside
       x-show="show"
       x-transition.opacity
-      class="max-w-none fixed top-0 right-0 bottom-0 left-0 z-40 flex place-content-center place-items-center bg-black/60"
+      class="fixed top-0 right-0 bottom-0 left-0 z-40 flex max-w-none place-content-center place-items-center bg-black/60"
     >
-    <figure
-    x-on:click="show = false"
-    x-on:click.outside="show = false"
-    class="max-h-[95vh] max-w-[95vw] border-16 border-white bg-white text-black"
-    >
-      
+      <figure
+        x-on:click="show = false"
+        x-on:click.outside="show = false"
+        class="max-h-[95vh] max-w-[95vw] border-16 border-white bg-white text-black"
+      >
         <img
           :src="picture"
           :alt="alt"
@@ -29,8 +32,20 @@
           class="h-fit max-h-[85vh] w-fit max-w-[85vw]"
         />
         <figcaption
-          class=" py-4 flex flex-row justify-between place-items-center-safe"
-        ><span class="max-w-[65ch] leading-normal font-light text-victoria text-sm text-pretty" @raw="caption"></span><button class="hover:cursor-pointer bg-white text-black" type="button">&times;&nbsp;Close</button></figcaption>
+          class="flex flex-row place-items-center-safe justify-between py-4"
+          ><span webc:if="caption"
+            class="text-victoria max-w-[65ch] text-sm leading-normal font-light text-pretty"
+            @raw="caption"
+          ></span
+          ><span webc:else
+          class="text-victoria max-w-[65ch] text-sm leading-normal font-light text-pretty"
+        >© 20251 City of Philadelphia Mural Arts Program</span
+        ><button
+            class="bg-white text-black hover:cursor-pointer"
+            type="button"
+            >&times;&nbsp;Close</button
+          ></figcaption
+        >
         <slot name="modal"></slot>
       </figure>
     </aside>
