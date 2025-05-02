@@ -1,7 +1,78 @@
 ---
 layout: map/department.webc
+meta:
+  heading: Special Projects
+  title: Our Market Ancestors Mural Series
+  description: "The Our Market Project unveiled new revitalized awnings and three new murals as part of the Our Market Ancestors mural series. Ancestors Carl Redel, Danny and Joe Di Bruno, and Betty Ann “Aunt Betty” Mongelluzzo are honored in the new public artworks."
 eleventyNavigation:
   key: MAP-OUR-MARKET-ANCESTORS-MURAL-SERIES
   parent: MAP-SPECIAL-PROJECTS
   image: 'https://placehold.co/144x144'
 ---
+<section :class="`${styles.article}`">
+  <div
+    :class="`prose md:prose-xl leading-normal font-light text-pretty pt-8 p-4 md:p-16 text-left prose-headings:font-medium ${styles.prose}`"
+  >
+    <h2 class="mt-0 font-serif text-[2.5em]"><em>Our Market Ancestors</em> Mural Series</h2>
+    <light-box
+      class="md:**:prose-figcaption:block"
+      @picture="/_assets/images/pics/special-projects-our-market-00.png"
+      @alt=""
+      :@caption="`<em>Our Market: Betty Ann “Aunt Betty” Mongelluzzo & Danny & Joe Dibruno</em> © 2024 City of Philadelphia Mural Arts Program / Michelle Angela Ortiz & Emily Busch, 921 - 923 South 9th Street. Photo by Steve Weinik.`"
+      @widths="800"
+    ></light-box>
+    <p-lede
+      >The <a href="https://www.ourmarketproject.com/murals" target="_blank" rel="noopener noreferrer"><em>Our Market Project</em></a> unveiled <a href="https://www.instagram.com/p/DDvDGkJyg9e/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA%3D%3D" target="_blank" rel="noopener noreferrer">new revitalized awnings</a> and <a href="https://www.ourmarketproject.com/murals" target="_blank" rel="noopener noreferrer">three new murals</a> as part of the Our Market
+      Ancestors mural series. Ancestors Carl
+      Redel, Danny and Joe Di Bruno, and
+      Betty Ann “Aunt Betty” Mongelluzzo
+      are honored in the new public
+      artworks.</p-lede
+    >
+    <p
+      >The mural series highlights the many ancestors on 9th Street that have
+      contributed to the rich immigrant history of the Market. The portraits were
+      painted by Lead Artist and Project Director <a href="https://www.michelleangela.com/" target="_blank" rel="noopener noreferrer">Michelle Angela Ortiz</a>, and the
+      decorative frames were created by artist <a href="https://www.emilybirdiebusch.com/core-memory-cards-1" target="_blank" rel="noopener noreferrer">Emily Busch</a>. Artists Valentín
+      Sánchez-Stoddard and Briana Dawkins assisted. The new public artworks
+      will be featured in the upcoming community led <a href="https://www.ourmarketproject.com/tours" target="_blank" rel="noopener noreferrer">Our Market Tours</a> starting
+      on May 3rd.</p
+    >
+    <p
+      ><strong>FUNDERS</strong>:
+      <span class="font-serif"
+        >The <em>Our Market Project</em> is led by Fiera Studios with lead
+        funding support from the William Penn Foundation in partnership with
+        Mural Arts Philadelphia. Additional support is provided by the National
+        Endowment for the Arts, Leeway Foundation, Philadelphia250, and Visit
+        Philly.</span
+      ></p
+    >
+    <div
+      class="not-prose grid grid-flow-row-dense grid-cols-1 gap-2 py-2 md:grid-cols-2"
+    >
+      <light-box
+        class="md:col-span-2"
+        @picture="/_assets/images/pics/special-projects-our-market-01.png"
+        @alt=""
+        @widths="800"
+      ></light-box>
+      <light-box
+        @picture="/_assets/images/pics/special-projects-our-market-02.png"
+        @alt=""
+        @widths="400"
+      ></light-box>
+      <light-box
+        @picture="/_assets/images/pics/special-projects-our-market-03.png"
+        @alt=""
+        @widths="400"
+      ></light-box>
+    </div>
+    <nav-directory>
+      <nav-directory-item @href="../our-market-ancestors-mural-series/"><em>Our Market Ancestors</em> Mural Series</nav-directory-item>
+      <nav-directory-item @href="../civic-views/"><em>Civic Views</em></nav-directory-item>
+      <nav-directory-item @href="../sun-ra-arkestra-mural/"><em>Sun Ra Arkestra</em> Mural</nav-directory-item>
+      <nav-directory-item @href="../peoples-budget-office/">People’s Budget Office</nav-directory-item>
+    </nav-directory>
+  </div>
+</section>

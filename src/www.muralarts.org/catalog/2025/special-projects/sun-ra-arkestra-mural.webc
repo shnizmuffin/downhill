@@ -1,7 +1,55 @@
 ---
 layout: map/department.webc
+meta:
+  heading: Special Projects
+  title: Sun Ra Arkestra Mural
+  description: "Sun Ra was a pianist, composer, bandleader, philosopher, and icon of the American avant-garde who lived in East Germantown with his Arkestra from 1969 until his return to Saturn in 1992."
 eleventyNavigation:
   key: MAP-SUN-RA-ARKESTRA-MURAL
   parent: MAP-SPECIAL-PROJECTS
   image: 'https://placehold.co/144x144'
 ---
+<section :class="`${styles.article}`">
+  <div
+    :class="`prose md:prose-xl leading-normal font-light text-pretty pt-8 p-4 md:p-16 text-left prose-headings:font-medium ${styles.prose}`"
+  >
+    <h2 class="mt-0 font-serif text-[2.5em]"><em>Sun Ra Arkestra</em> Mural</h2>
+    <light-box
+      class="md:**:prose-figcaption:block"
+      @picture="/_assets/images/pics/special-projects-sun-ra-00.png"
+      @alt=""
+      :@caption="`Sun Ra Arkestra mural by Ernel Martinez and Keir Johnston. Image courtesy of Ernel Martinez.`"
+      @widths="800"
+    ></light-box>
+    <p-lede
+      ><a href="https://www.sunra.com/" target="_blank" rel="noopener noreferrer">Sun Ra</a> was a pianist, composer,
+      bandleader, philosopher, and icon of
+      the American avant-garde who lived in
+      East Germantown with his <a href="https://www.sunraarkestra.com/" target="_blank" rel="noopener noreferrer">Arkestra</a>
+      from 1969 until his return to Saturn in
+      1992.</p-lede
+    >
+    <p
+      >The band continues to live and rehearse in the house on nearby Morton
+      Street, led by the centenarian NEA Jazz Master <a href="https://en.wikipedia.org/wiki/Marshall_Allen" target="_blank" rel="noopener noreferrer">Marshall Allen</a>. The band
+      has been internationally renowned and celebrated for seven decades but has
+      had very little profile in their hometown until recently. This mural by artists
+      <a href="https://muralarts.org/artists/ernel-martinez/" target="_blank" rel="noopener noreferrer">Ernel Martinez</a> and <a href="https://muralarts.org/artists/keir-johnston-2-2/" target="_blank" rel="noopener noreferrer">Keir Johnston</a> aims to honor their legacy in the
+      musician’s immediate neighborhood. The mural will be located at SEPTA's
+      Germantown Station, 150 E. Chelten Avenue.</p
+    >
+    <p
+      ><strong>FUNDERS</strong>:
+      <span class="font-serif"
+        >SEPTA, City of Philadelphia, Leslie A. Fleischer</span
+      ></p
+    >
+    
+    <nav-directory>
+      <nav-directory-item @href="../our-market-ancestors-mural-series/"><em>Our Market Ancestors</em> Mural Series</nav-directory-item>
+      <nav-directory-item @href="../civic-views/"><em>Civic Views</em></nav-directory-item>
+      <nav-directory-item @href="../sun-ra-arkestra-mural/"><em>Sun Ra Arkestra</em> Mural</nav-directory-item>
+      <nav-directory-item @href="../peoples-budget-office/">People’s Budget Office</nav-directory-item>
+    </nav-directory>
+  </div>
+</section>
