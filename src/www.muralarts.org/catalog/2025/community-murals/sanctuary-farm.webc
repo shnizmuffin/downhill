@@ -5,3 +5,78 @@ eleventyNavigation:
   parent: MAP-COMMUNITY-MURALS
   image: 'https://placehold.co/144x144'
 ---
+<section :class="`${styles.article}`">
+  <div
+    :class="`prose md:prose-xl leading-normal font-light text-pretty pt-8 p-4 md:p-16 text-left prose-headings:font-medium ${styles.prose}`"
+  >
+    <h2 class="mt-0 font-serif text-[2.5em]"
+      >Sanctuary Farm</h2
+    >
+    <light-box
+      class="md:**:prose-figcaption:block"
+      @picture="/_assets/images/pics/community-sanctuary-00.png"
+      @alt=""
+      :@caption="`Sanctuary Farm Fall Festival, October 5, 2024. Photo by Kyla Goodman.`"
+      @widths="800"
+    ></light-box>
+    <p-lede
+      >Representing the farming and
+      gardening community of Sharswood
+      North Philadelphia, this new mural
+      designed by <a href="https://cindylozito.com/" target="_blank" rel="noopener noreferrer">Cindy Lozito</a> will adorn
+      <a href="https://www.sanctuaryfarmphila.org/" target="_blank" rel="noopener noreferrer">Sanctuary Farm's</a> main location at
+      2337 Berks Street.</p-lede
+    >
+    <p>The mural features names and portraits of community members who were
+      pivotal to Sanctuary Farm's mission of food and nutrition access. Sanctuary
+      Farm gardens are anchors connecting old and new residents, as well as
+      volunteers who learn about the community's housing and economic
+      development needs. The mural, which will be dedicated in June 2025,
+      celebrates the community's multi-generational stewardship of the farm. It is
+      a part of Mural Arts’ three-year commitment to co-creating new works of
+      public art in Sharswood.</p>
+    <p
+      ><strong>FUNDERS</strong>:
+      <span class="font-serif"
+        >Pennsylvania Housing Affordability and Rehabilitation
+        Enhancement Fund, Philadelphia Housing Authority</span
+      ></p
+    >
+    <p
+      ><strong>PARTNER</strong>:
+      <span class="font-serif"
+        >Sanctuary Farm</span
+      ></p
+    >
+    <div
+      class="not-prose grid grid-flow-row-dense grid-cols-1 gap-2 py-2 md:grid-cols-2"
+    >
+      <light-box
+        @picture="/_assets/images/pics/community-sanctuary-01.png"
+        @alt=""
+        @widths="400"
+      ></light-box>
+      <light-box
+        @picture="/_assets/images/pics/community-sanctuary-02.png"
+        @alt=""
+        @widths="400"
+      ></light-box>
+      <light-box
+        @picture="/_assets/images/pics/community-sanctuary-03.png"
+        @alt=""
+        @widths="400"
+      ></light-box>
+      <light-box
+        @picture="/_assets/images/pics/community-sanctuary-04.png"
+        @alt=""
+        @widths="400"
+      ></light-box>
+    </div>
+    <nav-directory>
+      <!---<nav-directory-item @href="../sanctuary-farm/">Sanctuary Farm</nav-directory-item>--->
+      <nav-directory-item @href="../christian-stronghold-mural-together-we-shine/">Christian Stronghold Mural <em>Together We Shine!</em></nav-directory-item>
+      <nav-directory-item @href="../tribute-to-paul-gripper/">Tribute to Paul Gripper</nav-directory-item>
+      <nav-directory-item @href="../caicu/">CAICU</nav-directory-item>
+    </nav-directory>
+  </div>
+</section>

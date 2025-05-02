@@ -13,15 +13,13 @@ eleventyNavigation:
     <h2 class="mt-0 font-serif text-[2.5em]"
       ><em>Blooming Futures</em> Mural</h2
     >
-    <figure>
       <light-box
         class="md:**:prose-figcaption:block"
-        @picture="https://placehold.co/1440x1080"
+        @picture="/_assets/images/pics/art-education-blooming-00.png"
         @alt="A work in progress mural at the Andrew Hamilton School"
         :@caption="`Athena Scott offers a sneak peek into her studio sharing a work in progress.`"
         @widths="800"
       ></light-box>
-    </figure>
     <p-lede
       >Inspired and spearheaded by
       <a
@@ -65,22 +63,19 @@ eleventyNavigation:
     <div class="not-prose grid grid-cols-1 gap-2 py-2 grid-flow-row-dense md:grid-cols-3">
       <light-box
         class="md:col-span-3"
-        @picture="https://placehold.co/700x300"
-        @alt="quisquam eos velit"
-        :@caption="`<em>Quisquam Eos Velit</em><br/> © 2024 City of Philadelphia Mural Arts Program / ARTIST, LOCATION, ADDRESS. Photo by PHOTOGRAPHER`"
+        @picture="/_assets/images/pics/art-education-blooming-01.png"
+        @alt=""
         @widths="800"
       ></light-box>
       <light-box
         class="md:col-span-2"
-        @picture="https://placehold.co/400x300"
-        @alt="harum laudantium ab"
-        :@caption="`<em>Harum Laudantium Ab</em><br/> © 2024 City of Philadelphia Mural Arts Program / ARTIST, LOCATION, ADDRESS. Photo by PHOTOGRAPHER`"
+        @picture="/_assets/images/pics/art-education-blooming-02.png"
+        @alt=""
         @widths="500"
       ></light-box>
       <light-box
-        @picture="https://placehold.co/300x460"
-        @alt="dolores quidem reiciendis"
-        :@caption="`<em>Dolores Quidem Reiciendis</em><br/> © 2024 City of Philadelphia Mural Arts Program / ARTIST, LOCATION, ADDRESS. Photo by PHOTOGRAPHER`"
+        @picture="/_assets/images/pics/art-education-blooming-03.png"
+        @alt=""
         @widths="300"
       ></light-box>
     </div>

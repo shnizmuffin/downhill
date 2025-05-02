@@ -5,3 +5,79 @@ eleventyNavigation:
   parent: MAP-COMMUNITY-MURALS
   image: 'https://placehold.co/144x144'
 ---
+
+<section :class="`${styles.article}`">
+  <div
+    :class="`prose md:prose-xl leading-normal font-light text-pretty pt-8 p-4 md:p-16 text-left prose-headings:font-medium ${styles.prose}`"
+  >
+    <h2 class="mt-0 font-serif text-[2.5em]">Tribute to Paul Gripper</h2>
+    <light-box
+      class="md:**:prose-figcaption:block"
+      @picture="/_assets/images/pics/community-tribute-00.png"
+      @alt=""
+      :@caption="`Paul Gripper mural designed by Nilé Livingston. Image courtesy of the artist.`"
+      @widths="800"
+    ></light-box>
+    <p-lede
+      >A winning submission of our public mural application process, this
+      project honors the life of
+      <a
+        href="https://www.phillytrib.com/obituaries/paul-gripper-50-youth-basketball-coach/article_376ac2d9-ec99-5447-9330-7f3f9eeb9042.html"
+        target="_blank"
+        rel="noopener noreferrer"
+        >Paul “Unk P” Gripper</a
+      >, a North Philadelphia community member who inspired and mentored young
+      men—many of whom garnered entrance and scholarship to college—through the
+      game of basketball.</p-lede
+    >
+    <p
+      >Paul was described as a larger-than-life figure, known for his loud,
+      braggadocious personality. He embodied the spirit of Philadelphia—always
+      cracking jokes and having fun, often silly, but uplifting. Paul had a
+      heart as big as his stature and was considered “a teddy bear with street
+      smarts” by those closest to him. He often wore sneakers or Timberland
+      boots. He was a beloved basketball coach and a father figure to many young
+      people in the community. The mural, located at 2600 Ridge Avenue, is
+      designed by artist
+      <a
+        href="https://nilelivingston.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+        >Nilé Livingston</a
+      >
+      and will be produced by
+      <a
+        href="https://customartsstudio.com/pages/about"
+        target="_blank"
+        rel="noopener noreferrer"
+        >Keisha Whatley</a
+      >. It will be dedicated in June 2025.</p
+    >
+    <div
+      class="not-prose grid grid-flow-row-dense grid-cols-1 gap-2 py-2 md:grid-cols-2"
+    >
+      <light-box
+        @picture="/_assets/images/pics/community-tribute-01.png"
+        @alt=""
+        @widths="400"
+      ></light-box>
+      <light-box
+        @picture="/_assets/images/pics/community-tribute-02.png"
+        @alt=""
+        @widths="400"
+      ></light-box>
+    </div>
+    <nav-directory>
+      <nav-directory-item @href="../sanctuary-farm/"
+        >Sanctuary Farm</nav-directory-item
+      >
+      <nav-directory-item
+        @href="../christian-stronghold-mural-together-we-shine/"
+        >Christian Stronghold Mural
+        <em>Together We Shine!</em></nav-directory-item
+      >
+      <!---<nav-directory-item @href="../tribute-to-paul-gripper/">Tribute to Paul Gripper</nav-directory-item>--->
+      <nav-directory-item @href="../caicu/">CAICU</nav-directory-item>
+    </nav-directory>
+  </div>
+</section>

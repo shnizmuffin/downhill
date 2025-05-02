@@ -37,26 +37,22 @@ eleventyNavigation:
     <div class="not-prose grid grid-cols-2 gap-2">
       <light-box
         @picture="https://placehold.co/400x300?text=Quisquam+eos+velit"
-        @alt="quisquam eos velit"
-        :@caption="`<em>Quisquam Eos Velit</em><br/> © 2024 City of Philadelphia Mural Arts Program / ARTIST, LOCATION, ADDRESS. Photo by PHOTOGRAPHER`"
+        @alt=""
         @widths="400"
       ></light-box>
       <light-box
         @picture="https://placehold.co/400x300?text=Harum+laudantium+ab"
-        @alt="harum laudantium ab"
-        :@caption="`<em>Harum Laudantium Ab</em><br/> © 2024 City of Philadelphia Mural Arts Program / ARTIST, LOCATION, ADDRESS. Photo by PHOTOGRAPHER`"
+        @alt=""
         @widths="400"
       ></light-box>
       <light-box
         @picture="https://placehold.co/400x300?text=Dolores+quidem+reiciendis"
-        @alt="dolores quidem reiciendis"
-        :@caption="`<em>Dolores Quidem Reiciendis</em><br/> © 2024 City of Philadelphia Mural Arts Program / ARTIST, LOCATION, ADDRESS. Photo by PHOTOGRAPHER`"
+        @alt=""
         @widths="400"
       ></light-box>
       <light-box
         @picture="https://placehold.co/400x300?text=Harum+soluta+sed"
-        @alt="harum soluta sed"
-        :@caption="`<em>Harum Soluta Sed</em><br/> © 2024 City of Philadelphia Mural Arts Program / ARTIST, LOCATION, ADDRESS. Photo by PHOTOGRAPHER`"
+        @alt=""
         @widths="400"
       ></light-box>
     </div>
