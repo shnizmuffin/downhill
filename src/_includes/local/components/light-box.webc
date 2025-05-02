@@ -11,8 +11,8 @@
         @raw="caption"
       ></figcaption>
       <figcaption webc:else
-        class="py-2 text-sm leading-normal font-light text-pretty md:hidden"
-      >© 2024 City of Philadelphia Mural Arts Program</figcaption></figure
+        class="py-2 text-sm leading-normal font-light text-pretty md:hidden" @text="$data.meta.copyright"
+      ></figcaption></figure
   ></slot>
   <template x-teleport="#modals">
     <aside
@@ -32,14 +32,14 @@
           class="h-fit max-h-[85vh] w-fit max-w-[85vw]"
         />
         <figcaption
-          class="flex flex-row place-items-center-safe justify-between py-4"
+          class="flex flex-row place-items-center-safe justify-between py-4 gap-8"
           ><span webc:if="caption"
             class="text-victoria max-w-[65ch] text-sm leading-normal font-light text-pretty"
             @raw="caption"
           ></span
           ><span webc:else
-          class="text-victoria max-w-[65ch] text-sm leading-normal font-light text-pretty"
-        >© 20251 City of Philadelphia Mural Arts Program</span
+          class="text-victoria max-w-[65ch] text-sm leading-normal font-light text-pretty" @text="$data.meta.copyright"
+        ></span
         ><button
             class="bg-white text-black hover:cursor-pointer"
             type="button"

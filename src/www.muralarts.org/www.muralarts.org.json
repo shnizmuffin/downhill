@@ -4,7 +4,8 @@
   },
   "meta": {
     "title": "Catalog",
-    "description": "Static Landing Pages"
+    "description": "Static Landing Pages",
+    "copyright": "© 2024 City of Philadelphia Mural Arts Program"
   },
   "nav" : {
     "depth": false
