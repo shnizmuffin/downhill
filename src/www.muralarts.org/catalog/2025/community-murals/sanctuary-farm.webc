@@ -1,5 +1,9 @@
 ---
 layout: map/department.webc
+meta:
+  heading: Community Murals
+  title: Sanctuary Farm
+  description: Representing the farming and gardening community of Sharswood North Philadelphia, this new mural designed by Cindy Lozito will adorn Sanctuary Farm's main location at 2337 Berks Street.
 eleventyNavigation:
   key: MAP-SANCTUARY-FARM
   parent: MAP-COMMUNITY-MURALS

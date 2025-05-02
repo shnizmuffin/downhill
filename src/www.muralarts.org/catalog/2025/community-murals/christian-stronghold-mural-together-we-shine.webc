@@ -1,5 +1,9 @@
 ---
 layout: map/department.webc
+meta:
+  heading: Community Murals
+  title: Christian Stronghold Mural Together We Shine!
+  description: Initiated by the Christian Stronghold Baptist Church, Together We Shine, is a collaboration with Blankenburg Elementary School and Spiral Q Puppet Theater—which runs an after-school program at Blankenburg.
 eleventyNavigation:
   key: MAP-CHRISTIAN-STRONGHOLD-MURAL-TOGETHER-WE-SHINE
   parent: MAP-COMMUNITY-MURALS

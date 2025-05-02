@@ -1,5 +1,9 @@
 ---
 layout: map/department.webc
+meta:
+  heading: Community Murals
+  title: Tribute to Paul Gripper
+  description: A winning submission of our public mural application process, this project honors the life of Paul “Unk P” Gripper, a North Philadelphia community member who inspired and mentored young men—many of whom garnered entrance and scholarship to college—through the game of basketball.
 eleventyNavigation:
   key: MAP-TRIBUTE-TO-PAUL-GRIPPER
   parent: MAP-COMMUNITY-MURALS
