@@ -1,7 +1,109 @@
 ---
 layout: map/department.webc
+meta:
+  heading: Porch Light
+  title: Embracing the Light
+  description: 'Located at St. Christopher’s Hospital for Children, Embracing the Light by artist James Burns addresses suicide awareness through community-driven art.'
 eleventyNavigation:
   key: MAP-EMBRACING-THE-LIGHT
   parent: MAP-PORCH-LIGHT
   image: 'https://placehold.co/144x144'
 ---
+
+<section :class="`${styles.article}`">
+  <div
+    :class="`prose md:prose-xl leading-normal font-light text-pretty pt-8 p-4 md:p-16 text-left prose-headings:font-medium ${styles.prose}`"
+  >
+    <h2 class="mt-0 font-serif text-[2.5em]"><em>Embracing the Light</em></h2>
+    <light-box
+      class="md:**:prose-figcaption:block"
+      @picture="/_assets/images/pics/porch-light-embracing-00.png"
+      @alt=""
+      :@caption="`Embracing the Light paint day, January 11, 2025. Photo by Erin Blewett.`"
+      @widths="800"
+    ></light-box>
+    <p-lede
+      >Located at
+      <a
+        href="https://towerhealth.org/locations/st-christophers-hospital-children"
+        target="_blank"
+        rel="noopener noreferrer"
+        >St. Christopher’s Hospital for Children</a
+      >, Embracing the Light by artist
+      <a
+        href="https://muralarts.org/artists/james-burns/"
+        target="_blank"
+        rel="noopener noreferrer"
+        >James Burns</a
+      >
+      addresses suicide awareness through community-driven art.</p-lede
+    >
+    <p
+      >Developed through mindful writing workshops and a
+      <a
+        href="https://muralarts.org/stories/embracing-the-light-a-groundbreaking-suicide-awareness-performance/"
+        target="_blank"
+        rel="noopener noreferrer"
+        >performance</a
+      >
+      with support from First Person Arts, the project incorporated input from a
+      dedicated steering committee and hundreds of participants during public
+      paint days at the hospital. The mural—set for completion in fall 2025—adds
+      to St. Christopher’s legacy of using art to uplift patients, families, and
+      staff. Burns, who has spent over a decade using art to spark conversations
+      about suicide prevention, created a design that fosters dialogue and
+      reduces stigma. This mural not only transforms the hospital’s exterior but
+      also invites vital conversations around mental health, especially for
+      young people and their families. If you or a loved one are in crisis, call
+      or text 988.</p
+    >
+    <p
+      ><strong>SPONSORS</strong>:
+      <span class="font-serif"
+        >City of Philadelphia Department of Behavioral Health and Intellectual
+        disAbility Services, Landmark Properties</span
+      ></p
+    >
+    <p
+      ><strong>PARTNER</strong>:
+      <span class="font-serif">St. Christopher’s Hospital for Children</span></p
+    >
+    <div
+      class="not-prose grid grid-flow-row-dense grid-cols-1 gap-2 py-2 md:grid-cols-2"
+    >
+      <light-box
+        @picture="/_assets/images/pics/porch-light-embracing-01.png"
+        @alt=""
+        @widths="400"
+      ></light-box>
+      <light-box
+        @picture="/_assets/images/pics/porch-light-embracing-02.png"
+        @alt=""
+        @widths="400"
+      ></light-box>
+      <light-box
+        @picture="/_assets/images/pics/porch-light-embracing-03.png"
+        @alt=""
+        @widths="400"
+      ></light-box>
+      <light-box
+        @picture="/_assets/images/pics/porch-light-embracing-04.png"
+        @alt=""
+        @widths="400"
+      ></light-box>
+    </div>
+    <nav-directory>
+      <nav-directory-item @href="../the-path-through-connection/"
+        ><em>The Path Through Connection</em></nav-directory-item
+      >
+      <!-- <nav-directory-item @href="../embracing-the-light/"><em>Embracing the Light</em></nav-directory-item> -->
+      <nav-directory-item @href="../continuum/"
+        ><em>Continuum</em></nav-directory-item
+      >
+      <nav-directory-item @href="../petrykivka-garden-and-cities-of-war/"
+        ><em>Petrykivka Garden</em> and
+        <em>Cities of War</em></nav-directory-item
+      >
+    </nav-directory>
+  </div>
+</section>

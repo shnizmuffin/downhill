@@ -1,7 +1,104 @@
 ---
 layout: map/department.webc
+meta:
+  heading: Porch Light
+  title: The Path Through Connection
+  description: Every two years, Mural Arts’ Porch Light program partners with a behavioral health provider to embed an artist within their organization, creating collaborative murals with participants.
 eleventyNavigation:
   key: MAP-THE-PATH-THROUGH-CONNECTION
   parent: MAP-PORCH-LIGHT
   image: 'https://placehold.co/144x144'
 ---
+
+<section :class="`${styles.article}`">
+  <div
+    :class="`prose md:prose-xl leading-normal font-light text-pretty pt-8 p-4 md:p-16 text-left prose-headings:font-medium ${styles.prose}`"
+  >
+    <h2 class="mt-0 font-serif text-[2.5em]"
+      ><em>The Path Through Connection</em></h2
+    >
+    <light-box
+      class="md:**:prose-figcaption:block"
+      @picture="/_assets/images/pics/porch-light-the-path-00.png"
+      @alt=""
+      :@caption="`The Path Through Connection © 2024 City of Philadelphia Mural Arts Program / Marisol de la Garza, COMHAR, 100 West Lehigh Avenue. Photo by Steve Weinik.`"
+      @widths="800"
+    ></light-box>
+    <p-lede
+      >Every two years, Mural Arts’ Porch Light program partners with a
+      behavioral health provider to embed an artist within their organization,
+      creating collaborative murals with participants.</p-lede
+    >
+    <p
+      >This year, artist
+      <a
+        href="https://www.instagram.com/mdelagarz/"
+        target="_blank"
+        rel="noopener noreferrer"
+        >Marisol de la Garza</a
+      >
+      worked with
+      <a href="https://comhar.org/" target="_blank" rel="noopener noreferrer"
+        >COMHAR</a
+      >, a mental health and recovery provider with a rich history of
+      incorporating art into its services. Through workshops in painting, clay,
+      and collage, participants explored self-expression and healing,
+      contributing to the creation of
+      <a
+        href="https://publicartarchive.org/search/art/72def0a3"
+        target="_blank"
+        rel="noopener noreferrer"
+        ><em>The Path Through Connection</em></a
+      >. The vibrant mural features participants’ poetry and reflects their
+      collective understanding that mental health is a journey—one strengthened
+      through connection. Installed in Kensington, the mural builds on Porch
+      Light’s long-term work in a community deeply impacted by substance use.
+      The Path Through Connection not only brings beauty to the neighborhood but
+      also highlights the power of creative expression in supporting recovery
+      and fostering connection.</p
+    >
+    <p
+      ><strong>SPONSORS</strong>:
+      <span class="font-serif"
+        >City of Philadelphia Department of Behavioral Health and Intellectual
+        disAbility Services, Stavros Niarchos Foundation, City of
+        Philadelphia</span
+      ></p
+    >
+    <p><strong>PARTNER</strong>: <span class="font-serif">COMHAR</span></p>
+    <div
+      class="not-prose grid grid-flow-row-dense grid-cols-1 gap-2 py-2 md:grid-cols-2"
+    >
+      <light-box
+        @picture="/_assets/images/pics/porch-light-the-path-01.png"
+        @alt=""
+        @widths="400"
+      ></light-box>
+      <light-box
+        @picture="/_assets/images/pics/porch-light-the-path-02.png"
+        @alt=""
+        @widths="400"
+      ></light-box>
+      <light-box
+        class="col-span-2"
+        @picture="/_assets/images/pics/porch-light-the-path-03.png"
+        @alt=""
+        @widths="800"
+      ></light-box>
+    </div>
+
+    <nav-directory>
+      <!-- <nav-directory-item @href="../the-path-through-connection/"><em>The Path Through Connection</em></nav-directory-item> -->
+      <nav-directory-item @href="../embracing-the-light/"
+        ><em>Embracing the Light</em></nav-directory-item
+      >
+      <nav-directory-item @href="../continuum/"
+        ><em>Continuum</em></nav-directory-item
+      >
+      <nav-directory-item @href="../petrykivka-garden-and-cities-of-war/"
+        ><em>Petrykivka Garden</em> and
+        <em>Cities of War</em></nav-directory-item
+      >
+    </nav-directory>
+  </div>
+</section>
