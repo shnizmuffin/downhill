@@ -22,19 +22,10 @@ eleventyNavigation:
       <a href="#" target="_blank">Restorative Justice</a>.</p
     >
     <nav-directory>
-      <nav-directory-item @href="./trailblazers/"
-        ><em>Trailblazers</em></nav-directory-item
-      >
-      <nav-directory-item
-        @href="./knowledge-and-method/"
-        ><em>Knowledge &amp; Method</em></nav-directory-item
-      >
-      <nav-directory-item @href="./pyrrhic-defeat-a-visual-study-of-mass-incarceration/"
-        ><em>Pyrrhic Defeat: A Visual Study of Mass Incarceration</em></nav-directory-item
-      >
-      <nav-directory-item @href="./legacies-our-neighbors-lead-and-inspire/"
-        ><em>Legacies: Our Neighbors Lead &amp; Inspire</em></nav-directory-item
-      >
+      <nav-directory-item @href="./trailblazers/"><em>Trailblazers</em></nav-directory-item>
+      <nav-directory-item @href="./knowledge-and-method/"><em>Knowledge &amp; Method</em></nav-directory-item>
+      <nav-directory-item @href="./pyrrhic-defeat-a-visual-study-of-mass-incarceration/"><em>Pyrrhic Defeat: A Visual Study of Mass Incarceration</em></nav-directory-item>
+      <nav-directory-item @href="./legacies-our-neighbors-lead-and-inspire/"><em>Legacies: Our Neighbors Lead &amp; Inspire</em></nav-directory-item>
     </nav-directory>
   </div>
 </section>
