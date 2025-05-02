@@ -1,7 +1,74 @@
 ---
 layout: map/department.webc
+meta:
+  heading: Mural Arts Institute
+  title: Beyond Philadelphia - Our Impact Across the World
+  description: Through individualized consultations, we bring the Mural Arts’ approach to community-engaged public art practices to leaders across the country and around the world.
 eleventyNavigation:
   key: MAP-BEYOND-PHILADELPHIA-OUR-IMPACT-ACROSS-THE-WORLD
   parent: MAP-MA-INSTITUTE
   image: 'https://placehold.co/144x144'
 ---
+<section :class="`${styles.article}`">
+  <div
+    :class="`prose md:prose-xl leading-normal font-light text-pretty pt-8 p-4 md:p-16 text-left prose-headings:font-medium ${styles.prose}`"
+  >
+    <h2 class="mt-0 font-serif text-[2.5em]">Beyond
+      Philadelphia: Our
+      Impact Across the
+      World</h2>
+    <light-box
+      class="md:**:prose-figcaption:block"
+      @picture="/_assets/images/pics/ma-institute-beyond-00.png"
+      @alt=""
+      :@caption="`Ukrainian artist Iryna Mykoliv participates in a mural painting experience at the Color Me Back studio. Photo by Linda Johnson.`"
+      @widths="800"
+    ></light-box>
+    <p-lede
+      >Through individualized consultations,
+      we bring the Mural Arts’ approach to
+      community-engaged public art
+      practices to leaders across the country
+      and around the world.</p-lede
+    >
+    <p
+      >Our goal is to strengthen the skills and tools of artistic leaders that sustain
+      community-driven projects and practices. Since 2017, Mural Arts Institute
+      has worked with artists, activists, teachers, arts administrators,
+      policymakers, planners, culture bearers, municipal government officials, and
+      more. This includes work in more than 25 cities across the the globe.</p
+    >
+    <p>Learn more about some of our recent co learning exchanges in this <a href="https://muralarts.org/stories/a-common-language/" target="_blank" rel="noopener noreferrer">blog</a>
+      about our work with Ukrainian artists and our <a href="https://muralartsinstitute.com/strength-through-solidarity/" target="_blank" rel="noopener noreferrer">Strength Through Solidarity</a>
+      program.</p>
+    <p
+      ><strong>FUNDERS</strong>:
+      <span class="font-serif"
+        >The Freedom Together Foundation, The Andrew W. Mellon
+        Foundation</span
+      ></p
+    >
+    <nav-directory>
+      <nav-directory-item
+        @href="../explore-learn-and-connect/"
+      >
+        Explore, Learn, and Connect
+      </nav-directory-item>
+      <nav-directory-item
+        @href="../philadelphia-fellowship-for-black-artists/"
+      >
+        Philadelphia Fellowship for Black Artists
+      </nav-directory-item>
+      <nav-directory-item
+        @href="../appreciation-for-artists/"
+      >
+        Appreciation for Artists
+      </nav-directory-item>
+      <!---<nav-directory-item
+        @href="../beyond-philadelphia-our-impact-across-the-world/"
+      >
+        Beyond Philadelphia: Our Impact Across the World
+      </nav-directory-item>--->
+    </nav-directory>
+  </div>
+</section>
