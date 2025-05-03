@@ -188,12 +188,17 @@
   }
 } */
 
+
 @layer components {
 
   .ux-button {
     @apply px-8 py-4 scale-100 transition-colors shadow-lg
       hover:saturate-150
       active:scale-95 active:shadow-xs
+  }
+
+  a[target="_blank"] {
+    @apply after:content-['\202f🡥'] after:text-[0.8em] after:align-top;
   }
 
   /* .vt-section-label {
