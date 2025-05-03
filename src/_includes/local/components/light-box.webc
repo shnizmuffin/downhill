@@ -29,7 +29,7 @@
           :src="picture"
           :alt="alt"
           eleventy:widths="1920"
-          class="h-fit max-h-[85vh] w-fit max-w-[85vw]"
+          class="h-fit w-fit max-h-[85vh]"
         />
         <figcaption
           class="flex flex-row place-items-center-safe justify-between py-4 gap-8"
