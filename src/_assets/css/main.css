@@ -189,24 +189,6 @@
 } */
 
 @layer components {
-  .ux-department {
-    @apply
-      @container/department 
-      p-8 flex justify-between gap-4 flex-col
-      md:flex-row md:content-end md:place-items-end
-    ;
-  }
-
-  .ux-sideways-header {
-    @apply prose max-w-none
-      prose-headings:uppercase prose-headings:m-0 prose-headings:leading-none prose-headings:text-center prose-headings:text-blue-900
-      md:min-h-[66cqmin]
-    ;
-
-    @media (width >= 48rem) { 
-      writing-mode: sideways-rl;
-    }
-  }
 
   .ux-button {
     @apply px-8 py-4 scale-100 transition-colors shadow-lg
