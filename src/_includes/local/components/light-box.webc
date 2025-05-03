@@ -4,7 +4,7 @@
       ><img
         :src="thumbnail ? thumbnail : picture"
         :alt="alt"
-        class="h-full cursor-pointer transition-all hover:scale-[102.5%] hover:shadow"
+        class="md:h-full cursor-pointer transition-all hover:scale-[102.5%] hover:shadow"
         :eleventy:widths="widths" />
       <figcaption webc:if="caption"
         class="py-2 text-sm leading-normal font-light text-pretty md:hidden"
