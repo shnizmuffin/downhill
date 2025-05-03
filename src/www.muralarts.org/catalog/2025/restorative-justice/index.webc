@@ -6,20 +6,31 @@ eleventyNavigation:
   image: 'https://placehold.co/144x144'
 ---
 
-    <p class="leading-tight md:text-2xl"
-      >We know that involvement in the justice system touches every aspect of a
-      person’s life, impacting not only individuals, but also families and
-      communities. It can lead to significant collateral consequences— including
-      challenges obtaining affordable housing, educational options, and living
-      wage employment. Our cohort programs are designed to help justice-impacted
-      people by supplying them with the resources to connect with meaningful
-      opportunities, learn new personal and professional skills, and earn
-      additional income as program participants. More about
-      <a href="#" target="_blank">Restorative Justice</a>.</p
-    >
-    <nav-directory>
-      <nav-directory-item @href="./trailblazers/"><em>Trailblazers</em></nav-directory-item>
-      <nav-directory-item @href="./knowledge-and-method/"><em>Knowledge &amp; Method</em></nav-directory-item>
-      <nav-directory-item @href="./pyrrhic-defeat-a-visual-study-of-mass-incarceration/"><em>Pyrrhic Defeat: A Visual Study of Mass Incarceration</em></nav-directory-item>
-      <nav-directory-item @href="./legacies-our-neighbors-lead-and-inspire/"><em>Legacies: Our Neighbors Lead &amp; Inspire</em></nav-directory-item>
-    </nav-directory>
+<p class="leading-tight md:text-2xl"
+  >We know that involvement in the justice system touches every aspect of a
+  person’s life, impacting not only individuals, but also families and
+  communities. It can lead to significant collateral consequences— including
+  challenges obtaining affordable housing, educational options, and living wage
+  employment. Our cohort programs are designed to help justice-impacted people
+  by supplying them with the resources to connect with meaningful opportunities,
+  learn new personal and professional skills, and earn additional income as
+  program participants. More about
+  <a href="#" target="_blank">Restorative Justice</a>.</p
+>
+<nav-directory>
+  <nav-directory-item @href="./trailblazers/"
+    ><em>Trailblazers</em></nav-directory-item
+  >
+  <nav-directory-item @href="./knowledge-and-method/"
+    ><em>Knowledge &amp; Method</em></nav-directory-item
+  >
+  <nav-directory-item
+    @href="./pyrrhic-defeat-a-visual-study-of-mass-incarceration/"
+    ><em
+      >Pyrrhic Defeat: A Visual Study of Mass Incarceration</em
+    ></nav-directory-item
+  >
+  <nav-directory-item @href="./legacies-our-neighbors-lead-and-inspire/"
+    ><em>Legacies: Our Neighbors Lead &amp; Inspire</em></nav-directory-item
+  >
+</nav-directory>

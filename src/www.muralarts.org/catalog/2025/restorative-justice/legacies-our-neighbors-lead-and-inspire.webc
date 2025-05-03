@@ -10,91 +10,86 @@ eleventyNavigation:
   image: 'https://placehold.co/144x144'
 ---
 
-
-    <h2 class="mt-0 font-serif text-[2.5em]"
-      ><em>Legacies: Our Neighbors Lead & Inspire</em></h2
-    >
-    <light-box
-      class="md:**:prose-figcaption:block"
-      @picture="/_assets/images/pics/restorative-justice-legacies-00.png"
-      @alt=""
-      :@caption="`Legacies: Our Neighbors Lead & Inspire © 2024 City of Philadelphia Mural Arts Program / Keir Johnston & Ernel Martinez, MLK Recreation Center, 22nd & Cecil B. Moore Avenue. Photo by Steve Weinik.`"
-      @widths="800"
-    ></light-box>
-    <p-lede
-      >Commissioned by former City Council President Darrell Clarke before his
-      retirement, <em>Legacies: Our Neighbors Lead & Inspire</em>, honors three
-      powerhouse community leaders who impacted the lives of thousands of
-      community members in this North Philadelphia neighborhood.</p-lede
-    >
-    <p
-      >Designed by Ernel Martinez and Keir Johnston of the collective
-      <a
-        href="https://amberartanddesign.com/"
-        target="_blank"
-        rel="noopener"
-        >Amber Art and Design</a
-      >, the mural complements a
-      <a
-        href="https://www.publicartarchive.org/art/Staircases-and-Mountaintops-Ascending-Beyond-the-Dream/6f95f086"
-        target="_blank"
-        rel="noopener"
-        >pre-existing mural of Dr. Martin Luther King, Jr.</a
-      >. on the facade of the recreation center named in his memory. The
-      original mural was created by a founding member of the collective, Willis
-      NOMO Humphrey, who passed away in 2018, assisted by mosaic artist Jonny
-      Buss. The dedication of
-      <em>Legacies: Our Neighbors Lead & Inspire</em> was a stirring event with
-      heartfelt stories shared about the three honorees,
-      <a
-        href="https://www.phillytrib.com/obituaries/helen-brown-77-community-organizer-for-project-home/article_bacf858e-0606-5616-a012-ba05287122c1.html"
-        target="_blank"
-        rel="noopener"
-        >Helen Brown</a
-      >,
-      <a
-        href="https://phila.legistar.com/LegislationDetail.aspx?ID=5146676&GUID=A3B85B6F-7B90-4AC0-A318-F73663920E89&Options=&Search="
-        target="_blank"
-        rel="noopener"
-        >Harold “Malcolm” McCoy</a
-      >, and
-      <a
-        href="https://www.inquirer.com/philly/obituaries/bruce-webb-obituary-record-store-owner-83-20171205.html"
-        target="_blank"
-        rel="noopener"
-        >Bruce Webb</a
-      >. Artists Ernel Martinez and Keir Johnston were assisted by Mtukufu
-      Mtumaini-El, Juan Carlos Valencia Michileno, and members of the Rec Crew.
-      The Martin Luther King, Jr., Recreation Center is located at 22nd Street
-      and Cecil B. Moore Avenue.</p
-    >
-    <p
-      ><strong>FUNDER</strong>:
-      <span class="font-serif">City of Philadelphia</span></p
-    >
-    <p
-      ><strong>PARTNER</strong>:
-      <span class="font-serif">Philadelphia Parks & Recreation</span></p
-    >
-    <light-box
-      @picture="/_assets/images/pics/restorative-justice-legacies-01.png"
-      @alt=""
-      @widths="800"
-    ></light-box>
-    <nav-directory>
-      <nav-directory-item @href="../trailblazers/"
-        ><em>Trailblazers</em></nav-directory-item
-      >
-      <nav-directory-item @href="../knowledge-and-method/"
-        ><em>Knowledge &amp; Method</em></nav-directory-item
-      >
-      <nav-directory-item
-        @href="../pyrrhic-defeat-a-visual-study-of-mass-incarceration/"
-        ><em
-          >Pyrrhic Defeat: A Visual Study of Mass Incarceration</em
-        ></nav-directory-item
-      >
-      <!-- <nav-directory-item @href="../legacies-our-neighbors-lead-and-inspire/"
+<h2 class="mt-0 font-serif text-[2.5em]"
+  ><em>Legacies: Our Neighbors Lead & Inspire</em></h2
+>
+<light-box
+  class="md:**:prose-figcaption:block"
+  @picture="/_assets/images/pics/restorative-justice-legacies-00.png"
+  @alt=""
+  :@caption="`Legacies: Our Neighbors Lead & Inspire © 2024 City of Philadelphia Mural Arts Program / Keir Johnston & Ernel Martinez, MLK Recreation Center, 22nd & Cecil B. Moore Avenue. Photo by Steve Weinik.`"
+  @widths="800"
+></light-box>
+<p-lede
+  >Commissioned by former City Council President Darrell Clarke before his
+  retirement, <em>Legacies: Our Neighbors Lead & Inspire</em>, honors three
+  powerhouse community leaders who impacted the lives of thousands of community
+  members in this North Philadelphia neighborhood.</p-lede
+>
+<p
+  >Designed by Ernel Martinez and Keir Johnston of the collective
+  <a href="https://amberartanddesign.com/" target="_blank" rel="noopener"
+    >Amber Art and Design</a
+  >, the mural complements a
+  <a
+    href="https://www.publicartarchive.org/art/Staircases-and-Mountaintops-Ascending-Beyond-the-Dream/6f95f086"
+    target="_blank"
+    rel="noopener"
+    >pre-existing mural of Dr. Martin Luther King, Jr.</a
+  >. on the facade of the recreation center named in his memory. The original
+  mural was created by a founding member of the collective, Willis NOMO
+  Humphrey, who passed away in 2018, assisted by mosaic artist Jonny Buss. The
+  dedication of <em>Legacies: Our Neighbors Lead & Inspire</em> was a stirring
+  event with heartfelt stories shared about the three honorees,
+  <a
+    href="https://www.phillytrib.com/obituaries/helen-brown-77-community-organizer-for-project-home/article_bacf858e-0606-5616-a012-ba05287122c1.html"
+    target="_blank"
+    rel="noopener"
+    >Helen Brown</a
+  >,
+  <a
+    href="https://phila.legistar.com/LegislationDetail.aspx?ID=5146676&GUID=A3B85B6F-7B90-4AC0-A318-F73663920E89&Options=&Search="
+    target="_blank"
+    rel="noopener"
+    >Harold “Malcolm” McCoy</a
+  >, and
+  <a
+    href="https://www.inquirer.com/philly/obituaries/bruce-webb-obituary-record-store-owner-83-20171205.html"
+    target="_blank"
+    rel="noopener"
+    >Bruce Webb</a
+  >. Artists Ernel Martinez and Keir Johnston were assisted by Mtukufu
+  Mtumaini-El, Juan Carlos Valencia Michileno, and members of the Rec Crew. The
+  Martin Luther King, Jr., Recreation Center is located at 22nd Street and Cecil
+  B. Moore Avenue.</p
+>
+<p
+  ><strong>FUNDER</strong>:
+  <span class="font-serif">City of Philadelphia</span></p
+>
+<p
+  ><strong>PARTNER</strong>:
+  <span class="font-serif">Philadelphia Parks & Recreation</span></p
+>
+<light-box
+  @picture="/_assets/images/pics/restorative-justice-legacies-01.png"
+  @alt=""
+  @widths="800"
+></light-box>
+<nav-directory>
+  <nav-directory-item @href="../trailblazers/"
+    ><em>Trailblazers</em></nav-directory-item
+  >
+  <nav-directory-item @href="../knowledge-and-method/"
+    ><em>Knowledge &amp; Method</em></nav-directory-item
+  >
+  <nav-directory-item
+    @href="../pyrrhic-defeat-a-visual-study-of-mass-incarceration/"
+    ><em
+      >Pyrrhic Defeat: A Visual Study of Mass Incarceration</em
+    ></nav-directory-item
+  >
+  <!-- <nav-directory-item @href="../legacies-our-neighbors-lead-and-inspire/"
         ><em>Legacies: Our Neighbors Lead &amp; Inspire</em></nav-directory-item
       > -->
-    </nav-directory>
+</nav-directory>

@@ -6,14 +6,20 @@ eleventyNavigation:
   image: 'https://placehold.co/144x144'
 ---
 
-    <p class="leading-tight md:text-2xl"
-      ><strong>Community Murals</strong> create pathways for Philadelphia
-      communities and artists to access and sustain the transformative power of
-      the arts.</p
-    >
-    <nav-directory>
-      <nav-directory-item @href="./sanctuary-farm/">Sanctuary Farm</nav-directory-item>
-      <nav-directory-item @href="./christian-stronghold-mural-together-we-shine/">Christian Stronghold Mural <em>Together We Shine!</em></nav-directory-item>
-      <nav-directory-item @href="./tribute-to-paul-gripper/">Tribute to Paul Gripper</nav-directory-item>
-      <nav-directory-item @href="./caicu/">CAICU</nav-directory-item>
-    </nav-directory>
+<p class="leading-tight md:text-2xl"
+  ><strong>Community Murals</strong> create pathways for Philadelphia
+  communities and artists to access and sustain the transformative power of the
+  arts.</p
+>
+<nav-directory>
+  <nav-directory-item @href="./sanctuary-farm/"
+    >Sanctuary Farm</nav-directory-item
+  >
+  <nav-directory-item @href="./christian-stronghold-mural-together-we-shine/"
+    >Christian Stronghold Mural <em>Together We Shine!</em></nav-directory-item
+  >
+  <nav-directory-item @href="./tribute-to-paul-gripper/"
+    >Tribute to Paul Gripper</nav-directory-item
+  >
+  <nav-directory-item @href="./caicu/">CAICU</nav-directory-item>
+</nav-directory>

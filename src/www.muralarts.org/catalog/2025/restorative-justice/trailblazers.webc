@@ -10,66 +10,81 @@ eleventyNavigation:
   image: 'https://placehold.co/144x144'
 ---
 
-    <h2 class="mt-0 font-serif text-[2.5em]"><em>Trailblazers</em></h2>
-    <light-box
-      class="md:**:prose-figcaption:block"
-      @picture="/_assets/images/pics/restorative-justice-trailblazers-00.png"
-      @alt=""
-      @widths="800"
-    ></light-box>
-    <p-lede
-      >This recent mural, <em>Trailblazers</em> by
-      <a href="https://pbutterpaint.com/" target="_blank" rel="noopener">Priscilla Bell Lamberty</a>, celebrates
-      the resilience, creativity, and
-      innovation of those who have made
-      significant contributions to West
-      Philadelphia, and highlights the Fourth
-      District <a href="https://www.instagram.com/westphillycv/?hl=en" target="_blank" rel="noopener">Container Village</a> as a
-      vibrant hub of commerce,
-      entertainment, and a welcoming space
-      for Philadelphians and visitors alike.</p-lede
-    >
-    <p
-      >The youth depicted symbolize the bright future of the
-      neighborhood—inheriting and building upon the rich legacy of past
-      trailblazers, ensuring the district’s continued growth as a place of
-      opportunity and creativity for generations to come. Lamberty was assisted
-      by artists Tash Billington, Rachel Brinker, Misty Sol, and <a href="https://muralarts.org/programs/restorative-justice/rec-crew/" target="_blank" rel="noopener">Rec Crew</a>
-      members Terrence Bostic, Rock Hankerson, and Donnie Lopez. This project,
-      which is located at 4862 Parkside Avenue, was brought to us by Councilman
-      Curtis Jones Jr. This type of mural is indicative of the early years of the
-      Philadelphia Anti-Graffiti Network (PAGN) and Mural Arts when community
-      members were frequently honored in this way.</p
-    >
-    <p
-      ><strong>PARTNER</strong>:
-      <span class="font-serif"
-        >Office of Councilman Curtis Jones, Jr.</span
-      ></p
-    >
-    <p
-      ><strong>FUNDER</strong>:
-      <span class="font-serif"
-        >City of Philadelphia</span
-      ></p
-    >
-    <div
-      class="not-prose grid grid-flow-row-dense grid-cols-1 gap-2 py-2 md:grid-cols-2"
-    >
-      <light-box
-        @picture="/_assets/images/pics/restorative-justice-trailblazers-01.png"
-        @alt=""
-        @widths="400"
-      ></light-box>
-      <light-box
-        @picture="/_assets/images/pics/restorative-justice-trailblazers-02.png"
-        @alt=""
-        @widths="400"
-      ></light-box>
-    </div>
-    <nav-directory>
-      <!-- <nav-directory-item @href="../trailblazers/"><em>Trailblazers</em></nav-directory-item> -->
-      <nav-directory-item @href="../knowledge-and-method/"><em>Knowledge &amp; Method</em></nav-directory-item>
-      <nav-directory-item @href="../pyrrhic-defeat-a-visual-study-of-mass-incarceration/"><em>Pyrrhic Defeat: A Visual Study of Mass Incarceration</em></nav-directory-item>
-      <nav-directory-item @href="../legacies-our-neighbors-lead-and-inspire/"><em>Legacies: Our Neighbors Lead &amp; Inspire</em></nav-directory-item>
-    </nav-directory>
+<h2 class="mt-0 font-serif text-[2.5em]"><em>Trailblazers</em></h2>
+<light-box
+  class="md:**:prose-figcaption:block"
+  @picture="/_assets/images/pics/restorative-justice-trailblazers-00.png"
+  @alt=""
+  @widths="800"
+></light-box>
+<p-lede
+  >This recent mural, <em>Trailblazers</em> by
+  <a href="https://pbutterpaint.com/" target="_blank" rel="noopener"
+    >Priscilla Bell Lamberty</a
+  >, celebrates the resilience, creativity, and innovation of those who have
+  made significant contributions to West Philadelphia, and highlights the Fourth
+  District
+  <a
+    href="https://www.instagram.com/westphillycv/?hl=en"
+    target="_blank"
+    rel="noopener"
+    >Container Village</a
+  >
+  as a vibrant hub of commerce, entertainment, and a welcoming space for
+  Philadelphians and visitors alike.</p-lede
+>
+<p
+  >The youth depicted symbolize the bright future of the neighborhood—inheriting
+  and building upon the rich legacy of past trailblazers, ensuring the
+  district’s continued growth as a place of opportunity and creativity for
+  generations to come. Lamberty was assisted by artists Tash Billington, Rachel
+  Brinker, Misty Sol, and
+  <a
+    href="https://muralarts.org/programs/restorative-justice/rec-crew/"
+    target="_blank"
+    rel="noopener"
+    >Rec Crew</a
+  >
+  members Terrence Bostic, Rock Hankerson, and Donnie Lopez. This project, which
+  is located at 4862 Parkside Avenue, was brought to us by Councilman Curtis
+  Jones Jr. This type of mural is indicative of the early years of the
+  Philadelphia Anti-Graffiti Network (PAGN) and Mural Arts when community
+  members were frequently honored in this way.</p
+>
+<p
+  ><strong>PARTNER</strong>:
+  <span class="font-serif">Office of Councilman Curtis Jones, Jr.</span></p
+>
+<p
+  ><strong>FUNDER</strong>:
+  <span class="font-serif">City of Philadelphia</span></p
+>
+<div
+  class="not-prose grid grid-flow-row-dense grid-cols-1 gap-2 py-2 md:grid-cols-2"
+>
+  <light-box
+    @picture="/_assets/images/pics/restorative-justice-trailblazers-01.png"
+    @alt=""
+    @widths="400"
+  ></light-box>
+  <light-box
+    @picture="/_assets/images/pics/restorative-justice-trailblazers-02.png"
+    @alt=""
+    @widths="400"
+  ></light-box>
+</div>
+<nav-directory>
+  <!-- <nav-directory-item @href="../trailblazers/"><em>Trailblazers</em></nav-directory-item> -->
+  <nav-directory-item @href="../knowledge-and-method/"
+    ><em>Knowledge &amp; Method</em></nav-directory-item
+  >
+  <nav-directory-item
+    @href="../pyrrhic-defeat-a-visual-study-of-mass-incarceration/"
+    ><em
+      >Pyrrhic Defeat: A Visual Study of Mass Incarceration</em
+    ></nav-directory-item
+  >
+  <nav-directory-item @href="../legacies-our-neighbors-lead-and-inspire/"
+    ><em>Legacies: Our Neighbors Lead &amp; Inspire</em></nav-directory-item
+  >
+</nav-directory>

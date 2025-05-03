@@ -10,87 +10,86 @@ eleventyNavigation:
   image: 'https://placehold.co/144x144'
 ---
 
-
-    <h2 class="mt-0 font-serif text-[2.5em]"><em>SAFER</em> Mural</h2>
-    <light-box
-      class="md:**:prose-figcaption:block"
-      @picture="/_assets/images/pics/art-education-safer-00.png"
-      @alt="Many small children sitting around a long table with paints of various colors."
-      :@caption="`Nazeer Sabree leads the production of the mural WONDER at 417 North 8th Street, July 31, 2022. Photo by Steve Weinik.`"
-      @widths="800"
-    ></light-box>
-    <p-lede
-      >In summer 2024, Nazeer Sabree, painter and lead Teaching Artist, embarked
-      on a journey with
-      <a
-        href="https://muralarts.org/programs/art-education/career-connected-learning/"
-        target="_blank"
-        rel="noopener"
-      >
-        Career Connected Learning
-      </a>
-      program participants to create a mural inspired by Mayor Cherelle Parker's
-      <a
-        href="https://officeofcleanandgreen.org/"
-        target="_blank"
-        rel="noopener"
-      >
-        "One Philly: A United City! Safer, Cleaner, Greener"
-      </a>
-      initiative.</p-lede
-    >
-    <p
-      >Nazeer and his students engaged in conversations about what life is like
-      as a young person living in Philly and their vision for a safer, cleaner,
-      greener city. These discussions resulted in the creation of
-      <em>SAFER</em>, a mural combining Sabree's
-      <a
-        href="https://nazeersabreestudios.com/works-nazeer-sabree-art-artist-contemporary"
-        target="_blank"
-        rel="noopener"
-        >“false face”</a
-      >
-      approach to portraiture and student-selected imagery. Located at 1129 N.
-      Lee Street, the mural dedication will be held in summer 2025.</p
-    >
-    <p
-      ><strong>FUNDER</strong>:
-      <span class="font-serif">City of Philadelphia, Philadelphia Department of Human
-        Services, The School District of Philadelphia, PhiladelphiaWorks</span></p
-    >
-    <p
-      ><strong>PARTNERS</strong>:
-      <span class="font-serif">JEVs Human Services, Career Connected Learning
-        (C2L-PHL), Jules E. Mastbaum High School</span></p
-    >
-    <div
-      class="not-prose grid grid-flow-row-dense grid-cols-1 gap-2 py-2 md:grid-cols-3"
-    >
-      <light-box
-        @picture="/_assets/images/pics/art-education-safer-01.png"
-        @alt="quisquam eos velit"
-        @widths="240"
-      ></light-box>
-      <light-box
-        class="md:col-span-2"
-        @picture="/_assets/images/pics/art-education-safer-02.png"
-        @alt="harum laudantium ab"
-        @widths="460"
-      ></light-box>
-    </div>
-    <nav-directory>
-      <nav-directory-item @href="../seasons-of-imagination/"
-        ><em>Seasons of Imagination</em></nav-directory-item
-      >
-      <nav-directory-item
-        @href="../continued-partnership-with-philadelphia-parks-and-recreation/"
-        >Continued Partnership with Philadelphia Parks and
-        Recreation</nav-directory-item
-      >
-      <nav-directory-item @href="../blooming-futures-mural/"
-        ><em>Blooming Futures</em> Mural</nav-directory-item
-      >
-      <!--- <nav-directory-item @href="../safer-mural/"
+<h2 class="mt-0 font-serif text-[2.5em]"><em>SAFER</em> Mural</h2>
+<light-box
+  class="md:**:prose-figcaption:block"
+  @picture="/_assets/images/pics/art-education-safer-00.png"
+  @alt="Many small children sitting around a long table with paints of various colors."
+  :@caption="`Nazeer Sabree leads the production of the mural WONDER at 417 North 8th Street, July 31, 2022. Photo by Steve Weinik.`"
+  @widths="800"
+></light-box>
+<p-lede
+  >In summer 2024, Nazeer Sabree, painter and lead Teaching Artist, embarked on
+  a journey with
+  <a
+    href="https://muralarts.org/programs/art-education/career-connected-learning/"
+    target="_blank"
+    rel="noopener"
+  >
+    Career Connected Learning
+  </a>
+  program participants to create a mural inspired by Mayor Cherelle Parker's
+  <a href="https://officeofcleanandgreen.org/" target="_blank" rel="noopener">
+    "One Philly: A United City! Safer, Cleaner, Greener"
+  </a>
+  initiative.</p-lede
+>
+<p
+  >Nazeer and his students engaged in conversations about what life is like as a
+  young person living in Philly and their vision for a safer, cleaner, greener
+  city. These discussions resulted in the creation of <em>SAFER</em>, a mural
+  combining Sabree's
+  <a
+    href="https://nazeersabreestudios.com/works-nazeer-sabree-art-artist-contemporary"
+    target="_blank"
+    rel="noopener"
+    >“false face”</a
+  >
+  approach to portraiture and student-selected imagery. Located at 1129 N. Lee
+  Street, the mural dedication will be held in summer 2025.</p
+>
+<p
+  ><strong>FUNDER</strong>:
+  <span class="font-serif"
+    >City of Philadelphia, Philadelphia Department of Human Services, The School
+    District of Philadelphia, PhiladelphiaWorks</span
+  ></p
+>
+<p
+  ><strong>PARTNERS</strong>:
+  <span class="font-serif"
+    >JEVs Human Services, Career Connected Learning (C2L-PHL), Jules E. Mastbaum
+    High School</span
+  ></p
+>
+<div
+  class="not-prose grid grid-flow-row-dense grid-cols-1 gap-2 py-2 md:grid-cols-3"
+>
+  <light-box
+    @picture="/_assets/images/pics/art-education-safer-01.png"
+    @alt="quisquam eos velit"
+    @widths="240"
+  ></light-box>
+  <light-box
+    class="md:col-span-2"
+    @picture="/_assets/images/pics/art-education-safer-02.png"
+    @alt="harum laudantium ab"
+    @widths="460"
+  ></light-box>
+</div>
+<nav-directory>
+  <nav-directory-item @href="../seasons-of-imagination/"
+    ><em>Seasons of Imagination</em></nav-directory-item
+  >
+  <nav-directory-item
+    @href="../continued-partnership-with-philadelphia-parks-and-recreation/"
+    >Continued Partnership with Philadelphia Parks and
+    Recreation</nav-directory-item
+  >
+  <nav-directory-item @href="../blooming-futures-mural/"
+    ><em>Blooming Futures</em> Mural</nav-directory-item
+  >
+  <!--- <nav-directory-item @href="../safer-mural/"
         ><em>SAFER</em> Mural</nav-directory-item
     > --->
-    </nav-directory>
+</nav-directory>

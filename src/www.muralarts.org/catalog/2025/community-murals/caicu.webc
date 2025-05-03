@@ -10,86 +10,83 @@ eleventyNavigation:
   image: 'https://placehold.co/144x144'
 ---
 
-
-    <h2 class="mt-0 font-serif text-[2.5em]">CAICU</h2>
-    <light-box
-      class="md:**:prose-figcaption:block"
-      @picture="/_assets/images/pics/community-caicu-00.png"
-      @alt=""
-      :@caption="`Grupo Motivos dedication, October 19, 2024. Photo by Emily Hildenbrand.`"
-      @widths="800"
-    ></light-box>
-    <p-lede
-      >CAICU, a Taino word for land bridge, is a socially engaged public art
-      series weaving together culturally and historically significant Puerto
-      Rican-themed gardens in the Norris Square neighborhood created by
-      community organizers in the 1980s.</p-lede
-    >
-    <p
-      >Led by Philadelphia-based curator Marángeli Mejía-Rabell and Puerto
-      Rico-based muralist Celso González to strengthen community and public
-      awareness of the neighborhood’s history and legacy. The project’s focus is
-      on building a cultural bridge through cultural organizing, public art and
-      fostering cultural exchanges with Norris Square, Philadelphia and Loíza,
-      Puerto Rico as its landing points. Efforts to date include the co-design
-      of a garden at Corredor Afro in Loíza, public art interventions, and
-      skills & practices share/gatherings that support co-creation, foster
-      connections, and encourage a culture of learning, collaboration and
-      community building. Their next effort is a collaborative mural bringing
-      together three local artists and two visiting artists to celebrate the
-      rich history of the Norris Square community and its Caribbean roots. The
-      CAICU team is also training community members to serve as Mural Arts'
-      first resident-led neighborhood tour guides.</p
-    >
-    <p
-      ><strong>FUNDERS</strong>:
-      <span class="font-serif"
-        >National Endowment for the Arts, PNC Arts Alive, Pennsylvania Council
-        on the Arts</span
-      ></p
-    >
-    <p
-      ><strong>PARTNERS</strong>:
-      <span class="font-serif"
-        ><a
-          href="https://www.myneighborhoodproject.org"
-          target="_blank"
-          rel="noopener"
-          >Norris Square Neighborhood Project</a
-        ></span
-      ></p
-    >
-    <div
-      class="not-prose grid grid-flow-row-dense grid-cols-1 gap-2 py-2 md:grid-cols-2"
-    >
-      <light-box
-        @picture="/_assets/images/pics/community-caicu-01.png"
-        @alt=""
-        @widths="400"
-      ></light-box>
-      <light-box
-        @picture="/_assets/images/pics/community-caicu-02.png"
-        @alt=""
-        @widths="400"
-      ></light-box>
-      <light-box
-        class="md:col-span-2"
-        @picture="/_assets/images/pics/community-caicu-03.png"
-        @alt=""
-        @widths="800"
-      ></light-box>
-    </div>
-    <nav-directory>
-      <nav-directory-item @href="../sanctuary-farm/"
-        >Sanctuary Farm</nav-directory-item
-      >
-      <nav-directory-item
-        @href="../christian-stronghold-mural-together-we-shine/"
-        >Christian Stronghold Mural
-        <em>Together We Shine!</em></nav-directory-item
-      >
-      <nav-directory-item @href="../tribute-to-paul-gripper/"
-        >Tribute to Paul Gripper</nav-directory-item
-      >
-      <!---<nav-directory-item @href="../caicu/">CAICU</nav-directory-item>--->
-    </nav-directory>
+<h2 class="mt-0 font-serif text-[2.5em]">CAICU</h2>
+<light-box
+  class="md:**:prose-figcaption:block"
+  @picture="/_assets/images/pics/community-caicu-00.png"
+  @alt=""
+  :@caption="`Grupo Motivos dedication, October 19, 2024. Photo by Emily Hildenbrand.`"
+  @widths="800"
+></light-box>
+<p-lede
+  >CAICU, a Taino word for land bridge, is a socially engaged public art series
+  weaving together culturally and historically significant Puerto Rican-themed
+  gardens in the Norris Square neighborhood created by community organizers in
+  the 1980s.</p-lede
+>
+<p
+  >Led by Philadelphia-based curator Marángeli Mejía-Rabell and Puerto
+  Rico-based muralist Celso González to strengthen community and public
+  awareness of the neighborhood’s history and legacy. The project’s focus is on
+  building a cultural bridge through cultural organizing, public art and
+  fostering cultural exchanges with Norris Square, Philadelphia and Loíza,
+  Puerto Rico as its landing points. Efforts to date include the co-design of a
+  garden at Corredor Afro in Loíza, public art interventions, and skills &
+  practices share/gatherings that support co-creation, foster connections, and
+  encourage a culture of learning, collaboration and community building. Their
+  next effort is a collaborative mural bringing together three local artists and
+  two visiting artists to celebrate the rich history of the Norris Square
+  community and its Caribbean roots. The CAICU team is also training community
+  members to serve as Mural Arts' first resident-led neighborhood tour
+  guides.</p
+>
+<p
+  ><strong>FUNDERS</strong>:
+  <span class="font-serif"
+    >National Endowment for the Arts, PNC Arts Alive, Pennsylvania Council on
+    the Arts</span
+  ></p
+>
+<p
+  ><strong>PARTNERS</strong>:
+  <span class="font-serif"
+    ><a
+      href="https://www.myneighborhoodproject.org"
+      target="_blank"
+      rel="noopener"
+      >Norris Square Neighborhood Project</a
+    ></span
+  ></p
+>
+<div
+  class="not-prose grid grid-flow-row-dense grid-cols-1 gap-2 py-2 md:grid-cols-2"
+>
+  <light-box
+    @picture="/_assets/images/pics/community-caicu-01.png"
+    @alt=""
+    @widths="400"
+  ></light-box>
+  <light-box
+    @picture="/_assets/images/pics/community-caicu-02.png"
+    @alt=""
+    @widths="400"
+  ></light-box>
+  <light-box
+    class="md:col-span-2"
+    @picture="/_assets/images/pics/community-caicu-03.png"
+    @alt=""
+    @widths="800"
+  ></light-box>
+</div>
+<nav-directory>
+  <nav-directory-item @href="../sanctuary-farm/"
+    >Sanctuary Farm</nav-directory-item
+  >
+  <nav-directory-item @href="../christian-stronghold-mural-together-we-shine/"
+    >Christian Stronghold Mural <em>Together We Shine!</em></nav-directory-item
+  >
+  <nav-directory-item @href="../tribute-to-paul-gripper/"
+    >Tribute to Paul Gripper</nav-directory-item
+  >
+  <!---<nav-directory-item @href="../caicu/">CAICU</nav-directory-item>--->
+</nav-directory>

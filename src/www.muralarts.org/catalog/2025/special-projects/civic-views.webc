@@ -10,43 +10,50 @@ eleventyNavigation:
   image: 'https://placehold.co/144x144'
 ---
 
-    <h2 class="mt-0 font-serif text-[2.5em]"><em>Civic Views</em></h2>
-    <light-box
-      class="md:**:prose-figcaption:block"
-      @picture="/_assets/images/pics/special-projects-civic-views-00.png"
-      @alt=""
-      :@caption="`Emilio Martínez Poppe, Department of Sanitation, North. Photograph. 2024.`"
-      @widths="800"
-    ></light-box>
-    <p-lede
-      ><em>Civic Views</em> is a photography project
-      that documents Philadelphia through
-      the windows of its municipal service
-      agencies.</p-lede
-    >
-    <p
-      >The photographs by artist <a href="https://emiliomartinezpoppe.com/" target="_blank" rel="noopener">Emilio Martínez Poppe</a> provide a storytelling
-      device for understanding the aspirations and complexities of City of
-      Philadelphia employees. Each window becomes a diverse viewing portal to
-      see the city and to begin to map the architecture, labor, and human
-      experience needed to run city government. The photographs will come
-      together in a temporary art installation in the City Hall Courtyard in May and
-      June 2025.</p
-    >
-    <p
-      ><strong>FUNDERS</strong>:
-      <span class="font-serif"
-        >City of Philadelphia, ArtBridge</span
-      ></p
-    >
-    <light-box
-      @picture="/_assets/images/pics/special-projects-civic-views-01.png"
-      @alt=""
-      @widths="200"
-    ></light-box>
-    <nav-directory>
-      <nav-directory-item @href="../our-market-ancestors-mural-series/"><em>Our Market Ancestors</em> Mural Series</nav-directory-item>
-      <nav-directory-item @href="../civic-views/"><em>Civic Views</em></nav-directory-item>
-      <nav-directory-item @href="../sun-ra-arkestra-mural/"><em>Sun Ra Arkestra</em> Mural</nav-directory-item>
-      <nav-directory-item @href="../peoples-budget-office/">People’s Budget Office</nav-directory-item>
-    </nav-directory>
+<h2 class="mt-0 font-serif text-[2.5em]"><em>Civic Views</em></h2>
+<light-box
+  class="md:**:prose-figcaption:block"
+  @picture="/_assets/images/pics/special-projects-civic-views-00.png"
+  @alt=""
+  :@caption="`Emilio Martínez Poppe, Department of Sanitation, North. Photograph. 2024.`"
+  @widths="800"
+></light-box>
+<p-lede
+  ><em>Civic Views</em> is a photography project that documents Philadelphia
+  through the windows of its municipal service agencies.</p-lede
+>
+<p
+  >The photographs by artist
+  <a href="https://emiliomartinezpoppe.com/" target="_blank" rel="noopener"
+    >Emilio Martínez Poppe</a
+  >
+  provide a storytelling device for understanding the aspirations and
+  complexities of City of Philadelphia employees. Each window becomes a diverse
+  viewing portal to see the city and to begin to map the architecture, labor,
+  and human experience needed to run city government. The photographs will come
+  together in a temporary art installation in the City Hall Courtyard in May and
+  June 2025.</p
+>
+<p
+  ><strong>FUNDERS</strong>:
+  <span class="font-serif">City of Philadelphia, ArtBridge</span></p
+>
+<light-box
+  @picture="/_assets/images/pics/special-projects-civic-views-01.png"
+  @alt=""
+  @widths="200"
+></light-box>
+<nav-directory>
+  <nav-directory-item @href="../our-market-ancestors-mural-series/"
+    ><em>Our Market Ancestors</em> Mural Series</nav-directory-item
+  >
+  <nav-directory-item @href="../civic-views/"
+    ><em>Civic Views</em></nav-directory-item
+  >
+  <nav-directory-item @href="../sun-ra-arkestra-mural/"
+    ><em>Sun Ra Arkestra</em> Mural</nav-directory-item
+  >
+  <nav-directory-item @href="../peoples-budget-office/"
+    >People’s Budget Office</nav-directory-item
+  >
+</nav-directory>

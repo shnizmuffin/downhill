@@ -8,24 +8,85 @@
     <meta name="description" :content="meta.description" />
     <style @raw="getBundle('css')" webc:keep></style>
     <script @raw="getBundle('js')" webc:keep></script>
-    <link sizes="16x16" rel="icon" type="image/png" href="https://muralarts.org/favicon-16x16.png">
-    <link sizes="32x32" rel="icon" href="https://muralarts.org/wp-content/uploads/2025/01/favicon-150x150.png">
-    <link sizes="57x57" rel="apple-touch-icon" href="https://muralarts.org/apple-icon-57x57.png">
-    <link sizes="60x60" rel="apple-touch-icon" href="https://muralarts.org/apple-icon-60x60.png">
-    <link sizes="72x72" rel="apple-touch-icon" href="https://muralarts.org/apple-icon-72x72.png">
-    <link sizes="76x76" rel="apple-touch-icon" href="https://muralarts.org/apple-icon-76x76.png">
-    <link sizes="96x96" rel="icon" type="image/png" href="https://muralarts.org/favicon-96x96.png">
-    <link sizes="114x114" rel="apple-touch-icon" href="https://muralarts.org/apple-icon-114x114.png">
-    <link sizes="120x120" rel="apple-touch-icon" href="https://muralarts.org/apple-icon-120x120.png">
-    <link sizes="144x144" rel="apple-touch-icon" href="https://muralarts.org/apple-icon-144x144.png">
-    <link sizes="152x152" rel="apple-touch-icon" href="https://muralarts.org/apple-icon-152x152.png">
-    <link sizes="180x180" rel="apple-touch-icon" href="https://muralarts.org/apple-icon-180x180.png">
-    <link sizes="192x192" rel="icon" href="https://muralarts.org/wp-content/uploads/2025/01/favicon-300x300.png">
-    <link sizes="300x300" rel="apple-touch-icon" href="https://muralarts.org/wp-content/uploads/2025/01/favicon-300x300.png">
-    <link rel="manifest" href="https://muralarts.org/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="https://muralarts.org/wp-content/uploads/2025/01/favicon-300x300.png">
-    <meta name="theme-color" content="#ffffff">
+    <link
+      sizes="16x16"
+      rel="icon"
+      type="image/png"
+      href="https://muralarts.org/favicon-16x16.png"
+    />
+    <link
+      sizes="32x32"
+      rel="icon"
+      href="https://muralarts.org/wp-content/uploads/2025/01/favicon-150x150.png"
+    />
+    <link
+      sizes="57x57"
+      rel="apple-touch-icon"
+      href="https://muralarts.org/apple-icon-57x57.png"
+    />
+    <link
+      sizes="60x60"
+      rel="apple-touch-icon"
+      href="https://muralarts.org/apple-icon-60x60.png"
+    />
+    <link
+      sizes="72x72"
+      rel="apple-touch-icon"
+      href="https://muralarts.org/apple-icon-72x72.png"
+    />
+    <link
+      sizes="76x76"
+      rel="apple-touch-icon"
+      href="https://muralarts.org/apple-icon-76x76.png"
+    />
+    <link
+      sizes="96x96"
+      rel="icon"
+      type="image/png"
+      href="https://muralarts.org/favicon-96x96.png"
+    />
+    <link
+      sizes="114x114"
+      rel="apple-touch-icon"
+      href="https://muralarts.org/apple-icon-114x114.png"
+    />
+    <link
+      sizes="120x120"
+      rel="apple-touch-icon"
+      href="https://muralarts.org/apple-icon-120x120.png"
+    />
+    <link
+      sizes="144x144"
+      rel="apple-touch-icon"
+      href="https://muralarts.org/apple-icon-144x144.png"
+    />
+    <link
+      sizes="152x152"
+      rel="apple-touch-icon"
+      href="https://muralarts.org/apple-icon-152x152.png"
+    />
+    <link
+      sizes="180x180"
+      rel="apple-touch-icon"
+      href="https://muralarts.org/apple-icon-180x180.png"
+    />
+    <link
+      sizes="192x192"
+      rel="icon"
+      href="https://muralarts.org/wp-content/uploads/2025/01/favicon-300x300.png"
+    />
+    <link
+      sizes="300x300"
+      rel="apple-touch-icon"
+      href="https://muralarts.org/wp-content/uploads/2025/01/favicon-300x300.png"
+    />
+    <link rel="manifest" href="https://muralarts.org/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta
+      name="msapplication-TileImage"
+      content="https://muralarts.org/wp-content/uploads/2025/01/favicon-300x300.png"
+    />
+    <meta name="theme-color" content="#ffffff" />
     <title
       @text="meta.title ? (meta.title +' | ' + agency.client) : (title +' | ' + agency.client)"
       webc:keep
@@ -33,7 +94,9 @@
     <gtm webc:nokeep></gtm>
   </head>
 
-  <body class="relative flex min-h-screen min-w-[360px] flex-col bg-gray-100 items-stretch">
+  <body
+    class="relative flex min-h-screen min-w-[360px] flex-col items-stretch bg-gray-100"
+  >
     <noscript webc:keep></noscript>
     <template @raw="content" webc:nokeep></template>
     <style @raw="getBundle('css', 'defer')" webc:keep></style>

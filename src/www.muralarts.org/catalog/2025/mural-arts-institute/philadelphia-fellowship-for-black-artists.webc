@@ -10,62 +10,61 @@ eleventyNavigation:
   image: 'https://placehold.co/144x144'
 ---
 
-    <h2 class="mt-0 font-serif text-[2.5em]"
-      >Philadelphia Fellowship for Black Artists</h2
-    >
-    <light-box
-      class="md:**:prose-figcaption:block"
-      @picture="/_assets/images/pics/ma-institute-fellowship-00.png"
-      @alt=""
-      :@caption="`2024 Fellowship Cohort at Paradigm Gallery. Photo by Mural Arts Staff`"
-      @widths="800"
-    ></light-box>
-    <p-lede
-      >The Philadelphia Fellowship for Black Artists is a dynamic program
-      sponsored by TD Bank, that focuses on nurturing emerging talent and is
-      dedicated to creating essential pathways for artists through a blend of
-      mentorship, professional development, and long-term industry
-      connections.</p-lede
-    >
-    <p
-      >Now in its 5th iteration, and with 15 artists selected each year, learn
-      about all 85 fellows who have participated in this year-long program at
-      <a
-        href="https://muralartsinstitute.com/fellowship"
-        target="_blank"
-        rel="noopener"
-        >MuralArtsInstitute.com/fellowship</a
-      >. Read this recent
-      <a
-        href="https://muralarts.org/stories/black-artist-fellowship-fellowship-exhibition-updates/"
-        target="_blank"
-        rel="noopener"
-        >blog</a
-      >
-      about the program.</p
-    >
-    <p><strong>FUNDERS</strong>: <span class="font-serif">TD Bank</span></p>
+<h2 class="mt-0 font-serif text-[2.5em]"
+  >Philadelphia Fellowship for Black Artists</h2
+>
+<light-box
+  class="md:**:prose-figcaption:block"
+  @picture="/_assets/images/pics/ma-institute-fellowship-00.png"
+  @alt=""
+  :@caption="`2024 Fellowship Cohort at Paradigm Gallery. Photo by Mural Arts Staff`"
+  @widths="800"
+></light-box>
+<p-lede
+  >The Philadelphia Fellowship for Black Artists is a dynamic program sponsored
+  by TD Bank, that focuses on nurturing emerging talent and is dedicated to
+  creating essential pathways for artists through a blend of mentorship,
+  professional development, and long-term industry connections.</p-lede
+>
+<p
+  >Now in its 5th iteration, and with 15 artists selected each year, learn about
+  all 85 fellows who have participated in this year-long program at
+  <a
+    href="https://muralartsinstitute.com/fellowship"
+    target="_blank"
+    rel="noopener"
+    >MuralArtsInstitute.com/fellowship</a
+  >. Read this recent
+  <a
+    href="https://muralarts.org/stories/black-artist-fellowship-fellowship-exhibition-updates/"
+    target="_blank"
+    rel="noopener"
+    >blog</a
+  >
+  about the program.</p
+>
+<p><strong>FUNDERS</strong>: <span class="font-serif">TD Bank</span></p>
 
-    <light-box
-      class="md:col-span-2"
-      @picture="/_assets/images/pics/ma-institute-fellowship-01.png"
-      @alt=""
-      @widths="800"
-    ></light-box>
+<light-box
+  class="md:col-span-2"
+  @picture="/_assets/images/pics/ma-institute-fellowship-01.png"
+  @alt=""
+  @widths="800"
+></light-box>
 
-    <nav-directory>
-      <nav-directory-item @href="../explore-learn-and-connect/">
-        Explore, Learn, and Connect
-      </nav-directory-item>
-      <!---<nav-directory-item @href="../philadelphia-fellowship-for-black-artists/">
+<nav-directory>
+  <nav-directory-item @href="../explore-learn-and-connect/">
+    Explore, Learn, and Connect
+  </nav-directory-item>
+  <!---<nav-directory-item @href="../philadelphia-fellowship-for-black-artists/">
         Philadelphia Fellowship for Black Artists
       </nav-directory-item>--->
-      <nav-directory-item @href="../appreciation-for-artists/">
-        Appreciation for Artists
-      </nav-directory-item>
-      <nav-directory-item
-        @href="../beyond-philadelphia-our-impact-across-the-world/"
-      >
-        Beyond Philadelphia: Our Impact Across the World
-      </nav-directory-item>
-    </nav-directory>
+  <nav-directory-item @href="../appreciation-for-artists/">
+    Appreciation for Artists
+  </nav-directory-item>
+  <nav-directory-item
+    @href="../beyond-philadelphia-our-impact-across-the-world/"
+  >
+    Beyond Philadelphia: Our Impact Across the World
+  </nav-directory-item>
+</nav-directory>

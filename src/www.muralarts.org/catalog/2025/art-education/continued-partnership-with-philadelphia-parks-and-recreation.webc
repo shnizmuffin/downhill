@@ -10,158 +10,146 @@ eleventyNavigation:
   image: 'https://placehold.co/144x144'
 ---
 
+<h2 class="mt-0 font-serif text-[2.5em]"
+  >Youth Design Mural Series at Recreation Centers</h2
+>
+<light-box
+  class="md:**:prose-figcaption:block"
+  @picture="/_assets/images/pics/art-education-youth-00.png"
+  @alt="Many small children sitting around a long table with paints of various colors."
+  :@caption="`Lead Teaching Artist Becky McIntyre and Assistant Teaching Artist Kashana Ricketts teach the youth about color mixing.`"
+  @widths="800"
+></light-box>
+<p-lede
+  >Mural Arts’ Education Department has continued its six-part collaboration
+  with Philadelphia Parks & Recreation to work with rec center youth and create
+  new murals across the city.</p-lede
+>
+<p
+  >Building on a strong foundation in youth and neighborhood-based arts
+  programming, this initiative aimed to promote cross-generational involvement
+  and create a network of trusted messengers for creative self-expression and
+  community safety. Students engaged in a multi-week art education program that
+  taught foundational art-making skills, nurtured creative expression, and
+  boosted self-confidence. The program culminates in a mural project,
+  co-designed and painted by the youth in collaboration with their instructors
+  and the Mural Arts
+  <a
+    href="https://muralarts.org/programs/restorative-justice/rec-crew/"
+    target="_blank"
+    rel="noopener"
+    >Rec Crew</a
+  >. Graduates of the
+  <a
+    href="https://muralarts.org/programs/restorative-justice/the-guild/"
+    target="_blank"
+    rel="noopener"
+    >Guild</a
+  >
+  program can join the Rec Crew to work at rec centers across the city,
+  revitalizing community spaces and supporting mural installations. Our fourth
+  and fifth projects in this series are:</p
+>
 
-    <h2 class="mt-0 font-serif text-[2.5em]"
-      >Youth Design Mural Series at Recreation Centers</h2
-    >
-    <light-box
-      class="md:**:prose-figcaption:block"
-      @picture="/_assets/images/pics/art-education-youth-00.png"
-      @alt="Many small children sitting around a long table with paints of various colors."
-      :@caption="`Lead Teaching Artist Becky McIntyre and Assistant Teaching Artist Kashana Ricketts teach the youth about color mixing.`"
-      @widths="800"
-    ></light-box>
-    <p-lede
-      >Mural Arts’ Education Department has continued its six-part collaboration
-      with Philadelphia Parks & Recreation to work with rec center youth and
-      create new murals across the city.</p-lede
-    >
-    <p
-      >Building on a strong foundation in youth and neighborhood-based arts
-      programming, this initiative aimed to promote cross-generational
-      involvement and create a network of trusted messengers for creative
-      self-expression and community safety. Students engaged in a multi-week art
-      education program that taught foundational art-making skills, nurtured
-      creative expression, and boosted self-confidence. The program culminates
-      in a mural project, co-designed and painted by the youth in collaboration
-      with their instructors and the Mural Arts
-      <a
-        href="https://muralarts.org/programs/restorative-justice/rec-crew/"
-        target="_blank"
-        rel="noopener"
-        >Rec Crew</a
-      >. Graduates of the
-      <a
-        href="https://muralarts.org/programs/restorative-justice/the-guild/"
-        target="_blank"
-        rel="noopener"
-        >Guild</a
-      >
-      program can join the Rec Crew to work at rec centers across the city,
-      revitalizing community spaces and supporting mural installations. Our
-      fourth and fifth projects in this series are:</p
-    >
+<h3><em>WAVE OF EMOTION</em> AT WINCHESTER RECREATION CENTER</h3>
+<p
+  >Lead Teaching Artist and Muralist
+  <a href="https://www.sanaartista.com/bio" target="_blank" rel="noopener"
+    >Becky McIntyre</a
+  >, Assistant Teaching Artist
+  <a href="https://brokenedges.com/about" target="_blank" rel="noopener"
+    >Kashana Ricketts</a
+  >, and Mural Arts’ Rec Crew have been working with Winchester Recreation
+  Center’ s after-school program over ten weeks to design a mural facing the
+  playground. The teaching artist team worked with the youth to identify their
+  emotions and channel them into creativity. Check out the progress of the
+  <a
+    href="https://drive.google.com/file/d/1qNz-yYQI5c0OPCYAmQI_9ZxzGCE0crnU/view"
+    target="_blank"
+    rel="noopener"
+    >mural being painted</a
+  >
+  at the Rec Crew's studio at 915 Spring Garden Street.</p
+>
 
-    <h3><em>WAVE OF EMOTION</em> AT WINCHESTER RECREATION CENTER</h3>
-    <p
-      >Lead Teaching Artist and Muralist
-      <a
-        href="https://www.sanaartista.com/bio"
-        target="_blank"
-        rel="noopener"
-        >Becky McIntyre</a
-      >, Assistant Teaching Artist
-      <a
-        href="https://brokenedges.com/about"
-        target="_blank"
-        rel="noopener"
-        >Kashana Ricketts</a
-      >, and Mural Arts’ Rec Crew have been working with Winchester Recreation
-      Center’ s after-school program over ten weeks to design a mural facing the
-      playground. The teaching artist team worked with the youth to identify
-      their emotions and channel them into creativity. Check out the progress of
-      the
-      <a
-        href="https://drive.google.com/file/d/1qNz-yYQI5c0OPCYAmQI_9ZxzGCE0crnU/view"
-        target="_blank"
-        rel="noopener"
-        >mural being painted</a
-      >
-      at the Rec Crew's studio at 915 Spring Garden Street.</p
-    >
-
-    <div
-      class="not-prose grid grid-flow-row-dense grid-cols-1 gap-2 py-2 md:grid-cols-2"
-    >
-      <light-box
-        @picture="/_assets/images/pics/art-education-youth-01.png"
-        @alt=""
-        @widths="400"
-      ></light-box>
-      <light-box
-        @picture="/_assets/images/pics/art-education-youth-02.png"
-        @alt=""
-        @widths="400"
-      ></light-box>
-    </div>
-    <h3>YOUTH-LED MURAL AT HUNTING PARK RECREATION CENTER</h3>
-    <p
-      >Lead Teaching Artist and Muralist
-      <a
-        href="https://miriamsinger.com/about-1"
-        target="_blank"
-        rel="noopener"
-        >Miriam Singer</a
-      >, Assistant Teaching Artist
-      <a
-        href="https://www.instagram.com/urbanartofheaven/"
-        target="_blank"
-        rel="noopener"
-        >Nevaeh Ryals</a
-      >, and the
-      <a
-        href="https://muralarts.org/programs/restorative-justice/rec-crew/"
-        target="_blank"
-        rel="noopener"
-        >Rec Crew</a
-      >
-      have been working with Hunting Park Recreation Center’ s after-school
-      program over ten weeks to design a mural for their after-school space. The
-      teaching artist team has been working with the youth to talk about where
-      home is to them and encourage them to design their own spaces and
-      neighborhoods.</p
-    >
-    <p
-      ><strong>FUNDER</strong>:
-      <span class="font-serif">PA Commission on Crime and Delinquency</span></p
-    >
-    <div
-      class="not-prose grid grid-flow-row-dense grid-cols-1 gap-2 py-2 md:grid-cols-2"
-    >
-      <light-box
-        @picture="/_assets/images/pics/art-education-youth-03.png"
-        @alt=""
-        @widths="400"
-      ></light-box>
-      <light-box
-        @picture="/_assets/images/pics/art-education-youth-04.png"
-        @alt=""
-        @widths="400"
-      ></light-box>
-      <light-box
-        @picture="/_assets/images/pics/art-education-youth-05.png"
-        @alt=""
-        @widths="400"
-      ></light-box>
-      <light-box
-        @picture="/_assets/images/pics/art-education-youth-06.png"
-        @alt=""
-        @widths="400"
-      ></light-box>
-    </div>
-    <nav-directory>
-      <nav-directory-item @href="../seasons-of-imagination/"
-        ><em>Seasons of Imagination</em></nav-directory-item
-      >
-      <!-- <nav-directory-item
+<div
+  class="not-prose grid grid-flow-row-dense grid-cols-1 gap-2 py-2 md:grid-cols-2"
+>
+  <light-box
+    @picture="/_assets/images/pics/art-education-youth-01.png"
+    @alt=""
+    @widths="400"
+  ></light-box>
+  <light-box
+    @picture="/_assets/images/pics/art-education-youth-02.png"
+    @alt=""
+    @widths="400"
+  ></light-box>
+</div>
+<h3>YOUTH-LED MURAL AT HUNTING PARK RECREATION CENTER</h3>
+<p
+  >Lead Teaching Artist and Muralist
+  <a href="https://miriamsinger.com/about-1" target="_blank" rel="noopener"
+    >Miriam Singer</a
+  >, Assistant Teaching Artist
+  <a
+    href="https://www.instagram.com/urbanartofheaven/"
+    target="_blank"
+    rel="noopener"
+    >Nevaeh Ryals</a
+  >, and the
+  <a
+    href="https://muralarts.org/programs/restorative-justice/rec-crew/"
+    target="_blank"
+    rel="noopener"
+    >Rec Crew</a
+  >
+  have been working with Hunting Park Recreation Center’ s after-school program
+  over ten weeks to design a mural for their after-school space. The teaching
+  artist team has been working with the youth to talk about where home is to
+  them and encourage them to design their own spaces and neighborhoods.</p
+>
+<p
+  ><strong>FUNDER</strong>:
+  <span class="font-serif">PA Commission on Crime and Delinquency</span></p
+>
+<div
+  class="not-prose grid grid-flow-row-dense grid-cols-1 gap-2 py-2 md:grid-cols-2"
+>
+  <light-box
+    @picture="/_assets/images/pics/art-education-youth-03.png"
+    @alt=""
+    @widths="400"
+  ></light-box>
+  <light-box
+    @picture="/_assets/images/pics/art-education-youth-04.png"
+    @alt=""
+    @widths="400"
+  ></light-box>
+  <light-box
+    @picture="/_assets/images/pics/art-education-youth-05.png"
+    @alt=""
+    @widths="400"
+  ></light-box>
+  <light-box
+    @picture="/_assets/images/pics/art-education-youth-06.png"
+    @alt=""
+    @widths="400"
+  ></light-box>
+</div>
+<nav-directory>
+  <nav-directory-item @href="../seasons-of-imagination/"
+    ><em>Seasons of Imagination</em></nav-directory-item
+  >
+  <!-- <nav-directory-item
         @href="../continued-partnership-with-philadelphia-parks-and-recreation/"
         >Continued Partnership with Philadelphia Parks and
         Recreation</nav-directory-item
       > -->
-      <nav-directory-item @href="../blooming-futures-mural/"
-        ><em>Blooming Futures</em> Mural</nav-directory-item
-      >
-      <nav-directory-item @href="../safer-mural/"
-        ><em>SAFER</em> Mural</nav-directory-item
-      >
-    </nav-directory>
+  <nav-directory-item @href="../blooming-futures-mural/"
+    ><em>Blooming Futures</em> Mural</nav-directory-item
+  >
+  <nav-directory-item @href="../safer-mural/"
+    ><em>SAFER</em> Mural</nav-directory-item
+  >
+</nav-directory>

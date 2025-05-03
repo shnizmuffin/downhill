@@ -6,19 +6,27 @@ eleventyNavigation:
   image: 'https://placehold.co/144x144'
 ---
 
-    <p class="leading-tight md:text-2xl"
-      >Mural Arts’
-      <strong><a href="#" target="_blank">Porch Light</a></strong> program, a
-      collaboration with the
-      <a href="#" target="_blank"
-        >City of Philadelphia’s Department of Behavioral Health and Intellectual
-        disAbility Services </a
-      >, focuses on achieving holistic health and wellness among Philadelphians
-      by offering opportunities to contribute to meaningful public artworks.</p
-    >
-    <nav-directory>
-      <nav-directory-item @href="./the-path-through-connection/"><em>The Path Through Connection</em></nav-directory-item>
-      <nav-directory-item @href="./embracing-the-light/"><em>Embracing the Light</em></nav-directory-item>
-      <nav-directory-item @href="./continuum/"><em>Continuum</em></nav-directory-item>
-      <nav-directory-item @href="./petrykivka-garden-and-cities-of-war/"><em>Petrykivka Garden</em> and <em>Cities of War</em></nav-directory-item>
-    </nav-directory>
+<p class="leading-tight md:text-2xl"
+  >Mural Arts’
+  <strong><a href="#" target="_blank">Porch Light</a></strong> program, a
+  collaboration with the
+  <a href="#" target="_blank"
+    >City of Philadelphia’s Department of Behavioral Health and Intellectual
+    disAbility Services </a
+  >, focuses on achieving holistic health and wellness among Philadelphians by
+  offering opportunities to contribute to meaningful public artworks.</p
+>
+<nav-directory>
+  <nav-directory-item @href="./the-path-through-connection/"
+    ><em>The Path Through Connection</em></nav-directory-item
+  >
+  <nav-directory-item @href="./embracing-the-light/"
+    ><em>Embracing the Light</em></nav-directory-item
+  >
+  <nav-directory-item @href="./continuum/"
+    ><em>Continuum</em></nav-directory-item
+  >
+  <nav-directory-item @href="./petrykivka-garden-and-cities-of-war/"
+    ><em>Petrykivka Garden</em> and <em>Cities of War</em></nav-directory-item
+  >
+</nav-directory>

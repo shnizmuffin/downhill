@@ -10,96 +10,88 @@ eleventyNavigation:
   image: 'https://placehold.co/144x144'
 ---
 
-
-    <h2 class="mt-0 font-serif text-[2.5em]"
-      ><em>Seasons of Imagination</em> Mural</h2
-    >
-    <light-box
-      class="md:**:prose-figcaption:block"
-      @picture="/_assets/images/pics/art-education-seasons-of-imagination-00.png"
-      @alt="Many small children sitting around a long table with paints of various colors."
-      :@caption="`<em>Seasons of Imagination</em> © 2024 City of Philadelphia Mural Arts Program /
+<h2 class="mt-0 font-serif text-[2.5em]"
+  ><em>Seasons of Imagination</em> Mural</h2
+>
+<light-box
+  class="md:**:prose-figcaption:block"
+  @picture="/_assets/images/pics/art-education-seasons-of-imagination-00.png"
+  @alt="Many small children sitting around a long table with paints of various colors."
+  :@caption="`<em>Seasons of Imagination</em> © 2024 City of Philadelphia Mural Arts Program /
       Marian Bailey, Joseph Pennell School, 1800 W. Nedro Ave. Photo by
       Steve Weinik.`"
-      @widths="800"
-    ></light-box>
-    <p-lede
-      >The
-      <a
-        href="https://muralarts.org/artworks/seasons-of-imagination/"
-        target="_blank"
-        rel="noopener"
-        >Seasons of Imagination</a
-      >
-      mural series by
-      <a
-        href="https://www.marianbaileyart.com/"
-        target="_blank"
-        rel="noopener"
-        >Marian Bailey</a
-      >
-      is a collaboration between Mural Arts and the youth, families, teachers,
-      and staff of Joseph Pennell School, designed to increase literacy skills
-      through playful learning, highlight school pride, create a sense of
-      community, and showcase the expansiveness of imagination.</p-lede
-    >
-    <p
-      >This mural series is part of a larger schoolyard revitalization project
-      with
-      <a
-        href="https://www.saltdesignstudio.com/"
-        target="_blank"
-        rel="noopener"
-        >SALT Design Studio</a
-      >.</p
-    >
-    <p
-      >This series consists of five murals, each with their own significance,
-      tied together by Playful Learning Schoolyard’s 6C learning goals for
-      children: communication, collaboration, creative innovation, critical
-      thinking, and confidence building. The Pennell School is located in the
-      Belfield neighborhood.</p
-    >
-    <p
-      ><strong>FUNDERS</strong>:
-      <span class="font-serif"
-        >William Penn Foundation, The Fund for the School District of
-        Philadelphia, City of Philadelphia</span
-      ></p
-    >
-    <div
-      class="not-prose grid grid-flow-row-dense grid-cols-1 gap-2 py-2 md:grid-cols-2"
-    >
-      <light-box
-        class="md:row-span-2"
-        @picture="/_assets/images/pics/art-education-seasons-of-imagination-01.png"
-        @alt=""
-        @widths="400"
-      ></light-box>
-      <light-box
-        @picture="/_assets/images/pics/art-education-seasons-of-imagination-02.png"
-        @alt=""
-        @widths="400"
-      ></light-box>
-      <light-box
-        @picture="/_assets/images/pics/art-education-seasons-of-imagination-03.png"
-        @alt=""
-        @widths="400"
-      ></light-box>
-    </div>
-    <nav-directory>
-      <!---<nav-directory-item @href="../seasons-of-imagination/"
+  @widths="800"
+></light-box>
+<p-lede
+  >The
+  <a
+    href="https://muralarts.org/artworks/seasons-of-imagination/"
+    target="_blank"
+    rel="noopener"
+    >Seasons of Imagination</a
+  >
+  mural series by
+  <a href="https://www.marianbaileyart.com/" target="_blank" rel="noopener"
+    >Marian Bailey</a
+  >
+  is a collaboration between Mural Arts and the youth, families, teachers, and
+  staff of Joseph Pennell School, designed to increase literacy skills through
+  playful learning, highlight school pride, create a sense of community, and
+  showcase the expansiveness of imagination.</p-lede
+>
+<p
+  >This mural series is part of a larger schoolyard revitalization project with
+  <a href="https://www.saltdesignstudio.com/" target="_blank" rel="noopener"
+    >SALT Design Studio</a
+  >.</p
+>
+<p
+  >This series consists of five murals, each with their own significance, tied
+  together by Playful Learning Schoolyard’s 6C learning goals for children:
+  communication, collaboration, creative innovation, critical thinking, and
+  confidence building. The Pennell School is located in the Belfield
+  neighborhood.</p
+>
+<p
+  ><strong>FUNDERS</strong>:
+  <span class="font-serif"
+    >William Penn Foundation, The Fund for the School District of Philadelphia,
+    City of Philadelphia</span
+  ></p
+>
+<div
+  class="not-prose grid grid-flow-row-dense grid-cols-1 gap-2 py-2 md:grid-cols-2"
+>
+  <light-box
+    class="md:row-span-2"
+    @picture="/_assets/images/pics/art-education-seasons-of-imagination-01.png"
+    @alt=""
+    @widths="400"
+  ></light-box>
+  <light-box
+    @picture="/_assets/images/pics/art-education-seasons-of-imagination-02.png"
+    @alt=""
+    @widths="400"
+  ></light-box>
+  <light-box
+    @picture="/_assets/images/pics/art-education-seasons-of-imagination-03.png"
+    @alt=""
+    @widths="400"
+  ></light-box>
+</div>
+<nav-directory>
+  <!---<nav-directory-item @href="../seasons-of-imagination/"
         ><em>Seasons of Imagination</em></nav-directory-item
       >--->
-      <nav-directory-item
-        @href="../continued-partnership-with-philadelphia-parks-and-recreation/"
-        >Continued Partnership with Philadelphia Parks and
-        Recreation</nav-directory-item
-      >
-      <nav-directory-item @href="../blooming-futures-mural/"
-        ><em>Blooming Futures</em> Mural</nav-directory-item
-      >
-      <nav-directory-item @href="../safer-mural/"
-        ><em>SAFER</em> Mural</nav-directory-item
-      >
-    </nav-directory>
+  <nav-directory-item
+    @href="../continued-partnership-with-philadelphia-parks-and-recreation/"
+    >Continued Partnership with Philadelphia Parks and
+    Recreation</nav-directory-item
+  >
+  <nav-directory-item @href="../blooming-futures-mural/"
+    ><em>Blooming Futures</em> Mural</nav-directory-item
+  >
+  <nav-directory-item @href="../safer-mural/"
+    ><em>SAFER</em> Mural</nav-directory-item
+  >
+</nav-directory>

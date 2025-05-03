@@ -1,16 +1,31 @@
-<section webc:root="override"
+<section
+  webc:root="override"
   x-data
   :x-init="`$store.reveal['${this.id}'] = false`"
   :x-intersect.once.half="`$store.reveal['${this.id}'] = true`"
-  class="bg-black/50 border-[1.5rem] border-highlighter-300 text-highlighter-300 grid snap-start grid-cols-1 lg:grid-cols-(--landing-grid-cols)"
+  class="border-highlighter-300 text-highlighter-300 grid snap-start grid-cols-1 border-[1.5rem] bg-black/50 lg:grid-cols-(--landing-grid-cols)"
 >
-<article
-    class="lg:col-start-2 lg:col-end-3 flex flex-col min-h-[calc(90vh-70px)] md:min-h-[95vh] md:flex-row relative"
+  <article
+    class="relative flex min-h-[calc(90vh-70px)] flex-col md:min-h-[95vh] md:flex-row lg:col-start-2 lg:col-end-3"
   >
-  <div class="grow z-40 p-12 flex flex-col gap-4 md:gap-8 justify-center items-center text-center content-center">
-    <p :class="`${typography} text-shadow-lg/50 text-xl md:text-3xl`" @text="subheading"></p>
-    <h2 :class="`${typography} text-shadow-lg/50 font-serif text-3xl md:text-6xl text-balance`" @text="heading"></h2>
-    <a :class="`${branding} ux-button text-lg`" :href="href" @text="label" target="_blank">Learn more</a>
-  </div>
+    <div
+      class="z-40 flex grow flex-col content-center items-center justify-center gap-4 p-12 text-center md:gap-8"
+    >
+      <p
+        :class="`${typography} text-shadow-lg/50 text-xl md:text-3xl`"
+        @text="subheading"
+      ></p>
+      <h2
+        :class="`${typography} text-shadow-lg/50 font-serif text-3xl md:text-6xl text-balance`"
+        @text="heading"
+      ></h2>
+      <a
+        :class="`${branding} ux-button text-lg`"
+        :href="href"
+        @text="label"
+        target="_blank"
+        >Learn more</a
+      >
+    </div>
   </article>
 </section>

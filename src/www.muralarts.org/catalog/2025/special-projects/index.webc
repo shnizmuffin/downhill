@@ -6,16 +6,24 @@ eleventyNavigation:
   image: 'https://placehold.co/144x144'
 ---
 
-    <p class="leading-tight md:text-2xl"
-      ><strong>Special Projects</strong> push the boundaries of muralism, exploring how public
-      art can shape civic life, spark dialogue, and evolve beyond the wall.
-      Often outside our core program areas, these artist-driven initiatives
-      foster bold collaborations and experimental practices that reimagine what
-      public art can mean—and how it can move communities forward.</p
-    >
-    <nav-directory>
-      <nav-directory-item @href="./our-market-ancestors-mural-series/"><em>Our Market Ancestors</em> Mural Series</nav-directory-item>
-      <nav-directory-item @href="./civic-views/"><em>Civic Views</em></nav-directory-item>
-      <nav-directory-item @href="./sun-ra-arkestra-mural/"><em>Sun Ra Arkestra</em> Mural</nav-directory-item>
-      <nav-directory-item @href="./peoples-budget-office/">People’s Budget Office</nav-directory-item>
-    </nav-directory>
+<p class="leading-tight md:text-2xl"
+  ><strong>Special Projects</strong> push the boundaries of muralism, exploring
+  how public art can shape civic life, spark dialogue, and evolve beyond the
+  wall. Often outside our core program areas, these artist-driven initiatives
+  foster bold collaborations and experimental practices that reimagine what
+  public art can mean—and how it can move communities forward.</p
+>
+<nav-directory>
+  <nav-directory-item @href="./our-market-ancestors-mural-series/"
+    ><em>Our Market Ancestors</em> Mural Series</nav-directory-item
+  >
+  <nav-directory-item @href="./civic-views/"
+    ><em>Civic Views</em></nav-directory-item
+  >
+  <nav-directory-item @href="./sun-ra-arkestra-mural/"
+    ><em>Sun Ra Arkestra</em> Mural</nav-directory-item
+  >
+  <nav-directory-item @href="./peoples-budget-office/"
+    >People’s Budget Office</nav-directory-item
+  >
+</nav-directory>

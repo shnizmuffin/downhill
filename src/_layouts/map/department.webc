@@ -5,7 +5,7 @@ layout: map/main.webc
 <section :class="`${$data.styles.branding}`">
   <div
     :class="`prose md:prose-xl pt-12 p-4 ps-2 md:p-8 lg:p-16 text-left font-serif ${$data.styles.prose}`"
-  >  
+  >
     <template @raw="content" webc:nokeep></template>
   </div>
 </section>

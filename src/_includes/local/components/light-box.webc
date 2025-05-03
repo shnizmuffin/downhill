@@ -4,14 +4,17 @@
       ><img
         :src="thumbnail ? thumbnail : picture"
         :alt="alt"
-        class="md:h-full cursor-pointer transition-all hover:scale-[102.5%] hover:shadow"
+        class="cursor-pointer transition-all hover:scale-[102.5%] hover:shadow md:h-full"
         :eleventy:widths="widths" />
-      <figcaption webc:if="caption"
+      <figcaption
+        webc:if="caption"
         class="py-2 text-sm leading-normal font-light text-pretty md:hidden"
         @raw="caption"
       ></figcaption>
-      <figcaption webc:else
-        class="py-2 text-sm leading-normal font-light text-pretty md:hidden" @text="$data.meta.copyright"
+      <figcaption
+        webc:else
+        class="py-2 text-sm leading-normal font-light text-pretty md:hidden"
+        @text="$data.meta.copyright"
       ></figcaption></figure
   ></slot>
   <template x-teleport="#modals">
@@ -29,18 +32,21 @@
           :src="picture"
           :alt="alt"
           eleventy:widths="1920"
-          class="h-fit w-fit max-h-[85vh]"
+          class="h-fit max-h-[85vh] w-fit"
         />
         <figcaption
-          class="flex flex-row place-items-center-safe justify-between py-4 gap-8"
-          ><span webc:if="caption"
+          class="flex flex-row place-items-center-safe justify-between gap-8 py-4"
+          ><span
+            webc:if="caption"
             class="text-victoria max-w-[65ch] text-sm leading-normal font-light text-pretty"
             @raw="caption"
           ></span
-          ><span webc:else
-          class="text-victoria max-w-[65ch] text-sm leading-normal font-light text-pretty" @text="$data.meta.copyright"
-        ></span
-        ><button
+          ><span
+            webc:else
+            class="text-victoria max-w-[65ch] text-sm leading-normal font-light text-pretty"
+            @text="$data.meta.copyright"
+          ></span
+          ><button
             class="bg-white text-black hover:cursor-pointer"
             type="button"
             >&times;&nbsp;Close</button

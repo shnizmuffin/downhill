@@ -6,33 +6,27 @@ eleventyNavigation:
   image: 'https://placehold.co/144x144'
 ---
 
-    <p class="leading-tight md:text-2xl"
-      >Through a focus in Learning + Practice, the
-      <strong>Mural Arts Institute</strong> advances the field of socially
-      engaged art through national and international partnerships and
-      conversations, artist support, and capacity-building programs. By sharing
-      our model and developing innovative learning tools, we help communities
-      and cultural leaders ignite change through participatory public art.</p
-    >
-    <nav-directory>
-      <nav-directory-item
-        @href="./explore-learn-and-connect/"
-      >
-        Explore, Learn, and Connect
-      </nav-directory-item>
-      <nav-directory-item
-        @href="./philadelphia-fellowship-for-black-artists/"
-      >
-        Philadelphia Fellowship for Black Artists
-      </nav-directory-item>
-      <nav-directory-item
-        @href="./appreciation-for-artists/"
-      >
-        Appreciation for Artists
-      </nav-directory-item>
-      <nav-directory-item
-        @href="./beyond-philadelphia-our-impact-across-the-world/"
-      >
-        Beyond Philadelphia: Our Impact Across the World
-      </nav-directory-item>
-    </nav-directory>
+<p class="leading-tight md:text-2xl"
+  >Through a focus in Learning + Practice, the
+  <strong>Mural Arts Institute</strong> advances the field of socially engaged
+  art through national and international partnerships and conversations, artist
+  support, and capacity-building programs. By sharing our model and developing
+  innovative learning tools, we help communities and cultural leaders ignite
+  change through participatory public art.</p
+>
+<nav-directory>
+  <nav-directory-item @href="./explore-learn-and-connect/">
+    Explore, Learn, and Connect
+  </nav-directory-item>
+  <nav-directory-item @href="./philadelphia-fellowship-for-black-artists/">
+    Philadelphia Fellowship for Black Artists
+  </nav-directory-item>
+  <nav-directory-item @href="./appreciation-for-artists/">
+    Appreciation for Artists
+  </nav-directory-item>
+  <nav-directory-item
+    @href="./beyond-philadelphia-our-impact-across-the-world/"
+  >
+    Beyond Philadelphia: Our Impact Across the World
+  </nav-directory-item>
+</nav-directory>

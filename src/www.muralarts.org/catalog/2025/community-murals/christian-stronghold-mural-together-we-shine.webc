@@ -10,50 +10,52 @@ eleventyNavigation:
   image: 'https://placehold.co/144x144'
 ---
 
-
-    <h2 class="mt-0 font-serif text-[2.5em]"
-      >Christian Stronghold Mural <em>Together We Shine!</em></h2
-    >
-    <light-box
-      class="md:**:prose-figcaption:block"
-      @picture="/_assets/images/pics/community-christian-00.png"
-      @alt=""
-      :@caption="`Together We Shine mural designed by Gabe Tiberino. Image courtesy of the artist.`"
-      @widths="800"
-    ></light-box>
-    <p-lede
-      >Initiated by the
-      <a
-        href="https://www.christianstronghold.com/"
-        target="_blank"
-        rel="noopener"
-        >Christian Stronghold Baptist Church</a
-      >, Together We Shine, is a collaboration with Blankenburg Elementary
-      School and
-      <a
-        href="https://www.spiralq.org/"
-        target="_blank"
-        rel="noopener"
-        >Spiral Q</a
-      >
-      Puppet Theater—which runs an after-school program at Blankenburg.</p-lede
-    >
-    <p>The mural design, created by artist <a href="https://www.gtiberinostudios.com/" target="_blank" rel="noopener">Gabe Tiberino</a>, centers around the
-      Peoplehood Parade—an annual Spiral Q tradition that convenes activists,
-      neighbors, and youth each Fall to build Peoplehood’ s giant puppets and
-      banners. The parade includes performances celebrating Philly’ s justice
-      movements and nurturing community connections. The mural is located at
-      4701 Lancaster Avenue and will be dedicated in April 2025.</p>
-    <p><strong>FUNDERS</strong>: <span class="font-serif">Christian Stronghold Church, City of Philadelphia</span></p>
-    <p><strong>PARTNERS</strong>: <span class="font-serif">Blankenburg Elementary School, Spiral Q</span></p>
-    <nav-directory>
-      <nav-directory-item @href="../sanctuary-farm/"
-        >Sanctuary Farm</nav-directory-item
-      >
-      <!---<nav-directory-item @href="../christian-stronghold-mural-together-we-shine/">Christian Stronghold Mural <em>Together We Shine!</em></nav-directory-item>--->
-      <nav-directory-item @href="../tribute-to-paul-gripper/"
-        >Tribute to Paul Gripper</nav-directory-item
-      >
-      <nav-directory-item @href="../caicu/">CAICU</nav-directory-item>
-    </nav-directory>
-
+<h2 class="mt-0 font-serif text-[2.5em]"
+  >Christian Stronghold Mural <em>Together We Shine!</em></h2
+>
+<light-box
+  class="md:**:prose-figcaption:block"
+  @picture="/_assets/images/pics/community-christian-00.png"
+  @alt=""
+  :@caption="`Together We Shine mural designed by Gabe Tiberino. Image courtesy of the artist.`"
+  @widths="800"
+></light-box>
+<p-lede
+  >Initiated by the
+  <a href="https://www.christianstronghold.com/" target="_blank" rel="noopener"
+    >Christian Stronghold Baptist Church</a
+  >, Together We Shine, is a collaboration with Blankenburg Elementary School
+  and
+  <a href="https://www.spiralq.org/" target="_blank" rel="noopener">Spiral Q</a>
+  Puppet Theater—which runs an after-school program at Blankenburg.</p-lede
+>
+<p
+  >The mural design, created by artist
+  <a href="https://www.gtiberinostudios.com/" target="_blank" rel="noopener"
+    >Gabe Tiberino</a
+  >, centers around the Peoplehood Parade—an annual Spiral Q tradition that
+  convenes activists, neighbors, and youth each Fall to build Peoplehood’ s
+  giant puppets and banners. The parade includes performances celebrating
+  Philly’ s justice movements and nurturing community connections. The mural is
+  located at 4701 Lancaster Avenue and will be dedicated in April 2025.</p
+>
+<p
+  ><strong>FUNDERS</strong>:
+  <span class="font-serif"
+    >Christian Stronghold Church, City of Philadelphia</span
+  ></p
+>
+<p
+  ><strong>PARTNERS</strong>:
+  <span class="font-serif">Blankenburg Elementary School, Spiral Q</span></p
+>
+<nav-directory>
+  <nav-directory-item @href="../sanctuary-farm/"
+    >Sanctuary Farm</nav-directory-item
+  >
+  <!---<nav-directory-item @href="../christian-stronghold-mural-together-we-shine/">Christian Stronghold Mural <em>Together We Shine!</em></nav-directory-item>--->
+  <nav-directory-item @href="../tribute-to-paul-gripper/"
+    >Tribute to Paul Gripper</nav-directory-item
+  >
+  <nav-directory-item @href="../caicu/">CAICU</nav-directory-item>
+</nav-directory>

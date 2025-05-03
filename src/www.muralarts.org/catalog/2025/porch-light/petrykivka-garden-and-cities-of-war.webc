@@ -10,94 +10,98 @@ eleventyNavigation:
   image: 'https://placehold.co/144x144'
 ---
 
-
-    <h2 class="mt-0 font-serif text-[2.5em]"
-      ><em>Petrykivka Garden</em> and <em> Cities of the War </em></h2
-    >
-    <light-box
-      class="md:**:prose-figcaption:block"
-      @picture="/_assets/images/pics/porch-light-garden-00.png"
-      @alt=""
-      @widths="800"
-    ></light-box>
-    <p-lede
-      >In 2023 and 2024, Mural Arts Philadelphia participated in a cultural
-      exchange with artists and social workers from Ukraine.</p-lede
-    >
-    <p
-      >Through two visits to Philadelphia, online co-learning sessions, and a
-      collaborative painting engagement, an exciting conversation unfolded about
-      the impact and importance of art and art-making to support spaces of
-      storytelling, belonging, and healing. Artist
-      <a href="https://www.mattomezsko.com/" target="_blank" rel="noopener"
-        >Mat Tomezsko</a
-      >
-      and the
-      <a href="https://muralarts.org/programs/porch-light/color-me-back-a-same-day-work-and-pay-program/" target="_blank" rel="noopener"
-        ><em>Color Me Back</em></a
-      >
-      program created compositions that brought together the materials and
-      original designs produced entirely by the Ukrainian artists throughout
-      multiple sessions over the year. The two artworks are
-      <a href="https://www.instagram.com/pearlsteingallery/p/DE8XJ-ORgqG/?img_index=1" target="_blank" rel="noopener"
-        ><em>Petrykivka Garden</em></a
-      >, a celebration of creativity and cultural exchange, and
-      <em>Cities of the War</em>, a more somber piece with names of cities
-      affected by the ongoing conflict handwritten by the visiting Ukrainians.
-      The pieces were displayed in an exhibition at
-      <a href="https://drexel.edu/pearlsteingallery/" target="_blank" rel="noopener"
-        >Drexel University’s Pearlstein Gallery</a
-      >
-      in March 2025.</p
-    >
-    <p
-      ><strong>FUNDERS</strong>:
-      <span class="font-serif"
-        >City of Philadelphia, City of Philadelphia Department of Behavioral
-        Health and Intellectual disAbility Services, Health Federation of
-        Philadelphia, Sheller Family Foundation</span
-      ></p
-    >
-    <p
-      ><strong>PARTNERS</strong>:
-      <span class="font-serif"
-        >Mural Arts Institute, City of Philadelphia Department of Behavioral
-        Health and Intellectual disAbility Services, Health Federation of
-        Philadelphia, European Institute of Public Health Policy in
-        Ukraine.</span
-      ></p
-    >
-    <p class="font-serif"
-      >The study tour and visit to Philadelphia were made possible by the
-      support of the Health Federation of Philadelphia and in collaboration with
-      the USAID Public Health System Recovery and Resilience Activity (PHS R&R)
-      led by Pact.</p
-    >
-    <div
-      class="not-prose grid grid-flow-row-dense grid-cols-1 gap-2 py-2 md:grid-cols-5"
-    >
-      <light-box
-        class="md:col-span-2"  
-        @picture="/_assets/images/pics/porch-light-garden-01.png"
-        @alt=""
-        @widths="400"
-      ></light-box>
-      <light-box
-        class="md:col-span-3"
-        @picture="/_assets/images/pics/porch-light-garden-02.png"
-        @alt=""
-        @widths="500"
-      ></light-box>
-    </div>
-    <nav-directory>
-      <nav-directory-item @href="../the-path-through-connection/"
-        ><em>The Path Through Connection</em></nav-directory-item
-      >
-      <nav-directory-item @href="../embracing-the-light/"
-        ><em>Embracing the Light</em></nav-directory-item
-      >
-      <nav-directory-item @href="../continuum/"
-        ><em>Continuum</em></nav-directory-item
-      >
-      <!-- <nav-directory-item @href="../petrykivka-garden-and-cities-of-war/"><em>Petrykivka Garden</em> and <em>Cities of War</em></nav-directory-item> -->
-    </nav-directory>
+<h2 class="mt-0 font-serif text-[2.5em]"
+  ><em>Petrykivka Garden</em> and <em> Cities of the War </em></h2
+>
+<light-box
+  class="md:**:prose-figcaption:block"
+  @picture="/_assets/images/pics/porch-light-garden-00.png"
+  @alt=""
+  @widths="800"
+></light-box>
+<p-lede
+  >In 2023 and 2024, Mural Arts Philadelphia participated in a cultural exchange
+  with artists and social workers from Ukraine.</p-lede
+>
+<p
+  >Through two visits to Philadelphia, online co-learning sessions, and a
+  collaborative painting engagement, an exciting conversation unfolded about the
+  impact and importance of art and art-making to support spaces of storytelling,
+  belonging, and healing. Artist
+  <a href="https://www.mattomezsko.com/" target="_blank" rel="noopener"
+    >Mat Tomezsko</a
+  >
+  and the
+  <a
+    href="https://muralarts.org/programs/porch-light/color-me-back-a-same-day-work-and-pay-program/"
+    target="_blank"
+    rel="noopener"
+    ><em>Color Me Back</em></a
+  >
+  program created compositions that brought together the materials and original
+  designs produced entirely by the Ukrainian artists throughout multiple
+  sessions over the year. The two artworks are
+  <a
+    href="https://www.instagram.com/pearlsteingallery/p/DE8XJ-ORgqG/?img_index=1"
+    target="_blank"
+    rel="noopener"
+    ><em>Petrykivka Garden</em></a
+  >, a celebration of creativity and cultural exchange, and
+  <em>Cities of the War</em>, a more somber piece with names of cities affected
+  by the ongoing conflict handwritten by the visiting Ukrainians. The pieces
+  were displayed in an exhibition at
+  <a href="https://drexel.edu/pearlsteingallery/" target="_blank" rel="noopener"
+    >Drexel University’s Pearlstein Gallery</a
+  >
+  in March 2025.</p
+>
+<p
+  ><strong>FUNDERS</strong>:
+  <span class="font-serif"
+    >City of Philadelphia, City of Philadelphia Department of Behavioral Health
+    and Intellectual disAbility Services, Health Federation of Philadelphia,
+    Sheller Family Foundation</span
+  ></p
+>
+<p
+  ><strong>PARTNERS</strong>:
+  <span class="font-serif"
+    >Mural Arts Institute, City of Philadelphia Department of Behavioral Health
+    and Intellectual disAbility Services, Health Federation of Philadelphia,
+    European Institute of Public Health Policy in Ukraine.</span
+  ></p
+>
+<p class="font-serif"
+  >The study tour and visit to Philadelphia were made possible by the support of
+  the Health Federation of Philadelphia and in collaboration with the USAID
+  Public Health System Recovery and Resilience Activity (PHS R&R) led by
+  Pact.</p
+>
+<div
+  class="not-prose grid grid-flow-row-dense grid-cols-1 gap-2 py-2 md:grid-cols-5"
+>
+  <light-box
+    class="md:col-span-2"
+    @picture="/_assets/images/pics/porch-light-garden-01.png"
+    @alt=""
+    @widths="400"
+  ></light-box>
+  <light-box
+    class="md:col-span-3"
+    @picture="/_assets/images/pics/porch-light-garden-02.png"
+    @alt=""
+    @widths="500"
+  ></light-box>
+</div>
+<nav-directory>
+  <nav-directory-item @href="../the-path-through-connection/"
+    ><em>The Path Through Connection</em></nav-directory-item
+  >
+  <nav-directory-item @href="../embracing-the-light/"
+    ><em>Embracing the Light</em></nav-directory-item
+  >
+  <nav-directory-item @href="../continuum/"
+    ><em>Continuum</em></nav-directory-item
+  >
+  <!-- <nav-directory-item @href="../petrykivka-garden-and-cities-of-war/"><em>Petrykivka Garden</em> and <em>Cities of War</em></nav-directory-item> -->
+</nav-directory>

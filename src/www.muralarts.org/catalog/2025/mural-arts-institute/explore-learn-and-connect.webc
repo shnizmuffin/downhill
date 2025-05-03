@@ -10,65 +10,84 @@ eleventyNavigation:
   image: 'https://placehold.co/144x144'
 ---
 
-    <h2 class="mt-0 font-serif text-[2.5em]">Explore, Learn, and
-      Connect</h2>
-    <light-box
-      class="md:**:prose-figcaption:block"
-      @picture="/_assets/images/pics/ma-institute-explore-00.png"
-      @alt=""
-      :@caption="`Artist Cindy Lozito participating in the 2024 Muralist Training Program. Photo by Erin Blewett.`"
-      @widths="800"
-    ></light-box>
-    <p-lede
-      ><a href="https://MuralArtsInstitute.com" target="_blank" rel="noopener">MuralArtsInstitute.com</a> is a platform
-      to explore and connect with Mural
-      Arts’ resources and learnings from its
-      40-year history of public artmaking.</p-lede
+<h2 class="mt-0 font-serif text-[2.5em]">Explore, Learn, and Connect</h2>
+<light-box
+  class="md:**:prose-figcaption:block"
+  @picture="/_assets/images/pics/ma-institute-explore-00.png"
+  @alt=""
+  :@caption="`Artist Cindy Lozito participating in the 2024 Muralist Training Program. Photo by Erin Blewett.`"
+  @widths="800"
+></light-box>
+<p-lede
+  ><a href="https://MuralArtsInstitute.com" target="_blank" rel="noopener"
+    >MuralArtsInstitute.com</a
+  >
+  is a platform to explore and connect with Mural Arts’ resources and learnings
+  from its 40-year history of public artmaking.</p-lede
+>
+<p
+  >The website includes an artist directory of Philadelphia muralists, signups
+  for training sessions, and information on local artist opportunities. It also
+  features a free digital resource library that brings insight into community
+  arts projects throughout Philadelphia and nationally through MAI’ s multiple
+  capacity-building initiatives. The library includes videos, documentaries,
+  recorded panel discussions, curriculum guides, case studies, reflections,
+  essays, and other writings. Explore, learn, and connect today!</p
+>
+<h3>Highlights Include:</h3>
+<ul>
+  <li
+    ><a
+      href="https://muralartsinstitute.com/artists/"
+      target="_blank"
+      rel="noopener"
+      >Artists</a
+    >: 50+ artists resources & up-to-date open calls for muralists</li
+  >
+  <li
+    ><a
+      href="https://muralartsinstitute.com/library/"
+      target="_blank"
+      rel="noopener"
+      >Library</a
+    >: An Online Library with 85+ case studies/videos/tools</li
+  >
+  <li
+    ><a
+      href="https://muralartsinstitute.com/training/"
+      target="_blank"
+      rel="noopener"
+      >Training</a
+    >: Annual and seasonal training opportunities including signups for the
+    <a
+      href="https://muralartsinstitute.com/training/#ComEngage"
+      target="_blank"
+      rel="noopener"
+      >“Artist Approaches to Community Engagement”</a
     >
-    <p
-      >The website includes an artist directory of Philadelphia muralists, signups for
-      training sessions, and information on local artist opportunities. It also
-      features a free digital resource library that brings insight into community arts
-      projects throughout Philadelphia and nationally through MAI’ s multiple
-      capacity-building initiatives. The library includes videos, documentaries,
-      recorded panel discussions, curriculum guides, case studies, reflections,
-      essays, and other writings. Explore, learn, and connect today!</p
-    >
-    <h3>Highlights Include:</h3>
-    <ul>
-      <li><a href="https://muralartsinstitute.com/artists/" target="_blank" rel="noopener">Artists</a>: 50+ artists resources & up-to-date open calls for muralists</li>
-      <li><a href="https://muralartsinstitute.com/library/" target="_blank" rel="noopener">Library</a>: An Online Library with 85+ case studies/videos/tools</li>
-      <li><a href="https://muralartsinstitute.com/training/" target="_blank" rel="noopener">Training</a>: Annual and seasonal training opportunities including signups for
-        the <a href="https://muralartsinstitute.com/training/#ComEngage" target="_blank" rel="noopener">“Artist Approaches to Community Engagement”</a> series in partnership
-        with Creative Philadelphia.</li>
-    </ul>
-    <p
-      ><strong>FUNDERS</strong>:
-      <span class="font-serif"
-        >The Andrew W. Mellon Foundation</span
-      ></p
-    >
-    
-    <nav-directory>
-      <!---<nav-directory-item
+    series in partnership with Creative Philadelphia.</li
+  >
+</ul>
+<p
+  ><strong>FUNDERS</strong>:
+  <span class="font-serif">The Andrew W. Mellon Foundation</span></p
+>
+
+<nav-directory>
+  <!---<nav-directory-item
         @href="../explore-learn-and-connect/"
       >
         Explore, Learn, and Connect
       </nav-directory-item>--->
-      <nav-directory-item
-        @href="../philadelphia-fellowship-for-black-artists/"
-      >
-        Philadelphia Fellowship for Black Artists
-      </nav-directory-item>
-      <nav-directory-item
-        @href="../appreciation-for-artists/"
-      >
-        Appreciation for Artists
-      </nav-directory-item>
-      <nav-directory-item
-        @href="../beyond-philadelphia-our-impact-across-the-world/"
-      >
-        Beyond Philadelphia: Our Impact Across the World
-      </nav-directory-item>
-    </nav-directory>
-
+  <nav-directory-item @href="../philadelphia-fellowship-for-black-artists/">
+    Philadelphia Fellowship for Black Artists
+  </nav-directory-item>
+  <nav-directory-item @href="../appreciation-for-artists/">
+    Appreciation for Artists
+  </nav-directory-item>
+  <nav-directory-item
+    @href="../beyond-philadelphia-our-impact-across-the-world/"
+  >
+    Beyond Philadelphia: Our Impact Across the World
+  </nav-directory-item>
+</nav-directory>

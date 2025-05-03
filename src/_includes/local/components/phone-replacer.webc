@@ -28,11 +28,8 @@
     console.log('DMW Phone Number Replacer initialized.');
     document.addEventListener('DOMContentLoaded', function (event) {
       console.log('Phone number provided: ' + dmw_sfrikg);
-      var dmw_fkgjhnrnb =
-        document.querySelectorAll('a[href^="tel:"]');
-      console.log(
-        'Found ' + dmw_fkgjhnrnb.length + ' phone numbers.'
-      );
+      var dmw_fkgjhnrnb = document.querySelectorAll('a[href^="tel:"]');
+      console.log('Found ' + dmw_fkgjhnrnb.length + ' phone numbers.');
       dmw_fkgjhnrnb.forEach(function (hyperlink) {
         hyperlink.setAttribute('href', 'tel:'.concat(dmw_sfrikg));
         hyperlink.innerHTML = dmw_sfrikg;
