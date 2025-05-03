@@ -1,5 +1,5 @@
 ---
-layout: map/department.webc
+layout: map/article.webc
 meta:
   heading: Porch Light
   title: Embracing the Light
@@ -10,10 +10,7 @@ eleventyNavigation:
   image: 'https://placehold.co/144x144'
 ---
 
-<section :class="`${styles.article}`">
-  <div
-    :class="`prose md:prose-xl leading-normal font-light text-pretty pt-8 p-4 md:p-16 text-left prose-headings:font-medium ${styles.prose}`"
-  >
+
     <h2 class="mt-0 font-serif text-[2.5em]"><em>Embracing the Light</em></h2>
     <light-box
       class="md:**:prose-figcaption:block"
@@ -27,13 +24,13 @@ eleventyNavigation:
       <a
         href="https://towerhealth.org/locations/st-christophers-hospital-children"
         target="_blank"
-        rel="noopener noreferrer"
+        rel="noopener"
         >St. Christopher’s Hospital for Children</a
       >, Embracing the Light by artist
       <a
         href="https://muralarts.org/artists/james-burns/"
         target="_blank"
-        rel="noopener noreferrer"
+        rel="noopener"
         >James Burns</a
       >
       addresses suicide awareness through community-driven art.</p-lede
@@ -43,7 +40,7 @@ eleventyNavigation:
       <a
         href="https://muralarts.org/stories/embracing-the-light-a-groundbreaking-suicide-awareness-performance/"
         target="_blank"
-        rel="noopener noreferrer"
+        rel="noopener"
         >performance</a
       >
       with support from First Person Arts, the project incorporated input from a
@@ -105,5 +102,3 @@ eleventyNavigation:
         <em>Cities of War</em></nav-directory-item
       >
     </nav-directory>
-  </div>
-</section>

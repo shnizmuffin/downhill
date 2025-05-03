@@ -6,10 +6,6 @@ eleventyNavigation:
   image: 'https://placehold.co/144x144'
 ---
 
-<section :class="`${styles.branding}`">
-  <div
-    :class="`prose md:prose-xl pt-12 p-4 ps-2 md:p-16 text-left font-serif ${styles.prose}`"
-  >
     <p class="leading-tight md:text-2xl"
       ><strong>Special Projects</strong> push the boundaries of muralism, exploring how public
       art can shape civic life, spark dialogue, and evolve beyond the wall.
@@ -23,5 +19,3 @@ eleventyNavigation:
       <nav-directory-item @href="./sun-ra-arkestra-mural/"><em>Sun Ra Arkestra</em> Mural</nav-directory-item>
       <nav-directory-item @href="./peoples-budget-office/">People’s Budget Office</nav-directory-item>
     </nav-directory>
-  </div>
-</section>

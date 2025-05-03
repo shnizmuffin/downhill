@@ -3,26 +3,29 @@
   x-data
   :x-init="`$store.reveal['${this.id}'] = false`"
   :x-intersect.once.half="`$store.reveal['${this.id}'] = true`"
-  class="grid snap-start grid-cols-1 md:grid-cols-(--landing-grid-cols)"
+  class="grid snap-start grid-cols-1 lg:grid-cols-(--landing-grid-cols)"
 >
   <article
     class="relative flex min-h-[95vh] flex-col md:col-start-2 md:col-end-3 md:flex-row"
   >
     <div
-      class="vt-section-label z-30 max-md:sticky max-md:top-[80vh] md:order-2 md:flex-shrink"
+      class="vt-section-label z-30 max-lg:sticky max-lg:top-[80vh] lg:order-2 lg:flex-shrink"
     >
       <a
         :href="href"
-        :class="`justify-between flex flex-row uppercase font-bold md:flex-col md:gap-8 md:h-full ${branding}`"
+        :class="`relative p-4 justify-between flex flex-row place-items-center uppercase font-bold md:flex-col md:gap-8 md:h-full ${branding}`"
       >
         <header
-          class="self-stretch p-8 md:py-12 md:sticky md:top-0 md:mb-16 md:ux-text-sideways"
+          class="md:ux-text-sideways content-center-safe self-stretch text-xl md:sticky md:top-[120px] md:mb-16 lg:top-12"
         >
           <h2 class="md:mb-8 md:text-6xl" @text="heading"></h2>
         </header>
-        <p class="m-8 md:my-12 p-6 block md:text-center md:leading-[1]" @text="label"
-          ><text-fit @fit="🡢"></text-fit></p
-        >
+        <img
+          src="/_assets/images/svg/arrow-forward.svg"
+          formats="svg"
+          alt="Read more"
+          class="block lg:m-8"
+        />
       </a>
     </div>
     <div class="md:order-1 md:flex-grow">

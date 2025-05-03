@@ -1,5 +1,5 @@
 ---
-layout: map/department.webc
+layout: map/article.webc
 meta:
   heading: Special Projects
   title: People’s Budget Office
@@ -9,10 +9,7 @@ eleventyNavigation:
   parent: MAP-SPECIAL-PROJECTS
   image: 'https://placehold.co/144x144'
 ---
-<section :class="`${styles.article}`">
-  <div
-    :class="`prose md:prose-xl leading-normal font-light text-pretty pt-8 p-4 md:p-16 text-left prose-headings:font-medium ${styles.prose}`"
-  >
+
     <h2 class="mt-0 font-serif text-[2.5em]">People’s Budget Office</h2>
     <light-box
       class="md:**:prose-figcaption:block"
@@ -29,7 +26,7 @@ eleventyNavigation:
     <p
       >It determines what gets funded, who benefits, and reveals what is
       overlooked. To build a truly inclusive and thriving city, we must first imagine
-      it. For five years, the <a href="https://muralarts.org/artworks/a-peoples-budget/" target="_blank" rel="noopener noreferrer">People’s Budget</a> Office and Mural Arts Philadelphia
+      it. For five years, the <a href="https://muralarts.org/artworks/a-peoples-budget/" target="_blank" rel="noopener">People’s Budget</a> Office and Mural Arts Philadelphia
       have used creativity to make the budget process more transparent,
       accessible, and playful. Led by artist Phoebe Bachman, the project invites
       residents to learn about the city budget, advocate for their priorities, and
@@ -42,18 +39,18 @@ eleventyNavigation:
       The Office also serves as a creative hub for artists-in-residence, who
       interpret the budget through participatory artworks.</p>
     <p>This year, we are expanding the People’s Budget Office with a public survey
-      and a new <a href="https://www.peoplesbudgetoffice.org/" target="_blank" rel="noopener noreferrer">website</a> to collect and visualize residents’ priorities. We are also
+      and a new <a href="https://www.peoplesbudgetoffice.org/" target="_blank" rel="noopener">website</a> to collect and visualize residents’ priorities. We are also
       embracing the city as a stage, developing a large-scale fall event to continue
       reimagining the budget process—laying the foundation for a truly
       participatory system that reflects the needs of all Philadelphians. Here is a
-      recent <a href="https://muralarts.org/stories/the-peoples-budget-shaping-philadelphias-future-together/" target="_blank" rel="noopener noreferrer">blog</a> about the project. The People's Budget does this collaborative
+      recent <a href="https://muralarts.org/stories/the-peoples-budget-shaping-philadelphias-future-together/" target="_blank" rel="noopener">blog</a> about the project. The People's Budget does this collaborative
       work though partnerships with: Alliance for a Just Philadelphia, Committee
       of Seventy, the Offices of City Council Members Cindy Bass, Jamie
       Gauthier, Kendra Brooks, Nicolas O'Rourke, and Rue Landau, LOVE Park,
       Office of Community Empowerment and Opportunity, PACDC, PA Youth
       Vote, Philly Student Union, Resolve Philly, and the Village of Arts and
       Humanities.</p>
-      <!-- <p>Please take our <a href="http://" target="_blank" rel="noopener noreferrer">survey</a>.</p> -->
+      <!-- <p>Please take our <a href="http://" target="_blank" rel="noopener">survey</a>.</p> -->
     <p
       ><strong>FUNDERS</strong>:
       <span class="font-serif"
@@ -87,5 +84,3 @@ eleventyNavigation:
       <nav-directory-item @href="../sun-ra-arkestra-mural/"><em>Sun Ra Arkestra</em> Mural</nav-directory-item>
       <nav-directory-item @href="../peoples-budget-office/">People’s Budget Office</nav-directory-item>
     </nav-directory>
-  </div>
-</section>

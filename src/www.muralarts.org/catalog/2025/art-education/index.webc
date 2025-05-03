@@ -6,30 +6,24 @@ eleventyNavigation:
   image: 'https://placehold.co/144x144'
 ---
 
-<section :class="`${styles.branding}`">
-  <div
-    :class="`prose md:prose-xl pt-12 p-4 ps-2 md:p-16 text-left font-serif ${styles.prose}`"
+<p class="leading-tight md:text-2xl"
+  >The <strong>Art Education</strong> program works with students across the
+  city to unlock their creative capacities, inviting them to take risks,
+  share their experiences, and illustrate the world as they see it.</p
+>
+<nav-directory>
+  <nav-directory-item @href="./seasons-of-imagination/"
+    ><em>Seasons of Imagination</em></nav-directory-item
   >
-    <p class="leading-tight md:text-2xl"
-      >The <strong>Art Education</strong> program works with students across the
-      city to unlock their creative capacities, inviting them to take risks,
-      share their experiences, and illustrate the world as they see it.</p
-    >
-    <nav-directory>
-      <nav-directory-item @href="./seasons-of-imagination/"
-        ><em>Seasons of Imagination</em></nav-directory-item
-      >
-      <nav-directory-item
-        @href="./continued-partnership-with-philadelphia-parks-and-recreation/"
-        >Continued Partnership with Philadelphia Parks and
-        Recreation</nav-directory-item
-      >
-      <nav-directory-item @href="./blooming-futures-mural/"
-        ><em>Blooming Futures</em> Mural</nav-directory-item
-      >
-      <nav-directory-item @href="./safer-mural/"
-        ><em>SAFER</em> Mural</nav-directory-item
-      >
-    </nav-directory>
-  </div>
-</section>
+  <nav-directory-item
+    @href="./continued-partnership-with-philadelphia-parks-and-recreation/"
+    >Continued Partnership with Philadelphia Parks and
+    Recreation</nav-directory-item
+  >
+  <nav-directory-item @href="./blooming-futures-mural/"
+    ><em>Blooming Futures</em> Mural</nav-directory-item
+  >
+  <nav-directory-item @href="./safer-mural/"
+    ><em>SAFER</em> Mural</nav-directory-item
+  >
+</nav-directory>

@@ -1,5 +1,5 @@
 ---
-layout: map/department.webc
+layout: map/article.webc
 meta:
   heading: Restorative Justice
   title: Knowledge & Method
@@ -9,10 +9,7 @@ eleventyNavigation:
   parent: MAP-RESTORATIVE-JUSTICE
   image: 'https://placehold.co/144x144'
 ---
-<section :class="`${styles.article}`">
-  <div
-    :class="`prose md:prose-xl leading-normal font-light text-pretty pt-8 p-4 md:p-16 text-left prose-headings:font-medium ${styles.prose}`"
-  >
+
     <h2 class="mt-0 font-serif text-[2.5em]"><em>Knowledge & Method</em></h2>
     <light-box
       class="md:**:prose-figcaption:block"
@@ -24,22 +21,22 @@ eleventyNavigation:
     <p-lede
       ><em>Knowledge & Method</em> is the second
       project in <em>An Ode to Hip-Hop</em>—a series
-      of murals by artists <a href="https://tameartz.com/bio/" target="_blank" rel="noopener noreferrer">TAMEARTZ</a> and
+      of murals by artists <a href="https://tameartz.com/bio/" target="_blank" rel="noopener">TAMEARTZ</a> and
       Bill Strobel honoring the rich history
       and legacy of hip-hop in Philadelphia.</p-lede
     >
     <p
       >The idea is to create a series of murals that embody hip-hop culture,
       emphasizing different elements of hip-hop through visual representation in
-      each mural. The first mural, <a href="https://publicartarchive.org/art/Know-the-Elements-An-Ode-to-Hip-Hop/040882c5" target="_blank" rel="noopener noreferrer"><em>Know The Elements</em></a>, was about the genesis of
-      the culture and its current state. In part two, <a href="https://publicartarchive.org/art/Knowledge-Methods-An-Ode-To-50-Years-of-Hip-Hop/2281a4da" target="_blank" rel="noopener noreferrer"><em>Knowledge & Method</em></a>, the
+      each mural. The first mural, <a href="https://publicartarchive.org/art/Know-the-Elements-An-Ode-to-Hip-Hop/040882c5" target="_blank" rel="noopener"><em>Know The Elements</em></a>, was about the genesis of
+      the culture and its current state. In part two, <a href="https://publicartarchive.org/art/Knowledge-Methods-An-Ode-To-50-Years-of-Hip-Hop/2281a4da" target="_blank" rel="noopener"><em>Knowledge & Method</em></a>, the
       artists emphasize the tools that are used in hip-hop. The design includes
       patent drawings to represent tools used in each element of hip-hop. The
-      background features the song, <em>The Architect</em>, written by <a href="https://en.wikipedia.org/wiki/Reef_the_Lost_Cauze" target="_blank" rel="noopener noreferrer">Reef the Lost Cauze</a>, specifically for this project. It is the artists’ hope that with this series
+      background features the song, <em>The Architect</em>, written by <a href="https://en.wikipedia.org/wiki/Reef_the_Lost_Cauze" target="_blank" rel="noopener">Reef the Lost Cauze</a>, specifically for this project. It is the artists’ hope that with this series
       onlookers get a sense of belonging, representation, and understanding of a
       beloved culture known worldwide. Plans are already underway for the third
       mural in the series. Artists TAMEARTZ and Bill Strobel were assisted by
-      Jesse “Desil” Valentin, Christopher Rodriguez, and <a href="https://muralarts.org/programs/restorative-justice/rec-crew/" target="_blank" rel="noopener noreferrer">Rec Crew</a> participants
+      Jesse “Desil” Valentin, Christopher Rodriguez, and <a href="https://muralarts.org/programs/restorative-justice/rec-crew/" target="_blank" rel="noopener">Rec Crew</a> participants
       December Collins, Amber Miller, and Chanel Mitchell. The mural is located
       beneath the SEPTA overpass at 9th & Oxford Streets.</p
     >
@@ -75,5 +72,3 @@ eleventyNavigation:
       <nav-directory-item @href="../pyrrhic-defeat-a-visual-study-of-mass-incarceration/"><em>Pyrrhic Defeat: A Visual Study of Mass Incarceration</em></nav-directory-item>
       <nav-directory-item @href="../legacies-our-neighbors-lead-and-inspire/"><em>Legacies: Our Neighbors Lead &amp; Inspire</em></nav-directory-item>
     </nav-directory>
-  </div>
-</section>

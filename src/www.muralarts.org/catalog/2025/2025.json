@@ -52,7 +52,7 @@
       "label": "Learn more",
       "url": "https://give.muralarts.org/event/wall-ball-2025/e-669644",
       "image": "./src/_assets/images/bg/bg-wall-ball.png",
-      "branding": "bg-green-600 text-highlighter text-shadow-xs text-shadow-green-950",
+      "branding": "bg-green-600 fill-highlighter text-highlighter text-shadow-xs text-shadow-green-950",
       "typography": "",
       "decoration": "decoration-green-600 text-shadow-green-950"
     },
@@ -130,7 +130,7 @@
       "label": "Schedule a Tour",
       "url": "./featured/",
       "image": "./src/_assets/images/bg/bg-mural-tour.png",
-      "branding": "text-sky-950 bg-sky",
+      "branding": "text-sky-950 bg-sky fill-sky-950",
       "typography": "text-sky text-shadow-sky-950",
       "decoration": "decoration-sky text-shadow-sky-950"
     }

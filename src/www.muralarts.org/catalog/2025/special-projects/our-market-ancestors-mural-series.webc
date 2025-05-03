@@ -1,5 +1,5 @@
 ---
-layout: map/department.webc
+layout: map/article.webc
 meta:
   heading: Special Projects
   title: Our Market Ancestors Mural Series
@@ -9,10 +9,7 @@ eleventyNavigation:
   parent: MAP-SPECIAL-PROJECTS
   image: 'https://placehold.co/144x144'
 ---
-<section :class="`${styles.article}`">
-  <div
-    :class="`prose md:prose-xl leading-normal font-light text-pretty pt-8 p-4 md:p-16 text-left prose-headings:font-medium ${styles.prose}`"
-  >
+
     <h2 class="mt-0 font-serif text-[2.5em]"><em>Our Market Ancestors</em> Mural Series</h2>
     <light-box
       class="md:**:prose-figcaption:block"
@@ -22,7 +19,7 @@ eleventyNavigation:
       @widths="800"
     ></light-box>
     <p-lede
-      >The <a href="https://www.ourmarketproject.com/murals" target="_blank" rel="noopener noreferrer"><em>Our Market Project</em></a> unveiled <a href="https://www.instagram.com/p/DDvDGkJyg9e/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA%3D%3D" target="_blank" rel="noopener noreferrer">new revitalized awnings</a> and <a href="https://www.ourmarketproject.com/murals" target="_blank" rel="noopener noreferrer">three new murals</a> as part of the Our Market
+      >The <a href="https://www.ourmarketproject.com/murals" target="_blank" rel="noopener"><em>Our Market Project</em></a> unveiled <a href="https://www.instagram.com/p/DDvDGkJyg9e/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA%3D%3D" target="_blank" rel="noopener">new revitalized awnings</a> and <a href="https://www.ourmarketproject.com/murals" target="_blank" rel="noopener">three new murals</a> as part of the Our Market
       Ancestors mural series. Ancestors Carl
       Redel, Danny and Joe Di Bruno, and
       Betty Ann “Aunt Betty” Mongelluzzo
@@ -32,10 +29,10 @@ eleventyNavigation:
     <p
       >The mural series highlights the many ancestors on 9th Street that have
       contributed to the rich immigrant history of the Market. The portraits were
-      painted by Lead Artist and Project Director <a href="https://www.michelleangela.com/" target="_blank" rel="noopener noreferrer">Michelle Angela Ortiz</a>, and the
-      decorative frames were created by artist <a href="https://www.emilybirdiebusch.com/core-memory-cards-1" target="_blank" rel="noopener noreferrer">Emily Busch</a>. Artists Valentín
+      painted by Lead Artist and Project Director <a href="https://www.michelleangela.com/" target="_blank" rel="noopener">Michelle Angela Ortiz</a>, and the
+      decorative frames were created by artist <a href="https://www.emilybirdiebusch.com/core-memory-cards-1" target="_blank" rel="noopener">Emily Busch</a>. Artists Valentín
       Sánchez-Stoddard and Briana Dawkins assisted. The new public artworks
-      will be featured in the upcoming community led <a href="https://www.ourmarketproject.com/tours" target="_blank" rel="noopener noreferrer">Our Market Tours</a> starting
+      will be featured in the upcoming community led <a href="https://www.ourmarketproject.com/tours" target="_blank" rel="noopener">Our Market Tours</a> starting
       on May 3rd.</p
     >
     <p
@@ -74,5 +71,3 @@ eleventyNavigation:
       <nav-directory-item @href="../sun-ra-arkestra-mural/"><em>Sun Ra Arkestra</em> Mural</nav-directory-item>
       <nav-directory-item @href="../peoples-budget-office/">People’s Budget Office</nav-directory-item>
     </nav-directory>
-  </div>
-</section>

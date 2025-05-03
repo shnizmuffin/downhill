@@ -3,7 +3,7 @@ layout: base.webc
 ---
 
 <div
-  class="relative z-0 overflow-x-clip md:grid md:grid-cols-(--landing-grid-cols)"
+  class="relative z-0 overflow-x-clip md:grid lg:grid-cols-(--landing-grid-cols)"
 >
   <back-breaker
     :src="$data.styles.background ?? './src/_assets/images/bg/bg-landing.png'"
@@ -12,14 +12,14 @@ layout: base.webc
     class="fixed top-0 z-10 h-screen w-screen bg-white bg-cover bg-[center_top] bg-no-repeat"
   ></back-breaker>
   <div
-    class="ux-vignette pointer-events-none absolute z-30 col-start-1 col-end-4 row-start-1 row-end-4 hidden h-full min-w-screen md:block"
+    class="ux-vignette pointer-events-none absolute z-30 col-start-1 col-end-4 row-start-1 row-end-4 hidden h-full min-w-screen lg:block"
   >
   </div>
   <sticky-header
-    class="group max-md:[.is-stuck]:bg-victoria max-md:[.is-stuck]:shadow-victoria-900 pointer-events-none z-50 col-start-1 col-end-4 row-start-1 grid grid-cols-2 bg-transparent transition-all md:grid-cols-subgrid max-md:[.is-stuck]:shadow"
+    class="group max-lg:[.is-stuck]:bg-victoria max-lg:[.is-stuck]:shadow-victoria-900 pointer-events-none z-50 col-start-1 col-end-4 row-start-1 grid grid-cols-2 bg-transparent transition-all lg:grid-cols-subgrid max-lg:[.is-stuck]:shadow"
   >
-    <header class="z-50 row-start-1 md:col-start-1 md:col-end-2">
-      <div class="block p-4 md:p-8 md:pt-12">
+    <header class="z-50 row-start-1 lg:col-start-1 lg:col-end-2">
+      <div class="block p-4 lg:p-8 lg:pt-12">
         <img
           src="/_assets/images/svg/mural-arts-logo.svg"
           formats="svg"
@@ -30,9 +30,9 @@ layout: base.webc
       <nav-depth :@depth="nav.depth"></nav-depth>
     </header>
     <aside
-      class="z-50 row-start-1 flex flex-col items-end text-white max-md:group-[.is-stuck]:hidden md:col-start-3 md:col-end-4"
+      class="z-50 row-start-1 flex flex-col items-end text-white max-lg:group-[.is-stuck]:hidden lg:col-start-3 lg:col-end-4"
     >
-      <div class="hidden p-4 md:block md:px-16 md:pt-12">
+      <div class="hidden p-4 lg:block lg:px-16 lg:pt-12">
         <p class="text-3xl shadow-indigo-900 text-shadow-md"
           >Beautify.<br />Inspire.<br />Empower.<br />
         </p>

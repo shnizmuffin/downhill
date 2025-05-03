@@ -8,7 +8,7 @@ eleventyNavigation:
 
 <main class="relative z-20 min-h-[100vh] md:col-start-1 md:col-end-4">
   <section
-    class="z-40 mt-[50vh] px-4 md:mt-[60vh] md:grid md:grid-cols-(--landing-grid-cols) md:px-0"
+    class="z-40 mt-[50vh] px-4 md:mt-[60vh] md:grid lg:grid-cols-(--landing-grid-cols) lg:px-0"
   >
     <article
       x-data

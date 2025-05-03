@@ -1,6 +1,6 @@
 <nav
   webc:if="depth"
-  class="pointer-events-auto z-50 hidden flex-col items-end px-8 text-white md:flex"
+  class="pointer-events-auto z-50 hidden flex-col items-end px-8 text-white lg:flex"
 >
   <ul class="flex flex-col gap-2">
     <li
@@ -30,7 +30,7 @@
 </nav>
 <nav
   webc:else
-  class="pointer-events-auto z-50 hidden flex-col items-end px-8 text-white md:flex"
+  class="pointer-events-auto z-50 hidden flex-col items-end px-8 text-white lg:flex"
 >
   <ul class="flex flex-col gap-2">
     <li x-data x-show="$store.reveal.introduction"

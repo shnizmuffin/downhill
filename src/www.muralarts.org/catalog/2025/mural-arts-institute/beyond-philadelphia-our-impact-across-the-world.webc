@@ -1,5 +1,5 @@
 ---
-layout: map/department.webc
+layout: map/article.webc
 meta:
   heading: Mural Arts Institute
   title: Beyond Philadelphia - Our Impact Across the World
@@ -9,10 +9,7 @@ eleventyNavigation:
   parent: MAP-MA-INSTITUTE
   image: 'https://placehold.co/144x144'
 ---
-<section :class="`${styles.article}`">
-  <div
-    :class="`prose md:prose-xl leading-normal font-light text-pretty pt-8 p-4 md:p-16 text-left prose-headings:font-medium ${styles.prose}`"
-  >
+
     <h2 class="mt-0 font-serif text-[2.5em]">Beyond
       Philadelphia: Our
       Impact Across the
@@ -38,8 +35,8 @@ eleventyNavigation:
       policymakers, planners, culture bearers, municipal government officials, and
       more. This includes work in more than 25 cities across the the globe.</p
     >
-    <p>Learn more about some of our recent co learning exchanges in this <a href="https://muralarts.org/stories/a-common-language/" target="_blank" rel="noopener noreferrer">blog</a>
-      about our work with Ukrainian artists and our <a href="https://muralartsinstitute.com/strength-through-solidarity/" target="_blank" rel="noopener noreferrer">Strength Through Solidarity</a>
+    <p>Learn more about some of our recent co learning exchanges in this <a href="https://muralarts.org/stories/a-common-language/" target="_blank" rel="noopener">blog</a>
+      about our work with Ukrainian artists and our <a href="https://muralartsinstitute.com/strength-through-solidarity/" target="_blank" rel="noopener">Strength Through Solidarity</a>
       program.</p>
     <p
       ><strong>FUNDERS</strong>:
@@ -70,5 +67,3 @@ eleventyNavigation:
         Beyond Philadelphia: Our Impact Across the World
       </nav-directory-item>--->
     </nav-directory>
-  </div>
-</section>

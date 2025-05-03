@@ -1,5 +1,5 @@
 ---
-layout: map/department.webc
+layout: map/article.webc
 meta:
   heading: Restorative Justice
   title: Legacies - Our Neighbors Lead & Inspire
@@ -10,10 +10,7 @@ eleventyNavigation:
   image: 'https://placehold.co/144x144'
 ---
 
-<section :class="`${styles.article}`">
-  <div
-    :class="`prose md:prose-xl leading-normal font-light text-pretty pt-8 p-4 md:p-16 text-left prose-headings:font-medium ${styles.prose}`"
-  >
+
     <h2 class="mt-0 font-serif text-[2.5em]"
       ><em>Legacies: Our Neighbors Lead & Inspire</em></h2
     >
@@ -35,13 +32,13 @@ eleventyNavigation:
       <a
         href="https://amberartanddesign.com/"
         target="_blank"
-        rel="noopener noreferrer"
+        rel="noopener"
         >Amber Art and Design</a
       >, the mural complements a
       <a
         href="https://www.publicartarchive.org/art/Staircases-and-Mountaintops-Ascending-Beyond-the-Dream/6f95f086"
         target="_blank"
-        rel="noopener noreferrer"
+        rel="noopener"
         >pre-existing mural of Dr. Martin Luther King, Jr.</a
       >. on the facade of the recreation center named in his memory. The
       original mural was created by a founding member of the collective, Willis
@@ -52,19 +49,19 @@ eleventyNavigation:
       <a
         href="https://www.phillytrib.com/obituaries/helen-brown-77-community-organizer-for-project-home/article_bacf858e-0606-5616-a012-ba05287122c1.html"
         target="_blank"
-        rel="noopener noreferrer"
+        rel="noopener"
         >Helen Brown</a
       >,
       <a
         href="https://phila.legistar.com/LegislationDetail.aspx?ID=5146676&GUID=A3B85B6F-7B90-4AC0-A318-F73663920E89&Options=&Search="
         target="_blank"
-        rel="noopener noreferrer"
+        rel="noopener"
         >Harold “Malcolm” McCoy</a
       >, and
       <a
         href="https://www.inquirer.com/philly/obituaries/bruce-webb-obituary-record-store-owner-83-20171205.html"
         target="_blank"
-        rel="noopener noreferrer"
+        rel="noopener"
         >Bruce Webb</a
       >. Artists Ernel Martinez and Keir Johnston were assisted by Mtukufu
       Mtumaini-El, Juan Carlos Valencia Michileno, and members of the Rec Crew.
@@ -101,5 +98,3 @@ eleventyNavigation:
         ><em>Legacies: Our Neighbors Lead &amp; Inspire</em></nav-directory-item
       > -->
     </nav-directory>
-  </div>
-</section>

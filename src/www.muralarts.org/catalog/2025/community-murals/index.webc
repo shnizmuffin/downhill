@@ -6,10 +6,6 @@ eleventyNavigation:
   image: 'https://placehold.co/144x144'
 ---
 
-<section :class="`${styles.branding}`">
-  <div
-    :class="`prose md:prose-xl pt-12 p-4 ps-2 md:p-16 text-left font-serif ${styles.prose}`"
-  >
     <p class="leading-tight md:text-2xl"
       ><strong>Community Murals</strong> create pathways for Philadelphia
       communities and artists to access and sustain the transformative power of
@@ -21,5 +17,3 @@ eleventyNavigation:
       <nav-directory-item @href="./tribute-to-paul-gripper/">Tribute to Paul Gripper</nav-directory-item>
       <nav-directory-item @href="./caicu/">CAICU</nav-directory-item>
     </nav-directory>
-  </div>
-</section>

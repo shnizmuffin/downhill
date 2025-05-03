@@ -6,10 +6,6 @@ eleventyNavigation:
   image: 'https://placehold.co/144x144'
 ---
 
-<section :class="`${styles.branding}`">
-  <div
-    :class="`prose md:prose-xl pt-12 p-4 ps-2 md:p-16 text-left font-serif ${styles.prose}`"
-  >
     <p class="leading-tight md:text-2xl"
       >Through a focus in Learning + Practice, the
       <strong>Mural Arts Institute</strong> advances the field of socially
@@ -40,5 +36,3 @@ eleventyNavigation:
         Beyond Philadelphia: Our Impact Across the World
       </nav-directory-item>
     </nav-directory>
-  </div>
-</section>

@@ -1,5 +1,5 @@
 ---
-layout: map/department.webc
+layout: map/article.webc
 meta:
   heading: Art Education
   title: Blooming Futures Mural
@@ -10,10 +10,7 @@ eleventyNavigation:
   image: 'https://placehold.co/144x144'
 ---
 
-<section :class="`${styles.article}`">
-  <div
-    :class="`prose md:prose-xl leading-normal font-light text-pretty pt-8 p-4 md:p-16 text-left prose-headings:font-medium ${styles.prose}`"
-  >
+
     <h2 class="mt-0 font-serif text-[2.5em]"
       ><em>Blooming Futures</em> Mural</h2
     >
@@ -29,13 +26,13 @@ eleventyNavigation:
       <a
         href="https://www.imdb.com/name/nm6708435/"
         target="_blank"
-        rel="noopener noreferrer"
+        rel="noopener"
         >Quinta Brunson</a
       >, creator of the hit show
       <a
         href="https://abc.com/show/e4f28254-2fc4-4cc1-b9bb-eee0564c178e/about-the-show"
         target="_blank"
-        rel="noopener noreferrer"
+        rel="noopener"
         >Abbott Elementary</a
       >, Mural Arts has partnered with ABC & Disney Television Studios to create
       a mural at the Andrew Hamilton School, where Brunson attended elementary
@@ -46,7 +43,7 @@ eleventyNavigation:
       <a
         href="https://www.athena-astraea.com/about"
         target="_blank"
-        rel="noopener noreferrer"
+        rel="noopener"
         >Athena Scott</a
       >, with input from Hamilton school students and staff, the mural
       highlights the allegory of the school as a garden, with the tenacious
@@ -100,5 +97,3 @@ eleventyNavigation:
         ><em>SAFER</em> Mural</nav-directory-item
       >
     </nav-directory>
-  </div>
-</section>

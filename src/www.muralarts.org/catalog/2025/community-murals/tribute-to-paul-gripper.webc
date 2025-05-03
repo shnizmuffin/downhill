@@ -1,5 +1,5 @@
 ---
-layout: map/department.webc
+layout: map/article.webc
 meta:
   heading: Community Murals
   title: Tribute to Paul Gripper
@@ -10,10 +10,6 @@ eleventyNavigation:
   image: 'https://placehold.co/144x144'
 ---
 
-<section :class="`${styles.article}`">
-  <div
-    :class="`prose md:prose-xl leading-normal font-light text-pretty pt-8 p-4 md:p-16 text-left prose-headings:font-medium ${styles.prose}`"
-  >
     <h2 class="mt-0 font-serif text-[2.5em]">Tribute to Paul Gripper</h2>
     <light-box
       class="md:**:prose-figcaption:block"
@@ -28,7 +24,7 @@ eleventyNavigation:
       <a
         href="https://www.phillytrib.com/obituaries/paul-gripper-50-youth-basketball-coach/article_376ac2d9-ec99-5447-9330-7f3f9eeb9042.html"
         target="_blank"
-        rel="noopener noreferrer"
+        rel="noopener"
         >Paul “Unk P” Gripper</a
       >, a North Philadelphia community member who inspired and mentored young
       men—many of whom garnered entrance and scholarship to college—through the
@@ -46,14 +42,14 @@ eleventyNavigation:
       <a
         href="https://nilelivingston.com/"
         target="_blank"
-        rel="noopener noreferrer"
+        rel="noopener"
         >Nilé Livingston</a
       >
       and will be produced by
       <a
         href="https://customartsstudio.com/pages/about"
         target="_blank"
-        rel="noopener noreferrer"
+        rel="noopener"
         >Keisha Whatley</a
       >. It will be dedicated in June 2025.</p
     >
@@ -83,5 +79,3 @@ eleventyNavigation:
       <!---<nav-directory-item @href="../tribute-to-paul-gripper/">Tribute to Paul Gripper</nav-directory-item>--->
       <nav-directory-item @href="../caicu/">CAICU</nav-directory-item>
     </nav-directory>
-  </div>
-</section>

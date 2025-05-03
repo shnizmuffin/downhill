@@ -1,0 +1,15 @@
+---
+layout: map/main.webc
+---
+
+<section :class="`${styles.article}`">
+  <div
+    :class="`prose leading-normal font-light text-pretty pt-8 p-4 text-left md:prose-xl md:px-6 xl:p-16
+    prose-headings:font-medium prose-headings:leading-tight
+    prose-h2:mt-0 prose-h2:font-serif prose-h2:text-[2.5em]
+    prose-h3:uppercase prose-h3:font-bold
+    ${styles.prose}`"
+  >
+    <template @raw="content" webc:nokeep></template>
+  </div>
+</section>
