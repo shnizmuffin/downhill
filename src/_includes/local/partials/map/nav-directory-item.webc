@@ -4,8 +4,7 @@
     :href="href"
     :target="target"
     title="Read More"
-    ><span class="leading-tight text-balance">
-      <slot></slot> </span
+    ><span class="leading-tight text-balance"> <slot></slot> </span
     ><span webc:if="target == '_blank'">🡥</span><span webc:else>🡢</span></a
   ></li
 >

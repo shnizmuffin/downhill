@@ -2,7 +2,7 @@
 import Alpine from 'alpinejs';
 import intersect from '@alpinejs/intersect';
 
-Alpine.store('reveal', {})
+Alpine.store('reveal', {});
 
 Alpine.plugin(intersect);
 

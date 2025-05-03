@@ -1,12 +1,17 @@
-@import "tailwindcss";
-@import "./fonts";
+@import 'tailwindcss';
+@import './fonts';
 @plugin "@tailwindcss/typography";
 @source "../../src/**/*.json";
 
 @theme {
-  --font-sans: "Circular", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --font-serif: "Tiempos", ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
-  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --font-sans:
+    'Circular', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  --font-serif:
+    'Tiempos', ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif;
+  --font-mono:
+    ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono',
+    'Courier New', monospace;
 
   --color-victoria-50: oklch(97% 0.014 268.73);
   --color-victoria-100: oklch(93.635% 0.02381 269.71);
@@ -48,74 +53,73 @@
   --color-sky: var(--color-sky-200);
 
   --color-mantis-50: oklch(98.2% 0.018 143.18);
---color-mantis-100: oklch(95.748% 0.02393 144.1);
---color-mantis-200: oklch(91.595% 0.04385 143.35);
---color-mantis-300: oklch(85.743% 0.08978 141.8);
---color-mantis-400: oklch(77.39% 0.12871 139.07);
---color-mantis-500: oklch(70.792% 0.15209 136.93);
---color-mantis-600: oklch(61.493% 0.14047 136.57);
---color-mantis-700: oklch(51.795% 0.11385 137.42);
---color-mantis-800: oklch(44.197% 0.09224 138.68);
---color-mantis-900: oklch(38.998% 0.08162 139.89);
---color-mantis-950: oklch(26.6% 0.065 140.29);
---color-mantis: var(--color-mantis-400);
+  --color-mantis-100: oklch(95.748% 0.02393 144.1);
+  --color-mantis-200: oklch(91.595% 0.04385 143.35);
+  --color-mantis-300: oklch(85.743% 0.08978 141.8);
+  --color-mantis-400: oklch(77.39% 0.12871 139.07);
+  --color-mantis-500: oklch(70.792% 0.15209 136.93);
+  --color-mantis-600: oklch(61.493% 0.14047 136.57);
+  --color-mantis-700: oklch(51.795% 0.11385 137.42);
+  --color-mantis-800: oklch(44.197% 0.09224 138.68);
+  --color-mantis-900: oklch(38.998% 0.08162 139.89);
+  --color-mantis-950: oklch(26.6% 0.065 140.29);
+  --color-mantis: var(--color-mantis-400);
 
---color-highlighter-50: oklch(98.7% 0.026 113.87);
---color-highlighter-100: oklch(98.43% 0.07283 110.12);
---color-highlighter-200: oklch(97.456% 0.13934 109.87);
---color-highlighter-300: oklch(96.798% 0.21101 109.77);
---color-highlighter-400: oklch(90.621% 0.22131 103.48);
---color-highlighter-500: oklch(84.036% 0.20065 97.382);
---color-highlighter-600: oklch(71.786% 0.16946 86.005);
---color-highlighter-700: oklch(58.173% 0.14043 76.088);
---color-highlighter-800: oklch(49.416% 0.12087 73.017);
---color-highlighter-900: oklch(43% 0.09914 69.366);
---color-highlighter-950: oklch(28.6% 0.066 65.471);
---color-highlighter: var(--color-highlighter-300);
+  --color-highlighter-50: oklch(98.7% 0.026 113.87);
+  --color-highlighter-100: oklch(98.43% 0.07283 110.12);
+  --color-highlighter-200: oklch(97.456% 0.13934 109.87);
+  --color-highlighter-300: oklch(96.798% 0.21101 109.77);
+  --color-highlighter-400: oklch(90.621% 0.22131 103.48);
+  --color-highlighter-500: oklch(84.036% 0.20065 97.382);
+  --color-highlighter-600: oklch(71.786% 0.16946 86.005);
+  --color-highlighter-700: oklch(58.173% 0.14043 76.088);
+  --color-highlighter-800: oklch(49.416% 0.12087 73.017);
+  --color-highlighter-900: oklch(43% 0.09914 69.366);
+  --color-highlighter-950: oklch(28.6% 0.066 65.471);
+  --color-highlighter: var(--color-highlighter-300);
 
---color-lavender-50: oklch(97.7% 0.014 312.08);
---color-lavender-100: oklch(89.161% 0.02916 310.95);
---color-lavender-200: oklch(79.323% 0.05533 310.48);
---color-lavender-300: oklch(73.182% 0.11229 310.16);
---color-lavender-400: oklch(63.242% 0.19724 309.28);
---color-lavender-500: oklch(55.902% 0.2602 307.68);
---color-lavender-600: oklch(50.924% 0.27704 305.53);
---color-lavender-700: oklch(46.289% 0.25246 304.84);
---color-lavender-800: oklch(41.081% 0.21608 307.5);
---color-lavender-900: oklch(36.74% 0.17504 308.76);
---color-lavender-950: oklch(29.1% 0.149 306.49);
---color-lavender: var(--color-lavender-200);
+  --color-lavender-50: oklch(97.7% 0.014 312.08);
+  --color-lavender-100: oklch(89.161% 0.02916 310.95);
+  --color-lavender-200: oklch(79.323% 0.05533 310.48);
+  --color-lavender-300: oklch(73.182% 0.11229 310.16);
+  --color-lavender-400: oklch(63.242% 0.19724 309.28);
+  --color-lavender-500: oklch(55.902% 0.2602 307.68);
+  --color-lavender-600: oklch(50.924% 0.27704 305.53);
+  --color-lavender-700: oklch(46.289% 0.25246 304.84);
+  --color-lavender-800: oklch(41.081% 0.21608 307.5);
+  --color-lavender-900: oklch(36.74% 0.17504 308.76);
+  --color-lavender-950: oklch(29.1% 0.149 306.49);
+  --color-lavender: var(--color-lavender-200);
 
---color-salmon-50: oklch(97.1% 0.013 32.575);
---color-salmon-100: oklch(92.771% 0.03157 32.912);
---color-salmon-200: oklch(86.843% 0.06113 33.529);
---color-salmon-300: oklch(78.314% 0.1127 34.766);
---color-salmon-400: oklch(68.269% 0.18989 37.411);
---color-salmon-500: oklch(62.038% 0.23215 37.362);
---color-salmon-600: oklch(56.443% 0.21087 37.438);
---color-salmon-700: oklch(49.596% 0.18704 37.001);
---color-salmon-800: oklch(43.849% 0.1699 35.78);
---color-salmon-900: oklch(39.271% 0.13988 39.767);
---color-salmon-950: oklch(25.817% 0.09138 40.089);
---color-salmon: var(--color-salmon-300);
+  --color-salmon-50: oklch(97.1% 0.013 32.575);
+  --color-salmon-100: oklch(92.771% 0.03157 32.912);
+  --color-salmon-200: oklch(86.843% 0.06113 33.529);
+  --color-salmon-300: oklch(78.314% 0.1127 34.766);
+  --color-salmon-400: oklch(68.269% 0.18989 37.411);
+  --color-salmon-500: oklch(62.038% 0.23215 37.362);
+  --color-salmon-600: oklch(56.443% 0.21087 37.438);
+  --color-salmon-700: oklch(49.596% 0.18704 37.001);
+  --color-salmon-800: oklch(43.849% 0.1699 35.78);
+  --color-salmon-900: oklch(39.271% 0.13988 39.767);
+  --color-salmon-950: oklch(25.817% 0.09138 40.089);
+  --color-salmon: var(--color-salmon-300);
 
---color-blurple-50: oklch(98.4% 0.003 275.57);
---color-blurple-100: oklch(96.845% 0.01423 275.6);
---color-blurple-200: oklch(92.99% 0.02746 283.22);
---color-blurple-300: oklch(87.035% 0.0437 280.6);
---color-blurple-400: oklch(70.581% 0.06893 284.5);
---color-blurple-500: oklch(55.551% 0.07011 285.13);
---color-blurple-600: oklch(44.72% 0.06229 284.99);
---color-blurple-700: oklch(37.29% 0.05846 285);
---color-blurple-800: oklch(27.96% 0.05064 287.74);
---color-blurple-900: oklch(20.83% 0.04682 293.46);
---color-blurple-950: oklch(12.9% 0.042 292.4);
---color-blurple: var(--color-blurple-400);
+  --color-blurple-50: oklch(98.4% 0.003 275.57);
+  --color-blurple-100: oklch(96.845% 0.01423 275.6);
+  --color-blurple-200: oklch(92.99% 0.02746 283.22);
+  --color-blurple-300: oklch(87.035% 0.0437 280.6);
+  --color-blurple-400: oklch(70.581% 0.06893 284.5);
+  --color-blurple-500: oklch(55.551% 0.07011 285.13);
+  --color-blurple-600: oklch(44.72% 0.06229 284.99);
+  --color-blurple-700: oklch(37.29% 0.05846 285);
+  --color-blurple-800: oklch(27.96% 0.05064 287.74);
+  --color-blurple-900: oklch(20.83% 0.04682 293.46);
+  --color-blurple-950: oklch(12.9% 0.042 292.4);
+  --color-blurple: var(--color-blurple-400);
 
-
-
---animate-lay-in: lay-in linear;
---landing-grid-cols: minmax(140px, 25vw) minmax(50vw, 1440px) minmax(140px, 25vw);
+  --animate-lay-in: lay-in linear;
+  --landing-grid-cols: minmax(140px, 25vw) minmax(50vw, 1440px)
+    minmax(140px, 25vw);
 }
 
 @view-transition {
@@ -124,9 +128,9 @@
 
 @keyframes old-out {
   0% {
-    transform: rotate3d(0,0,0)
+    transform: rotate3d(0, 0, 0);
   }
-  
+
   100% {
     transform: rotate3d(0, 1, -0.1, 180deg);
   }
@@ -138,7 +142,7 @@
   }
 
   100% {
-    transform: rotate3d(0,0,0)
+    transform: rotate3d(0, 0, 0);
   }
 }
 
@@ -188,17 +192,13 @@
   }
 } */
 
-
 @layer components {
-
   .ux-button {
-    @apply px-8 py-4 scale-100 transition-colors shadow-lg
-      hover:saturate-150
-      active:scale-95 active:shadow-xs
+    @apply scale-100 px-8 py-4 shadow-lg transition-colors hover:saturate-150 active:scale-95 active:shadow-xs;
   }
 
-  a[target="_blank"] {
-    @apply after:content-['\202f🡥'] after:text-[0.8em] after:align-top;
+  a[target='_blank'] {
+    @apply after:align-top after:text-[0.8em] after:content-['\202f🡥'];
   }
 
   /* .vt-section-label {
@@ -211,14 +211,20 @@
 }
 
 @utility ux-hyperlink {
-  @apply underline underline-offset-4 decoration-2 hover:decoration-white focus:decoration-white;
+  @apply underline decoration-2 underline-offset-4 hover:decoration-white focus:decoration-white;
 }
 @utility ux-text-sideways {
   writing-mode: vertical-lr;
   text-orientation: mixed;
 }
 @utility ux-vignette {
-  background-image: linear-gradient(90deg, rgba(0,0,0,0.5) 0%, transparent 25%, transparent 77%, rgba(0,0,0,0.5));
+  background-image: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.5) 0%,
+    transparent 25%,
+    transparent 77%,
+    rgba(0, 0, 0, 0.5)
+  );
 }
 
 @layer utilities {
@@ -226,8 +232,5 @@
     --tw-prose-bullets: inherit;
   }
 }
-
-
-
 
 /* Stacky cards: https://scroll-driven-animations.style/demos/stacking-cards/css/ */

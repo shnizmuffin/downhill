@@ -9,7 +9,10 @@
     "build:11ty": "cross-env ELEVENTY_ENV=production eleventy",
     "start": "npm run dev:11ty",
     "build": "npm run clean && npm run build:11ty",
-    "pretty:html": "prettier --write src/**/*.{webc,html}"
+    "pretty:html": "prettier --write src/**/*.{webc,html}",
+    "pretty:css": "prettier --write src/**/*.{css,scss}",
+    "pretty:js": "prettier --write src/**/*.{js,ts}",
+    "pretty": "npm run pretty:html && npm run pretty:css && npm run pretty:js"
   },
   "author": "Dom Bonanni",
   "license": "UNLICENSED",
