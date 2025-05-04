@@ -1,0 +1,130 @@
+---
+layout: map/essay.webc
+eleventyNavigation:
+  key: MAP-GUEST-ESSAY
+  parent: MAP-IN-SUPPORT-OF-PHILLY-ARTISTS
+  image: 'https://placehold.co/144x144'
+---
+
+<h2 class="mt-0 font-serif text-[2.5em]"
+  >Hope Over Hate: The Colors of Redemption</h2
+>
+<light-box
+  class="md:**:prose-figcaption:block"
+  @picture="/_assets/images/pics/in-support-guest-00.png"
+  @alt=""
+  :@caption="`Eddie Ramirez at the Brotherly Love dedication, June 8, 2024. Photo by Steve Weinik.`"
+  @widths="800"
+></light-box>
+<p-lede
+  >I am not a big fan of watching the various news media outlets. I won't
+  mention them by name (because none of them pay me to promote their brand), but
+  feel free to speculate, assume and infer.</p-lede
+>
+<p
+  >I watch them because I want to stay informed, even if watching means wading
+  and sitting through half-truths and whole lies. I am definitely not a fan of
+  how the news is produced and packaged for public consumption, particularly in
+  its aim to feed a growing sense of fear and paranoia. It is an ugly distortion
+  that dims the bright light of hope. And while there are agencies that insist
+  on leading with what’s bleeding, thankfully, there are still some that choose
+  to create and inspire with hope and determination.</p
+>
+<p>
+  Mural Arts Philadelphia—the staff and dedicated partners—presents an oasis
+  filled with hope in the otherwise arid atmosphere of partisan politics and
+  biased agendas. In a time when there’s so much noise polluting the airwaves
+  with sound bites of distrust and divisiveness, when images of wars and riots,
+  handcuffs and leg irons dominate the visual media landscape, artists are
+  working harder than ever to heal communities that have been torn apart. Mural
+  Arts has been a constant conservatory for artists and a refuge for
+  communities. Working together has proven to be a worthwhile exercise in
+  community building and future-making.
+</p>
+<a href="https://give.muralarts.org/event/wall-ball-2025/e-669644" target="_blank" class="not-prose underline">
+  <img
+          src="/_assets/images/pics/in-support-guest-01.png"
+          alt="Wall Ball. Friday, May 9th."
+          class="cursor-pointer transition-all hover:scale-[102.5%] hover:shadow md:h-full my-2 border-highlighter-300 border-[1.5rem]"
+          :eleventy:widths="widths" />
+          <span>Get tickets</span>
+</a>
+<p
+  >I have my own very personal connection to Mural Arts Philadelphia and the
+  city we all love so much.</p
+>
+<p
+  >Nearly three decades ago, the city swallowed me up and cast me down to the
+  bowels of a criminal justice system that we now know routinely violated
+  citizens to get a conviction at all costs. It didn’t matter that I was
+  innocent. It didn’t matter that my father was a proud member of the Fraternal
+  Order of Police. It didn’t even matter that I hired a prominent attorney (who
+  also won’t get any free publicity out of me). Corrupt agents set out on their
+  mission, and they didn’t stop until that mission was accomplished. Thankfully,
+  Mural Arts also had a mission. It started with a small mural in a prison
+  auditorium that has since given birth to more than fifty murals around the
+  city. At the center of all those murals was a simple but powerful sense of
+  hope: if we paint it, the public will recognize that men and women in prison
+  are more than prisoners. They are more than the worst thing they ever did,
+  some never having done anything at all. I could have chosen bitterness. I do
+  have resentment. But I choose hope over hate.</p
+>
+<light-box
+  class="md:**:prose-figcaption:block"
+  @picture="/_assets/images/pics/in-support-guest-02.png"
+  @alt=""
+  :@caption="`Eddie Ramirez at the Outsider Art from the Inside, A View from Here Workshop, March 9, 2024. Photo by Gavin Wilson.`"
+  @widths="800"
+></light-box>
+<p
+  >Rudyard Kipling urged the body to force the heart and nerve and sinew to
+  serve its turn long after they are gone, and so hold on when there’s nothing
+  in you, except the will which says to them, “Hold on!”</p
+>
+<p
+  >Through art making, the makers ask the audience to hold on; something
+  beautiful is coming. Mural Arts stood by me for decades, urging me to hold on
+  giving me hope that something beautiful was coming. And it was.</p
+>
+<p
+  >Over so many years, Mural Arts Philadelphia has come through on the promise
+  to remember our brothers and sisters who are away while honoring those deeply
+  affected by crime and being a part of the education for the next generation.
+  From the dedication of the Healing Walls—created by Ceasar Viveros and painted
+  by the men at the State Correctional Institution at Graterford, along with
+  victims of crime; to the Brotherly Love mural—designed by King Saladeen and
+  painted by the men at the State Correctional Institution at Phoenix, along
+  with assistance from the Guild Project and the Rec Crew at Mural Arts’
+  Restorative Justice Department.</p
+>
+<p
+  >I take great pride in being a part of a program that gives hope to so many
+  men and women within prisons and within the Philadelphia community as well.
+  Artists are ready to create. And there are teams ready to add to this city’s
+  beauty.</p
+>
+<light-box
+  class="md:**:prose-figcaption:block"
+  @picture="/_assets/images/pics/in-support-guest-03.png"
+  @alt=""
+  :@caption="`Mural Lab Live #2, October 10, 2024. Eddie Ramirez (second from left) with other panelists. In this powerful session, artist Mark Loughney delves into the intersection of art and social justice.`"
+  @widths="800"
+></light-box>
+<p
+  >As we move into 2025, coming out of a cold winter, I urge us to remember and
+  have hope that together, we can paint a picture in colors that confront the
+  bleak image talking heads would offer. We can speak poetry using all of our
+  voices: the smart ones, the lyrical ones; with sass and style. We can be bold
+  because we know there are partners who share in the hope of a brighter
+  community. Those same partners are committed to making all things beautiful
+  manifest.</p
+>
+<p>Beginning with us…</p>
+<nav-directory>
+  <!-- <nav-directory-item @href="../guest-essay/"
+    >Guest Essay</nav-directory-item
+  > -->
+  <nav-directory-item @href="../by-the-numbers/"
+    >By the Numbers</nav-directory-item
+  >
+</nav-directory>

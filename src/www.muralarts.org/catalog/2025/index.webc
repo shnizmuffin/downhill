@@ -31,7 +31,7 @@ eleventyNavigation:
         :width="720,1440"
       />
       <div
-        class="prose text-victoria md:prose-lg prose-p:text-victoria prose-headings:text-victoria prose-strong:text-victoria mx-auto font-serif leading-normal"
+        class="prose text-victoria md:prose-lg prose-p:text-victoria prose-headings:text-victoria prose-headings:text-pretty prose-strong:text-victoria mx-auto font-serif leading-normal"
       >
         <p class="leading=tight text-[1.5em] text-pretty md:text-4xl"
           >I am thrilled to share that our theme for 2025 is

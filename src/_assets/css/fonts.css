@@ -141,3 +141,12 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: 'Noto Sans Symbols 2';
+  src:
+    url('../fonts/NotoSansSymbols2-Regular.ttf') format('ttf'),
+    url('../fonts/NotoSansSymbols2-Regular.woff2') format('woff2'),
+    url('../fonts/NotoSansSymbols2-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}

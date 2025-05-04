@@ -1,33 +1,17 @@
 ---
-layout: map/catalog.webc
+layout: map/aside.webc
 ---
 
-<main
-  class="relative z-20 min-h-[100vh] md:col-start-1 md:col-end-4 md:row-start-1 md:row-end-3"
->
-  <section class="grid snap-start lg:grid-cols-(--landing-grid-cols)">
-    <article
-      :class="`row-start-1 col-start-2 col-end-3 flex flex-row relative pe-4 md:pe-0`"
-    >
-      <div
-        :class="`flex-shrink z-30 vt-section-label relative font-bold uppercase ${styles.branding}`"
-      >
-        <header
-          class="sticky top-[70px] flex flex-col place-content-center place-items-center px-2 pt-12 md:hidden"
-        >
-          <h1
-            class="ux-text-sideways text-3xl leading-0 [@media(601px<=height<=800px)]:text-5xl [@media(height<=600px)]:text-3xl"
-            @text="meta.heading ? meta.heading : meta.title"
-          ></h1>
-          <a
-            :href="`../#${page.fileSlug}`"
-            class="block size-16 content-center text-center align-middle"
-            >Back</a
-          >
-          <!-- <h1 class="px-8 py-12 text-4xl md:text-6xl ux-text-sideways"><text-fit :@fit="meta.heading ? meta.heading : meta.title"></text-fit></h1> -->
-        </header>
-      </div>
-      <template @raw="content" webc:nokeep></template>
-    </article>
-  </section>
-</main>
+<section :class="`${$data.styles.branding}`">
+  <div
+    :class="`
+      prose pt-12 p-4 text-left font-serif
+      prose-headings:font-medium prose-headings:leading-tight prose-headings:text-pretty
+      md:prose-xl md:p-8 
+      lg:p-16 
+      ${$data.styles.prose}
+    `"
+  >
+    <template @raw="content" webc:nokeep></template>
+  </div>
+</section>

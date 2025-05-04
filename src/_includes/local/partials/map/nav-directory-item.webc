@@ -1,10 +1,15 @@
 <li
   ><a
-    :class="`flex flex-row justify-between align-bottom items-end py-4 leading-none hover:underline hover:saturate-150 ${this.class}`"
+    :class="`flex flex-row gap-4 justify-between align-bottom items-end py-4 leading-none hover:underline hover:saturate-150 ${this.class}`"
     :href="href"
     :target="target"
     title="Read More"
-    ><span class="leading-tight text-balance"> <slot></slot> </span
-    ><span webc:if="target == '_blank'">🡥</span><span webc:else>🡢</span></a
+    ><span class="leading-tight text-balance"><slot></slot></span
+    ><span webc:if="target == '_blank'">🡥</span><span class="size-8 shrink-0" webc:else><img
+      src="/_assets/images/svg/arrow-forward.svg"
+      formats="svg"
+      alt="Read more"
+      class="block"
+    /></span></a
   ></li
 >

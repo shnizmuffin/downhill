@@ -1,0 +1,40 @@
+---
+layout: map/essay.webc
+eleventyNavigation:
+  key: MAP-BY-THE-NUMBERS
+  parent: MAP-IN-SUPPORT-OF-PHILLY-ARTISTS
+  image: 'https://placehold.co/144x144'
+---
+<h2 class="mt-0 font-serif text-[2.5em]"
+  >In Support of Philly Artists By the Numbers</h2
+>
+<light-box
+  class="md:**:prose-figcaption:block"
+  @picture="/_assets/images/pics/in-support-guest-00.png"
+  @alt=""
+  :@caption="`Teaching artist Cindy Lozito conducts a workshop activity, and participating students celebrate the work they have created, November 21, 2024. Photo by Edwin Einbender Luks.`"
+  @widths="800"
+></light-box>
+<p-lede
+  >Artists are essential to our work, and
+  we are committed to supporting them
+  by creating employment
+  opportunities, offering artist training,
+  and providing resources for them to
+  expand their practices.</p-lede
+>
+<p
+  >We offer fellowships, internships, apprenticeships, and emerging artist
+  opportunities. The website <a href="https://muralartsinstitute.com/" target="_blank" rel="noopener">muralartsinstitute.com</a> highlights our free
+  training and programs, lists open requests for qualifications and proposals,
+  and offers a library of research and links to local and national resources.</p
+>
+<p><code>Insert infographic here</code></p>
+<nav-directory>
+  <nav-directory-item @href="../guest-essay/"
+    >Guest Essay</nav-directory-item
+  >
+  <!-- <nav-directory-item @href="../by-the-numbers/"
+    >By the Numbers</nav-directory-item
+  > -->
+</nav-directory>

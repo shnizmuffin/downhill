@@ -1,0 +1,28 @@
+---
+layout: map/featured.webc
+eleventyNavigation:
+  key: MAP-IN-SUPPORT-OF-PHILLY-ARTISTS
+  parent: MAP-SPRING-2025
+  image: 'https://placehold.co/144x144'
+---
+<h2>In Support of Philly Artists</h2>
+<light-box
+  class="md:**:prose-figcaption:block font-sans"
+  @picture="/_assets/images/pics/in-support-00.png"
+  @alt=""
+  :@caption="`Down With Dope, Up With Hope, in-process, August 15, 2024. Photo by Steve Weinik.`"
+  @widths="800"
+></light-box>
+<p class="leading-tight md:text-2xl"
+  >Mural Arts’ support of local artists is central
+  to our mission to create participatory public
+  art throughout the City of Philadelphia.</p
+>
+<nav-directory>
+  <nav-directory-item @href="./guest-essay/"
+    >Guest Essay</nav-directory-item
+  >
+  <nav-directory-item @href="./by-the-numbers/"
+    >By the Numbers</nav-directory-item
+  >
+</nav-directory>

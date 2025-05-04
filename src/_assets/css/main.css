@@ -6,12 +6,12 @@
 @theme {
   --font-sans:
     'Circular', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
-    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji','Noto Sans Symbols 2';
   --font-serif:
-    'Tiempos', ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif;
+    'Tiempos', ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif, 'Noto Sans Symbols 2';
   --font-mono:
     ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono',
-    'Courier New', monospace;
+    'Courier New', monospace, 'Noto Sans Symbols 2';
 
   --color-victoria-50: oklch(97% 0.014 268.73);
   --color-victoria-100: oklch(93.635% 0.02381 269.71);
