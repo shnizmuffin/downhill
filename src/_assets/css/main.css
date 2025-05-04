@@ -216,6 +216,7 @@
 @utility ux-text-sideways {
   writing-mode: vertical-lr;
   text-orientation: mixed;
+  white-space: preserve nowrap;
 }
 @utility ux-vignette {
   background-image: linear-gradient(

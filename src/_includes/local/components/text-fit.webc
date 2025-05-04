@@ -3,6 +3,7 @@
     display: flex;
     writing-mode: inherit;
     container-type: inline-size;
+    --max-font-size: 85px;
     --captured-length: initial;
     --support-sentinel: var(--captured-length, 9999px);
 
