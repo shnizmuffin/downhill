@@ -7,7 +7,7 @@ eleventyNavigation:
 ---
 
 <p class="leading-tight md:text-2xl"
-  >The <strong>Art Education</strong> program works with students across the
+  >The <a href="https://muralarts.org/programs/art-education/" target="_blank" rel="noopener">Art Education</a> program works with students across the
   city to unlock their creative capacities, inviting them to take risks, share
   their experiences, and illustrate the world as they see it.</p
 >

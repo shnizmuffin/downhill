@@ -7,7 +7,7 @@ eleventyNavigation:
 ---
 
 <p class="leading-tight md:text-2xl"
-  ><strong>Community Murals</strong> create pathways for Philadelphia
+  ><a href="https://muralarts.org/programs/public-art-and-civic-engagement/community-murals/" target="_blank" rel="noopener">Community Murals</a> create pathways for Philadelphia
   communities and artists to access and sustain the transformative power of the
   arts.</p
 >

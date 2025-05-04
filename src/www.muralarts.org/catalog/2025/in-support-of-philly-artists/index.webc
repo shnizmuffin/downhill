@@ -14,7 +14,7 @@ eleventyNavigation:
   @widths="800"
 ></light-box>
 <p class="leading-tight md:text-2xl"
-  >Mural Arts’ support of local artists is central
+  >Mural Arts’ <a href="https://muralarts.org/programs/public-art-and-civic-engagement/" target="_blank" rel="noopener">support of local artists</a> is central
   to our mission to create participatory public
   art throughout the City of Philadelphia.</p
 >
