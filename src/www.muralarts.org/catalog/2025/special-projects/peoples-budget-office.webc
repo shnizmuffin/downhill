@@ -82,17 +82,20 @@ eleventyNavigation:
     class="md:col-span-2"
     @picture="/_assets/images/pics/special-projects-peoples-budget-01.png"
     @alt=""
-    @widths="500"
+    :@caption="`People's Budget Office Back Mural by Phoebe Bachman, Photo by Ricky Yanas.`"
+    @widths="500,610"
   ></light-box>
   <light-box
     @picture="/_assets/images/pics/special-projects-peoples-budget-02.png"
     @alt=""
-    @widths="400"
+    :@caption="`People's Budget Office Design by Sophie Greenspan.`"
+    @widths="400,610"
   ></light-box>
   <light-box
     class="md:col-span-3"
     @picture="/_assets/images/pics/special-projects-peoples-budget-03.png"
     @alt=""
+    :@caption="`People's Budget Office Roundtable Performance photo by Steve Weinek.`"
     @widths="800"
   ></light-box>
 </div>
@@ -106,7 +109,7 @@ eleventyNavigation:
   <nav-directory-item @href="../sun-ra-arkestra-mural/"
     ><em>Sun Ra Arkestra</em> Mural</nav-directory-item
   >
-  <nav-directory-item @href="../peoples-budget-office/"
+  <!-- <nav-directory-item @href="../peoples-budget-office/"
     >People’s Budget Office</nav-directory-item
-  >
+  > -->
 </nav-directory>

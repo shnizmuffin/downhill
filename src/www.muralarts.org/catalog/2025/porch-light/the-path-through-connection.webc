@@ -63,17 +63,20 @@ eleventyNavigation:
   <light-box
     @picture="/_assets/images/pics/porch-light-the-path-01.png"
     @alt=""
-    @widths="400"
+    :@caption="`<em>The Path Through Connection</em> dedication, September 27, 2024. Photo by Ta'Liyah Thomas.`"
+    @widths="400,610"
   ></light-box>
   <light-box
     @picture="/_assets/images/pics/porch-light-the-path-02.png"
     @alt=""
-    @widths="400"
+    :@caption="`<em>The Path Through Connection</em> dedication, September 27, 2024. Photo by Ta'Liyah Thomas.`"
+    @widths="400,610"
   ></light-box>
   <light-box
     class="col-span-2"
     @picture="/_assets/images/pics/porch-light-the-path-03.png"
     @alt=""
+    :@caption="`<em>The Path Through Connection</em> dedication, September 27, 2024. Photo by Ta'Liyah Thomas.`"
     @widths="800"
   ></light-box>
 </div>

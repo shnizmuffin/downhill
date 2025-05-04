@@ -49,6 +49,7 @@ eleventyNavigation:
   class="md:col-span-2"
   @picture="/_assets/images/pics/ma-institute-fellowship-01.png"
   @alt=""
+  :@caption="`Image courtesy of MuralArtsInstitute.com website.`"
   @widths="800"
 ></light-box>
 

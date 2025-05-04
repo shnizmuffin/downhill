@@ -64,17 +64,20 @@ eleventyNavigation:
   <light-box
     @picture="/_assets/images/pics/community-caicu-01.png"
     @alt=""
-    @widths="400"
+    :@caption="`<em>Dedication, Tradiction, y Orgullo</em> © 2021 City of Philadelphia Mural Arts Program / Celso Gonzalex, Las Parelas Garden. Photo by Steve Weinik.`"
+    @widths="400,610"
   ></light-box>
   <light-box
     @picture="/_assets/images/pics/community-caicu-02.png"
     @alt=""
-    @widths="400"
+    :@caption="`<em>Amor del Bueno</em> © 2024 City of Philadelphia Mural Arts Program / Cesar Gonzalez, Las Parcelas Community Garden, 2239 N, 2nd Street. Photo by Steve Weinik.`"
+    @widths="400,610"
   ></light-box>
   <light-box
     class="md:col-span-2"
     @picture="/_assets/images/pics/community-caicu-03.png"
     @alt=""
+    :@caption="`<em>Grupo Motivos</em> dedication, October 19, 2024. Photo by Emily Hildenbrand.`"
     @widths="800"
   ></light-box>
 </div>

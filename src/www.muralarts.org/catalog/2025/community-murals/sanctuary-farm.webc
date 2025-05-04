@@ -53,22 +53,26 @@ eleventyNavigation:
   <light-box
     @picture="/_assets/images/pics/community-sanctuary-01.png"
     @alt=""
-    @widths="400"
+    :@caption="`Sanctuary Farm Fall Festival, October 5, 2024. Photo by Kyla Goodman.`"
+    @widths="400,610"
   ></light-box>
   <light-box
     @picture="/_assets/images/pics/community-sanctuary-02.png"
     @alt=""
-    @widths="400"
+    :@caption="`Sanctuary Farm paint day with artist Cindy Lozito, March 1, 2025. Photo by Kyla Goodman.`"
+    @widths="400,610"
   ></light-box>
   <light-box
     @picture="/_assets/images/pics/community-sanctuary-03.png"
     @alt=""
-    @widths="400"
+    :@caption="`Sanctuary Farm paint day with artist Cindy Lozito, March 1, 2025. Photo by Kyla Goodman.`"
+    @widths="400,610"
   ></light-box>
   <light-box
     @picture="/_assets/images/pics/community-sanctuary-04.png"
     @alt=""
-    @widths="400"
+    :@caption="`Sanctuary Farm paint day with artist Cindy Lozito, March 1, 2025. Photo by Kyla Goodman.`"
+    @widths="400,610"
   ></light-box>
 </div>
 <nav-directory>

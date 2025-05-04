@@ -80,12 +80,14 @@ eleventyNavigation:
   <light-box
     @picture="/_assets/images/pics/restorative-justice-knowledge-01.png"
     @alt=""
-    @widths="400"
+    :@caption="`<em>Knowledge and Method</em> © 2024 City of Philadelphia Mural Arts Program / Christian &OpenCurlyDoubleQuote;TAMEARTZ&CloseCurlyDoubleQuote; Rodriguez & Bill Strobel, 800 Oxford Avenue. Photo by Steve Weinik.`"
+    @widths="400,610"
   ></light-box>
   <light-box
     @picture="/_assets/images/pics/restorative-justice-knowledge-02.png"
     @alt=""
-    @widths="400"
+    :@caption="`<em>Knowledge and Method</em> © 2024 City of Philadelphia Mural Arts Program / Christian &OpenCurlyDoubleQuote;TAMEARTZ&CloseCurlyDoubleQuote; Rodriguez & Bill Strobel, 800 Oxford Avenue. Photo by Steve Weinik.`"
+    @widths="400,610"
   ></light-box>
 </div>
 <nav-directory>

@@ -60,6 +60,7 @@ eleventyNavigation:
 <light-box
   @picture="/_assets/images/pics/ma-institute-appreciation-01.png"
   @alt="A photograph of David McShade bundled in Philadelphia Eagles winter attire, painting a mural."
+  :@caption="`Artist David McShane painting <em>City of Champions</em>, April 17, 2018. Photo by Steve Weinik.`"
   @widths="800"
 ></light-box>
 

@@ -67,14 +67,16 @@ eleventyNavigation:
 >
   <light-box
     @picture="/_assets/images/pics/art-education-safer-01.png"
-    @alt="quisquam eos velit"
-    @widths="240"
+    @alt=""
+    :@caption="`<em>Safer</em> by Nazeer Sabree. Image courtesy of the artist.`"
+    @widths="240,610"
   ></light-box>
   <light-box
     class="md:col-span-2"
     @picture="/_assets/images/pics/art-education-safer-02.png"
-    @alt="harum laudantium ab"
-    @widths="460"
+    @alt=""
+    :@caption="`Nazeer Sabree leads the production of the mural Hero's Journey at 417 North 8th Street, July 31, 2022. Photo by Steve Weinik.`"
+    @widths="460,610"
   ></light-box>
 </div>
 <nav-directory>

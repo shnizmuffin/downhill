@@ -78,12 +78,14 @@ eleventyNavigation:
   <light-box
     @picture="/_assets/images/pics/art-education-youth-01.png"
     @alt=""
-    @widths="400"
+    :@caption="`Assistant Teaching Artist Kashana Ricketts teaches the youth how to weave a fish.`"
+    @widths="400,610"
   ></light-box>
   <light-box
     @picture="/_assets/images/pics/art-education-youth-02.png"
     @alt=""
-    @widths="400"
+    :@caption="`A participant writes a positive affirmation.`"
+    @widths="400,610"
   ></light-box>
 </div>
 <h3>YOUTH-LED MURAL AT HUNTING PARK RECREATION CENTER</h3>
@@ -119,22 +121,26 @@ eleventyNavigation:
   <light-box
     @picture="/_assets/images/pics/art-education-youth-03.png"
     @alt=""
-    @widths="400"
+    :@caption="`Nevaeh Ryals, Assistant Teaching Artist, assists youth from the Hunting Park Recreation Center with their painting.`"
+    @widths="400,610"
   ></light-box>
   <light-box
     @picture="/_assets/images/pics/art-education-youth-04.png"
     @alt=""
-    @widths="400"
+    :@caption="`Miriam Singer, Lead Teaching Artist, shows the youth an early draft of the mural design on her laptop to get their feedback.`"
+    @widths="400,610"
   ></light-box>
   <light-box
     @picture="/_assets/images/pics/art-education-youth-05.png"
     @alt=""
-    @widths="400"
-  ></light-box>
-  <light-box
+    :@caption="`December Collins, Rec Crew member, smiles with Aaron as they sketch out ideas for the mural.`"
+    @widths="400,610"
+    ></light-box>
+    <light-box
     @picture="/_assets/images/pics/art-education-youth-06.png"
     @alt=""
-    @widths="400"
+    :@caption="`Pictured are members of the Mural Arts Rec Crew assisting youth from Hunting Park Recreation Center’s after school program painting the mural`"
+    @widths="400,610"
   ></light-box>
 </div>
 <nav-directory>

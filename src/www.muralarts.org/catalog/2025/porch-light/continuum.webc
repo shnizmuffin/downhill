@@ -15,8 +15,7 @@ eleventyNavigation:
   class="md:**:prose-figcaption:block"
   @picture="/_assets/images/pics/porch-light-continuum-00.png"
   @alt=""
-  :@caption="`Continuum © 2024 City of Philadelphia Mural Arts Program / LaToya Peoples, 6434
-      Castor Avenue. Photo by Steve Weinik`"
+  :@caption="`Continuum © 2024 City of Philadelphia Mural Arts Program / LaToya Peoples, 6434 Castor Avenue. Photo by Steve Weinik`"
   @widths="800"
 ></light-box>
 <p-lede
@@ -63,12 +62,14 @@ eleventyNavigation:
   <light-box
     @picture="/_assets/images/pics/porch-light-continuum-01.png"
     @alt=""
-    @widths="400"
+    :@caption="`<em>Continuum</em> dedication, November 23, 2024. Photo by Kyla Goodman.`"
+    @widths="400,610"
   ></light-box>
   <light-box
     @picture="/_assets/images/pics/porch-light-continuum-02.png"
     @alt=""
-    @widths="400"
+    :@caption="`<em>Continuum</em> dedication, November 23, 2024. Photo by Kyla Goodman.`"
+    @widths="400,610"
   ></light-box>
 </div>
 <nav-directory>

@@ -84,23 +84,26 @@ eleventyNavigation:
     class="md:col-span-2"
     @picture="/_assets/images/pics/special-projects-our-market-01.png"
     @alt=""
+    :@caption="<em>Our Market: Gargano's Produce</em> awnings © 2025 City of Philadelphia Mural Arts Program / Michelle Angela Ortiz, 947 South 9th Street. Photo by Steve Weinik."
     @widths="800"
   ></light-box>
   <light-box
     @picture="/_assets/images/pics/special-projects-our-market-02.png"
     @alt=""
-    @widths="400"
+    :@caption="<em>Our Market: Gargano's Produce</em> awnings © 2025 City of Philadelphia Mural Arts Program / Michelle Angela Ortiz, 947 South 9th Street. Photo by Steve Weinik."
+    @widths="400,610"
   ></light-box>
   <light-box
     @picture="/_assets/images/pics/special-projects-our-market-03.png"
     @alt=""
-    @widths="400"
+    :@caption="<em>Our Market: Gargano's Produce</em> awnings © 2025 City of Philadelphia Mural Arts Program / Michelle Angela Ortiz, 947 South 9th Street. Photo by Steve Weinik."
+    @widths="400,610"
   ></light-box>
 </div>
 <nav-directory>
-  <nav-directory-item @href="../our-market-ancestors-mural-series/"
+  <!-- <nav-directory-item @href="../our-market-ancestors-mural-series/"
     ><em>Our Market Ancestors</em> Mural Series</nav-directory-item
-  >
+  > -->
   <nav-directory-item @href="../civic-views/"
     ><em>Civic Views</em></nav-directory-item
   >

@@ -68,9 +68,9 @@ eleventyNavigation:
   <nav-directory-item @href="../civic-views/"
     ><em>Civic Views</em></nav-directory-item
   >
-  <nav-directory-item @href="../sun-ra-arkestra-mural/"
+  <!-- <nav-directory-item @href="../sun-ra-arkestra-mural/"
     ><em>Sun Ra Arkestra</em> Mural</nav-directory-item
-  >
+  > -->
   <nav-directory-item @href="../peoples-budget-office/"
     >People’s Budget Office</nav-directory-item
   >

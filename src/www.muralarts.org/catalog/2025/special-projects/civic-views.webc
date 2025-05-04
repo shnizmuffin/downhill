@@ -41,15 +41,16 @@ eleventyNavigation:
 <light-box
   @picture="/_assets/images/pics/special-projects-civic-views-01.png"
   @alt=""
-  @widths="200"
+  :@caption="`Emilio Martínez Poppe interviews a city employee in their office while they both look out the window. Photo by Jameson Paige.`"
+  @widths="200,320"
 ></light-box>
 <nav-directory>
   <nav-directory-item @href="../our-market-ancestors-mural-series/"
     ><em>Our Market Ancestors</em> Mural Series</nav-directory-item
   >
-  <nav-directory-item @href="../civic-views/"
+  <!-- <nav-directory-item @href="../civic-views/"
     ><em>Civic Views</em></nav-directory-item
-  >
+  > -->
   <nav-directory-item @href="../sun-ra-arkestra-mural/"
     ><em>Sun Ra Arkestra</em> Mural</nav-directory-item
   >

@@ -55,12 +55,14 @@ eleventyNavigation:
   <light-box
     @picture="/_assets/images/pics/community-tribute-01.png"
     @alt=""
-    @widths="400"
+    :@caption="`Artifacts relating to Paul Gripper, photographed as part of the mural design process. Photo by Steve Weinik.`"
+    @widths="400,610"
   ></light-box>
   <light-box
     @picture="/_assets/images/pics/community-tribute-02.png"
     @alt=""
-    @widths="400"
+    :@caption="`Artifacts relating to Paul Gripper, photographed as part of the mural design process. Photo by Steve Weinik.`"
+    @widths="400,610"
   ></light-box>
 </div>
 <nav-directory>

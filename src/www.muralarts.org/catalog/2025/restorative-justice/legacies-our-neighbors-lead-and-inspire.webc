@@ -74,6 +74,7 @@ eleventyNavigation:
 <light-box
   @picture="/_assets/images/pics/restorative-justice-legacies-01.png"
   @alt=""
+  :@caption="`<em>Community Heroes</em> © 2024 City of Philadelphia Mural Arts Program / Kier Johnston & Ernel Martinez, MLK Recreation Center, 22nd & Cecil B. Moore Avenue. Photo by Steve Weinik.`"
   @widths="800"
 ></light-box>
 <nav-directory>

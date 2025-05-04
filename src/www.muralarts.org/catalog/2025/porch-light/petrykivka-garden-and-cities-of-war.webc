@@ -84,13 +84,14 @@ eleventyNavigation:
     class="md:col-span-2"
     @picture="/_assets/images/pics/porch-light-garden-01.png"
     @alt=""
-    @widths="400"
+    @widths="400,610"
   ></light-box>
   <light-box
     class="md:col-span-3"
     @picture="/_assets/images/pics/porch-light-garden-02.png"
     @alt=""
-    @widths="500"
+    :@caption="`Petrykivka Garden mural by Porch Light’s Color Me Back Program in partnership with the Mural Arts Institute, the Health Federation in Philadelphia, and the European Institute of Public Health Policy in Ukraine. Image Courtesy of the artist.`"
+    @widths="500,610"
   ></light-box>
 </div>
 <nav-directory>

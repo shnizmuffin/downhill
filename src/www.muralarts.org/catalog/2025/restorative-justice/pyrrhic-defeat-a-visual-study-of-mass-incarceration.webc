@@ -76,12 +76,14 @@ eleventyNavigation:
   <light-box
     @picture="/_assets/images/pics/restorative-justice-defeat-01.png"
     @alt=""
-    @widths="400"
+    :@caption="`<em>Pyrrhic Defeat: A Visual Study of Mass Incarceration</em> Dedication, November 19, 2024. Photo by Kyla Goodman.`"
+    @widths="400,610"
   ></light-box>
   <light-box
     @picture="/_assets/images/pics/restorative-justice-defeat-02.png"
     @alt=""
-    @widths="400"
+    :@caption="`<em>Pyrrhic Defeat: A Visual Study of Mass Incarceration</em> © 2024 City of Philadelphia Mural Arts Program / Mark Loughney, Eastern State Penitentary Education Center. Photo by Steve Weinik.`"
+    @widths="400,610"
   ></light-box>
 </div>
 <nav-directory>

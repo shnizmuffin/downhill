@@ -59,18 +59,21 @@ eleventyNavigation:
     class="md:col-span-3"
     @picture="/_assets/images/pics/art-education-blooming-01.png"
     @alt=""
+    :@caption="`A preliminary rendering of Blooming Futures designed by Athena Scott featuring Andrew Hamilton faculty and students.`"
     @widths="800"
   ></light-box>
   <light-box
     class="md:col-span-2"
     @picture="/_assets/images/pics/art-education-blooming-02.png"
     @alt=""
-    @widths="500"
+    :@caption="`Abbott Elementary Mural: Blooming Futures paint day, March 28, 2025. Photo by Justin Mayer, Colibrí Workshop.`"
+    @widths="500,610"
   ></light-box>
   <light-box
     @picture="/_assets/images/pics/art-education-blooming-03.png"
     @alt=""
-    @widths="300"
+    :@caption="`Abbott Elementary Mural: <em>Blooming Futures</em> paint day, March 28, 2025. Photo by Justin Mayer, Colibrí Workshop.`"
+    @widths="300,610"
   ></light-box>
 </div>
 

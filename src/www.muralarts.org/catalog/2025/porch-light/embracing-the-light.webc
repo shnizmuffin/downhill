@@ -69,22 +69,26 @@ eleventyNavigation:
   <light-box
     @picture="/_assets/images/pics/porch-light-embracing-01.png"
     @alt=""
-    @widths="400"
+    :@caption="`<em>Embracing the Light</em> Paint Day, January 11, 2025. Photo by Erin Blewett.`"
+    @widths="400,610"
   ></light-box>
   <light-box
     @picture="/_assets/images/pics/porch-light-embracing-02.png"
     @alt=""
-    @widths="400"
+    :@caption="`<em>Embracing the Light</em> Paint Day, January 11, 2025. Photo by Erin Blewett.`"
+    @widths="400,610"
   ></light-box>
   <light-box
     @picture="/_assets/images/pics/porch-light-embracing-03.png"
     @alt=""
-    @widths="400"
+    :@caption="`<em>Embracing the Light</em> Paint Day, January 11, 2025. Photo by Erin Blewett.`"
+    @widths="400,610"
   ></light-box>
   <light-box
     @picture="/_assets/images/pics/porch-light-embracing-04.png"
     @alt=""
-    @widths="400"
+    :@caption="`<em>Embracing the Light</em> Paint Day, January 11, 2025. Photo by Erin Blewett.`"
+    @widths="400,610"
   ></light-box>
 </div>
 <nav-directory>
