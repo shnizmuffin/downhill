@@ -5,7 +5,11 @@ eleventyNavigation:
   parent: MAP
   image: 'https://placehold.co/144x144'
 ---
-
+<style>
+  .text-fit {
+    --max-font-size: 10000px;
+  }
+</style>
 <back-breaker
   @container="div"
   src="./src/_assets/images/bg/bg-splash.png"
