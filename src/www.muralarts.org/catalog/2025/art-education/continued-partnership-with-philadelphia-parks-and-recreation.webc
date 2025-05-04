@@ -135,8 +135,8 @@ eleventyNavigation:
     @alt=""
     :@caption="`December Collins, Rec Crew member, smiles with Aaron as they sketch out ideas for the mural.`"
     @widths="400,610"
-    ></light-box>
-    <light-box
+  ></light-box>
+  <light-box
     @picture="/_assets/images/pics/art-education-youth-06.png"
     @alt=""
     :@caption="`Pictured are members of the Mural Arts Rec Crew assisting youth from Hunting Park Recreation Center’s after school program painting the mural`"

@@ -1,38 +1,155 @@
 ---
 layout: map/essay.webc
+meta:
+  heading: In Support of Philly Artists
+  title: In Support of Philly Artists By the Numbers
+  description: Artists are essential to our work, and we are committed to supporting them by creating employment opportunities, offering artist training, and providing resources for them to expand their practices.
+styles:
+  branding: 'bg-white text-victoria divide-victoria-500 border-victoria-500'
 eleventyNavigation:
   key: MAP-BY-THE-NUMBERS
   parent: MAP-IN-SUPPORT-OF-PHILLY-ARTISTS
   image: 'https://placehold.co/144x144'
 ---
+
 <h2 class="mt-0 font-serif text-[2.5em]"
   >In Support of Philly Artists By the Numbers</h2
 >
 <light-box
   class="md:**:prose-figcaption:block"
-  @picture="/_assets/images/pics/in-support-guest-00.png"
+  @picture="/_assets/images/pics/in-support-stats-00.png"
   @alt=""
   :@caption="`Teaching artist Cindy Lozito conducts a workshop activity, and participating students celebrate the work they have created, November 21, 2024. Photo by Edwin Einbender Luks.`"
   @widths="800"
 ></light-box>
 <p-lede
-  >Artists are essential to our work, and
-  we are committed to supporting them
-  by creating employment
-  opportunities, offering artist training,
-  and providing resources for them to
-  expand their practices.</p-lede
+  >Artists are essential to our work, and we are committed to supporting them by
+  creating employment opportunities, offering artist training, and providing
+  resources for them to expand their practices.</p-lede
 >
 <p
   >We offer fellowships, internships, apprenticeships, and emerging artist
-  opportunities. The website <a href="https://muralartsinstitute.com/" target="_blank" rel="noopener">muralartsinstitute.com</a> highlights our free
-  training and programs, lists open requests for qualifications and proposals,
-  and offers a library of research and links to local and national resources.</p
+  opportunities. The website
+  <a href="https://muralartsinstitute.com/" target="_blank" rel="noopener"
+    >muralartsinstitute.com</a
+  >
+  highlights our free training and programs, lists open requests for
+  qualifications and proposals, and offers a library of research and links to
+  local and national resources.</p
 >
-<p><code>Insert infographic here</code></p>
+<div class="not-prose text-oranged my-8 flex flex-col gap-4 md:gap-8">
+  <img
+    src="/_assets/images/svg/in-support-stats-01.svg"
+    formats="svg"
+    alt="Mural Arts Phliadelphia"
+    class="m-auto block"
+  />
+  <header class="bg-oranged w-full p-4 text-center text-white md:py-8">
+    <h3 class="text-xl font-semibold uppercase md:text-3xl"
+      >MURAL ARTS INSTITUTE TRAININGS & GATHERINGS</h3
+    >
+  </header>
+  <ul-stats>
+    <li-stat @stat="12" @label="Free Workshops"></li-stat>
+    <li-stat @stat="2" @label="Artists Forums"></li-stat>
+    <li-stat @stat="1" @label="Artist Appreciation Event"></li-stat>
+  </ul-stats>
+  <header class="border-oranged w-full border-t-2 p-4 text-center md:py-8">
+    <h3 class="text-xl font-semibold md:text-3xl">Muralist Training Program</h3>
+  </header>
+  <ul-stats>
+    <li-stat @stat="8" @label="Weeks with 15-20 participants"></li-stat>
+    <li class="flex flex-col items-center-safe text-center"
+      ><span class="font-serif text-4xl"><em>Led by artsists since</em></span
+      ><span class="text-8xl font-black">2002</span></li
+    >
+  </ul-stats>
+  <header class="border-oranged w-full border-t-2 p-4 text-center md:py-8">
+    <h3 class="text-xl font-semibold md:text-3xl">Summer Internship Program</h3>
+  </header>
+  <ul-stats>
+    <li-stat @stat="10-12" @label="participants each year"></li-stat>
+    <li-stat @stat="$26K" @label="in stipends each summer"></li-stat>
+  </ul-stats>
+</div>
+<div class="not-prose text-mantis my-8 flex flex-col gap-4">
+  <header class="bg-mantis w-full p-4 text-center text-white md:py-8">
+    <h3 class="text-xl font-semibold uppercase md:text-3xl"
+      >2024 ARTIST RELATIONS CONNECTIONS & OPPORTUNITIES</h3
+    >
+  </header>
+  <ul-stats>
+    <li-stat
+      @stat="425+"
+      @label="full artist portfolios in our database"
+    ></li-stat>
+    <li-stat
+      @stat="1,300+"
+      @label="artists receive notifications for opportunities and resources through our bi-monthly e-newsletter"
+    ></li-stat>
+  </ul-stats>
+  <ul-stats>
+    <li-stat @stat="50+"
+      >resources on
+      <a
+        class="underline"
+        href="https://muralartsinstitute.com"
+        target="_blank"
+        rel="noopener"
+        >muralartsinstitute.com</a
+      ></li-stat
+    >
+    <li-stat @stat="40+" @label="in stipends each summer"></li-stat>
+  </ul-stats>
+</div>
+<div class="not-prose text-lavender-400 my-8 flex flex-col gap-4">
+  <header class="bg-lavender-400 w-full p-4 text-center text-white md:py-8">
+    <h3 class="text-xl font-semibold uppercase md:text-3xl"
+      >2024 ARTIST FELLOWSHIPS & INITIATIVES</h3
+    >
+  </header>
+  <header class="border-lavender-400 w-full border-t-2 p-4 text-center md:py-8">
+    <h3 class="text-xl md:text-3xl">5th Annual Fellowship for Black Artists</h3>
+  </header>
+  <ul-stats>
+    <li-stat @stat="15" @label="Artists awarded $2K each"></li-stat>
+    <li-stat @stat="85" @label="Artists total since 2020"></li-stat>
+  </ul-stats>
+  <section class="border-lavender-400 w-full border-t-2 p-4 text-center">
+    <h3 class="mb-2 text-xl font-semibold"
+      >13 Emerging Muralist projects with</h3
+    >
+    <p class="font-serif text-xl"><em>Small Walls</em></p>
+    <p class="font-serif text-xl"><em>Front Street Walls</em></p>
+    <p class="font-serif text-xl"><em>Flower Show Murals</em></p>
+  </section>
+</div>
+<div class="not-prose border-blurple border-2 p-4 md:p-8">
+  <h3 class="mb-2 text-center text-xl font-semibold uppercase"
+    >Connect with Us</h3
+  >
+  <p class="text-center"
+    ><a
+      class="underline"
+      href="https://muralartsinstitute.com/"
+      target="_blank"
+      rel="noopener"
+      >Mural Arts Institute</a
+    ></p
+  >
+  <p class="text-center"
+    ><a
+      class="underline"
+      href="https://airtable.com/app2DTGIhzKZlGxn2/shr5B23A1DLLaiqyX"
+      target="_blank"
+      rel="noopener"
+      >Artist Newsletter Sign Up</a
+    ></p
+  >
+</div>
 <nav-directory>
-  <nav-directory-item @href="../guest-essay/"
-    >Guest Essay</nav-directory-item
+  <nav-directory-item @href="../hope-over-hate/"
+    >Hope Over Hate: The Colors of Redemption</nav-directory-item
   >
   <!-- <nav-directory-item @href="../by-the-numbers/"
     >By the Numbers</nav-directory-item

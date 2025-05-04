@@ -1,0 +1,71 @@
+---
+layout: map/essay.webc
+meta:
+  heading: Mural Tour
+  title: Mural Tour
+  description: 'Public Mural Arts tours, either on foot or by vehicle, are led by professionally trained tour guides who offer insightful and in-depth stories about the artists and communities that have inspired and shaped each mural.'
+styles:
+  background: './src/_assets/images/bg/bg-mural-tour.png'
+  branding: 'bg-white text-victoria divide-victoria-500 border-victoria-500'
+nav:
+  depth: true
+eleventyNavigation:
+  key: MAP-MURAL-TOUR
+  parent: MAP-SPRING-2025
+  image: 'https://placehold.co/144x144'
+---
+
+<h2 class="mt-0 font-serif text-[2.5em]"
+  >Take a Mural Tour and Explore the World’s Largest Outdoor Art Gallery!</h2
+>
+<light-box
+  class="md:**:prose-figcaption:block"
+  @picture="/_assets/images/pics/mural-tours-00.png"
+  @alt=""
+  @widths="800"
+></light-box>
+<h3>PUBLIC MURAL ARTS TOURS</h3>
+<p
+  >Public Mural Arts tours, either on foot or by vehicle, are led by
+  professionally trained tour guides who offer insightful and in-depth stories
+  about the artists and communities that have inspired and shaped each mural.
+  Different neighborhood tours are available, featuring eye-catching public
+  works of art throughout our fantastic city. Neighborhoods include Bella Vista,
+  South Street West Philadelphia and Center City – and new specialty tours are
+  created seasonally. Walking tours are offered primarily on weekends, into
+  December, and trolley tours are usually scheduled once a month. For a complete
+  schedule or to book your unforgettable art experience, please visit
+  <a href="https://www.muralarts.org/tours" target="_blank" rel="noopener"
+    >muralarts.org/tours</a
+  >. Advanced sales are required.</p
+>
+<h3>PRIVATE TOURS & MURAL PAINTING EXPERIENCES</h3>
+<p
+  >Join Mural Arts on a private tour! We offer many ways to turn your tour into
+  a special occasion, and we even have a dynamic program that allows guests to
+  work on painting a portion of a mural that simulates our actual mural-making
+  process! Gather your friends, family, colleagues, clients, or civic
+  organizations to experience our amazing collection in a way that meets your
+  needs. For pricing and details or to book a private tour, email
+  <a href="mailto:tours@muralarts.org">tours@muralarts.org</a> or call
+  <a href="tel:215-925-3633">215-925-3633</a>.</p
+>
+<light-box
+  class="md:**:prose-figcaption:block"
+  @picture="/_assets/images/pics/mural-tours-01.png"
+  @alt=""
+  @widths="800"
+></light-box>
+<h3>GIVE THE GIFT OF ART</h3>
+<p
+  >Stunning, limited-edition Mural Arts merchandise is available for sale
+  featuring mural artwork that is bold and beautiful as well as branded apparel.
+  Shopping with us is a great way to support Mural Arts Philadelphia with a
+  variety of unique items that make awesome gifts for anyone, including
+  yourself. Visit
+  <a href="https:/www./muralarts.org/shop" target="_blank" rel="noopener"
+    >muralarts.org/shop</a
+  >
+  to purchasea variety of bags, books, mugs, bundled tour gift certificates, and
+  more.</p
+>

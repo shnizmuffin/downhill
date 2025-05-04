@@ -15,7 +15,9 @@ eleventyNavigation:
   by supplying them with the resources to connect with meaningful opportunities,
   learn new personal and professional skills, and earn additional income as
   program participants. More about
-  <a href="https://muralarts.org/programs/restorative-justice/" target="_blank">Restorative Justice</a>.</p
+  <a href="https://muralarts.org/programs/restorative-justice/" target="_blank"
+    >Restorative Justice</a
+  >.</p
 >
 <nav-directory>
   <nav-directory-item @href="./trailblazers/"

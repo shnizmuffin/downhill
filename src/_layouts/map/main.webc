@@ -13,11 +13,7 @@ layout: map/catalog.webc
         :class="`flex-shrink z-30 vt-section-label relative font-bold uppercase ${styles.branding}`"
       >
         <header
-          class="sticky top-[70px] flex flex-col place-content-center place-items-center px-4 pt-12 pb-4 text-3xl leading-[1]
-          md:place-content-start md:gap-8 md:text-5xl
-          lg:top-0 lg:text-4xl
-          xl:px-8 xl:text-6xl
-          [@media(max-height:800px)]:pt-12"
+          class="sticky top-[70px] flex h-full max-h-[80vh] flex-col justify-between px-4 pt-12 pb-4 text-3xl leading-[1] md:gap-8 md:text-5xl lg:top-0 lg:text-4xl xl:px-8 xl:text-6xl [@media(max-height:800px)]:pt-12"
         >
           <h1
             class="ux-text-sideways [@media(601px<=height<=800px)]:text-3xl [@media(height<=600px)]:text-3xl"

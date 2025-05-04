@@ -23,7 +23,7 @@
         :class="`${branding} ux-button text-lg`"
         :href="href"
         @text="label"
-        target="_blank"
+        :target="target"
         >Learn more</a
       >
     </div>

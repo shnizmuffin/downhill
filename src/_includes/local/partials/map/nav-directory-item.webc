@@ -5,11 +5,11 @@
     :target="target"
     title="Read More"
     ><span class="leading-tight text-balance"><slot></slot></span
-    ><span webc:if="target == '_blank'">🡥</span><span class="size-8 shrink-0" webc:else><img
-      src="/_assets/images/svg/arrow-forward.svg"
-      formats="svg"
-      alt="Read more"
-      class="block"
-    /></span></a
-  ></li
->
+    ><span webc:if="target == '_blank'">🡥</span
+    ><span class="size-8 shrink-0" webc:else
+      ><img
+        src="/_assets/images/svg/arrow-forward.svg"
+        formats="svg"
+        alt="Read more"
+        class="block" /></span></a
+></li>

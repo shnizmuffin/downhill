@@ -7,11 +7,17 @@ eleventyNavigation:
 ---
 
 <p class="leading-tight md:text-2xl"
-  ><a href="https://muralarts.org/programs/public-art-and-civic-engagement/special-projects/" target="_blank" rel="noopener">Special Projects</a> push the boundaries of muralism, exploring
-  how public art can shape civic life, spark dialogue, and evolve beyond the
-  wall. Often outside our core program areas, these artist-driven initiatives
-  foster bold collaborations and experimental practices that reimagine what
-  public art can mean—and how it can move communities forward.</p
+  ><a
+    href="https://muralarts.org/programs/public-art-and-civic-engagement/special-projects/"
+    target="_blank"
+    rel="noopener"
+    >Special Projects</a
+  >
+  push the boundaries of muralism, exploring how public art can shape civic
+  life, spark dialogue, and evolve beyond the wall. Often outside our core
+  program areas, these artist-driven initiatives foster bold collaborations and
+  experimental practices that reimagine what public art can mean—and how it can
+  move communities forward.</p
 >
 <nav-directory>
   <nav-directory-item @href="./our-market-ancestors-mural-series/"

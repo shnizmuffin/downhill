@@ -8,11 +8,14 @@ eleventyNavigation:
 
 <p class="leading-tight md:text-2xl"
   >Through a focus in Learning + Practice, the
-  <a href="https://muralartsinstitute.com/" target="_blank" rel="noopener">Mural Arts Institute</a> advances the field of socially engaged
-  art through national and international partnerships and conversations, artist
-  support, and capacity-building programs. By sharing our model and developing
-  innovative learning tools, we help communities and cultural leaders ignite
-  change through participatory public art.</p
+  <a href="https://muralartsinstitute.com/" target="_blank" rel="noopener"
+    >Mural Arts Institute</a
+  >
+  advances the field of socially engaged art through national and international
+  partnerships and conversations, artist support, and capacity-building
+  programs. By sharing our model and developing innovative learning tools, we
+  help communities and cultural leaders ignite change through participatory
+  public art.</p
 >
 <nav-directory>
   <nav-directory-item @href="./explore-learn-and-connect/">

@@ -20,7 +20,7 @@ eleventyNavigation:
       <h2 class="text-victoria mt-16 mb-12 hidden font-serif md:inline"
         ><text-fit @fit="The Place Where Art Meets Hope"></text-fit
       ></h2>
-      <h2 class="text-victoria my-8 mx-2 font-serif leading-[1] md:hidden"
+      <h2 class="text-victoria mx-2 my-8 font-serif leading-[1] md:hidden"
         ><text-fit @fit="The Place Where"></text-fit
         ><text-fit @fit="Art Meets Hope"></text-fit
       ></h2>
@@ -159,6 +159,7 @@ eleventyNavigation:
       :@subheading="slide.subheading"
       :@label="slide.label"
       :@href="slide.url"
+      :@target="slide.target"
       :@branding="slide.branding"
       :@typography="slide.typography"
       :@decoration="slide.decoration"

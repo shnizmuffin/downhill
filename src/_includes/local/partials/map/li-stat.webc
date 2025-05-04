@@ -1,0 +1,4 @@
+<li class="flex flex-1 flex-col items-center-safe text-center"
+  ><span class="text-8xl font-black" @text="stat">00</span
+  ><span class="leading-tight text-balance" @text="label"><slot></slot></span
+></li>

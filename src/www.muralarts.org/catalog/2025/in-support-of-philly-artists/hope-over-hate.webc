@@ -1,7 +1,13 @@
 ---
 layout: map/essay.webc
+meta:
+  heading: In Support of Philly Artists
+  title: 'Hope Over Hate: The Colors of Redemption'
+  description: Mural Arts has been a constant conservatory for artists and a refuge for communities. Working together has proven to be a worthwhile exercise in community building and future-making.
+styles:
+  branding: 'bg-white text-victoria divide-victoria-500 border-victoria-500'
 eleventyNavigation:
-  key: MAP-GUEST-ESSAY
+  key: MAP-HOPE-OVER-HATE
   parent: MAP-IN-SUPPORT-OF-PHILLY-ARTISTS
   image: 'https://placehold.co/144x144'
 ---
@@ -41,13 +47,18 @@ eleventyNavigation:
   communities. Working together has proven to be a worthwhile exercise in
   community building and future-making.
 </p>
-<a href="https://muralarts.org/events/wallball2025/" target="_blank" class="not-prose underline">
+<a
+  href="https://muralarts.org/events/wallball2025/"
+  target="_blank"
+  class="not-prose underline"
+>
   <img
-          src="/_assets/images/pics/in-support-guest-01.png"
-          alt="Wall Ball. Friday, May 9th."
-          class="cursor-pointer transition-all hover:scale-[102.5%] hover:shadow md:h-full my-2 border-highlighter-300 border-[1.5rem]"
-          :eleventy:widths="widths" />
-          <span>Get tickets</span>
+    src="/_assets/images/pics/in-support-guest-01.png"
+    alt="Wall Ball. Friday, May 9th."
+    class="border-highlighter-300 my-2 cursor-pointer border-[1.5rem] transition-all hover:scale-[102.5%] hover:shadow md:h-full"
+    :eleventy:widths="widths"
+  />
+  <span>Get tickets</span>
 </a>
 <p
   >I have my own very personal connection to Mural Arts Philadelphia and the
@@ -121,8 +132,8 @@ eleventyNavigation:
 >
 <p>Beginning with us…</p>
 <nav-directory>
-  <!-- <nav-directory-item @href="../guest-essay/"
-    >Guest Essay</nav-directory-item
+  <!-- <nav-directory-item @href="../hope-over-hate/"
+    >Hope Over Hate: The Colors of Redemption</nav-directory-item
   > -->
   <nav-directory-item @href="../by-the-numbers/"
     >By the Numbers</nav-directory-item

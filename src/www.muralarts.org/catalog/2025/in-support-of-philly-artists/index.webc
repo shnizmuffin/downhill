@@ -5,22 +5,29 @@ eleventyNavigation:
   parent: MAP-SPRING-2025
   image: 'https://placehold.co/144x144'
 ---
-<h2>In Support of Philly Artists</h2>
+
+<h2 class="hidden lg:inline">In Support of Philly Artists</h2>
 <light-box
-  class="md:**:prose-figcaption:block font-sans"
+  class="md:**:prose-figcaption:block not-prose font-sans"
   @picture="/_assets/images/pics/in-support-00.png"
   @alt=""
   :@caption="`Down With Dope, Up With Hope, in-process, August 15, 2024. Photo by Steve Weinik.`"
   @widths="800"
 ></light-box>
 <p class="leading-tight md:text-2xl"
-  >Mural Arts’ <a href="https://muralarts.org/programs/public-art-and-civic-engagement/" target="_blank" rel="noopener">support of local artists</a> is central
-  to our mission to create participatory public
-  art throughout the City of Philadelphia.</p
+  >Mural Arts’
+  <a
+    href="https://muralarts.org/programs/public-art-and-civic-engagement/"
+    target="_blank"
+    rel="noopener"
+    >support of local artists</a
+  >
+  is central to our mission to create participatory public art throughout the
+  City of Philadelphia.</p
 >
 <nav-directory>
-  <nav-directory-item @href="./guest-essay/"
-    >Guest Essay</nav-directory-item
+  <nav-directory-item @href="./hope-over-hate/"
+    >Hope Over Hate: The Colors of Redemption</nav-directory-item
   >
   <nav-directory-item @href="./by-the-numbers/"
     >By the Numbers</nav-directory-item

@@ -8,8 +8,10 @@ eleventyNavigation:
 
 <p class="leading-tight md:text-2xl"
   >Mural Arts’
-  <a href="https://muralarts.org/programs/porch-light/" target="_blank">Porch Light</a> program, a
-  collaboration with the
+  <a href="https://muralarts.org/programs/porch-light/" target="_blank"
+    >Porch Light</a
+  >
+  program, a collaboration with the
   <a href="https://dbhids.org/" target="_blank"
     >City of Philadelphia’s Department of Behavioral Health and Intellectual
     disAbility Services</a

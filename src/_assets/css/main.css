@@ -6,9 +6,11 @@
 @theme {
   --font-sans:
     'Circular', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
-    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji','Noto Sans Symbols 2';
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji',
+    'Noto Sans Symbols 2';
   --font-serif:
-    'Tiempos', ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif, 'Noto Sans Symbols 2';
+    'Tiempos', ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif,
+    'Noto Sans Symbols 2';
   --font-mono:
     ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono',
     'Courier New', monospace, 'Noto Sans Symbols 2';
@@ -116,6 +118,19 @@
   --color-blurple-900: oklch(20.83% 0.04682 293.46);
   --color-blurple-950: oklch(12.9% 0.042 292.4);
   --color-blurple: var(--color-blurple-400);
+
+  --color-oranged-50: oklch(97.1% 0.013 24.43);
+  --color-oranged-100: oklch(94.353% 0.0275 24.767);
+  --color-oranged-200: oklch(90.005% 0.05301 25.384);
+  --color-oranged-300: oklch(83.058% 0.10051 26.621);
+  --color-oranged-400: oklch(73.411% 0.17302 29.266);
+  --color-oranged-500: oklch(67.464% 0.21452 32.381);
+  --color-oranged-600: oklch(60.711% 0.22702 34.375);
+  --color-oranged-700: oklch(52.758% 0.19951 34.568);
+  --color-oranged-800: oklch(45.905% 0.16801 33.949);
+  --color-oranged-900: oklch(40.353% 0.1365 32.773);
+  --color-oranged-950: oklch(25.8% 0.092 33.092);
+  --color-oranged: var(--color-oranged-500);
 
   --animate-lay-in: lay-in linear;
   --landing-grid-cols: minmax(140px, 25vw) minmax(50vw, 1440px)

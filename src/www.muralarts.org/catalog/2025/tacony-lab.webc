@@ -1,0 +1,56 @@
+---
+layout: map/essay.webc
+meta:
+  heading: Tacony LAB
+  title: Tacony LAB
+  description: 'Mural Arts’ Tacony LAB Community Art Center is a unique hub for learning, creativity, and community engagement in Lower Northeast Philadelphia, located at 6918 Torresdale Avenue in the historic Tacony neighborhood.'
+styles:
+  background: './src/_assets/images/bg/bg-tacony-lab.png'
+  branding: 'bg-white text-victoria divide-victoria-500 border-victoria-500'
+nav:
+  depth: true
+eleventyNavigation:
+  key: MAP-TACONY-LAB
+  parent: MAP-SPRING-2025
+  image: 'https://placehold.co/144x144'
+---
+
+<h2 class="mt-0 hidden font-serif text-[2.5em] lg:inline">Tacony LAB</h2>
+<light-box
+  class="md:**:prose-figcaption:block"
+  @picture="/_assets/images/pics/tacony-lab-01.png"
+  @alt=""
+  :@caption="`The Tacony LAB offers free monthly events at Glen Foerd on the Delaware like this recent figure drawing workshop. Photo by Barb Baur.`"
+  @widths="800"
+></light-box>
+<p-lede
+  >Mural Arts’
+  <a href="https://taconylab.org/" target="_blank" rel="noopener">Tacony LAB</a>
+  Community Art Center is a unique hub for learning, creativity, and community
+  engagement in Lower Northeast Philadelphia, located at 6918 Torresdale Avenue
+  in the historic Tacony neighborhood.</p-lede
+>
+<p
+  >The Tacony LAB offers a variety of creative programming, including art
+  classes, open studio, and maker space resources while also facilitating new
+  public art through artist residencies. Thanks to the support of the
+  Philadelphia City Council and District 6 Councilman Mike Driscoll, all of
+  Tacony LAB's programming is entirely free.</p
+>
+<p
+  >As a neighborhood anchor, the Tacony LAB partners with surrounding community
+  organizations to create art opportunities throughout the Northeast. First
+  Fridays on Torresdale Avenue are invigorating the Torresdale Avenue corridor
+  with art, while monthly workshops at the historic Glen Foerd mansion shine a
+  light on a hidden treasure of decorative arts located on the Delaware
+  riverfront. Spring and Summer 2025 will find the acclaimed Getting to Green
+  project connecting the Tacony LAB with local parks in the Northeast to inspire
+  new community art experiences.</p
+>
+<light-box
+  class="md:**:prose-figcaption:block"
+  @picture="/_assets/images/pics/tacony-lab-00.png"
+  @alt=""
+  :@caption="`Rosa Gonzalez comes into the Tacony LAB during open studio to work on many different projects like this handmade quilt. Photo by Barb Baur.`"
+  @widths="800"
+></light-box>

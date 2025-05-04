@@ -1,0 +1,3 @@
+<ul class="flex list-none flex-col justify-evenly gap-4 md:flex-row md:py-4">
+  <slot></slot>
+</ul>
