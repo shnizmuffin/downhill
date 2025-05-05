@@ -1,41 +1,46 @@
 <nav
-  webc:if="depth"
-  class="pointer-events-auto z-50 hidden flex-col items-end px-8 text-white lg:flex"
+  x-show="nav"
+  class="pointer-events-auto z-50 col-span-2 flex-col items-end px-8 text-white lg:flex"
 >
-  <ul class="flex flex-col gap-2">
+  <ul
+    webc:if="depth"
+    class="flex flex-col gap-2 max-lg:my-12 max-lg:place-content-center-safe max-lg:gap-4 max-lg:text-xl"
+  >
     <li
       ><a
-        class="decoration-sky decoration-[3px] underline-offset-[3px] text-shadow-lg/30 text-shadow-sky-800 hover:underline"
+        x-on:click="nav = ! nav"
+        class="decoration-sky decoration-[3px] underline-offset-[3px] text-shadow-lg/30 text-shadow-sky-800 hover:underline max-lg:px-8 max-lg:py-8"
         :href="dir('/www.muralarts.org/catalog/2025/', page.url)+'#introduction'"
         >INTRODUCTION</a
       ></li
     >
     <li webc:for="item of $data.slides">
       <a
+        x-on:click="nav = ! nav"
         webc:if="item.type == 'department'"
-        :class="`${item.decoration} uppercase text-shadow-lg/30 decoration-[3px] underline-offset-[3px] hover:underline`"
+        :class="`${item.decoration} uppercase text-shadow-lg/30 decoration-[3px] underline-offset-[3px] hover:underline max-lg:px-8 max-lg:py-8`"
         :href="dir(item.url, page.url)"
         @text="item.title"
         >DEPARTMENT</a
       >
       <a
+        x-on:click="nav = ! nav"
         webc:else
-        :class="`${item.decoration} text-shadow-lg/30 decoration-[3px] underline-offset-[3px] hover:underline`"
+        :class="`${item.decoration} text-shadow-lg/30 decoration-[3px] underline-offset-[3px] hover:underline max-lg:px-8 max-lg:py-8`"
         :href="dir(item.url, page.url)"
         @text="item.title"
         >DEPARTMENT</a
       >
     </li>
   </ul>
-</nav>
-<nav
-  webc:else
-  class="pointer-events-auto z-50 hidden flex-col items-end px-8 text-white lg:flex"
->
-  <ul class="flex flex-col gap-2">
+  <ul
+    webc:else
+    class="flex flex-col gap-2 max-lg:my-12 max-lg:place-content-center-safe max-lg:gap-4 max-lg:text-xl"
+  >
     <li x-data x-show="$store.reveal.introduction"
       ><a
-        class="decoration-sky decoration-[3px] underline-offset-[3px] text-shadow-lg/30 text-shadow-sky-800 hover:underline"
+        x-on:click="nav = ! nav"
+        class="decoration-sky decoration-[3px] underline-offset-[3px] text-shadow-lg/30 text-shadow-sky-800 hover:underline max-lg:px-8 max-lg:py-8"
         href="./#introduction"
         >INTRODUCTION</a
       ></li
@@ -43,16 +48,18 @@
     <li
       webc:for="item of $data.slides"
       x-data
-      :x-show="`$store.reveal['${item.id}']`"
+      :x-show="`($store.reveal['${item.id}'] || nav)`"
       ><a
+        x-on:click="nav = ! nav"
         webc:if="item.type == 'department'"
-        :class="`${item.decoration} uppercase text-shadow-lg/30 decoration-[3px] underline-offset-[3px] hover:underline`"
+        :class="`${item.decoration} uppercase text-shadow-lg/30 decoration-[3px] underline-offset-[3px] hover:underline max-lg:px-8 max-lg:py-8`"
         :href="`./#${item.id}`"
         @text="item.title"
         >DEPARTMENT</a
       ><a
+        x-on:click="nav = ! nav"
         webc:else
-        :class="`${item.decoration} text-shadow-lg/30 decoration-[3px] underline-offset-[3px] hover:underline`"
+        :class="`${item.decoration} text-shadow-lg/30 decoration-[3px] underline-offset-[3px] hover:underline max-lg:px-8 max-lg:py-8`"
         :href="`./#${item.id}`"
         @text="item.title"
         >DEPARTMENT</a
