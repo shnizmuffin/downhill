@@ -16,10 +16,10 @@
         :class="`relative p-4 justify-between flex flex-row place-items-center uppercase font-bold md:p-8 md:leading-tight md:flex-col md:gap-8 md:h-full ${branding}`"
       >
         <header
-          class="content-center-safe md:sticky md:top-[120px] md:mb-8 lg:top-12"
+          class="content-center-safe md:sticky md:top-[120px] md:mb-8 lg:top-12 lg:mb-12"
         >
           <h2
-            class="md:ux-text-sideways text-2xl md:mb-8 md:text-3xl lg:text-4xl xl:text-6xl [@media(601px<=height<=800px)]:text-2xl [@media(height<=600px)]:text-3xl"
+            class="md:ux-text-sideways text-2xl md:mb-8 md:text-3xl lg:text-4xl xl:text-6xl [@media(601px<=height<=800px)]:text-3xl [@media(height<=600px)]:text-3xl"
             @text="heading"
           ></h2>
         </header>

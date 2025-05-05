@@ -30,6 +30,7 @@ export default async function (eleventyConfig) {
 
   // ---------------------  Plugins
   eleventyConfig.addPlugin(plugins.EleventyRenderPlugin);
+  eleventyConfig.addPlugin(plugins.InputPathToUrlTransformPlugin);
   eleventyConfig.addPlugin(plugins.eleventyNavigationPlugin);
   eleventyConfig.addPlugin(plugins.EleventyVitePlugin, {
     tempFolderName: '.11ty-vite',

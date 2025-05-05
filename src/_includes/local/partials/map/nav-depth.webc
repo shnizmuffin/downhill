@@ -6,7 +6,7 @@
     <li
       ><a
         class="decoration-sky decoration-[3px] underline-offset-[3px] text-shadow-lg/30 text-shadow-sky-800 hover:underline"
-        href="/www.muralarts.org/catalog/2025/#introduction"
+        :href="dir('/www.muralarts.org/catalog/2025/', page.url)+'#introduction'"
         >INTRODUCTION</a
       ></li
     >
@@ -14,14 +14,14 @@
       <a
         webc:if="item.type == 'department'"
         :class="`${item.decoration} uppercase text-shadow-lg/30 decoration-[3px] underline-offset-[3px] hover:underline`"
-        :href="`/www.muralarts.org/catalog/2025/${item.id}/`"
+        :href="dir(item.url, page.url)"
         @text="item.title"
         >DEPARTMENT</a
       >
       <a
         webc:else
         :class="`${item.decoration} text-shadow-lg/30 decoration-[3px] underline-offset-[3px] hover:underline`"
-        :href="`/www.muralarts.org/catalog/2025/${item.id}/`"
+        :href="dir(item.url, page.url)"
         @text="item.title"
         >DEPARTMENT</a
       >

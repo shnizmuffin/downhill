@@ -15,6 +15,7 @@ eleventyNavigation:
   class="md:**:prose-figcaption:block"
   @picture="/_assets/images/pics/restorative-justice-trailblazers-00.png"
   @alt=""
+  :@caption="`<em>Trailblazers</em> © 2024 City of Philadelphia Mural Arts Program / Priscilla Bell Lamberty, 4862 Parkside Avenue. Photo by Steve Weinik.`"
   @widths="800"
 ></light-box>
 <p-lede
