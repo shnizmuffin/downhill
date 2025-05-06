@@ -22,7 +22,7 @@ eleventyNavigation:
   class="md:**:prose-figcaption:block"
   @picture="/_assets/images/pics/mural-tours-00.png"
   @alt=""
-  :@caption="`© 2024 City of Philadelphia Mural Arts Program. Photo by Steve Weinik.`"
+  :@caption="`<em>Prism</em> © 2022 City of Philadelphia Mural Arts Program / Kien Nguyen, 224 Catharine Street. Photo by Steve Weinik.`"
   @widths="800"
 ></light-box>
 <h3>PUBLIC MURAL ARTS TOURS</h3>

@@ -81,13 +81,14 @@ eleventyNavigation:
     class="md:col-span-2"
     @picture="/_assets/images/pics/porch-light-garden-01.png"
     @alt=""
+    :@caption="`<em>Petrykivka Garden</em> and <em>Cities of the War</em> pieces by Mat Tomezsko and the CMB program. Currently on display at Drexels Pealstein Gallery until June.`"
     @widths="400,610"
   ></light-box>
   <light-box
     class="md:col-span-3"
     @picture="/_assets/images/pics/porch-light-garden-02.png"
     @alt=""
-    :@caption="`Petrykivka Garden mural by Porch Light’s Color Me Back Program in partnership with the Mural Arts Institute, the Health Federation in Philadelphia, and the European Institute of Public Health Policy in Ukraine. Image Courtesy of the artist.`"
+    :@caption="`<em>Petrykivka Garden</em> mural by Porch Light’s Color Me Back Program in partnership with the Mural Arts Institute, the Health Federation in Philadelphia, and the European Institute of Public Health Policy in Ukraine. Image Courtesy of the artist.`"
     @widths="500,610"
   ></light-box>
 </div>
