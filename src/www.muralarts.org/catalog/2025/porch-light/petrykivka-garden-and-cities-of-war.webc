@@ -17,6 +17,7 @@ eleventyNavigation:
   class="md:**:prose-figcaption:block"
   @picture="/_assets/images/pics/porch-light-garden-00.png"
   @alt=""
+  :@caption="`<em>Cities of the War</em> © 2024 City of Philadelphia Mural Arts Program. Courtesy of the artists.`"
   @widths="800"
 ></light-box>
 <p-lede
@@ -41,12 +42,7 @@ eleventyNavigation:
   program created compositions that brought together the materials and original
   designs produced entirely by the Ukrainian artists throughout multiple
   sessions over the year. The two artworks are
-  <a
-    href="https://www.instagram.com/pearlsteingallery/p/DE8XJ-ORgqG/?img_index=1"
-    target="_blank"
-    rel="noopener"
-    ><em>Petrykivka Garden</em></a
-  >, a celebration of creativity and cultural exchange, and
+  <em>Petrykivka Garden</em>, a celebration of creativity and cultural exchange, and
   <em>Cities of the War</em>, a more somber piece with names of cities affected
   by the ongoing conflict handwritten by the visiting Ukrainians. The pieces
   were displayed in an exhibition at
@@ -55,6 +51,7 @@ eleventyNavigation:
   >
   in March 2025.</p
 >
+<p>Read more about the project in <a href="https://muralarts.org/stories/creativity-blooms-through-cultural-exchange-with-ukraine/" target="_blank" rel="noopener noreferrer">Creativity blooms through cultural exchange with Ukraine</a> by Emily Crane.</p>
 <p
   ><strong>FUNDERS</strong>:
   <span class="font-serif"

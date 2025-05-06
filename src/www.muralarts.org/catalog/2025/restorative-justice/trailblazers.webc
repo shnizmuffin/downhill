@@ -64,15 +64,15 @@ eleventyNavigation:
   class="not-prose grid grid-flow-row-dense grid-cols-1 gap-2 py-2 md:grid-cols-2"
 >
   <light-box
-    @picture="/_assets/images/pics/restorative-justice-trailblazers-01.png"
+    @picture="/_assets/images/pics/restorative-justice-trailblazers-03.jpg"
     @alt=""
-    :@caption="`<em>Trailblazers</em> © 2024 City of Philadelphia Mural Arts Program / Priscilla Bell Lamberty, 4862 Parkside Avenue. Photo by Steve Weinik.`"
+    :@caption="`<em>Trailblazers of the 4th District</em> dedication, September 14, 2024. Photo by Kyla Goodman.`"
     @widths="400,610"
   ></light-box>
   <light-box
-    @picture="/_assets/images/pics/restorative-justice-trailblazers-02.png"
+    @picture="/_assets/images/pics/restorative-justice-trailblazers-04.jpg"
     @alt=""
-    :@caption="`<em>Trailblazers</em> © 2024 City of Philadelphia Mural Arts Program / Priscilla Bell Lamberty, 4862 Parkside Avenue. Photo by Steve Weinik.`"
+    :@caption="`<em>Trailblazers of the 4th District</em> dedication, September 14, 2024. Photo by Kyla Goodman.`"
     @widths="400,610"
   ></light-box>
 </div>

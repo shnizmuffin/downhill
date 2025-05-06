@@ -5,7 +5,7 @@ meta:
   title: Youth Design Mural Series at Recreation Centers
   description: Mural Arts’ Education Department has continued its six-part collaboration with Philadelphia Parks & Recreation to work with rec center youth and create new murals across the city.
 eleventyNavigation:
-  key: MAP-CONTINUED-PARTNERSHIP-WITH-PHILADELPHIA-PARKS-AND-RECREATION
+  key: MAP-YOUTH-DESIGN-MURAL-SERIES-AT-RECREATION-CENTERS
   parent: MAP-ART-EDUCATION
   image: 'https://placehold.co/144x144'
 ---
@@ -148,9 +148,8 @@ eleventyNavigation:
     ><em>Seasons of Imagination</em></nav-directory-item
   >
   <!-- <nav-directory-item
-        @href="../continued-partnership-with-philadelphia-parks-and-recreation/"
-        >Continued Partnership with Philadelphia Parks and
-        Recreation</nav-directory-item
+        @href="../youth-design-mural-series-at-recreation-centers/"
+        >Youth Design Mural Series at Recreation Centers</nav-directory-item
       > -->
   <nav-directory-item @href="../blooming-futures-mural/"
     ><em>Blooming Futures</em> Mural</nav-directory-item

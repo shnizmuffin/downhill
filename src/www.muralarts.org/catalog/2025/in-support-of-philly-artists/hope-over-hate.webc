@@ -12,9 +12,10 @@ eleventyNavigation:
   image: 'https://placehold.co/144x144'
 ---
 
-<h2 class="mt-0 font-serif text-[2.5em]"
-  >Hope Over Hate: The Colors of Redemption</h2
+<h2 class="mt-0 !mb-2 font-serif text-[2.5em]"
+  >Hope Over Hate:<br/>The Colors of Redemption</h2
 >
+<p>by <a href="https://painnocence.org/Eddie-Ramirez" target="_blank" rel="noopener">Eddie Ramirez</a>, Artist & Activist</p>
 <light-box
   class="md:**:prose-figcaption:block"
   @picture="/_assets/images/pics/in-support-guest-00.png"
@@ -48,7 +49,7 @@ eleventyNavigation:
   community building and future-making.
 </p>
 <a
-  href="https://muralarts.org/events/wallball2025/"
+  href="https://give.muralarts.org/event/wall-ball-2025/e669644"
   target="_blank"
   class="not-prose underline"
 >
@@ -118,7 +119,7 @@ eleventyNavigation:
   class="md:**:prose-figcaption:block"
   @picture="/_assets/images/pics/in-support-guest-03.png"
   @alt=""
-  :@caption="`Mural Lab Live #2, October 10, 2024. Eddie Ramirez (second from left) with other panelists. In this powerful session, artist Mark Loughney delves into the intersection of art and social justice.`"
+  :@caption="`Mural Lab Live #2, October 10, 2024. Eddie Ramirez (second from left) with other panelists. In this powerful session, artist Mark Loughney delves into the intersection of art and social justice. Photo by Kyla Goodman.`"
   @widths="800"
 ></light-box>
 <p

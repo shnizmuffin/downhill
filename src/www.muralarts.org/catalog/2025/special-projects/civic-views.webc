@@ -19,7 +19,7 @@ eleventyNavigation:
   @widths="800"
 ></light-box>
 <p-lede
-  ><em>Civic Views</em> is a photography project that documents Philadelphia
+  ><a href="https://muralarts.org/artworks/civic-views/" target="_blank" rel="noopener"><em>Civic Views</em></a> is a photography project that documents Philadelphia
   through the windows of its municipal service agencies.</p-lede
 >
 <p

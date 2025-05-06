@@ -15,7 +15,7 @@ eleventyNavigation:
 >
 <light-box
   class="md:**:prose-figcaption:block"
-  @picture="/_assets/images/pics/ma-institute-fellowship-00.png"
+  @picture="/_assets/images/pics/ma-institute-fellowship-02.jpg"
   @alt=""
   :@caption="`2024 Fellowship Cohort at Paradigm Gallery. Photo by Mural Arts Staff`"
   @widths="800"

@@ -13,9 +13,9 @@ eleventyNavigation:
 <h2 class="mt-0 font-serif text-[2.5em]">CAICU</h2>
 <light-box
   class="md:**:prose-figcaption:block"
-  @picture="/_assets/images/pics/community-caicu-00.png"
+  @picture="/_assets/images/pics/community-caicu-04.jpg"
   @alt=""
-  :@caption="`Grupo Motivos dedication, October 19, 2024. Photo by Emily Hildenbrand.`"
+  :@caption="`<em>Nunca Olvides de Donde Vienes / Never Forget Where You Come</em> dedication as part of CAICU, April 19, 2025. Photo by Eddie Einbender-Luks.`"
   @widths="800"
 ></light-box>
 <p-lede

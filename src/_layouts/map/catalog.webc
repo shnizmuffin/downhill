@@ -18,7 +18,10 @@ layout: base.webc
   <sticky-header
     class="group max-lg:[.is-stuck]:bg-victoria max-lg:[.is-stuck]:shadow-victoria-900 pointer-events-none z-50 col-start-1 col-end-4 row-start-1 grid grid-cols-2 bg-transparent transition-all lg:grid-cols-subgrid max-lg:[.is-stuck]:shadow"
   >
-    <header x-data="{nav: false}" class="pointer-events-auto max-lg:grid max-lg:grid-cols-2 max-lg:col-span-2 z-50 row-start-1 lg:col-start-1 lg:col-end-2">
+    <header
+      x-data="{nav: false}"
+      class="pointer-events-auto z-50 row-start-1 max-lg:col-span-2 max-lg:grid max-lg:grid-cols-2 lg:col-start-1 lg:col-end-2"
+    >
       <div class="block p-4 lg:p-8 lg:pt-12">
         <a :href="relativeUrl('/www.muralarts.org/catalog/2025/', page.url)">
           <img
@@ -29,9 +32,23 @@ layout: base.webc
           />
         </a>
       </div>
-      <div class="hidden flex-row lg:hidden place-items-center justify-end m-4 max-lg:group-[.is-stuck]:flex">
-        <button x-show="!nav" class="block text-white fill-white pointer-events-auto z-50" type="button" x-on:click="nav = true">MENU</button>
-        <button x-show="nav" class="block text-white fill-white pointer-events-auto z-50" type="button" x-on:click="nav = false">CLOSE</button>
+      <div
+        class="m-4 hidden flex-row place-items-center justify-end max-lg:group-[.is-stuck]:flex lg:hidden"
+      >
+        <button
+          x-show="!nav"
+          class="pointer-events-auto z-50 block fill-white text-white"
+          type="button"
+          x-on:click="nav = true"
+          >MENU</button
+        >
+        <button
+          x-show="nav"
+          class="pointer-events-auto z-50 block fill-white text-white"
+          type="button"
+          x-on:click="nav = false"
+          >CLOSE</button
+        >
       </div>
       <nav-depth :@depth="nav.depth"></nav-depth>
     </header>

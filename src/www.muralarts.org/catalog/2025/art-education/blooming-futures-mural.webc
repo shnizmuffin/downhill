@@ -82,9 +82,8 @@ eleventyNavigation:
     ><em>Seasons of Imagination</em></nav-directory-item
   >
   <nav-directory-item
-    @href="../continued-partnership-with-philadelphia-parks-and-recreation/"
-    >Continued Partnership with Philadelphia Parks and
-    Recreation</nav-directory-item
+    @href="../youth-design-mural-series-at-recreation-centers/"
+    >Youth Design Mural Series at Recreation Centers</nav-directory-item
   >
   <!-- <nav-directory-item @href="../blooming-futures-mural/"
         ><em>Blooming Futures</em> Mural</nav-directory-item

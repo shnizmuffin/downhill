@@ -1,8 +1,8 @@
 ---
 layout: map/essay.webc
 meta:
-  heading: Mural Tour
-  title: Mural Tour
+  heading: Mural tours
+  title: Mural Tours
   description: 'Public Mural Arts tours, either on foot or by vehicle, are led by professionally trained tour guides who offer insightful and in-depth stories about the artists and communities that have inspired and shaped each mural.'
 styles:
   background: './src/_assets/images/bg/bg-mural-tour.png'
@@ -22,6 +22,7 @@ eleventyNavigation:
   class="md:**:prose-figcaption:block"
   @picture="/_assets/images/pics/mural-tours-00.png"
   @alt=""
+  :@caption="`© 2024 City of Philadelphia Mural Arts Program. Photo by Steve Weinik.`"
   @widths="800"
 ></light-box>
 <h3>PUBLIC MURAL ARTS TOURS</h3>
@@ -54,6 +55,7 @@ eleventyNavigation:
   class="md:**:prose-figcaption:block"
   @picture="/_assets/images/pics/mural-tours-01.png"
   @alt=""
+  :@caption="`© 2024 City of Philadelphia Mural Arts Program. Photo by Steve Weinik.`"
   @widths="800"
 ></light-box>
 <h3>GIVE THE GIFT OF ART</h3>

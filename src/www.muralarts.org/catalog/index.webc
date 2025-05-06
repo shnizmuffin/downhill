@@ -5,6 +5,7 @@ eleventyNavigation:
   parent: MAP
   image: 'https://placehold.co/144x144'
 ---
+
 <style>
   .text-fit {
     --max-font-size: 10000px;
