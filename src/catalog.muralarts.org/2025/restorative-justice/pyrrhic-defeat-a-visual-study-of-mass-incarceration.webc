@@ -17,9 +17,7 @@ eleventyNavigation:
   class="md:**:prose-figcaption:block"
   @picture="/_assets/images/pics/restorative-justice-defeat-00.png"
   @alt=""
-  :@caption="`<em>Pyrrhic Defeat: A Visual Study of Mass Incarceration</em> © 2024 City of Philadelphia Mural
-      Arts Program / Mark Loughney, Eastern State Penitentary Education Center. Photo by
-      Steve Weinik.`"
+  :@caption="`<em>Pyrrhic Defeat: A Visual Study of Mass Incarceration</em> © 2024 City of Philadelphia Mura Arts Program / Mark Loughney, Eastern State Penitentary Education Center. Photo by Steve Weinik.`"
   @widths="800"
 ></light-box>
 <p-lede
