@@ -28,7 +28,8 @@ eleventyNavigation:
         class="mb-8 md:mb-16"
         src="/_assets/images/pics/the-place-where-art-meets-hope.png"
         alt="A mural at Philadelphia High School"
-        :width="720,1440"
+        :width="720,1344"
+        loading="eager"
       />
       <div
         class="prose text-victoria md:prose-lg prose-p:text-victoria prose-headings:text-victoria prose-headings:text-pretty prose-strong:text-victoria mx-auto font-serif leading-normal"
