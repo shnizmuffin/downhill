@@ -3,16 +3,21 @@
   "layout": "index.webc",
   "date": "Last Modified",
   "assets_dir": "/assets",
-  "agency": {
-    "client": "DMW Direct"
-  },
   "meta": {
-    "title": "Neat Landing Pages",
-    "description": "Static Landing Pages"
+    "title": "Spring Catalog | Issue #16",
+    "description": "The Mural Arts Program of Philadelphia's 2025 Spring Catalog",
+    "copyright": "© 2024 City of Philadelphia Mural Arts Program"
   },
-  "gtm_id": "GTM-XXXXXXX",
-  "hcaptcha": {
-    "key": "7acad619-a8a6-42c3-828f-fca91b3ece5d",
-    "theme": "dark"
+  "agency": {
+    "client": "Mural Arts Project"
+  },
+  "nav" : {
+    "depth": false
+  },
+  "styles": {
+    "branding": "bg-white text-victoria divide-victoria-300 border-victoria-300",
+    "article": "bg-white text-victoria divide-victoria-300 border-victoria-300",
+    "prose": "text-victoria font-regular prose-headings:text-victoria prose-a:text-victoria prose-strong:text-victoria prose-figcaption:text-victoria"
   }
 }
+

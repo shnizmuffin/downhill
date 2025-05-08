@@ -1,5 +1,5 @@
 <nav
-  x-show="nav"
+  x-bind:class="nav || 'hidden'"
   class="pointer-events-auto z-50 col-span-2 flex-col items-end px-8 text-white lg:flex"
 >
   <ul
@@ -10,7 +10,7 @@
       ><a
         x-on:click="nav = ! nav"
         class="decoration-sky decoration-[3px] underline-offset-[3px] text-shadow-lg/30 text-shadow-sky-800 hover:underline max-lg:px-8 max-lg:py-8"
-        :href="dir('/www.muralarts.org/catalog/2025/', page.url)+'#introduction'"
+        :href="dir('/2025/', page.url)+'#introduction'"
         >INTRODUCTION</a
       ></li
     >

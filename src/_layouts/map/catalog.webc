@@ -23,7 +23,7 @@ layout: base.webc
       class="pointer-events-auto z-50 row-start-1 max-lg:col-span-2 max-lg:grid max-lg:grid-cols-2 lg:col-start-1 lg:col-end-2"
     >
       <div class="block p-4 lg:p-8 lg:pt-12">
-        <a :href="relativeUrl('/www.muralarts.org/catalog/2025/', page.url)">
+        <a :href="relativeUrl('/2025/', page.url)">
           <img
             src="/_assets/images/svg/mural-arts-logo.svg"
             formats="svg"

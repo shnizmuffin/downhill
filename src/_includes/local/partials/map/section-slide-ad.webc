@@ -2,7 +2,7 @@
   webc:root="override"
   x-data
   :x-init="`$store.reveal['${this.id}'] = false`"
-  :x-intersect.once.half="`$store.reveal['${this.id}'] = true`"
+  :x-intersect.once.half="`$store.reveal['${this.id}'] = true;`"
   class="border-highlighter-300 text-highlighter-300 grid snap-start grid-cols-1 border-[1.5rem] bg-black/50 lg:grid-cols-(--landing-grid-cols)"
 >
   <article
