@@ -60,7 +60,7 @@ eleventyNavigation:
   <ul-stats>
     <li-stat @stat="8" @label="Weeks with 15-20 participants"></li-stat>
     <li class="flex flex-col items-center-safe text-center"
-      ><span class="font-serif text-4xl"><em>Led by artsists since</em></span
+      ><span class="font-serif text-4xl"><em>Led by artists since</em></span
       ><span class="text-8xl font-black">2002</span></li
     >
   </ul-stats>
